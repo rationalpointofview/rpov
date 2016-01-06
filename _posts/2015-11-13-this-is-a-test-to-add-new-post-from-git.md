@@ -12,4 +12,7 @@ permalink:
   - 'a:1:{i:0;s:52:"/2015/11/13/this-is-a-test-to-add-new-post-from-git/";}'
 published: true
 ---
-> Post goes here.**this rocks**, I can add new post now; beginning of the rational POV
+> Post goes here.
+> 
+
+**this rocks**, I can add new post now; beginning of the rational POV

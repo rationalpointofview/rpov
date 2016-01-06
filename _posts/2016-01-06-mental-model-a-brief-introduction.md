@@ -9,6 +9,4 @@ permalink: >
   http://www.rationalpov.com/blog/mental-model-a-brief-introduction
 published: true
 ---
-# What are mental models ?
-
-The term Latticework of Mental Models is widely know from Charlie Munger, the vice chairman of Berkshire-Hathaway.
+# What are mental models ? The term Latticework of Mental Models is widely know from Charlie Munger, the vice chairman of Berkshire-Hathaway.

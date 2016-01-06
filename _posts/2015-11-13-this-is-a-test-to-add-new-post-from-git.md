@@ -15,4 +15,4 @@ published: true
 > Post goes here.
 > 
 
-**this rocks**, I can add new post now; beginning of the rational POV
+**this rocks**, i can add and edit too

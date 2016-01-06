@@ -1,5 +1,4 @@
 ---
-ID: 22
 post_title: Mental Model
 layout: post
 published: true

@@ -7,7 +7,7 @@ post_excerpt:
   - A Brief Introduction to mental model
 layout: post
 permalink: >
-  http://www.rationalpov.com/mental-model-4/
+  http://www.rationalpov.com/blog/mental-model-4/
 published: true
 ---
 # What are mental models ?

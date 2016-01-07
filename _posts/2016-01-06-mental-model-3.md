@@ -6,7 +6,7 @@ post_date: 2016-01-06 02:44:15
 post_excerpt: ""
 layout: post
 permalink: >
-  http://www.rationalpov.com/mental-model-3/
+  http://www.rationalpov.com/mental-model/
 published: true
 ---
 # What are mental models ?

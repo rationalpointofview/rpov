@@ -24,12 +24,14 @@ I would choose the ability to see the future. Arguably the most valuable thing o
 
 How did Charlie Munger built his lattice work of mental models ?
 
-According to him, his metholody is the following:
+In the book Damn Right!: Behind the Scenes with Berkshire Hathaway Billionaire Charlie Munger, Munger talks about the fundamentals of organizing etho:
 
->1. you must attribute to the discipline you are trying to use
->2. you must both rank and use disciplines in order of fundamentalness
->3. you must, like it or not, master to tested fluency and routinely use the truly essential parts of all four constituents of the fundamental four-discipline combination, whith particulartly intense attension given to disciplines more fundamental than your own, focus one first and test it to fluency:
->4. you may never practice either crossdisciplinary absorption without attribution or departure from a "principle of economy" that forbids explanining in any other way anything readily explainable from more dundamental material in your own or any other discipline.
->5. But when the step four  approach doesn't produce much new and useful insight, you should hypothesize, and test to establishement, new principle ordinarily by using methods similar to those that created successful old principles, But you may not use any new principle, inconsistent with an old one, unless you can now prove that the old principle is not true.
+>* you must both rank and use disciplines in order of fundamentalness
+>* you must, like it or not, master to tested fluency and routinely use the truly essential parts of all four constituents of the fundamental four-discipline combination, whith particulartly intense attension given to disciplines more fundamental than your own, focus one first and test it to fluency:
+>* you may never practice either crossdisciplinary absorption without attribution or departure from a "principle of economy" that forbids explanining in any other way anything readily explainable from more dundamental material in your own or any other discipline.
+>* But when the step four  approach doesn't produce much new and useful insight, you should hypothesize, and test to establishement, new principle ordinarily by using methods similar to those that created successful old principles, But you may not use any new principle, inconsistent with an old one, unless you can now prove that the old principle is not true.
 
->6. you must able to convolute these discipline in your head!
+And two other principles on how to use the mental models:
+
+>* you must able to convolute these discipline in your head!
+>* you must attribute to the discipline you are trying to use

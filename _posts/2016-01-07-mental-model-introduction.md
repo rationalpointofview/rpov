@@ -6,8 +6,6 @@ post_date: 2016-01-07 01:03:19
 post_excerpt:
   - A Brief Introduction to mental model
 layout: post
-permalink: >
-  http://www.rationalpov.com/blog/mental-model-introduction/
 published: true
 ---
 # What are mental models ?

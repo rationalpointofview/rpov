@@ -1,15 +1,8 @@
 ---
-ID: 33
 post_title: Mental Model
 author:
   - Rational POV
-post_date:
-  - 2016-01-07 01:03:19
-post_excerpt:
-  - 'a:1:{i:0;s:36:"A Brief Introduction to mental model";}'
 layout: post
-permalink:
-  - /blog/mental-model-introduction/
 published: true
 ---
 # What are mental models ?

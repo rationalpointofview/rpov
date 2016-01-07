@@ -1,8 +1,6 @@
 ---
-ID: 33
 post_title: Mental Model
 author: Rational POV
-post_date: 2016-01-07 01:03:19
 post_excerpt:
   - A Brief Introduction to mental model
 layout: post

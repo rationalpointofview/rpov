@@ -14,13 +14,7 @@ published: true
 The term Lattice work of Mental Models is widely known from Charlie Munger, the vice chairman of Berkshire-Hathaway, in [a speech to USC graduate](https://old.ycombinator.com/munger.html) on 1994.
 
 
-## Why mental models are important ?
-
-You are given a magic wand, and you can be granted any super nature ability of your choice, what would you choose ?
-
-I would choose the ability to see the future. Arguably the most valuable thing of science offer is to let you predict the future.
-
-## How to create a lattice work of mental models ?
+## How to create and use a lattice work of mental models ?
 
 How did Charlie Munger built his lattice work of mental models ?
 
@@ -35,3 +29,20 @@ And two other principles on how to use the mental models:
 
 >* you must able to convolute these discipline in your head!
 >* you must attribute to the discipline you are trying to use
+
+In Layman's term, If you want to build and use a lattice work of mental models, you need to do the following:
+
+* Collect and create A checklist of mental models, and how could you use it
+* Memorize the list( by using Anki or other flash card tools)
+* Pratice using the mental lattice by using examples and simuations(with predefinited answer)
+
+It definite not seems easy , but I am convinced the efford will be worth it.
+
+The good thing is, Charlie Munger mentions there are only roughtly 100 mental models in his lattice work of mental models,  and he mentioned some of them already. 
+
+
+## Why mental models are important ?
+
+You are given a magic wand, and you can be granted any super nature ability of your choice, what would you choose ?
+
+I would choose the ability to see the future. Arguably the most valuable thing of science offer is to let you predict the future.

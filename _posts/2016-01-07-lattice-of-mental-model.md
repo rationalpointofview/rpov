@@ -27,8 +27,9 @@ In the book Damn Right!: Behind the Scenes with Berkshire Hathaway Billionaire C
 
 And two other principles on how to use the mental models:
 
->* you must able to convolute these discipline in your head!
->* you must attribute to the discipline you are trying to use
+>* the first rule is that you can't really know anything if you just remember isolated facts and try and bang 'em back. If the facts don't hang together on a latticework of theory, you don't have them in a usable form.
+>* you must able to convolute these models in your head!
+>* you must use attribution to array your experience, both vicarious and direct, on the allticework of of models .
 
 In Layman's term, If you want to build and use a lattice work of mental models, you need to do the following:
 
@@ -36,7 +37,7 @@ In Layman's term, If you want to build and use a lattice work of mental models, 
 * Memorize the list( by using Anki or other flash card tools)
 * Pratice using the mental lattice by using examples and simuations(with predefinited answer)
 
-It definite not seems easy , but I am convinced the efford will be worth it.
+It definite not seems easy , but it seems doable and I will try to follow this methodology to replicate what Charli Munger have done.
 
 The good thing is, Charlie Munger mentions there are only roughtly 100 mental models in his lattice work of mental models,  and he mentioned some of them already. 
 
@@ -46,3 +47,4 @@ The good thing is, Charlie Munger mentions there are only roughtly 100 mental mo
 You are given a magic wand, and you can be granted any super nature ability of your choice, what would you choose ?
 
 I would choose the ability to see the future. Arguably the most valuable thing of science offer is to let you predict the future.
+

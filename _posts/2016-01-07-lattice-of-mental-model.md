@@ -1,13 +1,9 @@
 ---
-ID: 39
-post_title: Mental Model
+
 author:
   - 'a:1:{i:0;s:12:"Rational POV";}'
-post_date: 2016-01-07 01:30:20
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.rationalpov.com/blog/mental-model-7/
 published: true
 ---
 # What are mental models ?

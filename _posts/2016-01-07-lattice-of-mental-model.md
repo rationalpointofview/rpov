@@ -1,6 +1,12 @@
 ---
-post_title: 'Lattice of Mental Model'
+ID: 43
+post_title: Lattice of Mental Model
+author: Rational POV
+post_date: 2016-01-07 01:37:24
+post_excerpt: ""
 layout: post
+permalink: >
+  http://www.rationalpov.com/blog/lattice-of-mental-model/
 published: true
 ---
 # What are mental models ?

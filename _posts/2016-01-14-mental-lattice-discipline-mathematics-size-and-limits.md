@@ -38,6 +38,8 @@ edge/length, is one D thing;
 
 Calculation and formular is [here](https://docs.google.com/spreadsheets/d/1Bj072Cx4gliAmOboTB3R7K49L3rp7-52DU6ONCK9RiA/edit#gid=0):
 
+**__Predictions__**:
+
 * When Object made of the same material scale up in size( Become Larger):
 
     The Rate of increase of Volume is the fastest ( becuase it is 3D)

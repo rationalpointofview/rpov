@@ -37,14 +37,14 @@ In Layman's term, If you want to build and use a lattice work of mental models, 
 * Memorize the list( by using Anki or other flash card tools)
 * Pratice using the mental lattice by using examples and simuations(with predefinited answer)
 
-It definite not seems easy , but it seems doable and I will try to follow this methodology to replicate what Charli Munger have done.
+It definitely not easy , but it seems doable and I will try to follow this methodology to replicate what Charli Munger had done.
 
 The good thing is, Charlie Munger mentions there are only roughtly 100 mental models in his lattice work of mental models,  and he mentioned some of them already. 
 
+There are already couple of very good blogs talks about various mental models, and couple of good books also. But I find it difficult to use these mental models, for two reasons:
 
-## Why mental models are important ?
+* Not enough examples. Human learn best when saw an example. Me too
+* Don't have a trigger. Standalone mental model is useless. You need a trigger( as input) so you can apply this mental models.
 
-You are given a magic wand, and you can be granted any super nature ability of your choice, what would you choose ?
-
-I would choose the ability to see the future. Arguably the most valuable thing of science offer is to let you predict the future.
+I started this blog seris to learn lattic work of mental model by try to teaching it, and hope you can find some bits useful along the way.
 

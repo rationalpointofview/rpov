@@ -22,17 +22,21 @@ Is that any physical things in the things your try to predict ? if so, this mode
 
 **__How to use this mental Model__**:
 
-**Useful to: to predict how physical object property change when the size scale up or down.
+Useful to: to predict how physical object property change when the size scale up or down.
 
-Mental short cuts/Simulation:
+__Mental short cuts/Simulation:__
 
 Assuming the object is uniform and make of same material,
 
+
+weight = A * Volume, and Volume is 3D thing
+
+strength = B * Cross Section Area, Cross Section Area is a 2D thing
+
+edge/length, is one D thing;
+
+
 Calculation and formular is [here](https://docs.google.com/spreadsheets/d/1Bj072Cx4gliAmOboTB3R7K49L3rp7-52DU6ONCK9RiA/edit#gid=0):
-
-weight = A * Volume
-
-strength = B * Cross Section Area
 
 * When Object made of the same material scale up in size( Become Larger):
 
@@ -49,7 +53,7 @@ strength = B * Cross Section Area
         
         - Weight/mass of the object will increase **slower** after than the total surface area 
 
-** Example **
+**Example**
 
 How does weight, strength and surface area change when we change size?  
 

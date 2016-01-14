@@ -16,17 +16,26 @@ The first mental model Charlie Mungers Mentions, is Mathematics, why mathematics
 
 How should you use this mental Model ? Mathematics is a great way to clear your mind.
 
-Ways to use this mental Model:
+__Ways to use this mental Model__:
 
-* Set up math models of essential and quantifiable things you try to predict, for business , mostly is profitability & cash flow. Eg.
+* Identify the measurements of results you are trying to achieve;
+
+* Set up math models of essential and quantifiable things you try to predict, for business , mostly is profitability & cash flow. 
+ 
+Eg
 
 If you want to start a business and think it will work, laid down some number and your assumptions, try to calcualte the cash flow scenarios, try to calucate the profit level, varies your assumptions and throw some different [Monte Carlo Scenario](https://en.wikipedia.org/wiki/Monte_Carlo_method) to see how your business hold up.
 
 * Find out the key ratios of your business. eg rent to revenue ratio , gross margin etc, and scale your business revenue by scaling up or down 10 times, check the number and how it will hold up.  
 
+Another example:
+
 ## Size and Limits
 
 **Useful to: to predict how physical object change when the size scale up or down.
+
+
+__Example:__
 
 How does weight, strength and surface area change when we change size?  
 
@@ -68,6 +77,7 @@ Thats why.
 >“Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it.”
 >Albert Einstein 
 
+We all familier with the power of compound
 
 
 ## [Rule of 72](https://en.wikipedia.org/wiki/Rule_of_72)

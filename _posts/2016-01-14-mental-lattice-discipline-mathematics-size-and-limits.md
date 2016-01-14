@@ -13,9 +13,9 @@ published: true
 ---
 
 
-**Lattice Rank: **
-**Discipline: Mathematics ** 
-**Mental Model Name: Size and Limits **
+**Lattice Rank: 2**
+**Discipline: Mathematics** 
+**Mental Model Name: Size and Limits**
 
 Is that any physical things in the things your try to predict ? if so, this model will help you predict how it will behave when scalling;
 
@@ -34,7 +34,7 @@ weight = A * Volume
 
 strength = B * Cross Section Area
 
-    * When Object made of the same material scale up in size( Become Larger):
+* When Object made of the same material scale up in size( Become Larger):
 
     The Rate of increase of Volume is the fastest ( becuase it is 3D)
 
@@ -43,7 +43,7 @@ strength = B * Cross Section Area
         - Weight/mass of the object will increase after than the total surface area 
 
 
-    * When Object made of the same material scale down in size( Become smaller):
+* When Object made of the same material scale down in size( Become smaller):
 
         - Weight/mass object will increase **slower** than cross section area, hence the object will become more stronger
         
@@ -61,14 +61,14 @@ Ever Wonder Why the lagest animal in the sea is blue whale, which can reach 180 
 
 Thats why.
 
-** Example **
+**Example**
 
 Dust Explosion:
 
 A lot of things will become flammable or even will [explore](https://en.wikipedia.org/wiki/Formosa_Fun_Coast_explosion) when reduce in size.
 
 
-** Example **
+**Example**
 
 Ever Wonder Why the ancient bugs you saw is so large ?
 
@@ -82,7 +82,7 @@ While crucial to life, oxygen can be poisonous in large quantitie;
 
 so in order to maintain oxygen level to the same level, they grow larger to lower Volume/Total surface area ratio to keep the oxygen in take in relative to body
 
-** Example **
+**Example**
 
 Which one is more complex ? Stars or an ant ? 
 

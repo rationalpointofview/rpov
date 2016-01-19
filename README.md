@@ -2,6 +2,19 @@
 Rationalpov 
 
 
+
+# How to add an article
+
+* create a new file in sublime, could be anything: test.md
+
+* copy and paste the header into the test.md
+
+* git commit
+
+* git push
+
+* do a git pull
+
 # The post header should be 
 
 ---
@@ -10,9 +23,9 @@ layout: post
 published: true
 ---
 
-**Lattice Rank : **
+**Mental Model Name:  **
 **Discipline:  ** 
-
+**Lattice Rank : **
 
 The first mental model Charlie Mungers Mentions, is Mathematics, why mathematics is ranked number 1 ? because it give you the ability to predict things, and it is true across the universe. 1 + 1 is always equal to 2.
 

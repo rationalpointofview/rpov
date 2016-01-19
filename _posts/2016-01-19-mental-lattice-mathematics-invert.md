@@ -18,7 +18,7 @@ published: true
 Many hard problems in live, can you easily resolve by transform the problem into inverse form.
 
 
-****How to use this mental Model****:
+**How to use this mental Model**:
 
 
 (1) Invert.  Take a particular goal that you hope to achieve – now invert it to find your non-goal.  To do this ask: What don’t I want to achieve? For example, if your goal is to lose weight, then your non-goal is to get fat.
@@ -51,9 +51,9 @@ Margin of safety give an excellent example of how Jay Ritter, Professor of Unvie
 
 __Example__
 
-In this TED video, a Chess Grandmaster talks about his favourite technique of winner chess games, inversion
+[In this TED video](https://youtu.be/v34NqCbAA1c), a Chess Grandmaster talks about his favourite technique of winner chess games, inversion
 
-[https://youtu.be/v34NqCbAA1c]
+
 
 __Example__
 

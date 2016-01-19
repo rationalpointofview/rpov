@@ -10,15 +10,23 @@ permalink: >
 published: true
 ---
 
+
 Lattice Rank 1:
+Displine: Mathematics
+
 
 The first mental model Charlie Mungers Mentions, is Mathematics, why mathematics is ranked number 1 ? because it give you the ability to predict things, and it is true across the universe. 1 + 1 is always equal to 2.
 
-How should you use this mental Model ? Mathematics is a great way to clear your mind.
 
-__How to use this mental Model__:
+
+How should you use this mental Model ? 
+
+**__How to use this mental Model__**:
+
+__Use basic arithmetic to clear your mind.__ 
 
 * Identify the measurements of results you are trying to achieve;
+
     eg. for a business it is quite simple, cash flow and profit;
 
 * laydown a spreadsheet, try to predict the scenarios 12 months later.   
@@ -31,18 +39,22 @@ __How to use this mental Model__:
         * calucate the profit level, varies your assumptions and throw some different [Monte Carlo Scenario](https://en.wikipedia.org/wiki/Monte_Carlo_method) to see how your business hold up.
         * Find out the key ratios of your business. eg rent to revenue ratio , gross margin etc, and scale your business revenue by scaling up or down 10 times, check the number and how it will hold up.  
 
+One Mental Model or short cut you will find it useful is:
 
 ## Compound Interest:
 
 >“Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it.”
 >Albert Einstein 
 
-We all familier with the power of compound
+
+
 
 
 ## [Rule of 72](https://en.wikipedia.org/wiki/Rule_of_72)
 
+
 **Useful to:** Predict how many iterations it takes to double an number in your head
+
 
 __Example:__
 
@@ -57,6 +69,17 @@ it should be
 72 * 3/12 = 18 , 18 percent every month
 
 
+__Example:__
+
+We all well aware of the power of compounding, in money terms. But arguably, the most important asset to most people is not money or possessions, it is yourself.
+
+How hard is that you increase your value to others by studying/creating good habits/acquire new skill by merely just 1% ? 
+
+If you can do that every single day, how long will it take for your to double your income ? 
+
+Just as James Altucher stated in his [one percent rule](http://www.jamesaltucher.com/2015/08/habits-one-percent/)
+
+use Rule of 72, you will quickly find out, just 72 days!
 
 
 

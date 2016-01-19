@@ -35,7 +35,7 @@ In Layman's term, If you want to build and use a lattice work of mental models, 
 
 * Collect and create A checklist of mental models, and how could you use it
 * Memorize the list( by using Anki or other flash card tools)
-* Pratice using the mental lattice by using examples and simuations(with predefinited answer)
+* Pratice using the mental lattice by using examples and simuations(with predefinited answer), and connect your daily experience (both direct or indirect) to your lattice.
 
 It definitely not easy , but it seems doable and I will try to follow this methodology to replicate what Charli Munger had done.
 
@@ -46,5 +46,5 @@ There are already couple of very good blogs talks about various mental models, a
 * Not enough examples. Human learn best when saw an example. Me too
 * Don't have a trigger. Standalone mental model is useless. You need a trigger( as input) so you can apply this mental models.
 
-I started this blog seris to learn lattic work of mental model by try to teaching it, and hope you can find some bits useful along the way.
+The best and probably the fastest way to learn something is to teach it, I started this blog seris to learn lattic work of mental model by try to teaching it, and hope you can find some bits useful along the way.
 

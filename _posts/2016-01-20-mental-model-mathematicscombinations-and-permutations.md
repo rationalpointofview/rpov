@@ -215,7 +215,7 @@ Women: 3C2= 3
 mutiple two number of choice together, you got 18, so you should chooice B
 
 
-Another excellent choice for this is [Quora[(https://www.quora.com/What-is-the-practical-real-life-use-of-permutation-and-combination)]
+Another excellent choice for this is [Quora](https://www.quora.com/What-is-the-practical-real-life-use-of-permutation-and-combination)]
 
 
 

@@ -1,6 +1,6 @@
 ---
 ID: 66
-post_title: Mental Lattice, Mathematics, Invert
+post_title: Mental Model, Mathematics, Invert
 author: Rational POV
 post_date: 2016-01-19 00:47:00
 post_excerpt: ""

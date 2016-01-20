@@ -1,6 +1,6 @@
 ---
 ID: 51
-post_title: Mental Lattice, Mathematics
+post_title: Mental Model,Discipline Mathematics
 author: Rational POV
 post_date: 2016-01-10 23:48:43
 post_excerpt: ""

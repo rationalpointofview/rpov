@@ -1,6 +1,6 @@
 ---
 ID: 43
-post_title: Lattice of Mental Model
+post_title: Lattice Work of Mental Model
 author: Rational POV
 post_date: 2016-01-07 01:37:24
 post_excerpt: ""

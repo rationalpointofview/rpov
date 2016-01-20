@@ -35,29 +35,33 @@ When the order does matter, it is permutations
 
 **Permutatations is the easier one to Explain:**
 
+If each time you choose from different groups, thats the easiest, you just multple the avalible choices together
+
+for scenario of Permutations choose from same group of choices:
+
 There are two types of Permutations;
 
-* One Allows Repetition, (Like the Combination Lock Example)
+* One Allows Repetition, (Like the Combination Lock on your suitcase)
 
-Imaging you walk into a Hall, and In front of you there are 10 Doors and each labeled 1-10.
+you got to pick 3 numbers from 0  - 9, and you can pick the same number.
 
-When allows repetitions, we dont take aways the choices, so each time there will be the same numbers of choices, say 10 doors to choose from , if we choice r number of times, it will be 10^r, Thats the Total Number of Permutations when Repetitions is allowed.
+When allows repetitions, we dont take aways the choices, so we just multiply the number of choice all toghether
 
-So the Formular for Combinations with Repetions is:
 
-**N^r**
+**N^**
 
 * One Doesn't Allow Repetitions.
 
-When doesn't allows repetitions, after we choose one doors, the Door will vanish from the hall and not avaliable to be choosen next time.
+When doesn't allows repetitions, after we choose one , next time there will be one less to choose from:
 
-So First time you will got 10 Doors to choose from, after choosen one doors, next time it will be only 9 Doors, each Iteration you will has one doors less to choose from.
+So First time you will got 0-9 to choose from, after choosen said number 9,  next time you can only choose 0-8.
 
 then the computations will be  (N)(N-1)(N-2)...
 
 So the Formular for Combinations without Repetions is:
 
 **N!**
+
 
 **Combinations**
 
@@ -121,10 +125,28 @@ we have a formula for that
 
 5!/3!*2! = 10 Combinations.
 
+**Combination and Groups**
 
-**Example**:
+In real life, often your choice will be partition in Groups.
 
-The Name of __combination__ lock is wrong, it should be permutation lock actually. Because the Passcode order sequence does matter:
+Say you need to create a password consist only two digits.
+
+Say first digit you need to pick one number from group 0-9
+
+Second digit pick one Alphabet from A-Z
+
+How many Combination will you have ?
+
+The Solution, split this into two steps
+
+* Calculate the avaliable combination choice from each group
+    - In this exmample, first group you got 10 choice( Using the Combination allows repetition formular, 10!/(10-1)!/1! = 10, second you got 26 choice
+    (26!/(26-1)!/1!)
+
+    - Second step, you need to calculate how many **permutations** when combining these two groups.
+
+    Why **Permutations** ? because these two group is different, so order do matter in step 2,  so by using Permuation formular, you got 10*26= 260 
+
 
 
 **__How to use this mental Model__**:
@@ -133,8 +155,65 @@ The Name of __combination__ lock is wrong, it should be permutation lock actuall
 
 * Then can combine with other probability model to estimate the chance of desired outcome
 
+**Example**:
+
+You forgot about passcode on your 3 digit combination lock of your suitcase,
+you think probably you can try one code for 5 sec, then how many times does it take to unlock your suitecase ?
+
+First of all, you will notice the Name of __combination__ lock is wrong, it should be __permutation__ lock actually. Because the Passcode order sequence does matter:
+
+and the code allows repetition, so the use the formular N^r
+
+and N = 10, r = 3
+
+so you got 1000 permuation of code to try, and each try takes 5 secs, so approximately it will take 5000 secs, and thats about One and Half Hours, so actually it is not that bad.
 
 
+**Examples:**
+
+A New Pizza Shop can allow you to create pizzas of your own choice by choosing Crust, Topping and Cheese, How Many Difference type Pizza can you make ?
+
+4 types of toppings - pepperoni, sausage, ham, bacon
+
+3 types of crust -thin, regular,  thick
+
+5 types of cheese - American, cheddar, Swiss, blue cheeze, Home Made.
+
+
+Answer:
+
+This is combination with group scenario:
+
+So first we calculate the number of avaliable choice for each group:
+
+Topping: 4C1 = 4
+Crust: 3C1=3
+Cheese:5C1=5
+
+And calculate the permulation of 3 groups, thats 4x3x5= 60 different combinations
+
+**Example:**
+
+A 4 person task force is to be formed from 4 men and 3 women who work in Company G's HR dept. If there are to be 2 men and 2 women, how many different task forcers can be formed? 
+A)14 
+B)18 
+C)35 
+D)56 
+E)144 
+
+Answer:
+
+This is combination with group scenario:
+
+So first we calculate the number of avaliable choice for each group, as the order of the candidate within the group doesn't matter, we use combination without repetition.
+
+Men: 4C2=6
+Women: 3C2= 3
+
+mutiple two number of choice together, you got 18, so you should chooice B
+
+
+Another excellent choice for this is [Quora[(https://www.quora.com/What-is-the-practical-real-life-use-of-permutation-and-combination)]
 
 
 

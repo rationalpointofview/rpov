@@ -1,7 +1,7 @@
 ---
 ID: 58
 post_title: >
-  Mental Lattice, Discipline Mathematics,
+  Mental Model, Discipline Mathematics,
   Size and Limits
 author: Rational POV
 post_date: 2016-01-14 00:41:28

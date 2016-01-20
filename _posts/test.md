@@ -1,6 +1,6 @@
 
 ---
-post_title: 'Mental Model, Mathematics,Elementary Math or Permutations and Combinations'
+post_title: 'Mental Model, Mathematics,test'
 layout: post
 published: true
 ---

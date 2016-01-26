@@ -36,6 +36,9 @@ When the order does matter, it is permutations
 
 **Permutatations is the easier one to Explain:**
 
+__The Basic methodology to calculate Permutation is you just mutiple the avaliable choice together__.
+
+
 If each time you choose from different groups, thats the easiest, you just multple the avalible choices together
 
 for scenario of Permutations choose from same group of choices:

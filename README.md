@@ -13,12 +13,12 @@ Rationalpov
 
 * git push
 
-* do a git pull
+* do a git pull, you will see the file name got change to yyyy-mm-dd-title.md
 
 # The post header should be 
 
 ---
-post_title: 'Mental Lattice, Mathematics'
+post_title: 'Mental Model, Mathematics'
 layout: post
 published: true
 ---
@@ -27,8 +27,6 @@ published: true
 **Discipline:  ** 
 **Lattice Rank : **
 
-The first mental model Charlie Mungers Mentions, is Mathematics, why mathematics is ranked number 1 ? because it give you the ability to predict things, and it is true across the universe. 1 + 1 is always equal to 2.
-
-How should you use this mental Model ? Mathematics is a great way to clear your mind.
+Introductions
 
 **__How to use this mental Model__**:

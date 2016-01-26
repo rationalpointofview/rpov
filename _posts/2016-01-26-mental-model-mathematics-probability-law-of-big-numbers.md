@@ -11,7 +11,9 @@ permalink: >
   http://www.rationalpov.com/blog/mental-model-mathematics-probability-law-of-big-numbers/
 published: true
 ---
-**Mental Model Name: Law of big numbers ** **Discipline: Mathematics ** **Lattice Rank :5 **
+**Mental Model Name: Law of big numbers** 
+**Discipline: Mathematics** 
+**Lattice Rank :5**
 
 Introductions
 

@@ -25,6 +25,19 @@ published: true
 Why Pascal and Fermat work this out ? They work this work for ... Gambling.
 
 
+**__How to use this mental Model__**:
+
+can use this to calcualor the avaliable choices in your head
+
+**Conditions:**
+
+discrete number
+
+**Predictions:**
+
+avaliable choice from combination/permutations of factors
+
+
 
 **What is Combinations and Permutations**:
 

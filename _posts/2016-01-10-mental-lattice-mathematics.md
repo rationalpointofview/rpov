@@ -81,7 +81,19 @@ Just as James Altucher stated in his [one percent rule](http://www.jamesaltucher
 
 use Rule of 72, you will quickly find out, just 72 days!
 
+__Example__
 
+Why do Stock market out perform bonds ?
+
+
+[In Warrent Buffett on the stock markets](http://archive.fortune.com/magazines/fortune/fortune_archive/2001/12/10/314691/index.htm), Warren Buffet explains why stock market out performs bonds by attributing to compound interest.
+
+
+>To report what Edgar Lawrence Smith discovered, I will quote a legendary thinker--John Maynard Keynes, who in 1925 reviewed the book, thereby putting it on the map. In his review, Keynes described "perhaps Mr. Smith's most important point ... and certainly his most novel point. Well-managed industrial companies do not, as a rule, distribute to the shareholders the whole of their earned profits. In good years, if not in all years, they retain a part of their profits and put them back in the business. Thus there is an element of compound interest (Keynes' italics) operating in favor of a sound industrial investment."
+
+>It was that simple. It wasn't even news. People certainly knew that companies were not paying out 100% of their earnings. But investors hadn't thought through the implications of the point. Here, though, was this guy Smith saying, "Why do stocks typically outperform bonds? A major reason is that businesses retain earnings, with these going on to generate still more earnings--and dividends, too."
+
+That finding ignited an unprecedented bull market. Galvanized by Smith's insight, investors piled into stocks, anticipating a double dip: their higher initial yield over bonds, and growth to boot. For the American public, this new understanding was like the discovery of fire.
 
 
 

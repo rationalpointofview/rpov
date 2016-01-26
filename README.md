@@ -30,3 +30,8 @@ published: true
 Introductions
 
 **__How to use this mental Model__**:
+
+
+**Conditions:**
+
+**Predictions:**

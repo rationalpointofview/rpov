@@ -82,6 +82,8 @@ So the Formular for Combinations without Repetions is:
 
 **Combinations**
 
+__The Basic methodology to calculate Permutation first, then calculate how many ways it can arrange the order, then reduce it to combination__
+
 There are also two types of Combinations:
 
 * One Doesn't Allows Repetition
@@ -232,7 +234,43 @@ mutiple two number of choice together, you got 18, so you should chooice B
 
 Another excellent choice for this is [Quora](https://www.quora.com/What-is-the-practical-real-life-use-of-permutation-and-combination)]
 
+**Example:**
 
+Case 1 : You have a date with your girlfriend. And, you want a perfect combination of shirt and pant. Suppose, you have 2 shirts (White and Blue) and 2 pants (Black and Brown). So, how many combinations do you have?
+
+This is a Grouped Combinations and you calculate how many possible combinations from each groups
+
+shirts = 2C1 = 2!/1!= 2
+pants = 2C1 = 2
+
+so the possible combinations = 2 x 2 = 4
+
+
+**Example:**
+
+![How many ways you can personalize wendy's hamburger](http://walkinginmathland.weebly.com/uploads/6/7/8/8/6788270/1315434924.jpg)
+
+[Walkinginmathland](http://walkinginmathland.weebly.com/teaching-math-blog/wendy) give an interesting application for combinations and how Wendy's marketing department got it wrong.:
+
+
+>The bag my food was in (picture above) had the following phrase: "We figured out that there are 256 ways to personalize a Wendy's hamburger. Luckily someone was paying attention in math class."
+
+is that correct ? Hint: Wendys hamburger has 9 different topping to choose from at the time.
+
+so it is a combinations doesn't allow repetion problem. The trick is, you can pick 0-9 topping from all the avaliable toppings.
+
+9C0 = 1
+9C1 = 9
+9C2 = 36
+9C3 = 84
+9C4 = 126
+9C5 = 126
+9C6 = 84
+9C7 = 36
+9C8 = 9
+9C9 = 1
+
+Total: 512 ways to personalize a Wendy's hamburger
 
 
 

@@ -1,5 +1,5 @@
 ---
-post_title: 'Mental Model, Mathematics,Bayes's Theorem'
+post_title: 'Mental Model, Mathematics,Bayes Theorem'
 layout: post
 published: true
 ---

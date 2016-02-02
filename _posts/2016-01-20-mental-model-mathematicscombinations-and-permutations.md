@@ -64,6 +64,7 @@ you got to pick 3 numbers from 0  - 9, and you can pick the same number.
 
 When allows repetitions, we dont take aways the choices, so we just multiply the number of choice all toghether
 
+<img src="http://www.sciweavers.org/tex2img.php?eq=%20N%5E%7Br%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" N^{r} " width="22" height="17" />
 
 **N^**
 

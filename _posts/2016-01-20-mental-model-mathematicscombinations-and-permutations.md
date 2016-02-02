@@ -66,7 +66,9 @@ When allows repetitions, we dont take aways the choices, so we just multiply the
 
 <img src="http://www.sciweavers.org/tex2img.php?eq=%20N%5E%7Br%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" N^{r} " width="22" height="17" />
 
-**N^**
+  r 
+ N  
+
 
 * One Doesn't Allow Repetitions.
 

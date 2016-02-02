@@ -66,9 +66,6 @@ When allows repetitions, we dont take aways the choices, so we just multiply the
 
 <img src="http://www.sciweavers.org/tex2img.php?eq=%20N%5E%7Br%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" N^{r} " width="22" height="17" />
 
-  r 
- N  
-
 
 * One Doesn't Allow Repetitions.
 
@@ -251,7 +248,7 @@ so the possible combinations = 2 x 2 = 4
 
 **Example:**
 
-![How many ways you can personalize wendy's hamburger](http://walkinginmathland.weebly.com/uploads/6/7/8/8/6788270/1315434924.jpg)
+![How many ways you can personalize wendy's hamburger](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/jf-2if5l.png)
 
 [Walkinginmathland](http://walkinginmathland.weebly.com/teaching-math-blog/wendy) give an interesting application for combinations and how Wendy's marketing department got it wrong.:
 

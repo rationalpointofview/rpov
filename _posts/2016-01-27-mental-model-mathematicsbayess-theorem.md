@@ -85,6 +85,26 @@ P(C| 3H )= 1* 0.33/0.4125 = 0.33/0.4125 = 80%
 So after the test, we are 80% confident that the coin is a counter feit.
 
 
+**Examples**
+
+ The chance that a woman will develop breast cancer in her forties is fortunately quite low — about 1.4 percent. But what is the probability if she has a positive mammogram?
+
+Studies show that if a woman does not have cancer, a mammogram will incorrectly claim that she does only about 10 percent of the time. If she does have cancer, on the other hand, they will detect it about 75 percent of the time.
+
+what is the probability of the woman has Breas Cancel giving positive manmogram ?
+
+We want to know P(BC|MT)
+
+P(MT)= mammogram is true;
+P(BC) = Breast Cancel is true;
+
+P(BC|MT)= P(MT|BC)*P(BC)/P(MT)
+
+= 0.75 * 0.014/(0.014*0.75+ (1-0.014)*0.1)
+= 0.0105 /( 0.0105+0.0986)
+= 9.6%
+
+So even the memogram is true, the probability of the women got breast cancer is only 9.6 %
 
 
 

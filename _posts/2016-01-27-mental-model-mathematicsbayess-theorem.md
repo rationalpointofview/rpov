@@ -19,7 +19,6 @@ Introductions
  
 If you want to access the strengh of the hypothesis (A), then you need to also access the strengh of the evidence given your hypothese (B).
 
-
 Mathematically, Bayes' theorem gives the relationship between the probabilities of A and B, P(A) and P(B), and the conditional probabilities of A given B and B given A, P(A|B) and P(B|A). In its most common form, it is:
 
 ![Bayes Theorem](https://upload.wikimedia.org/math/d/3/c/d3c7c452b3d01f5415dd9bf15d2ab822.png)
@@ -43,16 +42,26 @@ note, the event A is not going to interference B, mainly an observer event, use 
 This Theorem is better understand from an example.
 
 
+
 **How to use this mental Model**:
 
-Use it to understand the true implications of test results:
+Use it to understand the true implications of test results, and the realization of it is impossible to confirms a theory, merely test it and the result will be infintely close 100% but never reach it.
+
+The key is to look at the world as an ever shifting array of probabilities and to remember the limitations. One such limitation can be explained by Nassim Taleb in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)
+
+>Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 
 
 **Conditions:**
 
-The Event A is statistical event.
+The Event A is statistical event, with fairly low probability of A happening.
 
-The Event B is an imperfect ;
+The Event B is test or evidence related to A, and you know 2 data points:
+
+False positive Rate of the test/evidence
+
+False Negative Rate of the test/evidence
+
 
 
 **Predictions:**
@@ -105,6 +114,112 @@ P(BC|MT)= P(MT|BC)*P(BC)/P(MT)
 = 9.6%
 
 So even the memogram is true, the probability of the women got breast cancer is only 9.6 %
+
+[According to this study](http://www.cochrane.org/CD001877/BREASTCA_screening-for-breast-cancer-with-mammography)screening with mammography uss X-ray is not worth the cost
+
+**Example**
+
+In the Nate Silver's Books [The Signal and the Noice](http://www.amazon.com/The-Signal-Noise-Predictions-Fail-but/dp/0143125087)
+
+There is a vivid example of applying Bayes Theorem
+
+> Consider a somber example: the September 11 attacks. Most of us would have assigned almost no probability to terrorists crashing planes into buildings in Manhattan when we woke up that morning. But we recognized that a terror attack was an obvious possibility once the first plane hit the World Trade Center. And we had no doubt we were being attacked once the second tower was hit. Bayes's theorem can replicate this result.
+
+So we want to know the following facts
+
+P(T)= P(Terrorist Crashing Planes into Building)
+P(C)= P( Planes crashing into Building)
+
+and We want to know:
+
+P(T|C) 
+
+P(T|C) = P(C|T)* P(T)/P(C)
+
+we gathering base rates:
+
+In the previous 25000 days of aviation over Manhattan prior to 9-11, there had been only two such accidencts.
+
+so P(C) = 2/25000 = 0.008%
+
+and P(T) we can assign an arbitary intial rate: like 0.005%
+
+so before the plane hits the twin tower, P(C|T) is not true, so the probablilty is just 0.005%
+
+but at the moment the first planes hits the twin tower, P(C|T) = 100 %
+
+P(T|C) = 1*0.00005/(0.00005+0.00008) = 38%
+
+so with the new evidence, the probablility of P(T|C) revised to 38%
+
+at the moment of second plane hits the twin tower:
+
+P(T|2C) = P(2C|T)*P(T)/P(2C)
+
+P(2C|T) = 100%
+P(T) = 38%
+P(2C)=(0.008%*0.008% + 38%)= 99.99%
+
+** Example **
+
+A reader from Quora poses a questioin: 
+
+> What does it mean when a girl smiles at you every time she sees you ?
+> 
+
+Another reader using Bayes’s Theorem replies:
+
+P(like|smile) = P(smile|like)*p(like)/p(smile)
+
+so you need to gather the base rate data
+
+P(smile|like) = Chance She Smiles at you given she likes you
+P(like) = Chances She likes you
+P(smile) = Chances she smile when seeing anyone
+
+Lets assume two extreme:
+
+P(smile) = 1, she smile at everyone
+
+so 
+
+P(like|smile) = 1*P(Like)/1 = P(like)
+
+so the information of she is smiling at you doesn't mean anything.
+
+But...
+
+if She rarely smiles at someone, but smiles everytime she sees someone she likes, then
+
+P(smile) = 0%.
+P(smile|like) = 100%
+P(smile)=P(like)
+
+P(like|smile) = = 1*P(smile)/(0 + P(smile|like))= 100%
+
+In general, to be a true Bayesian, you will gather the background data of how often she smiles at everyone, and how often she smiles at someone she likes etc.
+
+The more often she smiles at everybody, the lower chance she likes you.
+
+
+**Example**:
+
+Marie is getting married tomorrow, at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time. What is the probability that it will rain on the day of Marie's wedding?
+
+So we want to know:
+
+P(Raining |Forcasted Rain) = P(Forcasted Rain|Raining)*P(Raining)/P(Forcasted Rain)
+
+= 0.9*(5/365)/(0.9*5/365+(360/365)*0.1)= 0.01232/()= 11.1 %
+
+Despite the weatherman's gloomy prediction, there is a good chance that Marie will not get rained on at her wedding.
+
+
+
+
+
+
+
 
 
 

@@ -30,7 +30,7 @@ note, P(B) is the overal probability of event B happens
 
 A is the your hypothesis, ( usually an intrinsic fact), and  B is an evidene, or a test results, to support your hypothesis. 
 
-The tricks is , Test B is almost impossible to be 100 % accuate, the errors can be:
+The tricks is , Test (B) is almost impossible to be 100 % accuate, the errors can be:
 
 * false positive: A is not true, but Test B say it is true.
 * false negative: A is true, but Test B say it is not true.

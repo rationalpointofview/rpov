@@ -16,12 +16,18 @@ published: true
 Introductions
 
 > "When my information changes, I alter my conclusions. What do you do, sir?" - John Maynard Keynes
- 
+
+The essential thing to this theorem, is you need to consider all posibility the could be the causing the new evidence( Information, in Keynes words).
+
 If you want to access the strengh of the hypothesis (A), then you need to also access the strengh of the evidence given your hypothese (B).
 
 Mathematically, Bayes' theorem gives the relationship between the probabilities of A and B, P(A) and P(B), and the conditional probabilities of A given B and B given A, P(A|B) and P(B|A). In its most common form, it is:
 
 ![Bayes Theorem](https://upload.wikimedia.org/math/d/3/c/d3c7c452b3d01f5415dd9bf15d2ab822.png)
+
+the key to really understanding Bayes’ theorem is recognizing that the denominator is actually just the law of total probability
+
+
 
 whats the relationship of A to B ?
 
@@ -34,10 +40,6 @@ The tricks is , Test (B) is almost impossible to be 100 % accuate, the errors ca
 
 * false positive: A is not true, but Test B say it is true.
 * false negative: A is true, but Test B say it is not true.
-
-you can imaging A is a elephant, and B is an blind observer and try to determine what is he touching.
-
-note, the event A is not going to interference B, mainly an observer event, use decision tree to understand this.
 
 This Theorem is better understand from an example.
 
@@ -114,6 +116,10 @@ P(BC|MT)= P(MT|BC)*P(BC)/P(MT)
 = 9.6%
 
 So even the memogram is true, the probability of the women got breast cancer is only 9.6 %
+
+Why is that ? it is because the base rate of cancer happening is very low 1.4% , and for P(MT) it could either because of a positive result of a breast cancel or a false positive of a non breast cancer.
+
+
 
 [According to this study](http://www.cochrane.org/CD001877/BREASTCA_screening-for-breast-cancer-with-mammography)screening with mammography uss X-ray is not worth the cost
 
@@ -204,7 +210,7 @@ The more often she smiles at everybody, the lower chance she likes you.
 
 **Example**:
 
-Marie is getting married tomorrow, at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time. What is the probability that it will rain on the day of Marie's wedding?
+Marie is getting m`arried tomorrow, at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time. What is the probability that it will rain on the day of Marie's wedding?
 
 So we want to know:
 
@@ -215,11 +221,40 @@ P(Raining |Forcasted Rain) = P(Forcasted Rain|Raining)*P(Raining)/P(Forcasted Ra
 Despite the weatherman's gloomy prediction, there is a good chance that Marie will not get rained on at her wedding.
 
 
+[**Example:**](http://www.yudkowsky.net/rational/bayes)
+
+Suppose that a barrel contains many small plastic eggs.  Some eggs are painted red and some are painted blue.  40% of the eggs in the bin contain pearls, and 60% contain nothing.   30% of eggs containing pearls are painted blue, and 10% of eggs containing nothing are painted blue.  What is the probability that a blue egg contains a pearl? 
+
+P( Contain Pearl | Blue ) = P (Blue | Contain Pearl) * P (Contain Pearl)/P(Blue)
+
+P (Blue | Contain Pearl ) = 0.3
+P (Contain Pearl) = 0.4
+
+P(Blue) = P(Blue | Contain Pearl) + P(Blue | Not Contain Pearl)
+= 0.3*0.4 + (1-0.4) * 0.1
+= 0.12 + 0.06
+
+So the answer is = 0.12/0.18 = 66.7%
 
 
+[**Example:**
+](https://www.reddit.com/r/PNWS/comments/3wbm7r/the_black_tapes_i_did_the_math_bayes_theorem_in/)
+
+Here is a fun example from Reddit:
+
+In episode 102, Sebastian's mother says that every photo of Sebastian has the shadow man in it. When Alex tests this prediction against the evidence of the school photos, the school photos pass the test, but Dr. Strand remains unconvinced. Is he being closed-minded? Or is his continued skepticism justified?
+
+Let's say there are 20 students in the class. Out of 21 photos, 2 had the shadow, exactly the two that had Sebastian in them. The photographer says that such artifacts can happen naturally in digital photos, so she doesn't think much of it. What's the probability of it just naturally happening in those two photos?
 
 
+[**Example**](http://blog.claymcleod.io/2016/02/02/Bayes-Theorem-for-Computer-Scientists/)
 
+Assume you have a room full of men and women. 70% of the people are women and 30% are men. Additionally, we know from polling every person that 40% of the women’s favorite color is green and 75% of the men’s favorite color is green.
+
+Given that a randomly selected person likes green, what is the probability that the person is a female?”
+
+P(Female | Like Green ) = P ( Like Green | Female ) * P(Female)/P( Like Green)
+= 0.4*0.7/(0.4*0.7+ 0.3*0.75)= 55 %
 
 
 

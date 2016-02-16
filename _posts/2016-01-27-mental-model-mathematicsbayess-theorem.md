@@ -256,7 +256,27 @@ Given that a randomly selected person likes green, what is the probability that 
 P(Female | Like Green ) = P ( Like Green | Female ) * P(Female)/P( Like Green)
 = 0.4*0.7/(0.4*0.7+ 0.3*0.75)= 55 %
 
+[**Example**](https://www.quora.com/How-do-I-solve-the-Monty-Hall-Problem-using-Bayes-Theorem)
 
+The Monty Hall problem according to Wikipedia states:
+
+>Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice?
+
+For simplicity let:
+D1: The Event of Monty Hall opening door 1.
+D2: The Event of Monty Hall opening door 2.
+D3: The Event of Monty Hall opening door 3.
+C1: The Event of finding the car behind door 1.
+C2: The Event of finding the car behind door 2.
+C3: The Event of finding the car behind door 3.
+
+The prior probability of Monty Hall finding a car behind any door is obviously p(C#)=1/3, where P(C1)=P(C2)=P(C3)
+
+P(C1|D3) = P(D3|C1)* P(C1)/P(D3) =  0.5 * 1/3 /0.5 = 1/3
+
+P(C2/D3) = P(D3/C2) * P(C2)/P(D3) = 1*1/3/0.5
+
+https://youtu.be/4Lb-6rxZxx0
 
 
 

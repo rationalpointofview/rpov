@@ -207,7 +207,7 @@ P(2C|T) = 100%
 P(T) = 38%
 P(2C)=(0.008%*0.008% + 38%)= 99.99%
 
-** Example **
+**Example**
 
 A reader from Quora poses a questioin: 
 
@@ -319,7 +319,7 @@ P(C2/D3) = P(D3/C2) * P(C2)/P(D3) = 1*1/3/0.5
 
 https://youtu.be/4Lb-6rxZxx0
 
-[** Example **](http://plato.stanford.edu/entries/bayes-theorem/supplement.html )
+[**Example**](http://plato.stanford.edu/entries/bayes-theorem/supplement.html )
 
 >Joe is a randomly chosen member of a large population in which 3% are heroin users. Joe tests positive for heroin in a drug test that correctly identifies users 95% of the time and correctly identifies nonusers 90% of the time. To determine the probability that Joe uses heroin (= H) given the positive test result (= E), we apply Bayes' Theorem using the values
 
@@ -327,7 +327,7 @@ P(H|E)= P(E|H)* P(H)/P(E) = 0.95 * 0.03/(0.95 * 0.03 + 0.97*0.1) = 22%
 
 
 
-[** Example **](https://lloydmelnick.com/2014/01/21/bayes-theorem-part-1-why-bayes-rule-is-the-key-to-good-decision-making-and-success/)
+[**Example**](https://lloydmelnick.com/2014/01/21/bayes-theorem-part-1-why-bayes-rule-is-the-key-to-good-decision-making-and-success/)
 
 > Say you wake up with spots all over your face. You rush to the doctor and he says that 90 percent of the people who have smallpox have the symptoms you have. Since smallpox is often fatal, your first inclination may be to panic. 
 
@@ -356,7 +356,7 @@ But but applying the rules of Bayes Themrom, you have no fear:
 so P(smallpox|Spots) = P(Spots|smallPox) * P(smallpox)/p(spots)
 = 0.9 * 0.001/(0.1*0.8+0.001*0.9)= 1.11 %
 
-[** Example **](http://www.amazon.com/Bayes-Rule-Tutorial-Introduction-Bayesian/dp/0956372848/ref=sr_1_1?ie=UTF8&qid=1391446909&sr=8-1&keywords=Bayes+rule)
+[**Example**](http://www.amazon.com/Bayes-Rule-Tutorial-Introduction-Bayesian/dp/0956372848/ref=sr_1_1?ie=UTF8&qid=1391446909&sr=8-1&keywords=Bayes+rule)
 
 In James V Stone excellent book of Bayes' Rule: A Tutorial Introduction to Bayesian Analysis, he mentions a interesting example:
 

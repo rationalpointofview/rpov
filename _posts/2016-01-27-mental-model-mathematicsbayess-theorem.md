@@ -17,7 +17,7 @@ Introductions
 
 > "When my information changes, I alter my conclusions. What do you do, sir?" - John Maynard Keynes
 
-** Why is this important ? **
+**Why is this important ?**
 
 Use it to understand the true implications of test results, and the realization of it is impossible to confirms a theory, merely test it and the result will be infintely close 100% but never reach it.
 

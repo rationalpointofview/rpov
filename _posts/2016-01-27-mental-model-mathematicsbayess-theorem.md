@@ -391,9 +391,9 @@ so P(Four Candles| Data )  = P(Data | Four Candles ) * P(Four Candles) / P(Data)
 = 0.6 * 0.9 /(0.6 *0.9 + 0.7 *0.1) = 88%
 
 
+[more examples](http://www.value-eng.org/knowledge_bank/attachments/Bayes%20Theorem%20in%20Decision%20Making.pdf) 
 
-
-
+[more examples](http://www.rigb.org/christmaslectures08/html/activities/learning-from-probabilities.pdf)
 
 
 

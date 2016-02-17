@@ -17,7 +17,17 @@ Introductions
 
 > "When my information changes, I alter my conclusions. What do you do, sir?" - John Maynard Keynes
 
+** Why is this important ? **
+
+Use it to understand the true implications of test results, and the realization of it is impossible to confirms a theory, merely test it and the result will be infintely close 100% but never reach it.
+
+The key is to look at the world as an ever shifting array of probabilities and to remember the limitations. One such limitation can be explained by Nassim Taleb in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)
+
+>Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
+
 The essential thing to this theorem, is you need to consider all posibility the could be the causing the new evidence( Information, in Keynes words).
+
+Conceptually, Bayes’ system was simple. We modify our opinions with objective information: Initial Beliefs + Recent Objective Data = A New and Improved Belief.
 
 If you want to access the strengh of the hypothesis (A), then you need to also access the strengh of the evidence given your hypothese (B).
 
@@ -44,14 +54,41 @@ The tricks is , Test (B) is almost impossible to be 100 % accuate, the errors ca
 This Theorem is better understand from an example.
 
 
+In an excellent [real life example by Allen Downey](http://allendowney.blogspot.hk/2015/08/bayes-theorem-in-real-life.html)
+
+> I had a chance to practice Bayesian inference in real life today: at 1pm my wife called to tell me that the carbon monoxide (CO) alarm at the house was going off.  Immediately two hypotheses came to mind: (1) there is a dangerous amount of CO in my house, (2) it's a false alarm.
+
+> It's summer and all the windows are open in the house.  The furnace is not running and we don't have a gas stove.  And the detector is about 10 years old.  This background information makes a false alarm more plausible, so I started with a low prior for (1).  Since my wife was on her way out anyway, I suggested she disconnect the detector, turn on a fan, and leave.
+
+> After we hung up, I searched for information on CO detectors and false alarms.  Apparently, the rate of false alarms is low, at least in once sense: CO detectors are very specific, that is, unlikely to go off because of anything other than CO.  Of course the other possibility is that the detector is broken.  On balance, this information made me less confident of a false alarm.
+
+First Step to use Bayes Theorem is to Brain Storm/List out any reasons you can think of to cause the C/O detector to goes off
+
+> * A fire broken off
+> * The dectector malfunctioned
+> * A major street nearby is being paved.  Does fresh pavement off-gas anything that would set off a CO detector?
+At a construction site down the street, they just poured a concrete foundation, and my neighbor is having some masonry done.  Does fresh concrete off-gas CO?  I vaguely remember that it sequesters oxygen, which turned out to be a problem for one of the Biosphere projects.
+>* What about a smoldering fire inside a wall?  Could it produce enough CO to set off the detector, but not enough smoke to set off the smoke alarms?
+ 
+
+Then use Use Bayes Themrom to plugin in the equiation and find out how possible it it.
+
+P(Detector Malfunctioned| Dectector goes Off) = P(Dectector goes off | Dectector Malfunctioned) * P(Dectector Malfunctioned)/(P(Dectector off))
+
+Now Assume P(Dectector Goes off | Dector Malfunction) = 1
+
+and you need to find out the base rate of P(Dectector Malfunctioned)
+
+and all the probability of P(Dectector goes off)
+
+
+
+
 
 **How to use this mental Model**:
 
-Use it to understand the true implications of test results, and the realization of it is impossible to confirms a theory, merely test it and the result will be infintely close 100% but never reach it.
-
-The key is to look at the world as an ever shifting array of probabilities and to remember the limitations. One such limitation can be explained by Nassim Taleb in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)
-
->Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
+* Brain Storm/List out any reasons you can think of to event B to happen
+* Find out/Estimate the probability base rate of A is happening
 
 
 **Conditions:**
@@ -69,6 +106,10 @@ False Negative Rate of the test/evidence
 **Predictions:**
 
 Give the outcome of P(A) is true give B is true:
+
+
+
+
 
 
 **Examples**
@@ -277,6 +318,86 @@ P(C1|D3) = P(D3|C1)* P(C1)/P(D3) =  0.5 * 1/3 /0.5 = 1/3
 P(C2/D3) = P(D3/C2) * P(C2)/P(D3) = 1*1/3/0.5
 
 https://youtu.be/4Lb-6rxZxx0
+
+[** Example **](http://plato.stanford.edu/entries/bayes-theorem/supplement.html )
+
+>Joe is a randomly chosen member of a large population in which 3% are heroin users. Joe tests positive for heroin in a drug test that correctly identifies users 95% of the time and correctly identifies nonusers 90% of the time. To determine the probability that Joe uses heroin (= H) given the positive test result (= E), we apply Bayes' Theorem using the values
+
+P(H|E)= P(E|H)* P(H)/P(E) = 0.95 * 0.03/(0.95 * 0.03 + 0.97*0.1) = 22%
+
+
+
+[** Example **](https://lloydmelnick.com/2014/01/21/bayes-theorem-part-1-why-bayes-rule-is-the-key-to-good-decision-making-and-success/)
+
+> Say you wake up with spots all over your face. You rush to the doctor and he says that 90 percent of the people who have smallpox have the symptoms you have. Since smallpox is often fatal, your first inclination may be to panic. 
+
+
+But but applying the rules of Bayes Themrom, you have no fear:
+
+* Brain Storm/List out any reasons/causes you can think of to event B to happen
+
+    so you ask your docter , what could cause spots all over your face. ?
+
+    The doc replies. 
+
+    - you have smallpox. 
+    - you have chicken pox.
+
+* Find out/Estimate the probability base rate of A is happening
+
+    - small pox, about 0.111 percent (or 0.0011) population has this
+    - chickenpox, which by estimation is about 10 times as likely, about 10% of the population has this
+
+    Also your doc is kind enough to tell you
+
+    - 90 percent of people with smallpox have these spots
+    - 80 percent of people with chickenpox have these spots
+
+so P(smallpox|Spots) = P(Spots|smallPox) * P(smallpox)/p(spots)
+= 0.9 * 0.001/(0.1*0.8+0.001*0.9)= 1.11 %
+
+[** Example **](http://www.amazon.com/Bayes-Rule-Tutorial-Introduction-Bayesian/dp/0956372848/ref=sr_1_1?ie=UTF8&qid=1391446909&sr=8-1&keywords=Bayes+rule)
+
+In James V Stone excellent book of Bayes' Rule: A Tutorial Introduction to Bayesian Analysis, he mentions a interesting example:
+
+If you walked into a hardware store and asked:
+
+"Have  you got fork handles ? "
+
+You was surprised by the Bayesian Shop Owner whom present you with four candles.
+
+The Phrase "Fork Handles" and "Four Candles " are acoustically almost identical.
+
+* Brain Storm/List out any reasons you can think of to event B(you hear "fork handles") to happen
+
+    * The Customer wants four candles
+    * The Customer Wants fork handles
+    
+
+and since accoustic pattern of Four candles is almost identical of Fork Handles
+
+We assign abitary probablity of 
+
+       P(Data | Four Candles ) = 0.6
+       P(Data | Fork Handles ) = 0.7
+
+And from the Bayesian Shop Owner pass experience, 
+
+    * he was asked about Fork Handles only 10 times 
+    * he was asked about candles 90 times
+
+so P(Four Candles| Data )  = P(Data | Four Candles ) * P(Four Candles) / P(Data)
+
+= 0.6 * 0.9 /(0.6 *0.9 + 0.7 *0.1) = 88%
+
+
+
+
+
+
+
+
+
 
 
 

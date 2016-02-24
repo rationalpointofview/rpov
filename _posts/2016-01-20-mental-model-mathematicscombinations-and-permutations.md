@@ -273,6 +273,11 @@ so it is a combinations doesn't allow repetion problem. The trick is, you can pi
 Total: 512 ways to personalize a Wendy's hamburger
 
 
+**Example**
+
+[StackOverflow](http://stackoverflow.com/questions/447384/permutation-combinations-interview) has a permutation & combinations interview problem:
+
+>Imagine an urn filled with balls, two-thirds of which are of one color and one-third of which are of another. One individual has drawn 5 balls from the urn and found that 4 are red and 1 is white. Another individual has drawn 20 balls and found that 12 are red and 8 are white. Which of the two individuals should feel more confident that the urn contains two-thirds red balls and one-third white balls, rather than vice-versa? What odds should each individual give?
 
 
 

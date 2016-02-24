@@ -96,7 +96,7 @@ At a construction site down the street, they just poured a concrete foundation, 
 >* What about a smoldering fire inside a wall?  Could it produce enough CO to set off the detector, but not enough smoke to set off the smoke alarms?
  
 
-Then use Use Bayes Themrom to plugin in the equiation and find out how possible it it.
+Then use Use Bayes Theorem to plugin in the equation and find out how possible it it.
 
 P(Detector Malfunctioned| Dectector goes Off) = P(Dectector goes off | Dectector Malfunctioned) * P(Dectector Malfunctioned)/(P(Dectector off))
 
@@ -108,12 +108,10 @@ and all the probability of P(Dectector goes off)
 
 
 
-
-
 **How to use this mental Model**:
 
 * Brain Storm/List out any reasons you can think of to event B to happen
-* Find out/Estimate the probability base rate of A is happening
+* Find out/Estimate the probability base rate of your believe(A is happening
 
 
 **Conditions:**
@@ -416,7 +414,17 @@ so P(Four Candles| Data )  = P(Data | Four Candles ) * P(Four Candles) / P(Data)
 = 0.6 * 0.9 /(0.6 *0.9 + 0.7 *0.1) = 88%
 
 
-[more examples](http://www.value-eng.org/knowledge_bank/attachments/Bayes%20Theorem%20in%20Decision%20Making.pdf) 
+[Games of Chance ](http://www.value-eng.org/knowledge_bank/attachments/Bayes%20Theorem%20in%20Decision%20Making.pdf) 
+
+
+Each of four urns is to be sampled once by the player. The first urn contains one red ball and two white balls, the second one red ball and three white balls, the third one red ball and four white balls, and the fourth one red bell and five white balls. The selection of urns is equally probable.
+
+The player picked a red ball; what is the probability that the secon urn, U2, was selected ?
+
+
+P(U2|Red) = P(Red|U2)P(U2)/( P(RED|U1)+P(RED|U3)+P(RED|U2)+P(RED|U4))
+= 1/4*1/4/(1/4*1/3+1/4*1/4+1/4*1/5+1/4*1/6)= 26.3%
+
 
 [more examples](http://www.rigb.org/christmaslectures08/html/activities/learning-from-probabilities.pdf)
 

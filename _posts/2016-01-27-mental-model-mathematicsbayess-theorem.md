@@ -17,41 +17,61 @@ Introductions
 
 > "When my information changes, I alter my conclusions. What do you do, sir?" - John Maynard Keynes
 
-**Why is this important ?**
+All your belief is never 100% confirmed, it is merely a plausibility, and this plausibility( probability to be true ) is depends on the evidence. 
 
-Use it to understand the true implications of test results, and the realization of it is impossible to confirms a theory, merely test it and the result will be infintely close 100% but never reach it.
+But essense of Bayes's Theorem is, the evidence could have many alternative explanations, and your plausible belief is just one of them.
 
 The key is to look at the world as an ever shifting array of probabilities and to remember the limitations. One such limitation can be explained by Nassim Taleb in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)
 
 >Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 
-The essential thing to this theorem, is you need to consider all posibility the could be the causing the new evidence( Information, in Keynes words).
+**Why is this important ?**
 
-Conceptually, Bayes’ system was simple. We modify our opinions with objective information: Initial Beliefs + Recent Objective Data = A New and Improved Belief.
+Even the best of us is subject to the hardwiring of our brains [Confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) and [Avalilability bias](https://en.wikipedia.org/wiki/Availability_heuristic), and Baye's theorem is a weapon we can use to fight our lizard brain.
 
-If you want to access the strengh of the hypothesis (A), then you need to also access the strengh of the evidence given your hypothese (B).
 
-Mathematically, Bayes' theorem gives the relationship between the probabilities of A and B, P(A) and P(B), and the conditional probabilities of A given B and B given A, P(A|B) and P(B|A). In its most common form, it is:
+Bayes' theorem gives the relationship between the probabilities of A and B, P(A) and P(B), and the conditional probabilities of A given B and B given A, P(A|B) and P(B|A). In its most common form, it is:
 
 ![Bayes Theorem](https://upload.wikimedia.org/math/d/3/c/d3c7c452b3d01f5415dd9bf15d2ab822.png)
-
-the key to really understanding Bayes’ theorem is recognizing that the denominator is actually just the law of total probability
-
-
 
 whats the relationship of A to B ?
 
 p (A|B) read: probability of A happens given B is true
 note, P(B) is the overal probability of event B happens
 
-A is the your hypothesis, ( usually an intrinsic fact), and  B is an evidene, or a test results, to support your hypothesis. 
+A is the your hypothesis/believe for now, and  B is an evidene, or a test results, to support your hypothesis. 
 
-The tricks is , Test (B) is almost impossible to be 100 % accuate, the errors can be:
+Test (B) is almost impossible to be 100 % accuate, the errors can be:
 
 * false positive: A is not true, but Test B say it is true.
 * false negative: A is true, but Test B say it is not true.
 
-This Theorem is better understand from an example.
+If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) given your hypothese.
+
+**The strengh of the evidence is depends on how many alternate explaination of evidence (B) could have. the fewer the alternate  explaintion of evidence, the stronger the evidence.**
+
+
+Lets use the turkey example:
+
+From a Turkey prospertive:
+
+Turkey's Believe/Hypothesis (A):
+
+> it is the general rule of life: friendly members of the human race is our friend and will look after our best interest. 
+ 
+  Evidence (B)
+
+> Huamn has fed us every day for 364 days !
+> 
+
+when we examine the Evidence (B)( "Huamn has fed us every day for 364 days" ), it could have the following alterative explaination 
+
+* Hypothesis A: Human being is our friend and feed us unconditionally and look after us
+* Hypothesis B: Human being is feeding us for their own purpose
+
+Even though Human fed the turkeys every day for 364, the possibility of hypothesis B is never to be 0.
+
+
 
 
 In an excellent [real life example by Allen Downey](http://allendowney.blogspot.hk/2015/08/bayes-theorem-in-real-life.html)

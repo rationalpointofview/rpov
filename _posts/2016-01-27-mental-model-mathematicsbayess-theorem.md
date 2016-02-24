@@ -19,9 +19,9 @@ Introductions
 
 All your belief is never 100% confirmed, it is merely a plausibility, and this plausibility( probability to be true ) is depends on the evidence. 
 
-But essense of Bayes's Theorem is, the evidence could have many alternative explanations, and your plausible belief is just one of them.
+The essense of Bayes's Theorem is, the evidence could have many alternative explanations, and your plausible belief is just one of them.
 
-The key is to look at the world as an ever shifting array of probabilities and to remember the limitations. One such limitation can be explained by Nassim Taleb in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)
+The key is to look at the world as an ever shifting array of probabilities, and one vivid example can be found in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)by Nassim Taleb
 
 >Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 
@@ -44,14 +44,19 @@ A is the your hypothesis/believe for now, and  B is an evidene, or a test result
 Test (B) is almost impossible to be 100 % accuate, the errors can be:
 
 * false positive: A is not true, but Test B say it is true.
+
+using the turkey example, the false positive is human is not turkey's friend, but they still feed the turkey's
+
 * false negative: A is true, but Test B say it is not true.
+
+The false negative is human is turkey's friend, but they don't feed us.
 
 If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) given your hypothese.
 
 **The strengh of the evidence is depends on how many alternate explaination of evidence (B) could have. the fewer the alternate  explaintion of evidence, the stronger the evidence.**
 
 
-Lets use the turkey example:
+Lets use the turkey example again:
 
 From a Turkey prospertive:
 

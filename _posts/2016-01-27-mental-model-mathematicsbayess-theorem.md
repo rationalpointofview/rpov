@@ -79,6 +79,34 @@ Even though Human fed the turkeys every day for 364, the possibility of hypothes
 
 
 
+
+
+**How to use this mental Model**:
+
+* Write down your current believe/Hypothesis A
+
+* Find out the base rate of A is true( From past data or combination/permutation ratios )
+
+* write down your evidence(B) supporting A
+
+* Brain Storm/List out any reasons you can think of to cause event B to happen
+
+* Find out the following data:
+
+False positive Rate of the test/evidence(B)
+
+False Negative Rate of the test/evidence(B)
+
+
+
+**Predictions:**
+
+Give the probability of A is true, given B is true:
+
+
+
+**Example**
+
 In an excellent [real life example by Allen Downey](http://allendowney.blogspot.hk/2015/08/bayes-theorem-in-real-life.html)
 
 > I had a chance to practice Bayesian inference in real life today: at 1pm my wife called to tell me that the carbon monoxide (CO) alarm at the house was going off.  Immediately two hypotheses came to mind: (1) there is a dangerous amount of CO in my house, (2) it's a false alarm.
@@ -87,51 +115,53 @@ In an excellent [real life example by Allen Downey](http://allendowney.blogspot.
 
 > After we hung up, I searched for information on CO detectors and false alarms.  Apparently, the rate of false alarms is low, at least in once sense: CO detectors are very specific, that is, unlikely to go off because of anything other than CO.  Of course the other possibility is that the detector is broken.  On balance, this information made me less confident of a false alarm.
 
-First Step to use Bayes Theorem is to Brain Storm/List out any reasons you can think of to cause the C/O detector to goes off
+So write down your current believe/hypothesis you want to confirm/disconfirm:
+
+> your house is on fire
+> 
+
+The we estimate the chance of house on fire
+
+>The FEMA U.S. Fire Administration keeps stats on fires 
+
+>In 2010 there were 362,100 residential fires in the USA.     In total the fires caused $6.65 billion in damages.
+
+>According to the Census there are 131 million housing units in the US and 114 million households.
+
+>As far as frequency you could figure that 0.317% of households experienced a fire in 2010.   Or we could say that 0.276% of housing units had a fire in the year.
+
+Lets be safe and just put the base rate of house catching fire on 2.7%, which is 10 times higher than national average.
+
+
+Then we Brain Storm/List out any reasons you can think of to cause the C/O detector to goes off
 
 > * A fire broken off
-> * The dectector malfunctioned
+> * The dectector malfunctioned and give false alarm
 > * A major street nearby is being paved.  Does fresh pavement off-gas anything that would set off a CO detector?
 At a construction site down the street, they just poured a concrete foundation, and my neighbor is having some masonry done.  Does fresh concrete off-gas CO?  I vaguely remember that it sequesters oxygen, which turned out to be a problem for one of the Biosphere projects.
 >* What about a smoldering fire inside a wall?  Could it produce enough CO to set off the detector, but not enough smoke to set off the smoke alarms?
  
+ A rough estimatation of fire alarm reliability is the following, by doing some google search:
+
+[Reliability](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.586.5246&rep=rep1&type=pdf)75% 
+[false positive](http://fire.nist.gov/bfrlpubs/fire89/PDF/f89012.pdf): 15%
+
+by anlaysing the possible causes:
+
+you think the alarm caused by street paving  is quite unlikely, as it will cause other house's fire alarm to be off too( which is not happening). so just put the probability of 0.5%
+
+And the fire alarm  false positive and reliability rate for smoldering fire is similar to flaming fire, so you decided to combine these two plausible causes.
 
 Then use Use Bayes Theorem to plugin in the equation and find out how possible it it.
 
-P(Detector Malfunctioned| Dectector goes Off) = P(Dectector goes off | Dectector Malfunctioned) * P(Dectector Malfunctioned)/(P(Dectector off))
+P(fire|alarm) = P(alarm|fire) *P(fire)/P(alarm)
+= 0.75*0.03/(0.75*0.03 + 0.97*0.15 + 0.005)
 
-Now Assume P(Dectector Goes off | Dector Malfunction) = 1
+= 0.0225/(0.0225+0.1455+0.005)= 13 %
 
-and you need to find out the base rate of P(Dectector Malfunctioned)
+so the it doesn't seem so bad after all. 
 
-and all the probability of P(Dectector goes off)
-
-
-
-**How to use this mental Model**:
-
-* Brain Storm/List out any reasons you can think of to event B to happen
-* Find out/Estimate the probability base rate of your believe(A is happening
-
-
-**Conditions:**
-
-The Event A is statistical event, with fairly low probability of A happening.
-
-The Event B is test or evidence related to A, and you know 2 data points:
-
-False positive Rate of the test/evidence
-
-False Negative Rate of the test/evidence
-
-
-
-**Predictions:**
-
-Give the outcome of P(A) is true give B is true:
-
-
-
+Given that said, this just an example for baysian analysis, if the fire alarm goes off, I suggest you follow the protocol instead of doing the baysian analyse with your laptop!
 
 
 
@@ -427,10 +457,43 @@ The player picked a red ball; what is the probability that the secon urn, U2, wa
 P(U2|Red) = P(Red|U2)P(U2)/( P(RED|U1)+P(RED|U3)+P(RED|U2)+P(RED|U4))
 = 1/4*1/4/(1/4*1/3+1/4*1/4+1/4*1/5+1/4*1/6)= 26.3%
 
+**Example**
+
+[Defective Components](http://www.value-eng.org/knowledge_bank/attachments/Bayes%20Theorem%20in%20Decision%20Making.pdf) 
+
+Identical components are procured from three vendors for use in the next higher assembly of a production process. forty-five percent of the
+componente are procured from Vendor 1. 30 percent from Vendor 2, and 25 percent from Vendor 3. The respective percentages of defective:  6, 3, and
+2.
+
+What is the probability of a defective component is from vendor 1 ?
+
+
+P(1|D)=P(D|1)*P(1)/P(D)
+= 0.06*0.45/(0.06*0.45+0.03*0.3+0.25*0.02)= 65%
+
+
+[Enviromental Protection]((http://www.value-eng.org/knowledge_bank/attachments/Bayes%20Theorem%20in%20Decision%20Making.pdf) 
+
+
+Pollution detection devices of the enviromental protection agency of a certain state can detect excessive enounte of pollutente emitted by factories with a probability of 0.90. and probability of 0.20 that factories not exceeding limits will fail the test. The issue is whether to procure devices with a detection probability of 0.99.even though the increased sensitivity will increase the false alarI probability to 0.22, to apprehend more violators of state statutes. It is estimated around 30 percent of the factories in the state emit excessive pollutants.
+
+Is that worth the investment ?
+
+For the existing device:
+
+P(P|F)= P(F|P)*P(P)/P(F)= 0.9*0.3/(0.9*0.3+0.7*0.2)= 0.27/0.41=65.8%
+
+If we buy the new device:
+
+P('P|'F) = 0.99*0.3/(0.99*0.3+0.7*0.22) = 0.297/(0.297+0.154) = 65.8%
+
+So, probably we should not invest in the new device:
+
 
 [more examples](http://www.rigb.org/christmaslectures08/html/activities/learning-from-probabilities.pdf)
 
 
+[A visual Explaination of Bay's Themrom](https://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego)
 
 
 

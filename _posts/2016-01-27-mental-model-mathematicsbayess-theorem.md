@@ -17,17 +17,17 @@ Introductions
 
 > "When my information changes, I alter my conclusions. What do you do, sir?" - John Maynard Keynes
 
-All your belief is never 100% confirmed, it is merely a plausibility, and this plausibility( probability to be true ) is depends on the evidence. 
-
 The essense of Bayes's Theorem is, the evidence could have many alternative explanations, and your plausible belief is just one of them.
 
-The key is to look at the world as an ever shifting array of probabilities, and one vivid example can be found in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)by Nassim Taleb
+When you think about it, it means all your belief can be never 100% confirmed, it is merely a plausibility, and this plausibility( probability to be true ) is depends on the evidence. 
+
+Through the lens of Baye's themrom, the world is an ever shifting array of probabilities, and one vivid example can be found in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)by Nassim Taleb
 
 >Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 
 **Why is this important ?**
 
-Even the best of us is subject to the hardwiring of our brains [Confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) and [Avalilability bias](https://en.wikipedia.org/wiki/Availability_heuristic), and Baye's theorem is a weapon we can use to fight our lizard brain.
+Even the best of us is subject to the hardwiring of our lizard brains [Confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) and [Avalilability bias](https://en.wikipedia.org/wiki/Availability_heuristic), and Baye's theorem is a weapon we can use to fight our lizard brain.
 
 
 Bayes' theorem gives the relationship between the probabilities of A and B, P(A) and P(B), and the conditional probabilities of A given B and B given A, P(A|B) and P(B|A). In its most common form, it is:
@@ -143,8 +143,8 @@ At a construction site down the street, they just poured a concrete foundation, 
  
  A rough estimatation of fire alarm reliability is the following, by doing some google search:
 
-[Reliability](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.586.5246&rep=rep1&type=pdf)75% 
-[false positive](http://fire.nist.gov/bfrlpubs/fire89/PDF/f89012.pdf): 15%
+[Reliability:](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.586.5246&rep=rep1&type=pdf)75% 
+[false positive:](http://fire.nist.gov/bfrlpubs/fire89/PDF/f89012.pdf): 15%
 
 by anlaysing the possible causes:
 

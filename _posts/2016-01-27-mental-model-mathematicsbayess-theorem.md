@@ -26,6 +26,7 @@ Through the lens of Baye's themrom, the world is an ever shifting array of proba
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/chingster23/11937781733" title="parallel-universe-visiongf-hd-wallpaper-84742"><img src="https://farm6.staticflickr.com/5532/11937781733_bd60ac6a3a_b.jpg" width="1024" height="640" alt="parallel-universe-visiongf-hd-wallpaper-84742"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+Photo by: [Lee Davy](https://www.flickr.com/photos/chingster23/11937781733)
 
 One vivid example can be found in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)by Nassim Taleb
 

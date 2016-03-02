@@ -130,6 +130,7 @@ The we estimate the chance of house on fire
 
 Lets be safe and just put the base rate of house catching fire on 2.7%, which is 10 times higher than national average.
 
+We have our Evidence too, the C/O detctor goes off.
 
 Then we Brain Storm/List out any reasons you can think of to cause the C/O detector to goes off
 
@@ -142,13 +143,13 @@ At a construction site down the street, they just poured a concrete foundation, 
  A rough estimatation of fire alarm reliability is the following, by doing some google search:
 
 [Reliability:](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.586.5246&rep=rep1&type=pdf)75% 
-[false positive:](http://fire.nist.gov/bfrlpubs/fire89/PDF/f89012.pdf) 15%
+[False Positive Rate:](http://fire.nist.gov/bfrlpubs/fire89/PDF/f89012.pdf) 15%
 
-by anlaysing the possible causes:
+By a quick look at the possible causes:
 
-you think the alarm caused by street paving  is quite unlikely, as it will cause other house's fire alarm to be off too( which is not happening). so just put the probability of 0.5%
+The alarm trigged by street paving  is quite unlikely, as it should trigger other house's fire alarm too( which is not happening). so just put a guesstimate probability of 0.5%.
 
-And the fire alarm  false positive and reliability rate for smoldering fire is similar to flaming fire, so you decided to combine these two plausible causes.
+And the fire alarm  false positive and reliability rate for smoldering fire is similar to flaming fire, so probably we can combine these two plausible causes.
 
 Then use Use Bayes Theorem to plugin in the equation and find out how possible it it.
 
@@ -159,8 +160,7 @@ P(fire|alarm) = P(alarm|fire) *P(fire)/P(alarm)
 
 so the it doesn't seem so bad after all. 
 
-Given that said, this just an example for baysian analysis, if the fire alarm goes off, I suggest you follow the protocol instead of doing the baysian analyse with your laptop!
-
+Given that said, this just an example for baysian analysis, if the fire alarm goes off, please follow the protocol and do what every baysian should do, leave the house and call the fire department ! 
 
 
 **Examples**
@@ -283,7 +283,10 @@ so
 
 P(like|smile) = 1*P(Like)/1 = P(like)
 
+Remember, the strengh of evidence is depends on how many alternative explanation it could have.
+
 so the information of she is smiling at you doesn't mean anything.
+
 
 But...
 
@@ -329,15 +332,6 @@ P(Blue) = P(Blue | Contain Pearl) + P(Blue | Not Contain Pearl)
 So the answer is = 0.12/0.18 = 66.7%
 
 
-[**Example:**
-](https://www.reddit.com/r/PNWS/comments/3wbm7r/the_black_tapes_i_did_the_math_bayes_theorem_in/)
-
-Here is a fun example from Reddit:
-
-In episode 102, Sebastian's mother says that every photo of Sebastian has the shadow man in it. When Alex tests this prediction against the evidence of the school photos, the school photos pass the test, but Dr. Strand remains unconvinced. Is he being closed-minded? Or is his continued skepticism justified?
-
-Let's say there are 20 students in the class. Out of 21 photos, 2 had the shadow, exactly the two that had Sebastian in them. The photographer says that such artifacts can happen naturally in digital photos, so she doesn't think much of it. What's the probability of it just naturally happening in those two photos?
-
 
 [**Example**](http://blog.claymcleod.io/2016/02/02/Bayes-Theorem-for-Computer-Scientists/)
 
@@ -368,7 +362,7 @@ P(C1|D3) = P(D3|C1)* P(C1)/P(D3) =  0.5 * 1/3 /0.5 = 1/3
 
 P(C2/D3) = P(D3/C2) * P(C2)/P(D3) = 1*1/3/0.5
 
-https://youtu.be/4Lb-6rxZxx0
+[![Monty Hall Problem](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/k9wgpe73.png)](https://youtu.be/4Lb-6rxZxx0)
 
 [**Example**](http://plato.stanford.edu/entries/bayes-theorem/supplement.html )
 

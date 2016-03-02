@@ -34,18 +34,18 @@ Bayes' theorem gives the relationship between the probabilities of A and B, P(A)
 
 ![Bayes Theorem](https://upload.wikimedia.org/math/d/3/c/d3c7c452b3d01f5415dd9bf15d2ab822.png)
 
-whats the relationship of A to B ?
-
 p (A|B) read: probability of A happens given B is true
 note, P(B) is the overal probability of event B happens
 
+Whats the relationship of A to B ?
+
 A is the your hypothesis/believe for now, and  B is an evidene, or a test results, to support your hypothesis. 
 
-Test (B) is almost impossible to be 100 % accuate, the errors can be:
+Evidence/Test (B) is almost impossible to be 100 % accuate, the errors can be:
 
 * false positive: A is not true, but Test B say it is true.
 
-using the turkey example, the false positive is human is not turkey's friend, but they still feed the turkey's
+Using the turkey example, the false positive is human is not turkey's friend, but they still feed the turkey's
 
 * false negative: A is true, but Test B say it is not true.
 
@@ -79,8 +79,6 @@ Even though Human fed the turkeys every day for 364, the possibility of hypothes
 
 
 
-
-
 **How to use this mental Model**:
 
 * Write down your current believe/Hypothesis A
@@ -101,7 +99,7 @@ False Negative Rate of the test/evidence(B)
 
 **Predictions:**
 
-Give the probability of A is true, given B is true:
+Give the probability of A when B is true;
 
 
 
@@ -144,7 +142,7 @@ At a construction site down the street, they just poured a concrete foundation, 
  A rough estimatation of fire alarm reliability is the following, by doing some google search:
 
 [Reliability:](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.586.5246&rep=rep1&type=pdf)75% 
-[false positive:](http://fire.nist.gov/bfrlpubs/fire89/PDF/f89012.pdf): 15%
+[false positive:](http://fire.nist.gov/bfrlpubs/fire89/PDF/f89012.pdf) 15%
 
 by anlaysing the possible causes:
 
@@ -472,7 +470,7 @@ P(1|D)=P(D|1)*P(1)/P(D)
 = 0.06*0.45/(0.06*0.45+0.03*0.3+0.25*0.02)= 65%
 
 
-[Enviromental Protection]((http://www.value-eng.org/knowledge_bank/attachments/Bayes%20Theorem%20in%20Decision%20Making.pdf) 
+[Enviromental Protection](http://www.value-eng.org/knowledge_bank/attachments/Bayes%20Theorem%20in%20Decision%20Making.pdf) 
 
 
 Pollution detection devices of the enviromental protection agency of a certain state can detect excessive enounte of pollutente emitted by factories with a probability of 0.90. and probability of 0.20 that factories not exceeding limits will fail the test. The issue is whether to procure devices with a detection probability of 0.99.even though the increased sensitivity will increase the false alarI probability to 0.22, to apprehend more violators of state statutes. It is estimated around 30 percent of the factories in the state emit excessive pollutants.

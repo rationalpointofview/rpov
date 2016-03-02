@@ -21,7 +21,13 @@ The essense of Bayes's Theorem is, the evidence could have many alternative expl
 
 When you think about it, it means all your belief can be never 100% confirmed, it is merely a plausibility, and this plausibility( probability to be true ) is depends on the evidence. 
 
-Through the lens of Baye's themrom, the world is an ever shifting array of probabilities, and one vivid example can be found in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)by Nassim Taleb
+Through the lens of Baye's themrom, the world is an ever shifting array of probabilities;
+
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/chingster23/11937781733" title="parallel-universe-visiongf-hd-wallpaper-84742"><img src="https://farm6.staticflickr.com/5532/11937781733_bd60ac6a3a_b.jpg" width="1024" height="640" alt="parallel-universe-visiongf-hd-wallpaper-84742"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+One vivid example can be found in the [Black Swan](http://www.amazon.com/exec/obidos/ASIN/081297381X/)by Nassim Taleb
 
 >Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 

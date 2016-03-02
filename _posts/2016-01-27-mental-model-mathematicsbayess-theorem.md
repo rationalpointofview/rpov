@@ -488,6 +488,61 @@ P('P|'F) = 0.99*0.3/(0.99*0.3+0.7*0.22) = 0.297/(0.297+0.154) = 65.8%
 
 So, probably we should not invest in the new device:
 
+[Example Interview](http://faculty.washington.edu/tamre/BayesTheorem.pdf)
+
+
+The Gallup organization randomly selects an adult American for a survey about credit card usage. 
+
+a. What is the probability that the selected subject is a male?
+b. After selecting a subject, it is later learned that this person was smoking a cigar during the interview. What is the probability that the selected subject is a male?
+
+Our Hypothesis for now:
+
+The interviewee is male:
+
+So let try to find out the base rate of our hypothesis:
+
+by some googling, we find out the [% for Male in US is about 49.2%](http://www.infoplease.com/ipa/A0884102.html)
+
+So before the new evidence of the interviewee is smoking cigar, the base rate probability of the interviewee is male:
+
+P(M)= 49.2
+
+And the Test/Evidence is this interviewee smoke cigar during interview:
+
+We got our much needed statistic data from [CDC](http://www.cdc.gov/tobacco/data_statistics/fact_sheets/tobacco_industry/cigars/)
+
+>Current Cigar Use
+
+>Adults:
+
+>Percentage of U.S. adults who were current cigar smokers† in 2013:9
+
+>5.0% of  all adults 
+8.2% of  adult males
+2.0% of  adult females
+7.5% of  African American adults
+6.7% of  American Indian/Alaska Native adults
+2.1% of  Asian American adults
+4.0% of  Hispanic adults
+5.0% of  White adults
+
+P(C) = 5%
+P(C|M) = 8.2%
+Lets plug all the data into Bayes themorem
+
+P(M|C) = P(C|M)*P(M)/P(C) = 8.2% * 49.2% /5% = 80.6%
+
+The probability of the interviewee is a male revised to 80.6%
+
+
+
+
+
+
+___
+
+More Resources:
 
 [more examples](http://www.rigb.org/christmaslectures08/html/activities/learning-from-probabilities.pdf)
 

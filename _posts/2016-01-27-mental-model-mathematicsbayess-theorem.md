@@ -653,12 +653,9 @@ We begin the interrogation sessions.
 
 Session 1:
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
+| Agent | Prior Probability of being a mole | Reaction | Revised Probability of being a Mole |
+|-------|-------|-------|
+| Alan | 0.2 | Normal | 0.164 |
 
 ___
 

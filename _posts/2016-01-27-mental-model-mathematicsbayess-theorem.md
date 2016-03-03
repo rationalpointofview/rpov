@@ -653,9 +653,20 @@ We begin the interrogation sessions.
 
 Session 1:
 
+lets just use one Agent Alan as an example
+
+P(M|N)= P(N|M) * P(M)/P(N) = 55 % * 20 % /(55 % * 20% + 70% * 80%) = 0.11/0.67 = 0.164
+
 Agent | Prior Probability |  Reaction | Revised Probability of being a Mole 
 ----|----:|---|---:
 Alan | 0.2 | Normal | 0.164 
+Bob| 0.2 | Normal | 0.164
+Chris| 0.2 | Confess | 0.333
+Dave| 0.2 | Normal | 0.164
+Ed| 0.2 | Normal | 0.164
+
+
+
 
 ___
 

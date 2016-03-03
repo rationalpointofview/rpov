@@ -654,7 +654,7 @@ We begin the interrogation sessions.
 Session 1:
 
 Agent | Prior Probability |  Reaction | Revised Probability of being a Mole 
--------|-------|-------
+----|----:|---|---:
 Alan | 0.2 | Normal | 0.164 
 
 ___

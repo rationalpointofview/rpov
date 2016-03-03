@@ -665,6 +665,33 @@ Chris| 0.2 | Confess | 0.333
 Dave| 0.2 | Normal | 0.164
 Ed| 0.2 | Normal | 0.164
 
+Session 2
+
+Lets use Ed as example
+
+P(M|C) = P(C|M) * P(M)/P(C) = 0.1*0.164 /(0.1*0.164 + 0.05* 0.836)= 0.0164/0.0582= 0.282
+
+Agent | Prior Probability |  Reaction | Revised Probability of being a Mole 
+----|----:|---|---:
+Alan | 0.164 | Normal | 0.134 
+Bob| 0.164 | Mistake | 0.164
+Chris| 0.333 | Nervous | 0.429
+Dave| 0.164 | Normal | 0.134
+Ed| 0.164 | Confess | 0.282
+
+.
+.
+.
+
+Session 150
+
+Agent | Prior Probability |  Reaction | Revised Probability of being a Mole 
+----|----:|---|---:
+Alan | 0.0 | Normal | 0 
+Bob| 0.0 | Mistake | 0
+Chris| 0.999 | Nervous | 1
+Dave| 0.001 | Normal | 0.001
+Ed| 1 | Confess | 1
 
 
 

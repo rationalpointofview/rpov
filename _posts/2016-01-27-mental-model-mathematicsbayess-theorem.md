@@ -19,10 +19,9 @@ Introductions
 
 The essense of Bayes's Theorem is, the evidence could have many alternative explanations, and your plausible belief is just one of them.
 
-When you think about it, it means all your belief can be never 100% confirmed, it is merely a plausibility, and this plausibility( probability to be true ) is depends on the evidence. 
+When you think about it, it means all your belief  can be never 100% confirmed, it is merely a plausibility, and this plausibility( probability to be true ) is depends on the evidence. 
 
 Through the lens of Baye's themrom, the world is an ever shifting array of probabilities;
-
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/chingster23/11937781733" title="parallel-universe-visiongf-hd-wallpaper-84742"><img src="https://farm6.staticflickr.com/5532/11937781733_bd60ac6a3a_b.jpg" width="1024" height="640" alt="parallel-universe-visiongf-hd-wallpaper-84742"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
@@ -79,7 +78,7 @@ Turkey's Believe/Hypothesis (A):
 when we examine the Evidence (B)( "Huamn has fed us every day for 364 days" ), it could have the following alterative explaination 
 
 * Hypothesis A: Human being is our friend and feed us unconditionally and look after us
-* Hypothesis B: Human being is feeding us for their own purpose
+* Hypothesis B: Human being is feeding us for their own purpose, and probably want to eat our body.
 
 Even though Human fed the turkeys every day for 364, the possibility of hypothesis B is never to be 0.
 
@@ -88,7 +87,7 @@ Even though Human fed the turkeys every day for 364, the possibility of hypothes
 
 **How to use this mental Model**:
 
-* Write down your current believe/Hypothesis A
+* Write down your current believe/Hypothesis A 
 
 * Find out the base rate of A is true( From past data or combination/permutation ratios )
 
@@ -488,7 +487,7 @@ P('P|'F) = 0.99*0.3/(0.99*0.3+0.7*0.22) = 0.297/(0.297+0.154) = 65.8%
 
 So, probably we should not invest in the new device:
 
-[Example Interview](http://faculty.washington.edu/tamre/BayesTheorem.pdf)
+[Example: Interview](http://faculty.washington.edu/tamre/BayesTheorem.pdf)
 
 
 The Gallup organization randomly selects an adult American for a survey about credit card usage. 
@@ -535,9 +534,130 @@ P(M|C) = P(C|M)*P(M)/P(C) = 8.2% * 49.2% /5% = 80.6%
 
 The probability of the interviewee is a male revised to 80.6%
 
+[Example: Identical Twins](http://allendowney.blogspot.hk/2011/10/all-your-bayes-are-belong-to-us.html)
+
+> Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin?
+
+>To answer this one, you need some background information: According to the Wikipedia article on twins:  ``Twins are estimated to be approximately 1.9% of the world population, with monozygotic twins making up 0.2% of the total---and 8% of all twins.''
+
+So what is the hypothesis we are trying to find out the probability ?
+
+Elvis was an identical twin
+
+and the tricky part is, what the new evidence ?
+
+> Elvis Presley had a twin brother
+
+Presumably Elvis is a boy, and twin brother means same sex, and identical twins, by definition, is always has the same sex, but individual twins probably has 50% to 50% change of different sex( I could be wrong)
+
+plug in the datas to Bayes Themrom, we got:
+
+P(IT|Same Sex) = P(Same Sex| IT)* P(IT)/P(S) 
+= 1* 8%/(92% * 50% + 1* 8%) = 14.8%
+
+
+[Example: Lung Cancer and Smoking](http://allendowney.blogspot.hk/2011/10/all-your-bayes-are-belong-to-us.html)
+
+>According to the CDC, ``Compared to nonsmokers, men who smoke are about 23 times more likely to develop lung cancer and women who smoke are about 13 times more likely.''
+If you learn that a woman has been diagnosed with lung cancer, and you know nothing else about her, what is the probability that she is a smoker?
+
+The Hyothesis A:
+
+This Woman is a smoker
+
+A':
+
+This Woman is not a smoker
+
+And the Evidence/New Information:
+
+THis Woman has been diagnosed with lung cancer
+
+Lets find out the base rate first:
+
+According to [CDC](http://www.cdc.gov/cancer/lung/statistics/):
+
+in 2012
+> 210,828 people in the United States were diagnosed with lung cancer, including 111,395 men and 99,433 women.
+
+And 2012 the US population is about 314.1 million.
+
+so the base rate for women diagnosed with lung cancer is:
+
+99433/(314100000/2)= 0.06 %
+
+Also from CDC, we can find the estimation of Adults whom is a smoker:
+
+> By Gender
+
+>Men are more likely to be current cigarette smokers than women.
+
+>Nearly 19 of every 100 adult men (18.8%)
+Nearly 15 of every 100 adult women (14.8%)
+
+Lets plugin in the equations:
+
+P(S|L) = P(L|S)* P(S)/P(L) 
+
+Wait.. We dont know P(L|S) yet .ie. Probability of Smoker got lung cancer:
+
+Fortunately, high school math come into rescue.
+
+lets put P(L|NS) = x ie. the Probability of Women non-smoker got lung cancer:
+
+x + 13x = 0.06 %
+14x = 0.06%
+x = 0.00429%
+
+and P(L|S) = 13x = 0.0557%
+
+lets plug all the numbers into Bayes Equation
+
+P(S|L) = P(L|S)* P(S)/P(L)
+= 0.0557% * 14.8% /( 0.00429% * 85.2 % + 0.0557% * 14.8%)
+= 0.00824 %/(0.00365% + 0.00824)
+= 69.3%
 
 
 
+[Example: Finding the Mole](http://users.ecs.soton.ac.uk/jn2/teaching/bayes.pdf)
+
+> So: you're the head of MI6. You're pretty sure there's a "mole" in your organization.
+
+> You've narrowed it down to five suspects: Alan,Bob, Chris,Dave, and Ed.
+
+> You know from previous experience with interrogations that there are five behaviours to be expected in any given session: normal behaviour, nervousness, anger at the accusation, making a mistake in one's story, and a desperate exhausted confession
+
+> you know from experience that moles and loyal operatives will exhibit the
+five behaviours at different rates.
+
+Behavious of loyal Operatives:
+
+Normal:70%
+Confess:5%
+Mistake:10%
+Angry:5%
+Nervous:10%
+
+Behaviours of moles:
+
+Normal:55%
+Confess:10%
+Mistake:10%
+Angry:10%
+Nervous:15%
+
+The probability-of-being-the-mole is 0.2 for each person in this case. This is called a uniform prior.
+
+We begin the interrogation sessions.
+
+Session 1:
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 
 ___
@@ -546,10 +666,11 @@ More Resources:
 
 [more examples](http://www.rigb.org/christmaslectures08/html/activities/learning-from-probabilities.pdf)
 
+[More examples ](http://www.greenteapress.com/thinkbayes/html/thinkbayes006.html#toc41)
 
 [A visual Explaination of Bay's Themrom](https://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego)
 
-
+[Think Bayes From Greenteapress](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf)
 
 
 

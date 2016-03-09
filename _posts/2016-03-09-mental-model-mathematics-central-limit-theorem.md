@@ -15,12 +15,12 @@ published: true
 **Discipline:Mathematics** 
 **Lattice Rank :7**
 
-Introductions
+#Introductions
 
-****How to use this mental Model****:
 
 The central limit theorom tells you that, if you draw a fix number of samples n ( assump big enough ) random samples from pool with known standard deviation & mean, then the sum of these sample values will form a bell curve, which mean of the sum will be true mean x n, and standard deviation of these sum will be pool standard deviation * n^1/2
 
+**How to use this mental Model**:
 
 **Conditions:**
 
@@ -43,5 +43,5 @@ group average: = 211
 group average S = 230/25 = 9.2
 
 
-{{%wolframalphawidget id="69d658d0b2859e32cd4dc3b970c8496c" output="iframe"}}
+\[wolframalphawidget id="69d658d0b2859e32cd4dc3b970c8496c" output="iframe"\]
 

@@ -42,6 +42,5 @@ group sum SD = 46 * 25^1/2 = 46*5 = 230
 group average: = 211
 group average S = 230/25 = 9.2
 
-
-\[wolframalphawidget id="69d658d0b2859e32cd4dc3b970c8496c" output="iframe"\]
+![Sample Bell Curve](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/bryi_5g3.png)
 

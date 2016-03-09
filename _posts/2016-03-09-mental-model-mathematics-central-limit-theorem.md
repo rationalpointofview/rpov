@@ -26,7 +26,6 @@ Couple of things to notice:
 
 * How big of n is big enough ? 30 is a good number
 
-<button class="button-save large">Big Fat Button</button> 
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/pubchart?oid=593388338&amp;format=interactive"></iframe>
 

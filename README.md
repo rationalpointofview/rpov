@@ -35,3 +35,9 @@ Introductions
 **Conditions:**
 
 **Predictions:**
+
+
+___
+
+how to find real life examples ?
+

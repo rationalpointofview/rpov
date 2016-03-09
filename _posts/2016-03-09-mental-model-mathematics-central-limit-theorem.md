@@ -26,8 +26,13 @@ Couple of things to notice:
 
 * How big of n is big enough ? 30 is a good number
 
+This is a simulation of dice roll of 300 times using google spreadsheet, as you can see, the chance of landing of each side ( 1- 6) is equal to 1/6, and roll the dice 300 times, the chance of getting 1 - 6 is even, which is a straight line.
 
 [![300 Dice Roll Results](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/519d73uu.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=0)
+
+But if we roll 10 dice together, and record the sum, it look like this:
+
+[![Sum of 10 Dice Roll, 300 times](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/v44le7zz.png)][https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546]
 
 
 **How to use this mental Model**:

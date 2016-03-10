@@ -24,15 +24,20 @@ Couple of things to notice:
 
 * The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
 
-* How big of n is big enough ? 30 is a good number
+* How big of n is big enough ? 30 is a good number, while 15 is kind of minimum
 
 This is a simulation of dice roll of 300 times using google spreadsheet, as you can see, the chance of landing of each side ( 1- 6) is equal to 1/6, and roll the dice 300 times, the chance of getting 1 - 6 is even, which is a straight line.
 
 [![300 Dice Roll Results](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/519d73uu.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=0)
 
-But if we roll 10 dice together, and record the sum, it look like this:
+But if we roll 10 dice together, and record the sum, it look like this, better, but not perfect
 
-[![Sum of 10 Dice Roll, 300 times](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/v44le7zz.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546)
+[![Sum of 10 Dice Roll, 300 times](http://www.rationalpov.com/wp-content/uploads/2016/03/image-1.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546)
+
+If we roll 15 dice together, and record the sum, it looks like a normal distribution now.
+
+[![Sum of 15 Dice Roll, 300 times](http://www.rationalpov.com/wp-content/uploads/2016/03/image-2.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546)
+
 
 
 **How to use this mental Model**:

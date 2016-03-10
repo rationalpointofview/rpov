@@ -133,15 +133,11 @@ recall the formular for standard deviation is:
 
 ![Standard Deviation](https://upload.wikimedia.org/math/3/1/8/31830fa1f2f922edf6079209a51f8967.png)
 
-      ___________________________________________________
-     /                       2                          2
- |  / (0.45 * 1  -  ( - 0.1))  + (0.55 * ( - 1) - (0.1)) 
- | /  ---------------------------------------------------
- |/                            2                         
+we can compute the standard deviation as the follows:
+
+![standard deviation](http://www.rationalpov.com/wp-content/uploads/2016/03/render.png)
 
 
-
-((0.45*1 - (-0.1))^2 + (0.55*(-0.1)-(-0.1))^2)^1/2
 
 
 [Example: SUV Recall](https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm)

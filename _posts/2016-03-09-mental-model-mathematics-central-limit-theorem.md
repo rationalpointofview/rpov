@@ -59,26 +59,17 @@ For example, Human height is influenced by genes, enviromental effects, nutritio
 You can think of the human height as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
 
 
-**Bonus: How to Read the Normal Distribution Diagram**
-
-I think I know Normal Distribution Digram, but until I use excel to plot one, I found out actually I don't really understand normal distribtuion digram ! So here is the findings of rediscovering normal distribution diagram.
-
-![Normal Distribution Diagram](http://www.rationalpov.com/wp-content/uploads/2016/03/Empirical_Rule.png)
-
-what is the x-axis ?
-
-the x-axis is the standard deviation from the mean, ( translate , the actual values of the sample)
-
-what is the y-axis ?
-
-y-axis the the probability of geting this value
-
-![Normal Distribution Diagram Explained](http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png)
 
 
 **How to use this mental Model**:
 
-when you know the true mean and standard deviation of a group , and you pull a set of samples from the pool, then you can predict:
+* Gather following data by statistics,combination/permutations or approximations
+
+    - Group true mean
+    - Group standard deviation
+
+* Compute the sample group mean/sum mean and standard deviation from CLT
+* Use Normdist function of google spreadsheet to find out the probability, if needed.
 
 
 
@@ -122,5 +113,55 @@ by using Normdist function in google spreadsheet(=normdist(230,211,9.2,true)), w
 Thus the probability of the sample average be above 230 is 1-0.98 = 2%
 
 
+[Example: Slot Machine](https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm)
 
+> Suppose that we play a slot machine such you can either double your bet or lose your bet.  If there is a 45% chance of winning, what is the probability of the Gambler will not lose by playing 100 times ?
+
+* The Group mean of expected payout:
+
+= 45% * 1 + 55% * -1 =-0.1 
+
+* The Group standard deviation:
+
+It is a tricky one:
+
+How can we know the standard deviation ?
+
+There is only two possible outcome, winning $1, which has a probability of 45%, and losing $1, which has a probability of 55%
+
+recall the formular for standard deviation is:
+
+![Standard Deviation](https://upload.wikimedia.org/math/3/1/8/31830fa1f2f922edf6079209a51f8967.png)
+
+((0.45*1 - (-0.1))^2 + (0.55*(-0.1)-(-0.1))^2)^1/2
+
+
+[Example: SUV Recall](https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm)
+
+The new Endeavor SUV has been recalled because 5% of the cars experience brake failure.  The Tahoe dealership has sold 200 of these cars.  What is the probability that fewer than 4% of the cars from Tahoe experience brake failure?
+
+Group mean of brake failure: 5%
+Group break failure standard deviation: ??
+
+Sample mean of break failure: 5%
+
+
+
+
+
+**Bonus: How to Read the Normal Distribution Diagram**
+
+I think I know Normal Distribution Digram, but until I use excel to plot one, I found out actually I don't really understand normal distribtuion digram ! So here is the findings of rediscovering normal distribution diagram.
+
+![Normal Distribution Diagram](http://www.rationalpov.com/wp-content/uploads/2016/03/Empirical_Rule.png)
+
+what is the x-axis ?
+
+the x-axis is the standard deviation from the mean, ( translate , the actual values of the sample)
+
+what is the y-axis ?
+
+y-axis the the probability of geting this value
+
+![Normal Distribution Diagram Explained](http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png)
 

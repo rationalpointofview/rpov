@@ -18,7 +18,10 @@ Why is it important ?
 
 One word: __Predictions__
 
-It give you the ultimate power. Knowing and predicting the future.
+It give you the ultimate power. Knowing and predicting the future. 
+
+It also give you a framework of assimilating framented informations.
+
 
 
 # What are Lattice Work of mental models ?

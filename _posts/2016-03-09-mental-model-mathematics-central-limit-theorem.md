@@ -38,6 +38,34 @@ If we roll 15 dice together, and record the sum, it looks like a normal distribu
 
 [![Sum of 15 Dice Roll, 300 times](http://www.rationalpov.com/wp-content/uploads/2016/03/image-2.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546)
 
+** Why this is important?**
+
+Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, human hight, student exam scores ..
+
+Thats because a lot of things can be think of a complex system black box, with many influencing factor, but no single decisive factor. 
+
+For example, Human height is influenced by genes, enviromental effects, nutritions etc.
+
+You can think of the human height as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
+
+
+** How to Read the Normal Distribution Diagram
+
+I think I know Normal Distribution Digram, but until I use excel to plot one, I found out actually I don't really understand normal distribtuion digram ! So here is the findings of rediscovering normal distribution diagram.
+
+![Normal Distribution Diagram](https://en.wikipedia.org/wiki/File:Empirical_Rule.PNG)
+
+what is the x-axis ?
+
+the x-axis is the standard deviation from the mean, ( translate , the actual values of the sample)
+
+what is the y-axis ?
+
+y-axis the the probability of geting this value
+
+![Normal Distribution Diagram Explained](http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png)
+
+
 
 
 **How to use this mental Model**:

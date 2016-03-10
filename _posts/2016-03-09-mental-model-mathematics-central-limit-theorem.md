@@ -15,10 +15,14 @@ published: true
 **Discipline:Mathematics** 
 **Lattice Rank :7**
 
+**Related Lattice**
+Law of large numbers
+Invert
+
 #Introductions
 
 
-The central limit theorom tells you that, if you draw a fix number of samples n ( assume n big enough, we will talk about whats big enough later ) random samples from pool with known standard deviation & mean, then the sum of these sample values will form a bell curve, which mean of the sum will be true mean x n, and standard deviation of these sum will be pool standard deviation * n^1/2.
+The central limit theorom tells you that, if you draw a fix number of samples n ( assume n big enough, we will talk about whats big enough later ) random samples from pool with known standard deviation & mean, but **regardless the distribution shape**, then the sum of these sample values will form a bell curve, which mean of the sum will be true mean x n, and standard deviation of these sum will be pool standard deviation * n^1/2.
 
 Couple of things to notice:
 
@@ -42,14 +46,18 @@ If we roll 15 dice together, and record the sum, it looks like a normal distribu
 
 Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, human hight, student exam scores ..
 
-Thats because a lot of things can be think of a complex system black box, with many influencing factor, but no single decisive factor. 
+Thats because a lot of things can be think of a black box which has many internal parts, and the output of the system could think of like of a sum of all the internal valuable effects, these values usually has range, so the output the system is a bell curve,
+
+most natural things or complex could be simulated by this.
+you can use it to find out the probability of certain event.
+
 
 For example, Human height is influenced by genes, enviromental effects, nutritions etc.
 
 You can think of the human height as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
 
 
-**How to Read the Normal Distribution Diagram**
+**Bonus: How to Read the Normal Distribution Diagram**
 
 I think I know Normal Distribution Digram, but until I use excel to plot one, I found out actually I don't really understand normal distribtuion digram ! So here is the findings of rediscovering normal distribution diagram.
 
@@ -66,13 +74,28 @@ y-axis the the probability of geting this value
 ![Normal Distribution Diagram Explained](http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png)
 
 
-
-
 **How to use this mental Model**:
+
+when you know the true mean and standard deviation of a group , and you pull a set of samples from the pool, then you can predict:
+
+
 
 **Conditions:**
 
+Three conditions:
+- the outcome of this event is finite ( dice, gamble, digital event), but more than 1 possibilities ( 2 is okay ) think throw a dice
+- the outcome of sample event is mutually exclusive
+- the outcome of sample event is independent
+- sample size of sample group >30
+- the result is the **sum** of all samples ( could be spatial or temporal ) from that group.
+
+
 **Predictions:**
+
+* The mean of the samples
+* The probability of the mean of the samples higher or lower than a speicified number
+
+
 
 ___
  

@@ -32,7 +32,7 @@ This is a simulation of dice roll of 300 times using google spreadsheet, as you 
 
 But if we roll 10 dice together, and record the sum, it look like this:
 
-[![Sum of 10 Dice Roll, 300 times](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/v44le7zz.png)][https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546]
+[![Sum of 10 Dice Roll, 300 times](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/v44le7zz.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546)
 
 
 **How to use this mental Model**:

@@ -46,6 +46,8 @@ If we roll 15 dice together, and record the sum, it looks like a normal distribu
 
 Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, human hight, student exam scores ..
 
+![Bean Machine Normal Distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/Planche_de_Galton.jpg)
+
 Thats because a lot of things can be think of a black box which has many internal parts, and the output of the system could think of like of a sum of all the internal valuable effects, these values usually has range, so the output the system is a bell curve,
 
 most natural things or complex could be simulated by this.

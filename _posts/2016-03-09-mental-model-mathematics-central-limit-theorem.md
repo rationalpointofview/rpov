@@ -71,6 +71,16 @@ You can think of the human height as sumation of all the influencing factors of 
 * Compute the sample group mean/sum mean and standard deviation from CLT
 * Use Normdist function of google spreadsheet to find out the probability, if needed.
 
+There is a special case of [applying CLT whent the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
+
+>The Binomial(n, p) distribution is the distribution of Y , the number of
+heads in n tosses of a biased coin, when the probability of getting a head on
+a single toss is p. We begin by setting up a separate random variable for each
+toss.
+
+if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then SD(x):
+
+![CLT of binomial distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
 
 
 **Conditions:**
@@ -133,21 +143,47 @@ recall the formular for standard deviation is:
 
 ![Standard Deviation](https://upload.wikimedia.org/math/3/1/8/31830fa1f2f922edf6079209a51f8967.png)
 
-we can compute the standard deviation as the follows:
+we can compute the group standard deviation as the follows:
 
-![standard deviation](http://www.rationalpov.com/wp-content/uploads/2016/03/render.png)
+![standard deviation](http://www.rationalpov.com/wp-content/uploads/2016/03/render-2.png)
+
+* The SD is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
 
 
+= 0.9947
+
+
+Let's plug the numbers in to CLT
+
+sample mean = group mean = -0.1
+
+100 sample group standard deviation mean  = 0.9947*10/100 = 0.09947
+
+and the break even mark is 0. 
+
+not losing probability=1-normdist(0,-0.1,0.09947,true)= 1-0.84263= 15.7%
 
 
 [Example: SUV Recall](https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm)
 
 The new Endeavor SUV has been recalled because 5% of the cars experience brake failure.  The Tahoe dealership has sold 200 of these cars.  What is the probability that fewer than 4% of the cars from Tahoe experience brake failure?
 
-Group mean of brake failure: 5%
-Group break failure standard deviation: ??
+You can think of the problem is a casino game too, break failure is a payout of -1, and withouth break failure is a payout of 1
 
-Sample mean of break failure: 5%
+and probability of break failure = 5%
+
+so the mean is = 0.95*1 + 0.05*(-1)= 0.95-0.05= 0.9
+
+and the standard deviation is:
+
+(0.95*0.01+0.05*3.61)^(1/2)= 0.435
+
+the 200 sample group mean = 0.9
+
+and group mean standard deviation = (200)^(1/2)* 0.435/200 = 0.031
+
+
+
 
 
 

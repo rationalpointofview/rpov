@@ -63,7 +63,7 @@ You can think of the human height as sumation of all the influencing factors of 
 
 **How to use this mental Model**:
 
-* Gather following data by statistics,combination/permutations or approximations
+* Gather following data by statistics,combination/permutations or approximations, or proability theory
 
     - Group true mean
     - Group standard deviation
@@ -161,11 +161,15 @@ I think I know Normal Distribution Digram, but until I use excel to plot one, I 
 
 what is the x-axis ?
 
-the x-axis is the standard deviation from the mean, ( translate , the actual values of the sample)
+the x-axis is the standard deviation from the mean, ( the 0 in the normal distribution digarm is equal to the mean of the histogram)
 
 what is the y-axis ?
 
-y-axis the the probability of geting this value
+y-axis the the probability of getting this value, in real life terms, y-axis is the frequency in the histogram, noted the probability of getting mean value( the 0 point in x-axis is not 0.5! but about 0.4)
+
+
+
+
 
 ![Normal Distribution Diagram Explained](http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png)
 

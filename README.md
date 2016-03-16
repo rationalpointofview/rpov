@@ -41,3 +41,15 @@ ___
 
 how to find real life examples ?
 
+site:quora.com
+site:reddit.com
+
+
+___
+
+Tools:
+
+math equations:
+
+http://www.sciweavers.org/free-online-latex-equation-editor
+

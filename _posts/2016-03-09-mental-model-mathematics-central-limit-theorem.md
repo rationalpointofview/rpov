@@ -46,7 +46,7 @@ If we roll 15 dice together, and record the sum, it looks like a normal distribu
 
 Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, human hight, student exam scores ..
 
-![Bean Machine Normal Distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/Planche_de_Galton.jpg)
+[![Bean Machine Normal Distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/Planche_de_Galton.jpg)](http://blog.vctr.me/posts/central-limit-theorem.html)
 
 Thats because a lot of things can be think of a black box which has many internal parts, and the output of the system could think of like of a sum of all the internal valuable effects, these values usually has range, so the output the system is a bell curve,
 
@@ -164,6 +164,24 @@ and the break even mark is 0.
 not losing probability=1-normdist(0,-0.1,0.09947,true)= 1-0.84263= 15.7%
 
 
+We can also try to use the CLT for binomial distrubtion to solve this:
+
+P = 0.45
+and mean = 0.45
+SD= ((1-0.45)*0.45)^0.5=0.497
+
+so the 100 sample group SD 
+
+= 0.497/10 = 0.0497
+
+and as we definite the losing payout is 0, winning payout is 1, the point of not losing should be 0.5
+
+so the probablity of not losing = 1- normdist(0.5,0.45,0.0497,true) = 1-0.843 =15.7%
+
+
+
+
+
 [Example: SUV Recall](https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm)
 
 The new Endeavor SUV has been recalled because 5% of the cars experience brake failure.  The Tahoe dealership has sold 200 of these cars.  What is the probability that fewer than 4% of the cars from Tahoe experience brake failure?
@@ -181,6 +199,35 @@ and the standard deviation is:
 the 200 sample group mean = 0.9
 
 and group mean standard deviation = (200)^(1/2)* 0.435/200 = 0.031
+
+now we want to know what is the probability of has fewer than 4% of the break failure. 
+
+so the value of 4% breakfailure = 1*0.96+(-1)*0.04= 0.92
+
+the value of fewer than 4% break failure =1-normdist(0.92,0.9,0.031,true) = 1-0.74 = 26%
+
+if we use the CLT for binomial distrubtion
+
+we can definte:
+
+break failure = 1
+no break failure = 0
+
+chance of getting break faiulre (p) = 0.05
+
+mean = 0.05
+
+SD = ((1-0.05)0.05)^0.5=0.2179
+
+and group SD of 200 samples = 0.2179/(200^0.5)= 0.01556
+
+and getting 4% failure rate:
+
+=normdist(0.04,0.05,0.01556,true)
+
+= 0.2602, about 26%
+
+
 
 
 
@@ -203,9 +250,14 @@ what is the y-axis ?
 
 y-axis the the probability of getting this value, in real life terms, y-axis is the frequency in the histogram, noted the probability of getting mean value( the 0 point in x-axis is not 0.5! but about 0.4)
 
-
-
-
-
 ![Normal Distribution Diagram Explained](http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png)
+
+
+___
+
+More resource:
+
+[Central limit Theorem demostration](http://onlinestatbook.com/2/sampling_distributions/clt_demo.html)
+
+
 

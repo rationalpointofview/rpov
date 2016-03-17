@@ -292,7 +292,7 @@ Couple of things to use this with causion:
 
 If the true mean is say 0.47, the group SD is (0.47*(1-0.47)/1000)^0.5=0.01578, which is reasonability close to our sample group SD.
 
-but if the true mean is actually 0.1 or 0.9 the group SD is 0.009, which is very different from our group SD .
+but if the true mean is actually 0.1 or 0.9 the group SD is 0.009, which is very different from our sample group SD .
 
 So this polling technique is largely not reliable is the opinion is hugely one sided.
 

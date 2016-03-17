@@ -301,21 +301,6 @@ So this polling technique is largely not reliable is the opinion is hugely one s
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-* 
-
-
-
 **Bonus: How to Read the Normal Distribution Diagram**
 
 I think I know Normal Distribution Digram, but until I use excel to plot one, I found out actually I don't really understand normal distribtuion digram ! So here is the findings of rediscovering normal distribution diagram.

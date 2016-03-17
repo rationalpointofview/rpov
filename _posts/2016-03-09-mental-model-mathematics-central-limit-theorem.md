@@ -241,6 +241,8 @@ and getting 4% failure rate:
 
 [Example: Opinion Polls, explained from popularsocialscience.com ](http://www.popularsocialscience.com/2013/08/26/can-we-trust-opinion-polls-the-central-limit-theorem-binomial-proportion-confidence-intervals-and-likely-voters/)
 
+![house of the cards](http://www.rationalpov.com/wp-content/uploads/2016/03/house-of-cards-season-4-key-art1.jpg)
+
 Let us say that we want to know whether Candidate Obama or Candidate Underwood will win the next presidential election. 
 
 Since there is only two possible outcomes, we could applying CLT for Binomial distriubtion.
@@ -267,6 +269,8 @@ Group SD(X)= (0.54*(1-0.54)/1000)^0.5 = 0.0157
 
 p'+2sd = 0.54+2*0.0157=0.5714
 p'-2sd = 0.054-2*0.0157 = 0.5086
+
+![Polling Diagram](http://www.rationalpov.com/wp-content/uploads/2016/03/rpov-polling-1.png)
 
 All we care is: What is will the true mean value greater than 0.5? ie. will more than 50% of voter will vote for Obama ?
 
@@ -307,9 +311,6 @@ So this polling technique is largely not reliable is the opinion is hugely one s
 
 
 
-There is two possible scenario:
-
-[Polling Diagram](http://www.rationalpov.com/wp-content/uploads/2016/03/rpov-polling-1.png)
 
 * 
 

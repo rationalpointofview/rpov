@@ -58,7 +58,7 @@ For example, Human height is influenced by genes, enviromental effects, nutritio
 
 You can think of the human height as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
 
-**When it doesn apply ?
+**When it doesn apply ?**
 
 One of the drawback of CLIT is it is one of the lesser reliable ones, so as any statistic mental lattice.
 

@@ -13,11 +13,11 @@ published: true
 ---
 **Mental Model Name:Central Limit Theorem** 
 **Discipline:Mathematics** 
-**Lattice Rank :7**
+**Lattice Rank :8**
 
 **Related Lattice**
 Law of large numbers
-Invert
+
 
 #Introductions
 
@@ -28,7 +28,7 @@ Couple of things to notice:
 
 * The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
 
-* How big of n is big enough ? 30 is a good number, while 15 is kind of minimum
+* How big of n is big enough ? 30 is a good number, while 15 is stretch minimum.
 
 This is a simulation of dice roll of 300 times using google spreadsheet, as you can see, the chance of landing of each side ( 1- 6) is equal to 1/6, and roll the dice 300 times, the chance of getting 1 - 6 is even, which is a straight line.
 
@@ -58,6 +58,15 @@ For example, Human height is influenced by genes, enviromental effects, nutritio
 
 You can think of the human height as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
 
+**When it doesn apply ?
+
+One of the drawback of CLIT is it is one of the lesser reliable ones, so as any statistic mental lattice.
+
+ * The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. This comes in handy when working with statistics because statistics are sample estimates of population parameters
+
+ * The central limit theorem fails when there is an infinite variance
+
+ * The internal factor of is a lot of time not complete independent, and some times has strong correctlation with each other.
 
 
 
@@ -71,7 +80,7 @@ You can think of the human height as sumation of all the influencing factors of 
 * Compute the sample group mean/sum mean and standard deviation from CLT
 * Use Normdist function of google spreadsheet to find out the probability, if needed.
 
-There is a special case of [applying CLT whent the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
+There is a special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
 
 >The Binomial(n, p) distribution is the distribution of Y , the number of
 heads in n tosses of a biased coin, when the probability of getting a head on
@@ -79,6 +88,8 @@ a single toss is p. We begin by setting up a separate random variable for each
 toss.
 
 if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then SD(x):
+
+p is also our group mean:
 
 ![CLT of binomial distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
 
@@ -228,11 +239,79 @@ and getting 4% failure rate:
 = 0.2602, about 26%
 
 
+[Example: Opinion Polls, explained from popularsocialscience.com ](http://www.popularsocialscience.com/2013/08/26/can-we-trust-opinion-polls-the-central-limit-theorem-binomial-proportion-confidence-intervals-and-likely-voters/)
+
+Let us say that we want to know whether Candidate Obama or Candidate Underwood will win the next presidential election. 
+
+Since there is only two possible outcomes, we could applying CLT for Binomial distriubtion.
+
+lets assign value of voter vote for Obama = 1, and value of voter vote for Underwood = 0, and the probability of voter vote for Obama is p, recall:
+
+Then for the whole population:
+
+![SD(x)](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
+
+while we dont know the value of true mean, p, let's imaging that we conducted a lot of  opinion polls (say one million polls) and asking 1000 persons each time whether or not they would vote for Obama. 
+
+By CLT, we know that the distrubtion of these average of 1000 persons polls will form a bell curve, around the true mean, p.
+
+But obviously, we don't have the luxury of doing 1 million 1000 people polls. We can just do one.
+
+Say we do the hard leg work , and conduct a survey of 1000 persons and ask if they prefer the candidate Obama or candidate Underwood . Then We find that in this poll, 54 percent of those we ask will vote for Obama.
+
+Let's plug the numbers into binomial CLT
+
+p'=0.54 , ie 54% prefer Obama
+
+Group SD(X)= (0.54*(1-0.54)/1000)^0.5 = 0.0157
+
+p'+2sd = 0.54+2*0.0157=0.5714
+p'-2sd = 0.054-2*0.0157 = 0.5086
+
+All we care is: What is will the true mean value greater than 0.5? ie. will more than 50% of voter will vote for Obama ?
+
+By CLT, we know that when we do the 1000 people poll, the average of the poll results will form a bell curve around the true mean p( The bell curve on the left of the diagram) , and with standard deviation of SD.
+
+by inverting the CLT, if we have one 1000 people poll results with known p' and SD'( the bell curve on the right) , we can say that there is 95% chance the true mean is within 2 SD' away from our sample mean.
+
+In the worse case scenario( within these 95% chance), the true mean is -2 SD' from the sample mean, 
+
+we have the true mean = p'-2sd = 0.054-2*0.0157 = 0.5086, which is still greater than 0.5 
+
+so we can say that the true mean lies in region 1 ( The turf where Obama will win is 95% + 2.5% = 97.5%
+
+Couple of things to use this with causion:
+
+* There is a **non-zero** probability of the true mean lies in region 2, ( where Obama will lose), and it is not so uncommon as the numbers suggest. 
+
+* In this example, we assume sample SD = Population SD /N^0.5, which is an assumption.
+
+If the true mean is say 0.47, the group SD is (0.47*(1-0.47)/1000)^0.5=0.01578, which is reasonability close to our sample group SD.
+
+but if the true mean is actually 0.1 or 0.9 the group SD is 0.009, which is very different from our group SD .
+
+So this polling technique is largely not reliable is the opinion is hugely one sided.
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+There is two possible scenario:
+
+[Polling Diagram](http://www.rationalpov.com/wp-content/uploads/2016/03/rpov-polling-1.png)
+
+* 
 
 
 

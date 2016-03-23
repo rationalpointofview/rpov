@@ -302,9 +302,11 @@ SD= 0.0145
 
 If the True mean is within range of 0.3-0.7, the maximum difference is only
 
-0.0158-0.0145= 1.3 Percentage point per 
+0.0158-0.0145= 0.13 Percentage point standard deviation.
 
-\frac{n!}{k!(n-k)!}
+
+
+
 
 ![SD(x)](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
 

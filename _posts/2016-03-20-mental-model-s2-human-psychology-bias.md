@@ -19,17 +19,17 @@ published: true
 
 #### Reward and punishment supersonse tendency
 
-** What to Predict: **
+** What to Predict:**
 Behaviour and **cognition** of human
 what human want
 their congnition
 
-** When to use it **
+** When to use it**
 Take advice from professional advicer
 
-** How to Use it: **
+**How to Use it:**
 
-** find out the incentives in the system  **
+**find out the incentives in the system**
 Incentives are what people want, the stronger ones are:
 
 from [cas$hvertising](www.amazon.com)

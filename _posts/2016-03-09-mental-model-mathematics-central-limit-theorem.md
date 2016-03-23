@@ -24,6 +24,12 @@ Law of large numbers
 
 The central limit theorom tells you that, if you draw a fix number of samples n ( assume n big enough, we will talk about whats big enough later ) random samples from pool with known standard deviation & mean, but **regardless the distribution shape**, then the sum of these sample values will form a bell curve, which mean of the sum will be true mean x n, and standard deviation of these sum will be pool standard deviation * n^1/2.
 
+If we use the group average instead, divided both average and the sample group standard deviation by n.
+
+[Standard deviation of sample group mean ](http://www.rationalpov.com/wp-content/uploads/2016/03/E6A2D69A-C356-4900-AABE-46DFEDE096AD.gif)
+
+sample group mean average = true mean
+
 Couple of things to notice:
 
 * The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
@@ -247,19 +253,33 @@ Let us say that we want to know whether Candidate Obama or Candidate Underwood w
 
 Since there is only two possible outcomes, we could applying CLT for Binomial distriubtion.
 
+Say we do the hard leg work , and conduct a survey of 1000 persons and ask if they prefer the candidate Obama or candidate Underwood . Then We find that in this poll, 54 percent of those we ask will vote for Obama.
+
+Can we deduct anything from this merely 1000 people poll data ? we are really interested in knowing what all US voter think.
+
+
 lets assign value of voter vote for Obama = 1, and value of voter vote for Underwood = 0, and the probability of voter vote for Obama is p, recall:
 
-Then for the whole population:
-
-![SD(x)](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
 
 while we dont know the value of true mean, p, let's imaging that we conducted a lot of  opinion polls (say one million polls) and asking 1000 persons each time whether or not they would vote for Obama. 
 
 By CLT, we know that the distrubtion of these average of 1000 persons polls will form a bell curve, around the true mean, p.
 
-But obviously, we don't have the luxury of doing 1 million 1000 people polls. We can just do one.
+But obviously, we don't have the luxury of doing 1 million 1000 people polls. We can just do one. And from the one data point, we got the mean and SD
 
-Say we do the hard leg work , and conduct a survey of 1000 persons and ask if they prefer the candidate Obama or candidate Underwood . Then We find that in this poll, 54 percent of those we ask will vote for Obama.
+mean=p'=0.54
+
+![SD(x)](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
+
+SD'= 0.4983
+
+from the CLT
+
+the population standard deviation:
+
+SD = SD'
+Then for the whole population:
+
 
 Let's plug the numbers into binomial CLT
 

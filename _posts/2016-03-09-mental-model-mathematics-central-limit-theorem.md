@@ -265,9 +265,46 @@ while we dont know the value of true mean, p, let's imaging that we conducted a 
 
 By CLT, we know that the distrubtion of these average of 1000 persons polls will form a bell curve, around the true mean, p.
 
-But obviously, we don't have the luxury of doing 1 million 1000 people polls. We can just do one. And from the one data point, we got the mean and SD
+But obviously, we don't have the luxury of doing 1 million 1000 people polls. We can just do one. And from the one data point, we got the sapme mean.
 
-mean=p'=0.54
+But we can use CLT to approximately guesstimate hwo these 1 million 1000 people polls will look like.
+
+
+The SD'( The 1000 poll group average standard deviation)
+
+We can make two assumptions:
+
+The SDx = SD/N^0.5 = (p*(1-p)/n)^0.5
+
+but the problem is , we dont know the true mean P, how can we solve that?
+
+__We can use the sample p' value as our approximation to true mean P.__ 
+
+__Heck. We could actually use the abitary number of 0.5 ( assume the chance is even, and hence the maximum SD)__
+
+It is a relative Safe assumption, as long as the true mean P is within 0.3 to 0.7 
+
+Why ?
+
+Using the same 1000 people Poll assumption:
+
+Case: True Mean = 0.7 
+
+SD= 0.0145
+
+Case: True Mean = 0.5
+
+SD = 0.0158
+
+Case: True Mean = 0.3
+
+SD= 0.0145
+
+If the True mean is within range of 0.3-0.7, the maximum difference is only
+
+0.0158-0.0145= 1.3 Percentage point per 
+
+\frac{n!}{k!(n-k)!}
 
 ![SD(x)](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
 

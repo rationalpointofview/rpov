@@ -22,13 +22,13 @@ Law of large numbers
 #Introductions
 
 
-The central limit theorom tells you that, if you draw a fix number of samples n ( assume n big enough, we will talk about whats big enough later ) random samples from pool with known standard deviation & mean, but **regardless the distribution shape**, then the sum of these sample values will form a bell curve, which mean of the sum will be true mean x n, and standard deviation of these sum will be pool standard deviation * n^1/2.
+The central limit theorom tells you that, if you draw a fix number of samples n ( assume n big enough, we will talk about whats big enough later ) random samples from pool with known standard deviation & mean, but **regardless the distribution shape**, then the sum of these sample values will form a bell curve, which mean of the sum will be µ x n, and standard deviation of these sum will be pool standard deviation * n^1/2.
 
 If we use the group average instead, divided both average and the sample group standard deviation by n.
 
-[Standard deviation of sample group mean ](http://www.rationalpov.com/wp-content/uploads/2016/03/E6A2D69A-C356-4900-AABE-46DFEDE096AD.gif)
+[standard deviation of sample group mean ](http://www.rationalpov.com/wp-content/uploads/2016/03/E6A2D69A-C356-4900-AABE-46DFEDE096AD.gif)
 
-sample group mean average = true mean
+sample group mean average = µ
 
 Couple of things to notice:
 
@@ -64,7 +64,7 @@ For example, Human height is influenced by genes, enviromental effects, nutritio
 
 You can think of the human height as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
 
-**When it doesn apply ?**
+**When it does'n apply ?**
 
 One of the drawback of CLIT is it is one of the lesser reliable ones, so as any statistic mental lattice.
 
@@ -72,7 +72,10 @@ One of the drawback of CLIT is it is one of the lesser reliable ones, so as any 
 
  * The central limit theorem fails when there is an infinite variance
 
- * The internal factor of is a lot of time not complete independent, and some times has strong correctlation with each other.
+ * The internal factor of is of this blackbox not complete independent, and some times has strong correctlation with each other, and there could be possibly has positive/negative feedback into then, which will create extreme outcomes.
+
+An Excellent illustration is explained by [Danielle Fong](http://daniellefong.com/2008/01/28/outliers-why-the-central-limit-theorem-is-typically-off/)
+
 
 
 
@@ -80,10 +83,30 @@ One of the drawback of CLIT is it is one of the lesser reliable ones, so as any 
 
 * Gather following data by statistics,combination/permutations or approximations, or proability theory
 
-    - Group true mean
+    - Group µ
     - Group standard deviation
 
+    There is a special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
+
+    >The Binomial(n, p) distribution is the distribution of Y , the number of
+    heads in n tosses of a biased coin, when the probability of getting a head on
+    a single toss is p. We begin by setting up a separate random variable for each
+    toss.
+
+    if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then σ(x):
+
+    p is also our group mean:
+
+    ![CLT of binomial distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
 * Compute the sample group mean/sum mean and standard deviation from CLT
+
+    * Caution: You can't use one sample group data standard deviation to calculate population standard deviation.
+    
+    as the CLT only says: sample group average σ' = σ/(n)^0.5
+
+    The σ' standard deviation of sample group average, not the stand deviation within the samples.
+
+
 * Use Normdist function of google spreadsheet to find out the probability, if needed.
 
 There is a special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
@@ -93,7 +116,7 @@ heads in n tosses of a biased coin, when the probability of getting a head on
 a single toss is p. We begin by setting up a separate random variable for each
 toss.
 
-if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then SD(x):
+if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then σ(x):
 
 p is also our group mean:
 
@@ -123,13 +146,13 @@ ___
 
 According the National Center for Health Statistics, the distribution of serum cholesterol levels for 20- to 74-year-old males living in the United States has mean 211 mg/dl, and a standard deviation of 46 mg/dl We are planning to collect a sample of 25 individuals and measure their cholesterol levels What is the probability that our sample average will be above 230?
 
-The group true mean is 211mg/dl
-The group SD is 46 mg/dl
+The group µ is 211mg/dl
+The group σ is 46 mg/dl
 
 So by CLT, if we run the 25 sample test many times, the sum of these samples will form a bell curve, with the following characteristic
 
 group sum mean: = 25* 211 = 5275
-group sum SD = 46 * 25^1/2 = 46*5 = 230
+group sum σ = 46 * 25^1/2 = 46*5 = 230
 group average: = 211
 group average S = 230/25 = 9.2
 
@@ -158,13 +181,13 @@ There is only two possible outcome, winning $1, which has a probability of 45%, 
 
 recall the formular for standard deviation is:
 
-![Standard Deviation](https://upload.wikimedia.org/math/3/1/8/31830fa1f2f922edf6079209a51f8967.png)
+![standard deviation](https://upload.wikimedia.org/math/3/1/8/31830fa1f2f922edf6079209a51f8967.png)
 
 we can compute the group standard deviation as the follows:
 
 ![standard deviation](http://www.rationalpov.com/wp-content/uploads/2016/03/render-2.png)
 
-* The SD is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
+* The σ is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
 
 
 = 0.9947
@@ -184,10 +207,9 @@ not losing probability=1-normdist(0,-0.1,0.09947,true)= 1-0.84263= 15.7%
 We can also try to use the CLT for binomial distrubtion to solve this:
 
 P = 0.45
-and mean = 0.45
-SD= ((1-0.45)*0.45)^0.5=0.497
+and mean = 0.45 σ= ((1-0.45)*0.45)^0.5=0.497
 
-so the 100 sample group SD 
+so the 100 sample group σ 
 
 = 0.497/10 = 0.0497
 
@@ -233,10 +255,9 @@ no break failure = 0
 chance of getting break faiulre (p) = 0.05
 
 mean = 0.05
+ σ = ((1-0.05)0.05)^0.5=0.2179
 
-SD = ((1-0.05)0.05)^0.5=0.2179
-
-and group SD of 200 samples = 0.2179/(200^0.5)= 0.01556
+and group σ of 200 samples = 0.2179/(200^0.5)= 0.01556
 
 and getting 4% failure rate:
 
@@ -261,46 +282,43 @@ Can we deduct anything from this merely 1000 people poll data ? we are really in
 lets assign value of voter vote for Obama = 1, and value of voter vote for Underwood = 0, and the probability of voter vote for Obama is p, recall:
 
 
-while we dont know the value of true mean, p, let's imaging that we conducted a lot of  opinion polls (say one million polls) and asking 1000 persons each time whether or not they would vote for Obama. 
+while we dont know the value of µ, p, let's imaging that we conducted a lot of  opinion polls (say one million polls) and asking 1000 persons each time whether or not they would vote for Obama. 
 
-By CLT, we know that the distrubtion of these average of 1000 persons polls will form a bell curve, around the true mean, p.
+By CLT, we know that the distrubtion of these average of 1000 persons polls will form a bell curve, around the µ, p.
 
 But obviously, we don't have the luxury of doing 1 million 1000 people polls. We can just do one. And from the one data point, we got the sapme mean.
 
 But we can use CLT to approximately guesstimate hwo these 1 million 1000 people polls will look like.
 
 
-The SD'( The 1000 poll group average standard deviation)
+The σ'( The 1000 poll group average standard deviation)
 
 We can make two assumptions:
 
-The SDx = SD/N^0.5 = (p*(1-p)/n)^0.5
+The σx = σ/N^0.5 = (p*(1-p)/n)^0.5
 
-but the problem is , we dont know the true mean P, how can we solve that?
+but the problem is , we dont know the µ P, how can we solve that?
 
-__We can use the sample p' value as our approximation to true mean P.__ 
+__We can use the sample p' value as our approximation to µ P.__ 
 
-__Heck. We could actually use the abitary number of 0.5 ( assume the chance is even, and hence the maximum SD)__
+__Heck. We could actually use the abitary number of 0.5 ( assume the chance is even, and hence the maximum σ)__
 
-It is a relative Safe assumption, as long as the true mean P is within 0.3 to 0.7 
+It is a relative Safe assumption, as long as the µ P is within 0.3 to 0.7 
 
 Why ?
 
 Using the same 1000 people Poll assumption:
 
-Case: True Mean = 0.7 
+Case: µ = 0.7 
+ σ= 0.0145
 
-SD= 0.0145
+Case: µ = 0.5
+ σ = 0.0158
 
-Case: True Mean = 0.5
+Case: µ = 0.3
+ σ= 0.0145
 
-SD = 0.0158
-
-Case: True Mean = 0.3
-
-SD= 0.0145
-
-If the True mean is within range of 0.3-0.7, the maximum difference is only
+If the µ is within range of 0.3-0.7, the maximum difference is only
 
 0.0158-0.0145= 0.13 Percentage point standard deviation.
 
@@ -308,15 +326,13 @@ If the True mean is within range of 0.3-0.7, the maximum difference is only
 
 
 
-![SD(x)](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
-
-SD'= 0.4983
+! σ(x)](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
+ σ'= 0.4983
 
 from the CLT
 
 the population standard deviation:
-
-SD = SD'
+ σ = σ'
 Then for the whole population:
 
 
@@ -324,39 +340,118 @@ Let's plug the numbers into binomial CLT
 
 p'=0.54 , ie 54% prefer Obama
 
-Group SD(X)= (0.54*(1-0.54)/1000)^0.5 = 0.0157
+Group σ(X)= (0.54*(1-0.54)/1000)^0.5 = 0.0157
 
-p'+2sd = 0.54+2*0.0157=0.5714
-p'-2sd = 0.054-2*0.0157 = 0.5086
+p'+ σ = 0.54+2*0.0157=0.5714
+p'- σ = 0.054-2*0.0157 = 0.5086
 
 ![Polling Diagram](http://www.rationalpov.com/wp-content/uploads/2016/03/rpov-polling-1.png)
 
-All we care is: What is will the true mean value greater than 0.5? ie. will more than 50% of voter will vote for Obama ?
+All we care is: What is will the µ value greater than 0.5? ie. will more than 50% of voter will vote for Obama ?
 
-By CLT, we know that when we do the 1000 people poll, the average of the poll results will form a bell curve around the true mean p( The bell curve on the left of the diagram) , and with standard deviation of SD.
+By CLT, we know that when we do the 1000 people poll, the average of the poll results will form a bell curve around the µ p( The bell curve on the left of the diagram) , and with standard deviation of σ.
 
-by inverting the CLT, if we have one 1000 people poll results with known p' and SD'( the bell curve on the right) , we can say that there is 95% chance the true mean is within 2 SD' away from our sample mean.
+by inverting the CLT, if we have one 1000 people poll results with known p' and σ'( the bell curve on the right) , we can say that there is 95% chance the µ is within 2 σ' away from our sample mean.
 
-In the worse case scenario( within these 95% chance), the true mean is -2 SD' from the sample mean, 
+In the worse case scenario( within these 95% chance), the µ is -2 σ' from the sample mean, 
 
-we have the true mean = p'-2sd = 0.054-2*0.0157 = 0.5086, which is still greater than 0.5 
+we have the µ = p'- σ = 0.054-2*0.0157 = 0.5086, which is still greater than 0.5 
 
-so we can say that the true mean lies in region 1 ( The turf where Obama will win is 95% + 2.5% = 97.5%
+so we can say that the µ lies in region 1 ( The turf where Obama will win is 95% + 2.5% = 97.5%
 
 Couple of things to use this with causion:
 
-* There is a **non-zero** probability of the true mean lies in region 2, ( where Obama will lose), and it is not so uncommon as the numbers suggest. 
+* There is a **non-zero** probability of the µ lies in region 2, ( where Obama will lose), and it is not so uncommon as the numbers suggest. 
 
-* In this example, we assume sample SD = Population SD /N^0.5, which is an assumption.
+* In this example, we assume sample σ = Population σ /N^0.5, which is an assumption.
 
-If the true mean is say 0.47, the group SD is (0.47*(1-0.47)/1000)^0.5=0.01578, which is reasonability close to our sample group SD.
+If the µ is say 0.47, the group σ is (0.47*(1-0.47)/1000)^0.5=0.01578, which is reasonability close to our sample group σ.
 
-but if the true mean is actually 0.1 or 0.9 the group SD is 0.009, which is very different from our sample group SD .
+but if the µ is actually 0.1 or 0.9 the group σ is 0.009, which is very different from our sample group σ .
 
 So this polling technique is largely not reliable is the opinion is hugely one sided.
 
 
 
+
+[Example Salary Survey](https://historiesofcatastrophicdreaming.wordpress.com/quantitative-methods/third-and-final-exam-qm/the-central-limit-theorem/practical-applications-of-the-central-limit-theorem/)
+
+
+>The mean salary of the 9,000 employees at Holley.com is µ = 26,000 with a standard deviation of σ = 2420.  A pollster samples 400 randomly selected employees and finds that the mean salary of the sample is 26 650. Is it likely that the pollster would get these results by chance, or does the discrepancy suggest that the pollster’s results are suspect?
+
+Step of Analysis:
+
+* Gather following data by statistics,combination/permutations or approximations, or proability theory
+
+Group true mean:
+µ = 26000
+
+Group standard deviation:
+σ = 2420
+
+Compute the sample group mean/sum mean and standard deviation from CLT
+
+the sample group of 400 standard deviation:
+σ' = 2420/20 = 121
+
+so the mean salary of the sample is 5σ' away, which is raise a big question mark, so the pollster's result could by a suspect.
+
+[Example Noise Cancellation](http://people.math.gatech.edu/~ecroot/3215/central_limit_apps.pdf)
+
+> Suppose that a man is driving through the desert, and runs out of gas. He
+grabs his cellphone to make a call for help, dialing 911, but he is just at
+the edge of the broadcast range for his cellphone, and so his call to the 911
+dispatcher is somewhat noisy and garbled. Suppose that the 911 dispatcher
+has the ability to use several cellphone towers to clean up the signal. Suppose
+that there are about 100 towers near to the stranded driver, and suppose that
+the signals they each receive at a particular instant in time is given by:
+
+![example formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/f3cjc3ug.png)
+
+S is the true signal and Yi is the noise.
+
+From basic signal & information theory, we can assume the Yi noise is independaent and normally distributed, and has a mean 0 and standard deviation of σ.
+
+So the 911 dispatcher can do the noise cancellation by computing the average.  
+
+![average](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x51fqq9-.png)
+
+At any rate, if we assume that the Yi are all independent normal random variables, then we don’t even need the central limit theorem, because in that case we have that X − S is exactly N(0, σ2/100).
+
+By just summing the signal average from 100 towers, we can perform a noisse cancellation and increate the Signal to noise ration by 100 fold !
+
+[Example Hypothesis Testing](http://people.math.gatech.edu/~ecroot/3215/central_limit_apps.pdf)
+
+> Problem. You read in a newspaper that 20% of Georgians smoke, and you
+decide to test this hypothesis by doing a poll on 1, 000 randomly selected
+Georgians with replacement (if the population you are testing is very large,
+then you would not need to test with replacement). Suppose that 205 of
+the responses are “smoker”, while 795 are “non-smoker”. Is the claim “20%
+of Georgians smoke” unreasonable? (Obviously not, but let’s see what the
+math tells us...)
+
+__Step of Analysis:__
+
+* Gather following data by statistics,combination/permutations or approximations, or proability theory
+
+    - Group µ
+
+        By using binomal case of CLT, the p we want to test is:
+            p = 0.2 ( 20% of Georgians Smoke)
+    - Group standard deviation σ
+            σ = (0.2*0.8)^0.5
+* Compute the sample group mean/sum mean and standard deviation from CLT
+
+            If the hypothesis is true:
+
+            The group mean = p =0.2
+            standard deviation σ'= σ/(1000)^0.5 = 0.0126
+
+
+
+* Use Normdist function of google spreadsheet to find out the probability, if needed.
+
+    The polling result is 20.5%, which is wihin p+__σ', we would say it is quite probable.
 
 
 

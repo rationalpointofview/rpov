@@ -252,6 +252,8 @@ and getting 4% failure rate:
 
 = 0.2602, about 26%
 
+___
+
 [Example: Opinion Polls, explained from popularsocialscience.com ][16]
 
 ![house of the cards][17]
@@ -369,7 +371,7 @@ but if the µ is actually 0.1 or 0.9 the group σ is 0.009, which is very differ
 So this polling technique is largely not reliable is the opinion is hugely one sided.
 
 
-
+___
 
 [Example Salary Survey](https://historiesofcatastrophicdreaming.wordpress.com/quantitative-methods/third-and-final-exam-qm/the-central-limit-theorem/practical-applications-of-the-central-limit-theorem/)
 
@@ -392,6 +394,8 @@ the sample group of 400 standard deviation:
 σ' = 2420/20 = 121
 
 so the mean salary of the sample is 5σ' away, which is raise a big question mark, so the pollster's result could by a suspect.
+
+___
 
 [Example Noise Cancellation](http://people.math.gatech.edu/~ecroot/3215/central_limit_apps.pdf)
 
@@ -416,6 +420,8 @@ So the 911 dispatcher can do the noise cancellation by computing the average.
 At any rate, if we assume that the Yi are all independent normal random variables, then we don’t even need the central limit theorem, because in that case we have that X − S is exactly N(0, σ2/100).
 
 By just summing the signal average from 100 towers, we can perform a noisse cancellation and increate the Signal to noise ration by 100 fold !
+
+___
 
 [Example Hypothesis Testing](http://people.math.gatech.edu/~ecroot/3215/central_limit_apps.pdf)
 
@@ -450,7 +456,7 @@ __Step of Analysis:__
 
     The polling result is 20.5%, which is wihin p+__σ', we would say it is quite probable.
 
-
+___
 [Example Testing a proportion](http://people.cas.uab.edu/~mpogwizd/ma180-fall-2014/HypothesisTesting.pdf)
 
 > The XSORT method of gender selection is believed to increases the likelihood of birthing a girl.
@@ -481,7 +487,9 @@ so the claim is accepted
 
 * Use Normdist function of google spreadsheet to find out the probability, if needed.
 
-* [Example AP Scores](http://homepages.math.uic.edu/~bpower6/stat101/Sampling%20Distributions.pdf)
+___
+
+[Example AP Scores](http://homepages.math.uic.edu/~bpower6/stat101/Sampling%20Distributions.pdf)
 
 > A Teacher has a class of 68 students taking the AP Physics test. Assuming they are typical of the population, the result of whose scores are given, what is the probability the average score will be at least 3?
 
@@ -513,13 +521,6 @@ using 1-normdist(0.5381,0.5,0.01014198,true)= 1-0.9999139= 0.008%
 so the probability of hypothesis of homefield advantage not exist is 0.008%
 
 
-
-
-
-
-
-
-=======
 **Bonus: How to Read the Normal Distribution Diagram**
 
 I think I know Normal Distribution Digram, but until I use excel to plot one, I found out actually I don't really understand normal distribtuion digram ! So here is the findings of rediscovering normal distribution diagram.

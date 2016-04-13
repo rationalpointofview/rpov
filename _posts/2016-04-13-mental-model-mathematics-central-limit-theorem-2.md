@@ -184,12 +184,6 @@ we can compute the group standard deviation as the follows:
 * The σ is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
 ![Standard Deviation][14]
 
-we can compute the group standard deviation as the follows:
-
-![standard deviation][15]
->>>>>>> bb995089297998d99aecb9cea33f3b56123ec0c5:_posts/2016-04-13-mental-model-mathematics-central-limit-theorem-2.md
-
-*   The SD is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
 
 = 0.9947
 
@@ -210,10 +204,6 @@ and mean = 0.45 σ= ((1-0.45)*0.45)^0.5=0.497
 
 so the 100 sample group σ 
 P = 0.45 and mean = 0.45 SD= ((1-0.45)*0.45)^0.5=0.497
-
-so the 100 sample group SD
-
-= 0.497/10 = 0.0497
 
 and as we definite the losing payout is 0, winning payout is 1, the point of not losing should be 0.5
 

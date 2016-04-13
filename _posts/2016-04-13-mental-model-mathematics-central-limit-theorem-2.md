@@ -39,7 +39,7 @@ If we use the group average instead, divided both average and the sample group s
 
 
 [Standard deviation of sample group mean ][1]
->>>>>>> bb995089297998d99aecb9cea33f3b56123ec0c5:_posts/2016-04-13-mental-model-mathematics-central-limit-theorem-2.md
+
 
 [standard deviation of sample group mean ](http://www.rationalpov.com/wp-content/uploads/2016/03/E6A2D69A-C356-4900-AABE-46DFEDE096AD.gif)
 
@@ -49,25 +49,15 @@ sample group mean average = µ
 __Simulations:__
 *   The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
 
-*   How big of n is big enough ? 30 is a good number, while 15 is stretch minimum.
+*   How big of n is big enough ? 30 is a good number, while 15 is kind of minimum .
 
-This is a simulation of dice roll of 300 times using google spreadsheet, as you can see, the chance of landing of each side ( 1- 6) is equal to 1/6, and roll the dice 300 times, the chance of getting 1 - 6 is even, which is a straight line.
 
-[![300 Dice Roll Results][2]][3]
-
-But if we roll 10 dice together, and record the sum, it look like this, better, but not perfect
-
-[![Sum of 10 Dice Roll, 300 times][4]][5]
-
-If we roll 15 dice together, and record the sum, it looks like a normal distribution now.
-
-[![Sum of 15 Dice Roll, 300 times][6]][5]
 
 **Why this is important?**
 
-Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, for example, [human height](http://io9.gizmodo.com/5899665/this-human-bar-graph-shows-how-weve-grown-taller-over-80-years).
+Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, for example, ![human height](http://io9.gizmodo.com/5899665/this-human-bar-graph-shows-how-weve-grown-taller-over-80-years).
 
-[![Bean Machine Normal Distribution][7]][8]
+
 
 Thats because a lot of things can be think of a black box, which consist of  many internal parts, and the output of the system could think of a sum of all the internal valuable, these values usually has range, so the output the system is a bell curve,
 
@@ -79,7 +69,7 @@ For example, Human height is influenced by genes, enviromental effects, nutritio
 Because if the shape of the distribution is known, we can reverse look up the probability of the data set
 
 most natural things or complex could be simulated by this. you can use it to find out the probability of certain event.
->>>>>>> bb995089297998d99aecb9cea33f3b56123ec0c5:_posts/2016-04-13-mental-model-mathematics-central-limit-theorem-2.md
+
 
 **When it does'n apply ?**
 
@@ -218,7 +208,7 @@ recall the formular for standard deviation is:
 
 we can compute the group standard deviation as the follows:
 
-![standard deviation](http://www.rationalpov.com/wp-content/uploads/2016/03/render-2.png)
+![standard deviation](http://www.rationalpov.com/wp-content/uploads/2016/04/render-2.png)
 
 * The σ is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
 ![Standard Deviation][14]
@@ -362,7 +352,7 @@ If the µ is within range of 0.3-0.7, the maximum difference is only
 
 
 
-! σ(x)](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
+! σ(x)](http://www.rationalpov.com/wp-content/uploads/2016/04/gn6xmnvy.png)
  σ'= 0.4983
 
 from the CLT

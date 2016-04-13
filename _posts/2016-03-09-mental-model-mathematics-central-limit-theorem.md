@@ -22,7 +22,23 @@ Law of large numbers
 #Introductions
 
 
-The central limit theorom tells you that, if you draw a fix number of samples n ( assume n big enough, we will talk about whats big enough later ) random samples from pool with known standard deviation & mean, but **regardless the distribution shape**, then the sum of these sample values will form a bell curve, which mean of the sum will be µ x n, and standard deviation of these sum will be pool standard deviation * n^1/2.
+The central limit theorom:
+
+__The condition:__
+
+* if you draw a fix number of random samples __many times__ ( assuming this fix number n is big enough, we will talk about whats big enough later ) from a pool of numbers with known standard deviation & mean.
+ 
+    - The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
+
+    - How big of n is big enough ? 30 is a good number, while 15 is stretch minimum.
+    
+__The prediction:__
+
+The sum( or average) of these sample values from each draw will form a bell curve
+
+
+The mean of the bell curve be µ x n:
+The standard deviation of these sum will be pool standard deviation * n^1/2.
 
 If we use the group average instead, divided both average and the sample group standard deviation by n.
 
@@ -30,11 +46,8 @@ If we use the group average instead, divided both average and the sample group s
 
 sample group mean average = µ
 
-Couple of things to notice:
 
-* The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
-
-* How big of n is big enough ? 30 is a good number, while 15 is stretch minimum.
+__Simulations:__
 
 This is a simulation of dice roll of 300 times using google spreadsheet, as you can see, the chance of landing of each side ( 1- 6) is equal to 1/6, and roll the dice 300 times, the chance of getting 1 - 6 is even, which is a straight line.
 
@@ -50,25 +63,30 @@ If we roll 15 dice together, and record the sum, it looks like a normal distribu
 
 **Why this is important?**
 
-Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, human hight, student exam scores ..
+Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, for example, [human height](http://io9.gizmodo.com/5899665/this-human-bar-graph-shows-how-weve-grown-taller-over-80-years).
 
 [![Bean Machine Normal Distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/Planche_de_Galton.jpg)](http://blog.vctr.me/posts/central-limit-theorem.html)
 
-Thats because a lot of things can be think of a black box which has many internal parts, and the output of the system could think of like of a sum of all the internal valuable effects, these values usually has range, so the output the system is a bell curve,
-
-most natural things or complex could be simulated by this.
-you can use it to find out the probability of certain event.
+Thats because a lot of things can be think of a black box, which consist of  many internal parts, and the output of the system could think of a sum of all the internal valuable, these values usually has range, so the output the system is a bell curve,
 
 
-For example, Human height is influenced by genes, enviromental effects, nutritions etc.
+For example, Human height is influenced by genes, enviromental effects, nutritions etc. The final result(Height) can be think of as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
 
-You can think of the human height as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
+**Why this is useful?**
+
+Because if the shape of the distribution is known, we can reverse look up the probability of the data set
+
 
 **When it does'n apply ?**
 
-One of the drawback of CLIT is it is one of the lesser reliable ones, so as any statistic mental lattice.
+One of the drawback of CLIT is , it is statistics, and statistics..
 
- * The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. This comes in handy when working with statistics because statistics are sample estimates of population parameters
+> There are three kinds of lies: lies, damned lies, and statistics
+>   - Benjamin Disraeli
+
+It is often lesser reliable ones in science. 
+
+ * The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. 
 
  * The central limit theorem fails when there is an infinite variance
 
@@ -84,7 +102,7 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 * Gather following data by statistics,combination/permutations or approximations, or proability theory
 
     - Group µ
-    - Group standard deviation
+    - Group standard deviation σ
 
     There is a special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
 
@@ -123,9 +141,8 @@ p is also our group mean:
 ![CLT of binomial distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
 
 
-**Conditions:**
+**Check the assumptions**
 
-Three conditions:
 - the outcome of this event is finite ( dice, gamble, digital event), but more than 1 possibilities ( 2 is okay ) think throw a dice
 - the outcome of sample event is mutually exclusive
 - the outcome of sample event is independent
@@ -452,6 +469,73 @@ __Step of Analysis:__
 * Use Normdist function of google spreadsheet to find out the probability, if needed.
 
     The polling result is 20.5%, which is wihin p+__σ', we would say it is quite probable.
+
+
+[Example Testing a proportion](http://people.cas.uab.edu/~mpogwizd/ma180-fall-2014/HypothesisTesting.pdf)
+
+> The XSORT method of gender selection is believed to increases the likelihood of birthing a girl.
+14 couples used the XSORT method and resulted in the birth of 13 girls and 1 boy. Using a 0.05
+significance level, test the claim that the XSORT method increases the birth rate of girls.
+
+Step of analysis:
+
+* Gather following data by statistics,combination/permutations or approximations, or proability theory
+
+    - population µ
+        * lets assume the probability of birthing a girl is 0.5
+        
+    - population standard deviation σ
+
+        * by using binomial CLT, the 
+        σ = 0.5
+  * Compute the sample group mean/sum mean and standard deviation from CLT
+
+        Sample group σ'= σ/14^0.5 =0.133689
+
+and the sample result mean is 0.9286, which is more than 2σ' away from mean.
+
+so the claim is accepted
+
+
+
+
+* Use Normdist function of google spreadsheet to find out the probability, if needed.
+
+* [Example AP Scores](http://homepages.math.uic.edu/~bpower6/stat101/Sampling%20Distributions.pdf)
+
+> A Teacher has a class of 68 students taking the AP Physics test. Assuming they are typical of the population, the result of whose scores are given, what is the probability the average score will be at least 3?
+
+score | 1 | 2 | 3 | 4 |5
+---|---|---|---|---
+Probability|21.5%|18.8%|24.7%|21.7%|13.3%
+
+The Base average value = 2.865
+The Base group standard deviation = 1.337
+So the Expected sample average standard deviation = 1.337 /(68)^0.5=0.1617
+
+So the probability of the score higher than 3 is 20.2%
+  
+
+* [Example: Is homefield advantage effect true in baseball ?](https://www.lakeheadu.ca/sites/default/files/uploads/77/docs/Anderson_Project.pdf)
+
+>In the 2013 Major League Baseball season, there were 2431 games played, and of those games, 1308 of them were won at home. This indicates that approximately 53.81% of the games played were won at home. 
+
+If there is no homefield advantage, the probability of winning at home will be 50:50, 0.5
+
+We can use the same binomial CLT technique we used in the polling sample
+
+the σ=((1-0.5)(0.5))^0.5 = 0.5
+
+and sample average standard deviation = 0.5/(2431)^0.5=0.5/49.3=0.010141
+
+using 1-normdist(0.5381,0.5,0.01014198,true)= 1-0.9999139= 0.008%
+
+so the probability of hypothesis of homefield advantage not exist is 0.008%
+
+
+
+
+
 
 
 

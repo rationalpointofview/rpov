@@ -11,7 +11,9 @@ permalink: >
   http://www.rationalpov.com/mental-model-mathematics-central-limit-theorem-2/
 published: true
 ---
-**Mental Model Name:Central Limit Theorem** **Discipline:Mathematics** **Lattice Rank :8**
+**Mental Model Name:Central Limit Theorem** 
+**Discipline:Mathematics** 
+**Lattice Rank :8**
 
 **Related Lattice** Law of large numbers
 
@@ -37,29 +39,20 @@ The standard deviation of these sum will be pool standard deviation * n^1/2.
 
 If we use the group average instead, divided both average and the sample group standard deviation by n.
 
-
-[Standard deviation of sample group mean ][1]
-
-
-[standard deviation of sample group mean ](http://www.rationalpov.com/wp-content/uploads/2016/03/E6A2D69A-C356-4900-AABE-46DFEDE096AD.gif)
-
 sample group mean average = µ
 
-
-__Simulations:__
-*   The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
-
-*   How big of n is big enough ? 30 is a good number, while 15 is kind of minimum .
+sample group average standard deviation = σ/n^0.5
 
 
 
 **Why this is important?**
 
-Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, for example, ![human height](http://io9.gizmodo.com/5899665/this-human-bar-graph-shows-how-weve-grown-taller-over-80-years).
-
+Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? 
 
 
 Thats because a lot of things can be think of a black box, which consist of  many internal parts, and the output of the system could think of a sum of all the internal valuable, these values usually has range, so the output the system is a bell curve,
+
+You see it every where, for example, ![human height](http://i.kinja-img.com/gawker-media/image/upload/s--z9tyvHx3--/c_scale,fl_progressive,q_80,w_800/17iprmfy286axjpg.jpg).
 
 
 For example, Human height is influenced by genes, enviromental effects, nutritions etc. The final result(Height) can be think of as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
@@ -78,9 +71,8 @@ One of the drawback of CLIT is , it is statistics, and statistics..
 > There are three kinds of lies: lies, damned lies, and statistics
 >   - Benjamin Disraeli
 
-It is often lesser reliable ones in science. 
+It is often the lesser reliable ones in science. 
 
-md
  * The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. 
 
  * The central limit theorem fails when there is an infinite variance
@@ -89,11 +81,6 @@ md
 
 An Excellent illustration is explained by [Danielle Fong](http://daniellefong.com/2008/01/28/outliers-why-the-central-limit-theorem-is-typically-off/)
 
-*   The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. This comes in handy when working with statistics because statistics are sample estimates of population parameters
-
-*   The central limit theorem fails when there is an infinite variance
-
-*   The internal factor of is a lot of time not complete independent, and some times has strong correctlation with each other.
 
 **How to use this mental Model**:
 
@@ -116,7 +103,7 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 
     p is also our group mean:
 
-    ![CLT of binomial distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
+    ![CLT of binomial distribution](http://www.rationalpov.com/wp-content/uploads/2016/04/gn6xmnvy.png)
 * Compute the sample group mean/sum mean and standard deviation from CLT
 
     * Caution: You can't use one sample group data standard deviation to calculate population standard deviation.

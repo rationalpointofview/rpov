@@ -1,26 +1,21 @@
 ---
-ID: 132
+ID: 59
 post_title: >
   Mental Model, Mathematics, Central Limit
   Theorem
 author: Rational POV
-post_date: 2016-03-09 00:31:12
+post_date: 2016-04-13 00:56:17
 post_excerpt: ""
 layout: post
 permalink: >
-  http://www.rationalpov.com/blog/mental-model-mathematics-central-limit-theorem/
+  http://www.rationalpov.com/mental-model-mathematics-central-limit-theorem-2/
 published: true
 ---
-**Mental Model Name:Central Limit Theorem** 
-**Discipline:Mathematics** 
-**Lattice Rank :8**
+**Mental Model Name:Central Limit Theorem** **Discipline:Mathematics** **Lattice Rank :8**
 
-**Related Lattice**
-Law of large numbers
+**Related Lattice** Law of large numbers
 
-
-#Introductions
-
+# Introductions
 
 The central limit theorom:
 
@@ -42,30 +37,37 @@ The standard deviation of these sum will be pool standard deviation * n^1/2.
 
 If we use the group average instead, divided both average and the sample group standard deviation by n.
 
+
+[Standard deviation of sample group mean ][1]
+>>>>>>> bb995089297998d99aecb9cea33f3b56123ec0c5:_posts/2016-04-13-mental-model-mathematics-central-limit-theorem-2.md
+
 [standard deviation of sample group mean ](http://www.rationalpov.com/wp-content/uploads/2016/03/E6A2D69A-C356-4900-AABE-46DFEDE096AD.gif)
 
 sample group mean average = µ
 
 
 __Simulations:__
+*   The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
+
+*   How big of n is big enough ? 30 is a good number, while 15 is stretch minimum.
 
 This is a simulation of dice roll of 300 times using google spreadsheet, as you can see, the chance of landing of each side ( 1- 6) is equal to 1/6, and roll the dice 300 times, the chance of getting 1 - 6 is even, which is a straight line.
 
-[![300 Dice Roll Results](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/519d73uu.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=0)
+[![300 Dice Roll Results][2]][3]
 
 But if we roll 10 dice together, and record the sum, it look like this, better, but not perfect
 
-[![Sum of 10 Dice Roll, 300 times](http://www.rationalpov.com/wp-content/uploads/2016/03/image-1.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546)
+[![Sum of 10 Dice Roll, 300 times][4]][5]
 
 If we roll 15 dice together, and record the sum, it looks like a normal distribution now.
 
-[![Sum of 15 Dice Roll, 300 times](http://www.rationalpov.com/wp-content/uploads/2016/03/image-2.png)](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546)
+[![Sum of 15 Dice Roll, 300 times][6]][5]
 
 **Why this is important?**
 
 Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? You see it every where, for example, [human height](http://io9.gizmodo.com/5899665/this-human-bar-graph-shows-how-weve-grown-taller-over-80-years).
 
-[![Bean Machine Normal Distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/Planche_de_Galton.jpg)](http://blog.vctr.me/posts/central-limit-theorem.html)
+[![Bean Machine Normal Distribution][7]][8]
 
 Thats because a lot of things can be think of a black box, which consist of  many internal parts, and the output of the system could think of a sum of all the internal valuable, these values usually has range, so the output the system is a bell curve,
 
@@ -76,6 +78,8 @@ For example, Human height is influenced by genes, enviromental effects, nutritio
 
 Because if the shape of the distribution is known, we can reverse look up the probability of the data set
 
+most natural things or complex could be simulated by this. you can use it to find out the probability of certain event.
+>>>>>>> bb995089297998d99aecb9cea33f3b56123ec0c5:_posts/2016-04-13-mental-model-mathematics-central-limit-theorem-2.md
 
 **When it does'n apply ?**
 
@@ -86,6 +90,7 @@ One of the drawback of CLIT is , it is statistics, and statistics..
 
 It is often lesser reliable ones in science. 
 
+md
  * The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. 
 
  * The central limit theorem fails when there is an infinite variance
@@ -94,12 +99,18 @@ It is often lesser reliable ones in science.
 
 An Excellent illustration is explained by [Danielle Fong](http://daniellefong.com/2008/01/28/outliers-why-the-central-limit-theorem-is-typically-off/)
 
+*   The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. This comes in handy when working with statistics because statistics are sample estimates of population parameters
 
+*   The central limit theorem fails when there is an infinite variance
 
+*   The internal factor of is a lot of time not complete independent, and some times has strong correctlation with each other.
 
 **How to use this mental Model**:
 
-* Gather following data by statistics,combination/permutations or approximations, or proability theory
+*   Gather following data by statistics,combination/permutations or approximations, or proability theory
+    
+    *   Group true mean
+    *   Group standard deviation
 
     - Group µ
     - Group standard deviation σ
@@ -126,43 +137,44 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 
 
 * Use Normdist function of google spreadsheet to find out the probability, if needed.
+*   Compute the sample group mean/sum mean and standard deviation from CLT
 
-There is a special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
+*   Use Normdist function of google spreadsheet to find out the probability, if needed.
 
->The Binomial(n, p) distribution is the distribution of Y , the number of
-heads in n tosses of a biased coin, when the probability of getting a head on
-a single toss is p. We begin by setting up a separate random variable for each
-toss.
+There is a special case of [applying CLT when the base pool is Binomial distriubtion][9].
+
+> The Binomial(n, p) distribution is the distribution of Y , the number of heads in n tosses of a biased coin, when the probability of getting a head on a single toss is p. We begin by setting up a separate random variable for each toss.
 
 if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then σ(x):
 
 p is also our group mean:
 
-![CLT of binomial distribution](http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png)
-
+![CLT of binomial distribution][10]
 
 **Check the assumptions**
 
+md
 - the outcome of this event is finite ( dice, gamble, digital event), but more than 1 possibilities ( 2 is okay ) think throw a dice
 - the outcome of sample event is mutually exclusive
 - the outcome of sample event is independent
 - sample size of sample group >30
 - the result is the **sum** of all samples ( could be spatial or temporal ) from that group.
 
+=======
+Three conditions: - the outcome of this event is finite ( dice, gamble, digital event), but more than 1 possibilities ( 2 is okay ) think throw a dice - the outcome of sample event is mutually exclusive - the outcome of sample event is independent - sample size of sample group >30 - the result is the **sum** of all samples ( could be spatial or temporal ) from that group.
 
 **Predictions:**
 
-* The mean of the samples
-* The probability of the mean of the samples higher or lower than a speicified number
+*   The mean of the samples
+*   The probability of the mean of the samples higher or lower than a speicified number
 
+* * *
 
-
-___
- 
-[Example: Sampling distribution of serum cholesterol](http://web.as.uky.edu/statistics/users/pbreheny/580-f10/notes/9.pdf)
+[Example: Sampling distribution of serum cholesterol][11]
 
 According the National Center for Health Statistics, the distribution of serum cholesterol levels for 20- to 74-year-old males living in the United States has mean 211 mg/dl, and a standard deviation of 46 mg/dl We are planning to collect a sample of 25 individuals and measure their cholesterol levels What is the probability that our sample average will be above 230?
 
+md
 The group µ is 211mg/dl
 The group σ is 46 mg/dl
 
@@ -172,23 +184,27 @@ group sum mean: = 25* 211 = 5275
 group sum σ = 46 * 25^1/2 = 46*5 = 230
 group average: = 211
 group average S = 230/25 = 9.2
+The group true mean is 211mg/dl The group SD is 46 mg/dl
 
-![Sample Bell Curve](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/bryi_5g3.png)
+So by CLT, if we run the 25 sample test many times, the sum of these samples will form a bell curve, with the following characteristic
+
+group sum mean: = 25* 211 = 5275 group sum SD = 46 * 25^1/2 = 46*5 = 230 group average: = 211 group average S = 230/25 = 9.2
+
+![Sample Bell Curve][12]
 
 by using Normdist function in google spreadsheet(=normdist(230,211,9.2,true)), we know the probability of group average below 230 is 0.98
 
 Thus the probability of the sample average be above 230 is 1-0.98 = 2%
 
+[Example: Slot Machine][13]
 
-[Example: Slot Machine](https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm)
+> Suppose that we play a slot machine such you can either double your bet or lose your bet. If there is a 45% chance of winning, what is the probability of the Gambler will not lose by playing 100 times ?
 
-> Suppose that we play a slot machine such you can either double your bet or lose your bet.  If there is a 45% chance of winning, what is the probability of the Gambler will not lose by playing 100 times ?
+*   The Group mean of expected payout:
 
-* The Group mean of expected payout:
+= 45% * 1 + 55% * -1 =-0.1
 
-= 45% * 1 + 55% * -1 =-0.1 
-
-* The Group standard deviation:
+*   The Group standard deviation:
 
 It is a tricky one:
 
@@ -205,21 +221,26 @@ we can compute the group standard deviation as the follows:
 ![standard deviation](http://www.rationalpov.com/wp-content/uploads/2016/03/render-2.png)
 
 * The σ is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
+![Standard Deviation][14]
 
+we can compute the group standard deviation as the follows:
+
+![standard deviation][15]
+>>>>>>> bb995089297998d99aecb9cea33f3b56123ec0c5:_posts/2016-04-13-mental-model-mathematics-central-limit-theorem-2.md
+
+*   The SD is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
 
 = 0.9947
-
 
 Let's plug the numbers in to CLT
 
 sample mean = group mean = -0.1
 
-100 sample group standard deviation mean  = 0.9947*10/100 = 0.09947
+100 sample group standard deviation mean = 0.9947*10/100 = 0.09947
 
-and the break even mark is 0. 
+and the break even mark is 0.
 
 not losing probability=1-normdist(0,-0.1,0.09947,true)= 1-0.84263= 15.7%
-
 
 We can also try to use the CLT for binomial distrubtion to solve this:
 
@@ -227,6 +248,9 @@ P = 0.45
 and mean = 0.45 σ= ((1-0.45)*0.45)^0.5=0.497
 
 so the 100 sample group σ 
+P = 0.45 and mean = 0.45 SD= ((1-0.45)*0.45)^0.5=0.497
+
+so the 100 sample group SD
 
 = 0.497/10 = 0.0497
 
@@ -234,13 +258,9 @@ and as we definite the losing payout is 0, winning payout is 1, the point of not
 
 so the probablity of not losing = 1- normdist(0.5,0.45,0.0497,true) = 1-0.843 =15.7%
 
+[Example: SUV Recall][13]
 
-
-
-
-[Example: SUV Recall](https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm)
-
-The new Endeavor SUV has been recalled because 5% of the cars experience brake failure.  The Tahoe dealership has sold 200 of these cars.  What is the probability that fewer than 4% of the cars from Tahoe experience brake failure?
+The new Endeavor SUV has been recalled because 5% of the cars experience brake failure. The Tahoe dealership has sold 200 of these cars. What is the probability that fewer than 4% of the cars from Tahoe experience brake failure?
 
 You can think of the problem is a casino game too, break failure is a payout of -1, and withouth break failure is a payout of 1
 
@@ -250,15 +270,15 @@ so the mean is = 0.95*1 + 0.05*(-1)= 0.95-0.05= 0.9
 
 and the standard deviation is:
 
-(0.95*0.01+0.05*3.61)^(1/2)= 0.435
+(0.95*0\.01+0.05*3\.61)^(1/2)= 0.435
 
 the 200 sample group mean = 0.9
 
 and group mean standard deviation = (200)^(1/2)* 0.435/200 = 0.031
 
-now we want to know what is the probability of has fewer than 4% of the break failure. 
+now we want to know what is the probability of has fewer than 4% of the break failure.
 
-so the value of 4% breakfailure = 1*0.96+(-1)*0.04= 0.92
+so the value of 4% breakfailure = 1*0\.96+(-1)*0\.04= 0.92
 
 the value of fewer than 4% break failure =1-normdist(0.92,0.9,0.031,true) = 1-0.74 = 26%
 
@@ -266,8 +286,7 @@ if we use the CLT for binomial distrubtion
 
 we can definte:
 
-break failure = 1
-no break failure = 0
+break failure = 1 no break failure = 0
 
 chance of getting break faiulre (p) = 0.05
 
@@ -282,19 +301,17 @@ and getting 4% failure rate:
 
 = 0.2602, about 26%
 
+[Example: Opinion Polls, explained from popularsocialscience.com ][16]
 
-[Example: Opinion Polls, explained from popularsocialscience.com ](http://www.popularsocialscience.com/2013/08/26/can-we-trust-opinion-polls-the-central-limit-theorem-binomial-proportion-confidence-intervals-and-likely-voters/)
+![house of the cards][17]
 
-![house of the cards](http://www.rationalpov.com/wp-content/uploads/2016/03/house-of-cards-season-4-key-art1.jpg)
-
-Let us say that we want to know whether Candidate Obama or Candidate Underwood will win the next presidential election. 
+Let us say that we want to know whether Candidate Obama or Candidate Underwood will win the next presidential election.
 
 Since there is only two possible outcomes, we could applying CLT for Binomial distriubtion.
 
 Say we do the hard leg work , and conduct a survey of 1000 persons and ask if they prefer the candidate Obama or candidate Underwood . Then We find that in this poll, 54 percent of those we ask will vote for Obama.
 
 Can we deduct anything from this merely 1000 people poll data ? we are really interested in knowing what all US voter think.
-
 
 lets assign value of voter vote for Obama = 1, and value of voter vote for Underwood = 0, and the probability of voter vote for Obama is p, recall:
 
@@ -311,6 +328,7 @@ But we can use CLT to approximately guesstimate hwo these 1 million 1000 people 
 The σ'( The 1000 poll group average standard deviation)
 
 We can make two assumptions:
+while we dont know the value of true mean, p, let's imaging that we conducted a lot of opinion polls (say one million polls) and asking 1000 persons each time whether or not they would vote for Obama.
 
 The σx = σ/N^0.5 = (p*(1-p)/n)^0.5
 
@@ -319,6 +337,7 @@ but the problem is , we dont know the µ P, how can we solve that?
 __We can use the sample p' value as our approximation to µ P.__ 
 
 __Heck. We could actually use the abitary number of 0.5 ( assume the chance is even, and hence the maximum σ)__
+![SD(x)][10]
 
 It is a relative Safe assumption, as long as the µ P is within 0.3 to 0.7 
 
@@ -353,6 +372,8 @@ the population standard deviation:
 Then for the whole population:
 
 
+SD = SD' Then for the whole population:
+
 Let's plug the numbers into binomial CLT
 
 p'=0.54 , ie 54% prefer Obama
@@ -362,7 +383,9 @@ Group σ(X)= (0.54*(1-0.54)/1000)^0.5 = 0.0157
 p'+ σ = 0.54+2*0.0157=0.5714
 p'- σ = 0.054-2*0.0157 = 0.5086
 
-![Polling Diagram](http://www.rationalpov.com/wp-content/uploads/2016/03/rpov-polling-1.png)
+p'+2sd = 0.54+2*0\.0157=0.5714 p'-2sd = 0.054-2*0\.0157 = 0.5086
+
+![Polling Diagram][18]
 
 All we care is: What is will the µ value greater than 0.5? ie. will more than 50% of voter will vote for Obama ?
 
@@ -373,6 +396,9 @@ by inverting the CLT, if we have one 1000 people poll results with known p' and 
 In the worse case scenario( within these 95% chance), the µ is -2 σ' from the sample mean, 
 
 we have the µ = p'- σ = 0.054-2*0.0157 = 0.5086, which is still greater than 0.5 
+In the worse case scenario( within these 95% chance), the true mean is -2 SD' from the sample mean,
+
+we have the true mean = p'-2sd = 0.054-2*0.0157 = 0.5086, which is still greater than 0.5
 
 so we can say that the µ lies in region 1 ( The turf where Obama will win is 95% + 2.5% = 97.5%
 
@@ -381,6 +407,9 @@ Couple of things to use this with causion:
 * There is a **non-zero** probability of the µ lies in region 2, ( where Obama will lose), and it is not so uncommon as the numbers suggest. 
 
 * In this example, we assume sample σ = Population σ /N^0.5, which is an assumption.
+*   There is a **non-zero** probability of the true mean lies in region 2, ( where Obama will lose), and it is not so uncommon as the numbers suggest.
+
+*   In this example, we assume sample SD = Population SD /N^0.5, which is an assumption.
 
 If the µ is say 0.47, the group σ is (0.47*(1-0.47)/1000)^0.5=0.01578, which is reasonability close to our sample group σ.
 
@@ -539,11 +568,12 @@ so the probability of hypothesis of homefield advantage not exist is 0.008%
 
 
 
+=======
 **Bonus: How to Read the Normal Distribution Diagram**
 
 I think I know Normal Distribution Digram, but until I use excel to plot one, I found out actually I don't really understand normal distribtuion digram ! So here is the findings of rediscovering normal distribution diagram.
 
-![Normal Distribution Diagram](http://www.rationalpov.com/wp-content/uploads/2016/03/Empirical_Rule.png)
+![Normal Distribution Diagram][19]
 
 what is the x-axis ?
 
@@ -553,14 +583,32 @@ what is the y-axis ?
 
 y-axis the the probability of getting this value, in real life terms, y-axis is the frequency in the histogram, noted the probability of getting mean value( the 0 point in x-axis is not 0.5! but about 0.4)
 
-![Normal Distribution Diagram Explained](http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png)
+![Normal Distribution Diagram Explained][20]
 
-
-___
+* * *
 
 More resource:
 
-[Central limit Theorem demostration](http://onlinestatbook.com/2/sampling_distributions/clt_demo.html)
+[Central limit Theorem demostration][21]
 
-
-
+ [1]: http://www.rationalpov.com/wp-content/uploads/2016/03/E6A2D69A-C356-4900-AABE-46DFEDE096AD.gif
+ [2]: https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/519d73uu.png
+ [3]: https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=0
+ [4]: http://www.rationalpov.com/wp-content/uploads/2016/03/image-1.png
+ [5]: https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=626723546
+ [6]: http://www.rationalpov.com/wp-content/uploads/2016/03/image-2.png
+ [7]: http://www.rationalpov.com/wp-content/uploads/2016/03/Planche_de_Galton.jpg
+ [8]: http://blog.vctr.me/posts/central-limit-theorem.html
+ [9]: https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf
+ [10]: http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png
+ [11]: http://web.as.uky.edu/statistics/users/pbreheny/580-f10/notes/9.pdf
+ [12]: https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/bryi_5g3.png
+ [13]: https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm
+ [14]: https://upload.wikimedia.org/math/3/1/8/31830fa1f2f922edf6079209a51f8967.png
+ [15]: http://www.rationalpov.com/wp-content/uploads/2016/03/render-2.png
+ [16]: http://www.popularsocialscience.com/2013/08/26/can-we-trust-opinion-polls-the-central-limit-theorem-binomial-proportion-confidence-intervals-and-likely-voters/
+ [17]: http://www.rationalpov.com/wp-content/uploads/2016/03/house-of-cards-season-4-key-art1.jpg
+ [18]: http://www.rationalpov.com/wp-content/uploads/2016/03/rpov-polling-1.png
+ [19]: http://www.rationalpov.com/wp-content/uploads/2016/03/Empirical_Rule.png
+ [20]: http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png
+ [21]: http://onlinestatbook.com/2/sampling_distributions/clt_demo.html

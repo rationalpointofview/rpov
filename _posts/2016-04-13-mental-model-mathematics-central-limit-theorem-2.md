@@ -118,27 +118,14 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 
 *   Use Normdist function of google spreadsheet to find out the probability, if needed.
 
-There is a special case of [applying CLT when the base pool is Binomial distriubtion][9].
-
-> The Binomial(n, p) distribution is the distribution of Y , the number of heads in n tosses of a biased coin, when the probability of getting a head on a single toss is p. We begin by setting up a separate random variable for each toss.
-
-if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then σ(x):
-
-p is also our group mean:
-
-![CLT of binomial distribution][10]
 
 **Check the assumptions**
 
-md
-- the outcome of this event is finite ( dice, gamble, digital event), but more than 1 possibilities ( 2 is okay ) think throw a dice
-- the outcome of sample event is mutually exclusive
-- the outcome of sample event is independent
-- sample size of sample group >30
-- the result is the **sum** of all samples ( could be spatial or temporal ) from that group.
 
-=======
-Three conditions: - the outcome of this event is finite ( dice, gamble, digital event), but more than 1 possibilities ( 2 is okay ) think throw a dice - the outcome of sample event is mutually exclusive - the outcome of sample event is independent - sample size of sample group >30 - the result is the **sum** of all samples ( could be spatial or temporal ) from that group.
+Three conditions: 
+    + the outcome of this event is finite ( dice, gamble, digital event), but more than 1 possibilities ( 2 is okay ) think throw a dice - the outcome of sample event is mutually exclusive 
+    + the outcome of sample event is independent - sample size of sample group >30 
+    + the result is the **sum** of all samples ( could be spatial or temporal ) from that group.
 
 **Predictions:**
 
@@ -151,7 +138,7 @@ Three conditions: - the outcome of this event is finite ( dice, gamble, digital 
 
 According the National Center for Health Statistics, the distribution of serum cholesterol levels for 20- to 74-year-old males living in the United States has mean 211 mg/dl, and a standard deviation of 46 mg/dl We are planning to collect a sample of 25 individuals and measure their cholesterol levels What is the probability that our sample average will be above 230?
 
-md
+
 The group µ is 211mg/dl
 The group σ is 46 mg/dl
 
@@ -163,9 +150,6 @@ group average: = 211
 group average S = 230/25 = 9.2
 The group true mean is 211mg/dl The group SD is 46 mg/dl
 
-So by CLT, if we run the 25 sample test many times, the sum of these samples will form a bell curve, with the following characteristic
-
-group sum mean: = 25* 211 = 5275 group sum SD = 46 * 25^1/2 = 46*5 = 230 group average: = 211 group average S = 230/25 = 9.2
 
 ![Sample Bell Curve][12]
 
@@ -584,8 +568,8 @@ More resource:
  [14]: https://upload.wikimedia.org/math/3/1/8/31830fa1f2f922edf6079209a51f8967.png
  [15]: http://www.rationalpov.com/wp-content/uploads/2016/03/render-2.png
  [16]: http://www.popularsocialscience.com/2013/08/26/can-we-trust-opinion-polls-the-central-limit-theorem-binomial-proportion-confidence-intervals-and-likely-voters/
- [17]: http://www.rationalpov.com/wp-content/uploads/2016/03/house-of-cards-season-4-key-art1.jpg
- [18]: http://www.rationalpov.com/wp-content/uploads/2016/03/rpov-polling-1.png
- [19]: http://www.rationalpov.com/wp-content/uploads/2016/03/Empirical_Rule.png
- [20]: http://www.rationalpov.com/wp-content/uploads/2016/03/ji8_ij43.png
+ [17]: http://www.rationalpov.com/wp-content/uploads/2016/04/house-of-cards-season-4-key-art1.jpg
+ [18]: http://www.rationalpov.com/wp-content/uploads/2016/04/rpov-polling-1.png
+ [19]: http://www.rationalpov.com/wp-content/uploads/2016/04/Empirical_Rule.png
+ [20]: http://www.rationalpov.com/wp-content/uploads/2016/04/ji8_ij43.png
  [21]: http://onlinestatbook.com/2/sampling_distributions/clt_demo.html

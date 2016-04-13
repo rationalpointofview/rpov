@@ -313,7 +313,7 @@ If the µ is within range of 0.3-0.7, the maximum difference is only
 
 
 
-! σ(x)](http://www.rationalpov.com/wp-content/uploads/2016/04/gn6xmnvy.png)
+! [σ(x)](http://www.rationalpov.com/wp-content/uploads/2016/04/gn6xmnvy.png)
  σ'= 0.4983
 
 from the CLT
@@ -551,7 +551,7 @@ More resource:
  [7]: http://www.rationalpov.com/wp-content/uploads/2016/03/Planche_de_Galton.jpg
  [8]: http://blog.vctr.me/posts/central-limit-theorem.html
  [9]: https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf
- [10]: http://www.rationalpov.com/wp-content/uploads/2016/03/gn6xmnvy.png
+ [10]: http://www.rationalpov.com/wp-content/uploads/2016/04/gn6xmnvy.png
  [11]: http://web.as.uky.edu/statistics/users/pbreheny/580-f10/notes/9.pdf
  [12]: https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/bryi_5g3.png
  [13]: https://www.ltcconline.net/greenl/courses/201/probdist/clt.htm

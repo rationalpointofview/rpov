@@ -167,11 +167,11 @@ Before you flip the coin, the probability of the coin is counterfeit is 1 in 3
 
 P(counterfeit) = 0.33
 
-After the flip the coin 3 time (3H, The test), and we want to know the probabilty of the coint is counterfei, P(C):
+After the flip the coin 3 time (3H, The test), and we want to know the probabilty of the coint is counterfei, P(P):
 
-P(C|3H) = P(3H|C) * P(C) / P(3H)
+P(C|3H) = P(3H|C) * P(P) / P(3H)
 
-P(3H|C) = 1 P(C) = 0.33 P(3H)= P(3H|NC) + P(3H|NC) + P(3H|C) = 0.5*0\.5*0\.5*0\.33 + 0.5*0\.5*0\.5*0\.33 + 1*0.33 = 0.4125
+P(3H|C) = 1 P(P) = 0.33 P(3H)= P(3H|NC) + P(3H|NC) + P(3H|C) = 0.5*0\.5*0\.5*0\.33 + 0.5*0\.5*0\.5*0\.33 + 1*0.33 = 0.4125
 
 P(C| 3H )= 1* 0.33/0.4125 = 0.33/0.4125 = 80%
 
@@ -208,37 +208,55 @@ There is a vivid example of applying Bayes Theorem
 
 > Consider a somber example: the September 11 attacks. Most of us would have assigned almost no probability to terrorists crashing planes into buildings in Manhattan when we woke up that morning. But we recognized that a terror attack was an obvious possibility once the first plane hit the World Trade Center. And we had no doubt we were being attacked once the second tower was hit. Bayes's theorem can replicate this result.
 
-So we want to know the following facts
+How do we simulated the induction process using Bayes Theorem ?
 
-P(T)= P(Terrorist Crashing Planes into Building) P(C)= P( Planes crashing into Building)
+
+P(T)= P(Terrorist Attack) 
+
+P(P)= P(Planes crashing into Manhattan Building)
 
 and We want to know:
 
-P(T|C)
+P(T|P)
 
-P(T|C) = P(C|T)* P(T)/P(C)
+P(T|P) = P(C|T)* P(T)/P(P)
 
-we gathering base rates:
+
+Lets gathering base rates:
 
 In the previous 25000 days of aviation over Manhattan prior to 9-11, there had been only two such accidencts.
 
-so P(C) = 2/25000 = 0.008%
+so P(P) = 2/25000 = 0.008%
 
 and P(T) we can assign an arbitary intial rate: like 0.005%
 
-so before the plane hits the twin tower, P(C|T) is not true, so the probablilty is just 0.005%
+__Before the first plane hits the twin tower, we have:__
 
-but at the moment the first planes hits the twin tower, P(C|T) = 100 %
+P(T) = 0.005%
+P(P|T) = 0.00 % , it is all good
 
-P(T|C) = 1*0.00005/(0.00005+0.00008) = 38%
+__At the moment the first plane crahsed into the twin tower.__
+
+P(T) = 0.005%
+
+P(P|T) = 100 %
+
+P(P) = 0.008% + 0.005%
+
+P(T|P) = 1*0.00005/(0.00005+0.00008) = 38%
 
 so with the new evidence, the probablility of P(T|C) revised to 38%
 
-at the moment of second plane hits the twin tower:
+__at the moment of second plane hits the twin tower:__
 
-P(T|2C) = P(2C|T)*P(T)/P(2C)
 
-P(2C|T) = 100% P(T) = 38% P(2C)=(0.008%*0.008% + 38%)= 99.99%
+P(T) = 38%
+P(2P|T) = 100%
+P(2P) = 0.008% * 0.008% + 1 * 38%= 0.3800000064
+
+P(T|2P) = P(2P|T)*P(T)/P(2P)
+
+P(2P|T) = 100% P(T) = 38% /P(2C)=38%/(0.008%*0.008% + 38%)= 99.99%
 
 **Example**
 
@@ -460,9 +478,9 @@ We got our much needed statistic data from [CDC][24]
 > 
 > 5\.0% of all adults 8.2% of adult males 2.0% of adult females 7.5% of African American adults 6.7% of American Indian/Alaska Native adults 2.1% of Asian American adults 4.0% of Hispanic adults 5.0% of White adults
 
-P(C) = 5% P(C|M) = 8.2% Lets plug all the data into Bayes themorem
+P(P) = 5% P(C|M) = 8.2% Lets plug all the data into Bayes themorem
 
-P(M|C) = P(C|M)*P(M)/P(C) = 8.2% * 49.2% /5% = 80.6%
+P(M|C) = P(C|M)*P(M)/P(P) = 8.2% * 49.2% /5% = 80.6%
 
 The probability of the interviewee is a male revised to 80.6%
 
@@ -582,7 +600,7 @@ Session 2
 
 Lets use Ed as example
 
-P(M|C) = P(C|M) * P(M)/P(C) = 0.1*0\.164 /(0.1*0\.164 + 0.05* 0.836)= 0.0164/0.0582= 0.282
+P(M|C) = P(C|M) * P(M)/P(P) = 0.1*0\.164 /(0.1*0\.164 + 0.05* 0.836)= 0.0164/0.0582= 0.282
 
 | Agent | Prior Probability | Reaction | Revised Probability of being a Mole |
 | ----- | -----------------:| -------- | -----------------------------------:|

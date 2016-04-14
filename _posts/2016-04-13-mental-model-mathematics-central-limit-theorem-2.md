@@ -157,6 +157,8 @@ by using Normdist function in google spreadsheet(=normdist(230,211,9.2,true)), w
 
 Thus the probability of the sample average be above 230 is 1-0.98 = 2%
 
+___
+
 [Example: Slot Machine][13]
 
 > Suppose that we play a slot machine such you can either double your bet or lose your bet. If there is a 45% chance of winning, what is the probability of the Gambler will not lose by playing 100 times ?

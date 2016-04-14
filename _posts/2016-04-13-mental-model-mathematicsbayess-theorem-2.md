@@ -96,6 +96,8 @@ False Negative Rate of the test/evidence(B)
 
 Give the probability of A when B is true;
 
+___
+
 **Example**
 
 In an excellent [real life example by Allen Downey][7]
@@ -151,6 +153,8 @@ so the it doesn't seem so bad after all.
 
 Given that said, this just an example for baysian analysis, if the fire alarm goes off, please follow the protocol and do what every baysian should do, leave the house and call the fire department !
 
+___
+
 **Examples**
 
 Concrete example from [5 August 2011 New York Times article by John Allen Paulos][10]:
@@ -179,7 +183,7 @@ The chance that a woman will develop breast cancer in her forties is fortunately
 
 Studies show that if a woman does not have cancer, a mammogram will incorrectly claim that she does only about 10 percent of the time. If she does have cancer, on the other hand, they will detect it about 75 percent of the time.
 
-what is the probability of the woman has Breas Cancel giving positive manmogram ?
+what is the probability of the woman has breast cancer giving positive manmogram ?
 
 We want to know P(BC|MT)
 
@@ -187,13 +191,14 @@ P(MT)= mammogram is true; P(BC) = Breast Cancel is true;
 
 P(BC|MT)= P(MT|BC)*P(BC)/P(MT)
 
-= 0.75 * 0.014/(0.014*0\.75+ (1-0.014)*0\.1) = 0.0105 /( 0.0105+0.0986) = 9.6%
+= 0.75 * 0.014/(0.014 * 0\.75+ (1-0.014)*0\.1) = 0.0105 /( 0.0105+0.0986) = 9.6%
 
 So even the memogram is true, the probability of the women got breast cancer is only 9.6 %
 
 Why is that ? it is because the base rate of cancer happening is very low 1.4% , and for P(MT) it could either because of a positive result of a breast cancel or a false positive of a non breast cancer.
 
-[According to this study][11]screening with mammography uss X-ray is not worth the cost
+[According to this study][11]screening with mammography uss X-ray is not worth the cost;
+
 
 **Example**
 

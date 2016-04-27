@@ -9,7 +9,9 @@ permalink: >
   http://www.rationalpov.com/mental-model-mathematicsbayess-theorem-2/
 published: true
 ---
-**Mental Model Name:Bayes's Theorem** **Discipline:Mathematics** **Lattice Rank :6**
+**Mental Model Name:Bayes's Theorem** 
+**Discipline:Mathematics** 
+**Lattice Rank :6**
 
 Introductions
 
@@ -574,13 +576,16 @@ Fortunately, high school math come into rescue.
 
 lets put P(L|NS) = x ie. the Probability of Women non-smoker got lung cancer:
 
-x + 13x = 0.06 % 14x = 0.06% x = 0.00429%
+0.852x + 13(0.148)x = 0.06 % 
+2.776x = 0.06% 
+x = 0.0216%
 
-and P(L|S) = 13x = 0.0557%
+and P(L|S) = 13x = 0.28%
 
 lets plug all the numbers into Bayes Equation
 
-P(S|L) = P(L|S)* P(S)/P(L) = 0.0557% * 14.8% /( 0.00429% * 85.2 % + 0.0557% * 14.8%) = 0.00824 %/(0.00365% + 0.00824) = 69.3%
+P(S|L) = P(L|S)* P(S)/P(L) = 0.28% * 14.8% /( 0.0216% * 85.2 % + 0.28% * 14.8%) = 0.04144%/(0.0184%+0.04144)=0.04144/0.0598 = 69.3%
+
 
 [Example: Finding the Mole][27]
 

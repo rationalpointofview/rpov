@@ -258,6 +258,9 @@ P(T|2P) = P(2P|T)*P(T)/P(2P)
 
 P(2P|T) = 100% P(T) = 38% /P(2C)=38%/(0.008%*0.008% + 38%)= 99.99%
 
+by the time the 2nd plane hits the twin tower, we can almost certain it is a Terro Attack.
+
+___
 **Example**
 
 A reader from Quora poses a questioin:
@@ -296,17 +299,21 @@ In general, to be a true Bayesian, you will gather the background data of how of
 
 The more often she smiles at everybody, the lower chance she likes you.
 
+___
+
 **Example**:
 
-Marie is getting m`arried tomorrow, at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time. What is the probability that it will rain on the day of Marie's wedding?
+Marie is getting married tomorrow, at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time. What is the probability that it will rain on the day of Marie's wedding?
 
 So we want to know:
 
 P(Raining |Forcasted Rain) = P(Forcasted Rain|Raining)*P(Raining)/P(Forcasted Rain)
 
-= 0.9*(5/365)/(0.9*5/365+(360/365)*0.1)= 0.01232/()= 11.1 %
+= 0.9*(5/365)/(0.9*5/365+(360/365)*0.1)= 0.01232/(0.01232+0.08493)= 12.6%
 
 Despite the weatherman's gloomy prediction, there is a good chance that Marie will not get rained on at her wedding.
+
+___
 
 [**Example:**][13]
 
@@ -320,6 +327,8 @@ P(Blue) = P(Blue | Contain Pearl) + P(Blue | Not Contain Pearl) = 0.3*0.4 + (1-0
 
 So the answer is = 0.12/0.18 = 66.7%
 
+___
+
 [**Example**][14]
 
 Assume you have a room full of men and women. 70% of the people are women and 30% are men. Additionally, we know from polling every person that 40% of the women’s favorite color is green and 75% of the men’s favorite color is green.
@@ -327,6 +336,8 @@ Assume you have a room full of men and women. 70% of the people are women and 30
 Given that a randomly selected person likes green, what is the probability that the person is a female?”
 
 P(Female | Like Green ) = P ( Like Green | Female ) * P(Female)/P( Like Green) = 0.4*0\.7/(0.4*0\.7+ 0.3*0.75)= 55 %
+
+___
 
 [**Example**][15]
 
@@ -344,11 +355,16 @@ P(C2/D3) = P(D3/C2) * P(C2)/P(D3) = 1*1/3/0.5
 
 [![Monty Hall Problem][16]][17]
 
+___
+
 [**Example**][18]
 
 > Joe is a randomly chosen member of a large population in which 3% are heroin users. Joe tests positive for heroin in a drug test that correctly identifies users 95% of the time and correctly identifies nonusers 90% of the time. To determine the probability that Joe uses heroin (= H) given the positive test result (= E), we apply Bayes' Theorem using the values
 
+
 P(H|E)= P(E|H)* P(H)/P(E) = 0.95 * 0.03/(0.95 * 0.03 + 0.97*0.1) = 22%
+
+___
 
 [**Example**][19]
 
@@ -377,6 +393,8 @@ But but applying the rules of Bayes Themrom, you have no fear:
 
 so P(smallpox|Spots) = P(Spots|smallPox) * P(smallpox)/p(spots) = 0.9 * 0.001/(0.1*0\.8+0.001*0\.9)= 1.11 %
 
+___
+
 [**Example**][20]
 
 In James V Stone excellent book of Bayes' Rule: A Tutorial Introduction to Bayesian Analysis, he mentions a interesting example:
@@ -388,6 +406,8 @@ If you walked into a hardware store and asked:
 You was surprised by the Bayesian Shop Owner whom present you with four candles.
 
 The Phrase "Fork Handles" and "Four Candles " are acoustically almost identical.
+
+Put you into the Bayeisan shop owner's shoes:
 
 *   Brain Storm/List out any reasons you can think of to event B(you hear "fork handles") to happen
     
@@ -411,6 +431,8 @@ And from the Bayesian Shop Owner pass experience,
 so P(Four Candles| Data ) = P(Data | Four Candles ) * P(Four Candles) / P(Data)
 
 = 0.6 * 0.9 /(0.6 *0.9 + 0.7 *0.1) = 88%
+
+___
 
 **Example**
 

@@ -203,6 +203,14 @@ Because the play motive is created by the work itself, play is the most direct a
 *   Bias towards knowing more
 *   Use Curiosity to arouse interest
 
+John Median in [Brain Rules](http://www.amazon.com/Brain-Rules-Principles-Surviving-Thriving/dp/0979777720) give an example on how he use it to grasp students attention in his lecture.
+
+He divided his lecture in 10 min segments, and the structure is like this:
+
+* general introduction to the core ideas
+* other 9 mins all elaborate to explain the idea
+* bridge intro ( a joke, funny stuff to introduce into other ideas)
+
 * * *
 
 #### 7 kantian fairness tendency
@@ -646,6 +654,13 @@ give out reasons with orders to the recipient of the order:
 From Carl Braun:
 
 > had to tell who was to do what, where, when and why
+> 
+> 
+
+John Median in [Brain Rules](http://www.amazon.com/Brain-Rules-Principles-Surviving-Thriving/dp/0979777720) give a reason from biology of why it is so.
+
+Research found people memorize words while understand its meaning 2 to 3X better than the one doesn't understand the meaning.
+
 
 * * *
 

@@ -23,11 +23,17 @@ Useful to: to predict how physical object property change when the size scale up
 
 Assuming the object is uniform and make of same material,
 
-weight = A * Volume, and Volume is 3D thing
+Weight = A * Volume, and Volume is 3D thing
 
-strength = B * Cross Section Area, Cross Section Area is a 2D thing
+Strength = B * Cross Section Area, Cross Section Area is a 2D thing
 
-edge/length, is one D thing;
+Edge/length, is one D thing;
+
+Surface Area/Weight = C/ Length
+
+A ,B C is some constant
+
+
 
 Calculation and formular is [here][1]:
 
@@ -44,10 +50,15 @@ Calculation and formular is [here][1]:
 
 *   When Object made of the same material scale down in size( Become smaller):
     
-        - Weight/mass object will increase **slower** than cross section area, hence the object will become more stronger
+        - Weight/mass object will increase **slower** than cross section area, hence the object will become more stronger, reference to its own weight
         
         - Weight/mass of the object will increase **slower** after than the total surface area 
+        - 
+        ![](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/ybo_pmqb.png)
         
+
+
+
 
 **Example**
 
@@ -61,11 +72,48 @@ Ever Wonder Why the lagest animal in the sea is blue whale, which can reach 180 
 
 Thats why.
 
+![10 x shorter](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/ybo_pmqb.png)
+
+**If you are 10x shorter:**
+
+Your length is 1D thing, 10X shorter
+Your weight is a 3D thing, will be 1000 times lighter
+Your strengh,which propostional to bone cross section area, will be 100 times weaker   
+
+But your Weight/Strength ratio will be 10 times better,
+
+**If you are 10x taller:**
+
+Your length is 1D thing, 10X longer
+Your weight is a 3D thing, will be 1000 times heavier
+Your strengh,which propostional to bone cross section area, will be 100 times stronger   
+But your Weight/Strength ratio will be 10 times weaker, and likely collapse from your own weight
+
 **Example**
 
 Dust Explosion:
 
+![flour explosion](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/hap77nc1.png)
+
 A lot of things will become flammable or even will [explore][3] when reduce in size.
+
+why ?
+
+Because burning is basically a chemical reaction, and needs oxygen from the air. 
+
+For Example:
+
+When a ball of flour(say 10cm in diameter ) is grounded to powder form(say each powder is 0.1 mm in diameter):
+
+The diameter of the blour ball is reduced by 1000 times
+
+but the Surface Area/Weight Ratio is increased by 1000 times, thus each flour particle is getting 1000 times more oxygen.
+
+thats why.
+
+Wonder what will burn in an increased oxygen contration enviroment ?
+
+[![iron burn in oxygen](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/hceu163c.png)](https://youtu.be/TkE1uVjrY0w)
 
 **Example**
 

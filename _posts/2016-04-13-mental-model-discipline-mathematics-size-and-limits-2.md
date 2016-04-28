@@ -11,11 +11,13 @@ permalink: >
   http://www.rationalpov.com/mental-model-discipline-mathematics-size-and-limits-2/
 published: true
 ---
-**Lattice Rank: 2** **Discipline: Mathematics** **Mental Model Name: Size and Limits**
+**Lattice Rank: 2** 
+**Discipline: Mathematics** 
+**Mental Model Name: Size and Limits**
 
 Is that any physical things in the things your try to predict ? if so, this model will help you predict how it will behave when scalling;
 
-****How to use this mental Model****:
+**How to use this mental Model**:
 
 Useful to: to predict how physical object property change when the size scale up or down.
 
@@ -95,7 +97,7 @@ Dust Explosion:
 
 ![flour explosion](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/hap77nc1.png)
 
-A lot of things will become flammable or even will [explore][3] when reduce in size.
+A lot of things will become flammable or even will [explode][3] when reduce in size.
 
 why ?
 
@@ -135,7 +137,9 @@ Which one is more complex ? Stars or an ant ?
 
 JohnBribbin in [Deep simplicity][5] mentions, stars by nature is very simple.
 
-Why ? because at the scale of the stars, the gravity alone will crush any structures within the stars and make it reduce to atoms only, and life is the most complex things in universe, exactly because of it can hold and made of different structures .
+Why ? because at the scale of the stars, the gravity alone will crush any structures within the stars and make it reduce to atoms only, and life is the most complex things in universe, exactly because of it can hold and made of different structures.
+
+
 
  [1]: https://docs.google.com/spreadsheets/d/1Bj072Cx4gliAmOboTB3R7K49L3rp7-52DU6ONCK9RiA/edit#gid=0
  [2]: http://www.amazon.com/Seeking-Wisdom-Darwin-Munger-3rd/dp/1578644283/ref=sr_1_1?ie=UTF8&qid=1452472859&sr=8-1&keywords=Seeking+Wisdom%3A+From+Darwin+To+Munger

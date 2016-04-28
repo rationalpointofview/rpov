@@ -117,7 +117,7 @@ Wonder what will burn in an increased oxygen contration enviroment ?
 
 [![iron burn in oxygen](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/hceu163c.png)](https://youtu.be/TkE1uVjrY0w)
 
-**Example**
+**Example big bugs? **
 
 Ever Wonder Why the ancient bugs you saw is so large ?
 
@@ -131,13 +131,31 @@ While crucial to life, oxygen can be poisonous in large quantitie;
 
 so in order to maintain oxygen level to the same level, they grow larger to lower Volume/Total surface area ratio to keep the oxygen in take in relative to body
 
-**Example**
+**Example stars and Ant**
 
 Which one is more complex ? Stars or an ant ?
 
 JohnBribbin in [Deep simplicity][5] mentions, stars by nature is very simple.
 
 Why ? because at the scale of the stars, the gravity alone will crush any structures within the stars and make it reduce to atoms only, and life is the most complex things in universe, exactly because of it can hold and made of different structures.
+
+**Example You can't have more than 150 friends**
+
+>Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships. These are relationships in which an individual knows who each person is and how each person relates to every other person
+
+According to Dunbar's research, it is limited to 150.
+
+Why is there a limit for your friends ?
+
+Thats because to truely know a friend, basically you need to manage other people's mind states, which cost a great deal of neurons in your brain.
+
+[![brain imaging](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/xm0b1kwl.png)](https://youtu.be/07IpED729k8)
+
+> Robin Dunbar: Well, it has a lot of implications for organizations I suspect. The classic case of this would be the military. So all modern armies are structured along these lines, so this sort of layer of 150 general friends that you have, turns out to consist of a series of layers which are scaled very tightly with respect to each other: so each layer is three times bigger than the other; so you have an inner, inner core of intimate friends and relations, of about five, and then there’s the next layer out, it’s about 15. If you like to think of those as best friends, perhaps, they’re the people you might do most of your social Saturday evening barbeques with, and that of course, includes the five inside. And then this next layer out is 50 (you might think of those as good friends), and the 150, your friends. And then we know there are at least two more layers beyond that: one at 500 which you might think of as acquaintances, so again this is including everybody within the 150 as well; , finally, one at 1500 who are basically the number of faces you can put names to. But you see those numbers absolutely replicated beautifully across modern armies: that’s how they’re all structured, and they just carry on with the next series out, so 5000, 15000, 50000. So there seems to be something that works particularly effectively in terms of organization at these kind of numbers. Remember, these layers are about the intensity of the relationship, so we would think about that in terms of emotional closeness, but it probably has a lot to do with how well you understand how the other person ticks.
+
+>And therefore, if you want to have an organizational unit that involves very, very close working together, you cannot do it with a group of 150: you may have to have 15, because that’s the limit, at that level of intimacy, that people can work together. So you might think of all sorts of knock-­on consequences, that instead of having schools of about 1500, as we do at the moment, perhaps they should be 150, and then they would be much more intimate.
+
+
 
 
 

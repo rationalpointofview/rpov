@@ -25,7 +25,7 @@ published: true
 
 from [cas$hvertising][2]
 
-Human beings are biologically programmed with the following eight desires:
+Human beings are biologically programmed with the following eight desires:(LF8)
 
 *   Sexual companionship.
 *   To be superior, winning, keeping up with the Joneses
@@ -180,6 +180,22 @@ Example:
 
 Examples [sell them $7 report before selling $40 product][5]
 
+Example: Inoculation:
+
+Theory is used to reinforce a consumer’s existing attitudes toward a product or service by presenting a “weak” argument that tricks the consumer into defending his position and therefore strengthening his attitude. The three steps are: 
+
+1. Warn of an impending attack. 
+2. Make a weak attack. 
+3. Encourage a strong defense.
+
+>Inoculation is a favorite among politicians. Their stock line goes this way: “My opponent will tell you there’s no way to bring down skyrocketing oil prices...he’ll tell you that the only way to balance the national budget is to raise your taxes...he’ll tell you that it’s good enough to provide health insurance for most citizens, not all of them. But I tell you this is definitely not the case, and here is why....” Do you see what’s happening? This candidate is inoculating his audience by (1) warning them of an impending attack, (2) presenting the weak arguments his opponent will say during the campaign, and (3) encouraging a strong defense by giving them a little ammunition to help prepare for battle.
+
+
+Eample: Boxed In
+
+>someone knocks on your door and says, “Hi! Would you please sign my petition to help reduce neighborhood crime and make our streets safer?” No-brainer, right? So you sign away. Now that you’ve committed to that very reasonable stance, society expects you to remain consistent with it. And so you will. That’s why when the petitioner next says, “Great! Thank you. And now would you please make a small tax-deductible $3 donation because we need to buy two-way radios for the neighborhood watch?” Yikes. You’ve been boxed in, my friend.
+
+
 * * *
 
 #### 6 curiosity tendency
@@ -277,6 +293,14 @@ Intensified for Reciprocate Favor:
 
 "to add a window in the room, first insist to open a hole in the ceiling"
 
+
+Example:
+>Here’s another familiar example. Walk through many major U.S. airports and you might be handed a rose by a member of the Hare Krishna religious group. Upon accepting this free gift, you’re then asked to make a donation. Because you already accepted the gift, you’re compelled to comply. You’d feel badly if you didn’t. Ahhh...there’s that childhood training again, and it’s now a programmed response. At least now you’re aware of it, and now you can use it to your advantage.
+
+Example:
+
+>Jay Siff, a wonderful client of many years, uses the reciprocation principle to the hilt. His company, Moving Targets of Perkasie, Pennsylvania (MovingTargets.com), sends gift certificates to people who just moved into the neighborhood on behalf of his primarily restaurant and auto-shop clients. Free pizza, free entrée, free oil change. Not only does the service introduce new movers to the retailers’ businesses, but it also sets the reciprocation ball in motion. When they’re done chomping on that pizza, or driving away with a fresh oil fill—assuming they were both treated right and satisfied—not only do they have good feelings about the business, but they’re also far more likely to return and spend money,
+
 * * *
 
 #### 10 influcence-from-mere-association tendency
@@ -344,6 +368,11 @@ Avoid chemicals:
 
 or, the it known as ego.
 
+> by Pratkanis and Aronson (Age of Propaganda, 1991), when they said, “By purchasing the ‘right stuff,’ we [the consumer] enhance our own egos
+
+> When you see the Marlboro man, it’s your ego—not your craving for paper tubes stuffed with tobacco—that motivates you to switch brands.
+> 
+> 
 **What to Predict:**
 
 *   human will tend to misappraises himself on the high side
@@ -645,6 +674,13 @@ human will prattling pepole, puroing out twaddle, when they dont know what to do
 
 Man will rpone to comply when you give out reasons why doing so.
 
+And it is more effective you tell them whats the end goal are:
+
+in CA$hvertising semninar, the author ask the audiance "why should I buy a window sign fro my new retail business ? "
+
+>AUDIENCE: “The sign tells people who you are.” ME: “Okay, but what’s the benefit of telling people who I am?” AUDIENCE: “So they’ll do business with you.” ME: “True, but what’s the benefit of people doing business with me?” AUDIENCE: “So you can sell your products, of course!” ME: “Of course. But what’s the benefit of me selling my products?” (And finally, after pulling a few more teeth, someone finally shouts...) AUDIENCE: “So you can make money!” Hallelujah!
+
+
 **When to use it**
 
 **How to Use it:**
@@ -730,6 +766,15 @@ It use the
 
 *   17 stress-influence tendency,
 *   4 Doubt -avoidance tendency.
+
+
+#### 27 Repetion and redunancy- The familiarity factor
+
+Whatever the actual number is, repetition is an important factor in getting your point across in advertising. Repeating your message not only helps break down walls of disinterest, but with each repetition your ad also gets exposed to those who may not have noticed it the last time. What’s more, with each repetition of your message, your audience naturally grows more familiar with your product and company. And unless they have some reason to think otherwise, a feeling of acceptance begins to grow.
+
+It touches on what’s called multiple sources and multiple arguments. Simply put, the more different sources that expose a subject to the same message, the more convinced the subject will become.
+
+
 
 * * *
 

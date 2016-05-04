@@ -94,6 +94,10 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 
     There is a special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
 
+    What is a Binomial Distribtuion ? If there is only two possible outcome, win or loss, head or tail, get elected or not, you got the idea, and the outcome of one trial will not affect the other
+
+    ![formular for binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/jnid2wrn.png)
+
     >The Binomial(n, p) distribution is the distribution of Y , the number of
     heads in n tosses of a biased coin, when the probability of getting a head on
     a single toss is p. We begin by setting up a separate random variable for each
@@ -521,6 +525,35 @@ and sample average standard deviation = 0.5/(2431)^0.5=0.5/49.3=0.010141
 using 1-normdist(0.5381,0.5,0.01014198,true)= 1-0.9999139= 0.008%
 
 so the probability of hypothesis of homefield advantage not exist is 0.008%
+
+**Bonus: Confidence Interval & CLT:
+
+Confidence Interval is a range, usualy is Sample Mean +- 1.96 standard deviation (95% Interval)
+
+> [Problem 1](http://stattrek.com/estimation/confidence-interval.aspx)
+
+Suppose we want to estimate the average weight of an adult male in Dekalb County, Georgia. We draw a random sample of 1,000 men from a population of 1,000,000 men and weigh them. We find that the average man in our sample weighs 180 pounds, and the standard deviation of the sample is 30 pounds. What is the 95% confidence interval.
+
+(A) 180 + 1.86 
+(B) 180 + 3.0 
+(C) 180 + 5.88 
+(D) 180 + 30 
+(E) None of the above
+
+The correct answer ?
+
+First we need to compute standard deviation of the sample.
+
+Given the population SE= 30
+
+by CLT, the Sample SE average = 30/sqrt(1000)= 0.95
+
+so the confidence interval is:
+
+1.96*0.95= 1.862
+
+So A is the correct answer
+
 
 
 **Bonus: How to Read the Normal Distribution Diagram**

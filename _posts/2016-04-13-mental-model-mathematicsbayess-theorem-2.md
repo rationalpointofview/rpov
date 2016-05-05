@@ -651,6 +651,30 @@ Session 150
 
 * * *
 
+** Bonus 
+
+[Bayesian Vesus Frequentist] (http://www.win-vector.com/blog/2013/05/bayesian-and-frequentist-approaches-ask-the-right-question/)
+
+The difference between Bayesian vesus Fequentist is the question we are asking:
+
+> Frequentist: Worry about correctness and repeatability, not p-values
+> Bayesian: Focused on P value;
+
+Example:
+
+You went to see the doctor about your high blood pressure problem:
+
+Freqentist Docotor:
+
+>“If I prescribe drugX to all my hypertensive patients, will their blood pressure improve, on average?” 
+
+Baesian Doctor:
+
+>“If I prescribe drugX to this patient, the one sitting in my examination room, will the patient’s blood pressure improve?” "
+
+
+
+
 More Resources:
 
 [more examples][28]

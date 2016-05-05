@@ -603,6 +603,18 @@ y-axis the the probability of getting this value, in real life terms, y-axis is 
 
 * * *
 
+
+***
+
+Further study 
+
+t-test
+
+beat distribution
+poiseon distribution
+jeffery prior
+
+
 More resource:
 
 [Central limit Theorem demostration][21]

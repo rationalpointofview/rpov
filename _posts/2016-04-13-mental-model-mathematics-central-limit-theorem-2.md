@@ -107,7 +107,7 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 
     p is also our group mean:
 
-    ![CLT of binomial distribution](http://www.rationalpov.com/wp-content/uploads/2016/04/gn6xmnvy.png)
+    ![CLT of binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
 * Compute the sample group mean/sum mean and standard deviation from CLT
 
     * Caution: You can't use one sample group data standard deviation to calculate population standard deviation.
@@ -553,6 +553,35 @@ so the confidence interval is:
 1.96*0.95= 1.862
 
 So A is the correct answer
+
+[Example Advertisement Campaign](https://www.youtube.com/watch?v=QRwPMzAL0iA&list=PLAKBwakacHbRRw278HMXpCsOOIIcLYGX5&index=4)
+
+If you run two campagin banners fro 1000 impression, and first banner has a 1% conversion rate, and second banner has a 3% conversion rate, whats the probability of second banner better than the first banner?
+
+Recall, conversion is basically 1 or 0, and we can use CLT for binomial distribution to estimate the standard deviation of two banners.
+
+first banner:
+
+mean= 0.01
+standard devivation = sqrt(0.01*0.99/1000)=0.00314
+
+second banner:
+
+mean=0.03
+standard deviation = sqrt(0.03*0.97/1000)= 0.00539
+
+use 99% confidence interval
+
+first banner:
+
+1% +- 2.58*0.314%= 0.19% ~ 1.81%
+
+second banner:
+
+3% +- 2.58*0.539% = 3% +- 1.39% = 1.61
+
+so the second banner has a probablilty of over 90% better converting than banner 1
+
 
 
 

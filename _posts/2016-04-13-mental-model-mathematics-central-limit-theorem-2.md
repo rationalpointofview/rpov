@@ -47,6 +47,8 @@ sample group average standard deviation = σ/n^0.5
 
 **Why this is important?**
 
+CLT actually is in the heart of modern statistics and you saw it everywhere.
+
 Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? 
 
 
@@ -66,7 +68,7 @@ most natural things or complex could be simulated by this. you can use it to fin
 
 **When it does'n apply ?**
 
-One of the drawback of CLIT is , it is statistics, and statistics..
+One of the drawback of CLT is , it is statistics, and statistics..
 
 > There are three kinds of lies: lies, damned lies, and statistics
 >   - Benjamin Disraeli
@@ -92,7 +94,9 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
     - Group µ
     - Group standard deviation σ
 
-    There is a special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf).
+In real life, find out the group standard deviation is often found to be very difficult.
+
+fortunately, if your result is one/zero, we can apply the special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf), and quickly caculate the standard deviation.
 
     What is a Binomial Distribtuion ? If there is only two possible outcome, win or loss, head or tail, get elected or not, you got the idea, and the outcome of one trial will not affect the other
 
@@ -610,8 +614,8 @@ Further study
 
 t-test
 
-beat distribution
-poiseon distribution
+[Beta distrubtion](https://en.wikipedia.org/wiki/Beta_distribution)
+[Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution)
 jeffery prior
 
 

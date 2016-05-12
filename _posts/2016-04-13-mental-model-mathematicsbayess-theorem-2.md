@@ -43,7 +43,16 @@ p (A|B) read: probability of A happens given B is true note, P(B) is the overal 
 
 Whats the relationship of A to B ?
 
-A is the your hypothesis/believe for now, and B is an evidene, or a test results, to support your hypothesis.
+A is the your hypothesis/believe for now, and B is an evidence,or a test, which you have a math model of A's response.
+
+What do you mean by math model ?
+
+Basically two things:
+
+Positive: when Apply Test B to A, what's the % of B turn out true while A is true
+
+False Positive: When Apply Test B to A, what's the % of B is true while A is not true
+
 
 Evidence/Test (B) is almost impossible to be 100 % accuate, the errors can be:
 
@@ -651,6 +660,27 @@ Session 150
 
 * * *
 
+
+[Example: A Bayesian view of Amazon Resellers](http://www.johndcook.com/blog/2011/09/27/bayesian-amazon/)
+
+You want to buy a used book through Amazon, there are two sellers:
+
+Seller A has 90 Positive reviews out of 100, thus a Rating of 90%
+
+Seller B has 2 Positive reviews, thus a Rating of 100%
+
+Which one will you pick ?
+
+The 100% One Right ?
+
+Because we deal with small numbers here, we need to use Beta-Distribution instead of Normal Distribution.
+
+The Math behind is somewhat complicated, but you can use this calculator to quickly [judge the numbers](http://www.peakconversion.com/2012/02/ab-split-test-graphical-calculator/):
+
+
+
+
+
 ** Bonus 
 
 [Bayesian Vesus Frequentist] (http://www.win-vector.com/blog/2013/05/bayesian-and-frequentist-approaches-ask-the-right-question/)
@@ -682,6 +712,11 @@ More Resources:
 [More examples ][29]
 
 [A visual Explaination of Bay's Themrom][30]
+
+
+[best explaination of beta distrubtion & Bayesian therom](http://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution)
+
+
 
 [Think Bayes From Greenteapress][31]
 

@@ -88,19 +88,17 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 
 *   Gather following data by statistics,combination/permutations or approximations, or proability theory
     
-    *   Group true mean
-    *   Group standard deviation
+    *   Gather/calculate Group true mean µ
+    *   Gather/calculate Group true standard deviation σ
 
-    - Group µ
-    - Group standard deviation σ
+In real life, find out the group true standard deviation is usually difficult.
 
-In real life, find out the group standard deviation is often found to be very difficult.
+Fortunately, if your data is one or zero type, we can apply the special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf), and quickly caculate the standard deviation.
 
-fortunately, if your result is one/zero, we can apply the special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf), and quickly caculate the standard deviation.
+What is a Binomial Distribtuion ? If there is only two possible outcome, win or loss, head or tail, a candidate get elected or not etc.
 
-    What is a Binomial Distribtuion ? If there is only two possible outcome, win or loss, head or tail, get elected or not, you got the idea, and the outcome of one trial will not affect the other
 
-    ![formular for binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/jnid2wrn.png)
+[formular for binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/jnid2wrn.png)
 
     >The Binomial(n, p) distribution is the distribution of Y , the number of
     heads in n tosses of a biased coin, when the probability of getting a head on
@@ -111,7 +109,8 @@ fortunately, if your result is one/zero, we can apply the special case of [apply
 
     p is also our group mean:
 
-    ![CLT of binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
+![CLT of binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
+
 * Compute the sample group mean/sum mean and standard deviation from CLT
 
     * Caution: You can't use one sample group data standard deviation to calculate population standard deviation.

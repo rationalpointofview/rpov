@@ -98,16 +98,13 @@ Fortunately, if your data is one or zero type, we can apply the special case of 
 What is a Binomial Distribtuion ? If there is only two possible outcome, win or loss, head or tail, a candidate get elected or not etc.
 
 
-[formular for binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/jnid2wrn.png)
+The Binomial(n, p) distribution is the distribution of Y , the number of heads in n tosses of a biased coin, when the probability of getting a head on a single toss is p. We begin by setting up a separate random variable for each toss.
 
-    >The Binomial(n, p) distribution is the distribution of Y , the number of
-    heads in n tosses of a biased coin, when the probability of getting a head on
-    a single toss is p. We begin by setting up a separate random variable for each
-    toss.
+if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then σ(x):
 
-    if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then σ(x):
+![formular for binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/jnid2wrn.png)
 
-    p is also our group mean:
+p is also our group mean:
 
 ![CLT of binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
 
@@ -121,6 +118,7 @@ What is a Binomial Distribtuion ? If there is only two possible outcome, win or 
 
 
 * Use Normdist function of google spreadsheet to find out the probability, if needed.
+
 *   Compute the sample group mean/sum mean and standard deviation from CLT
 
 *   Use Normdist function of google spreadsheet to find out the probability, if needed.

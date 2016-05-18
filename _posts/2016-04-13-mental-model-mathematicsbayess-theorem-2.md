@@ -702,6 +702,28 @@ P(L|Y)=P(Y|L)* P(L)/P(Y)
 
 She has a 41.2% Belongs to Labour Party
 
+[Example: Forensic AnalysisFrom Bayesian Statistics, Peter M. Lee](http://www.amazon.com/Bayesian-Statistics-Introduction-Peter-Lee/dp/1118332571/ref=sr_1_3?ie=UTF8&qid=1463538432&sr=8-3&keywords=Bayesian+Statistics+peter)
+
+
+>Suppose a crime has been committed. Blood is found at the scene for which there is no innocent explanation. It is of a type which is present in 1% of the population. The prosecutor may then state: 
+
+‘There is a 1% chance that the defendant would have the crime blood type if he were innocent. Thus, there is a 99% chance that he is guilty’ . 
+
+Alternatively, the defender may state: 
+
+‘This crime occurred in a city of 800,000 people. This blood type would be found in approximately 8000 people. The evidence has provided a probability of l in 8000 that the defendant is guilty and thus has no relevance.’ 
+
+The first of these is known as the prosecutor’s fallacy or the fallacy of the transposed conditional and, as pointed out above, in essence it consists in quoting the probability P(E ll ) instead of PU lE). The two are, however, equal if and only if the prior probability P(I ) happens to equal P(E), which will only rarely be the case. 
+
+The second is the defender’s fallacy which consists in quoting P(G IE) without regard to P(G). In the case considered by Aitken, the prior odds in favour of guilt are 
+
+P(G)/P(I) = 1/799 999, While the posterior odds are P(GlE)/P(I|E) :1/7 999. 
+
+Such a large change in the odds is, in Aitken’s words ‘surely of relevance’ . But, again In Aitken’s words, ‘Of course, it may not be enough to find the suspect guilty’. As a matter of fact, Bayesian statistical methods are increasingly used in a legal 
+
+context. Useful references are Balding and Donnelly (1995), Foreman, Smith and Evett (1997), Gastwirth (1988) and Fienberg (1989). 
+
+
 
 ** Bonus 
 

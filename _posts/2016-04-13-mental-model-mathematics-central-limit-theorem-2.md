@@ -31,17 +31,17 @@ __The condition:__
     
 __The prediction:__
 
-The sum( or average) of these sample values from each draw will form a bell curve
+The sum of these sample values from each draw will form a bell curve
 
 
-The mean of the bell curve be µ x n:
-The standard deviation of these sum will be pool standard deviation * n^1/2.
+* The mean of the bell curve be µ x n:
+* The standard deviation of these sum will be group standard deviation * sqrt(n)
 
-If we use the group average instead, divided both average and the sample group standard deviation by n.
+If we use the average instead, divided both average and the sample group standard deviation by n.
 
 sample group mean average = µ
 
-sample group average standard deviation = σ/n^0.5
+sample standard deviation = σ/sqrt(n)
 
 
 
@@ -107,6 +107,9 @@ if we assign value of head = 1, and value of tail = 0, and the probability of ge
 p is also our group mean:
 
 ![CLT of binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
+
+
+The rule of thumb is that nn should be large enough for np≥5np≥5 and n(1−p)≥5n(1−p)≥5
 
 * Compute the sample group mean/sum mean and standard deviation from CLT
 
@@ -178,28 +181,24 @@ It is a tricky one:
 
 How can we know the standard deviation ?
 
-There is only two possible outcome, winning $1, which has a probability of 45%, and losing $1, which has a probability of 55%
+There is only two possible outcome, winning $1, which has a probability of 45%, and losing $1, which has a probability of 55%, so we can apply the special case CLT for binomial distribution.
 
-recall the formular for standard deviation is:
+the σ(group) = sqr(p(1-p))
 
-![standard deviation](https://upload.wikimedia.org/math/3/1/8/31830fa1f2f922edf6079209a51f8967.png)
+and the sample σ
 
-we can compute the group standard deviation as the follows:
+![CLT of binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
 
-![standard deviation](http://www.rationalpov.com/wp-content/uploads/2016/04/render-2.png)
+and the win rate p=0.45
 
-* The σ is a average measurement of each sample depart from mean, as we already know the proability(frequency) of each sample, we just need to mutiple the expected value (1, -1) with it's probability accordingly.
-![Standard Deviation][14]
+n= 100
 
+the σ(sample) = sqrt(0.45*(1-0.55)/100)= 0.0497
 
-= 0.9947
-
-Let's plug the numbers in to CLT
+Now we have all the data we need:
 
 sample mean = group mean = -0.1
-
-100 sample group standard deviation mean = 0.9947*10/100 = 0.09947
-
+σ(sample) = sqrt(0.45*(1-0.55)/100)= 0.0497
 and the break even mark is 0.
 
 not losing probability=1-normdist(0,-0.1,0.09947,true)= 1-0.84263= 15.7%
@@ -613,7 +612,7 @@ t-test
 
 [Beta distrubtion](https://en.wikipedia.org/wiki/Beta_distribution)
 [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution)
-jeffery prior
+
 
 
 More resource:

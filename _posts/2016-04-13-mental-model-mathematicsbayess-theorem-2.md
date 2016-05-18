@@ -31,6 +31,11 @@ One vivid example can be found in the [Black Swan][3]by Nassim Taleb
 
 > Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 
+From Turkey's propective, The Evidence of the believe( Human is a friend) is "humans feed us everyday".
+
+But the evidence "humans feed us everyday" could have many alternative explanations, thus a weak evidence.
+
+
 **Why is this important ?**
 
 Even the best of us is subject to the hardwiring of our lizard brains [Confirmation bias][4] and [Avalilability bias][5], and Baye's theorem is a weapon we can use to fight our lizard brain.
@@ -74,28 +79,32 @@ From a Turkey prospertive:
 
 Turkey's Believe/Hypothesis (A):
 
-> it is the general rule of life: friendly members of the human race is our friend and will look after our best interest.
+> the human race is our friend and will look after our best interest.
 
 Evidence (B)
 
 > Huamn has fed us every day for 364 days !
 
-when we examine the Evidence (B)( "Huamn has fed us every day for 364 days" ), it could have the following alterative explaination
+when we examine the Evidence (B)( "Human fed us every day" ), it could have the following alterative explaination
 
 *   Hypothesis A: Human being is our friend and feed us unconditionally and look after us
 *   Hypothesis B: Human being is feeding us for their own purpose, and probably want to eat our body.
 
-Even though Human fed the turkeys every day for 364, the possibility of hypothesis B is never to be 0.
+Even though Human fed the turkeys every day for 364, the possibility of hypothesis B is never to be 0, and the evidence "Human fed us every day" can't distinguish between two Hypothesis. 
 
 **How to use this mental Model**:
 
 *   Write down your current believe/Hypothesis A
 
-*   Find out the base rate of A is true( From past data or combination/permutation ratios )
+*   Write down your evidence B.
 
-*   write down your evidence(B) supporting A
+*   Build The Math Model between A and B:
 
-*   Brain Storm/List out any reasons you can think of to cause event B to happen
+    *   Find out the base rate of A 
+    *   Find out the possiblity of B is true given A is true
+    *   Find out the overall possiblity of B is true
+        *   Brain Storm/List out any reasons you can think of to cause event B to happen
+
 
 *   Find out the following data:
 
@@ -675,10 +684,23 @@ The 100% One Right ?
 
 Because we deal with small numbers here, we need to use Beta-Distribution instead of Normal Distribution.
 
+[best explaination of beta distrubtion & Bayesian therom](http://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution)
+
 The Math behind is somewhat complicated, but you can use this calculator to quickly [judge the numbers](http://www.peakconversion.com/2012/02/ab-split-test-graphical-calculator/):
 
 
+[Example: A Political Example, From Bayesian Statistics, Peter M. Lee](http://www.amazon.com/Bayesian-Statistics-Introduction-Peter-Lee/dp/1118332571/ref=sr_1_3?ie=UTF8&qid=1463538432&sr=8-3&keywords=Bayesian+Statistics+peter)
 
+
+>The following example is a simplified version of the situation just before the time of the British national referendum as to whether the United Kingdom should remain part of the European Economic Community which was held in 1975. Suppose that at that date, which was shortly after an election which the Labour Party had won, the proportion of the electorate supporting Labour (L) stood at 52%, while the proportion supporting the Conservatives (C) stood at 48% (it being assumed for simplicity that support for all other parties was negligible, although this was far from being the case). There were many opinion polls taken at the time, so we can take it as known that 55% of Labour supporters and 85% of Conservative voters intended to vote ‘Yes’ (Y) and the remainder intended to vote ‘N o’ (N). Suppose that knowing all this you met someone at the time who said that she intended to vote ‘Yes’, and you were interested in knowing which political party she supported. If this information were all you had available, you could reason as follows: 
+
+P(L|Y)=P(Y|L)* P(L)/P(Y)
+
+= 55% * 52% /( 55% * 52% + 48%* 85%)
+
+= 0.286/(0.286+0.408) = 0.286/0.694 = 41.2 %
+
+She has a 41.2% Belongs to Labour Party
 
 
 ** Bonus 
@@ -714,7 +736,6 @@ More Resources:
 [A visual Explaination of Bay's Themrom][30]
 
 
-[best explaination of beta distrubtion & Bayesian therom](http://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution)
 
 
 

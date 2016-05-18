@@ -35,9 +35,9 @@ The sum of these sample values from each draw will form a bell curve
 
 
 * The mean of the bell curve be µ x n:
-* The standard deviation of these sum will be group standard deviation * sqrt(n)
+* The standard deviation of these sum will be base standard deviation * sqrt(n)
 
-If we use the average instead, divided both average and the sample group standard deviation by n.
+If you want to use the average;
 
 sample group mean average = µ
 
@@ -47,7 +47,9 @@ sample standard deviation = σ/sqrt(n)
 
 **Why this is important?**
 
-CLT actually is in the heart of modern statistics and you saw it everywhere.
+CLT is in the heart of modern statistics, and you probably saw it but don't know it is CLT.
+
+One Example will be The Famous Bell Curve;
 
 Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? 
 
@@ -61,9 +63,9 @@ For example, Human height is influenced by genes, enviromental effects, nutritio
 
 **Why this is useful?**
 
-Because if the shape of the distribution is known, we can reverse look up the probability of the data set
+Because if you know the shape of the distribution and standard deviation of the distribution, you can compute a lot of things 
 
-most natural things or complex could be simulated by this. you can use it to find out the probability of certain event.
+Eg. you can reverse look up the probability of the data set
 
 
 **When it does'n apply ?**
@@ -91,7 +93,7 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
     *   Gather/calculate Group true mean µ
     *   Gather/calculate Group true standard deviation σ
 
-In real life, find out the group true standard deviation is usually difficult.
+In real life, find out the base standard deviation is usually difficult.
 
 Fortunately, if your data is one or zero type, we can apply the special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf), and quickly caculate the standard deviation.
 
@@ -177,41 +179,31 @@ ___
 
 *   The Group standard deviation:
 
-It is a tricky one:
+The Group Standard Deviation:
 
-How can we know the standard deviation ?
+sqr(0.45*(1-(-1))^2+0.55*(-1-(-0.1))^2/100)
 
-There is only two possible outcome, winning $1, which has a probability of 45%, and losing $1, which has a probability of 55%, so we can apply the special case CLT for binomial distribution.
+= 0.0995
 
-the σ(group) = sqr(p(1-p))
+not losing probability=1-normdist(0,-0.1,0.0995,true)= 1-0.84263= 15.7%
 
-and the sample σ
+We can also use the CLT for binomial distribution:
 
 ![CLT of binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
 
-and the win rate p=0.45
+The win rate p=0.45
+
+p=µ=0.45
+
+and the sample σ Standard Deviation: = sqr((1-0.45)*0.45/100) = 0.0497
 
 n= 100
 
-the σ(sample) = sqrt(0.45*(1-0.55)/100)= 0.0497
-
 Now we have all the data we need:
 
-sample mean = group mean = -0.1
+sample mean = 0.45
 σ(sample) = sqrt(0.45*(1-0.55)/100)= 0.0497
-and the break even mark is 0.
-
-not losing probability=1-normdist(0,-0.1,0.09947,true)= 1-0.84263= 15.7%
-
-We can also try to use the CLT for binomial distrubtion to solve this:
-
-P = 0.45
-and mean = 0.45 σ= ((1-0.45)*0.45)^0.5=0.497
-
-so the 100 sample group σ 
-P = 0.45 and mean = 0.45 SD= ((1-0.45)*0.45)^0.5=0.497
-
-and as we definite the losing payout is 0, winning payout is 1, the point of not losing should be 0.5
+and the break even mark is 0.5
 
 so the probablity of not losing = 1- normdist(0.5,0.45,0.0497,true) = 1-0.843 =15.7%
 
@@ -270,52 +262,19 @@ Since there is only two possible outcomes, we could applying CLT for Binomial di
 
 Say we do the hard leg work , and conduct a survey of 1000 persons and ask if they prefer the candidate Obama or candidate Underwood . Then We find that in this poll, 54 percent of those we ask will vote for Obama.
 
-Can we deduct anything from this merely 1000 people poll data ? we are really interested in knowing what all US voter think.
+Is that safe to use these 1000 voters to proxy what all US voter think?
 
-lets assign value of voter vote for Obama = 1, and value of voter vote for Underwood = 0, and the probability of voter vote for Obama is p, recall:
+lets assign value of voter vote for Obama = p;
 
+by using CLT for binomail distribution, 
 
-while we dont know the value of µ, p, let's imaging that we conducted a lot of  opinion polls (say one million polls) and asking 1000 persons each time whether or not they would vote for Obama. 
-
-By CLT, we know that the distrubtion of these average of 1000 persons polls will form a bell curve, around the µ, p.
-
-But obviously, we don't have the luxury of doing 1 million 1000 people polls. We can just do one. And from the one data point, we got the sapme mean.
-
-But we can use CLT to approximately guesstimate hwo these 1 million 1000 people polls will look like.
-
-
-The σ'( The 1000 poll group average standard deviation)
-
-We can make two assumptions:
-while we dont know the value of true mean, p, let's imaging that we conducted a lot of opinion polls (say one million polls) and asking 1000 persons each time whether or not they would vote for Obama.
-
-The σx = σ/N^0.5 = (p*(1-p)/n)^0.5
-
-but the problem is , we dont know the µ P, how can we solve that?
-
-__We can use the sample p' value as our approximation to µ P.__ 
-
-__Heck. We could actually use the abitary number of 0.5 ( assume the chance is even, and hence the maximum σ)__
 ![SD(x)][10]
 
-It is a relative Safe assumption, as long as the µ P is within 0.3 to 0.7 
+we can know if we do this polling 1000 times, it will form a bell curve and with the following standard deviation
 
-Why ?
+![standard deviation](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
 
-Using the same 1000 people Poll assumption:
 
-Case: µ = 0.7 
- σ= 0.0145
-
-Case: µ = 0.5
- σ = 0.0158
-
-Case: µ = 0.3
- σ= 0.0145
-
-If the µ is within range of 0.3-0.7, the maximum difference is only
-
-0.0158-0.0145= 0.13 Percentage point standard deviation.
 
 
 

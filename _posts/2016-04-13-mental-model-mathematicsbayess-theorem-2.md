@@ -29,6 +29,8 @@ Photo by: [Lee Davy][2]
 
 One vivid example can be found in the [Black Swan][3]by Nassim Taleb
 
+![turkeys](https://upload.wikimedia.org/wikipedia/commons/6/66/Turkeys.jpg)
+
 > Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 
 
@@ -231,7 +233,7 @@ Why is that ? it is because the base rate of cancer happening is very low 1.4% ,
 
 In the Nate Silver's Books [The Signal and the Noice][12]
 
-![911 attack](https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWorld_Trade_Center_9-11_Attacks_Illustration_with_Vertical_Impact_Locations.svg&psig=AFQjCNEAsRzm3hqgypJDy-zcY5lLlfKMUQ&ust=1463712526158702)
+![911 attack](https://upload.wikimedia.org/wikipedia/commons/a/a0/World_Trade_Center_9-11_Attacks_Illustration_with_Vertical_Impact_Locations.svg)
 
 There is a vivid example of applying Bayes Theorem
 

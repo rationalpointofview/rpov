@@ -29,10 +29,10 @@ Photo by: [Lee Davy][2]
 
 One vivid example can be found in the [Black Swan][3]by Nassim Taleb
 
-![turkeys](https://upload.wikimedia.org/wikipedia/commons/6/66/Turkeys.jpg)
 
 > Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 
+![turkeys](https://upload.wikimedia.org/wikipedia/commons/6/66/Turkeys.jpg)
 
 
 **Why is this important ?**

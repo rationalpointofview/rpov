@@ -231,6 +231,8 @@ Why is that ? it is because the base rate of cancer happening is very low 1.4% ,
 
 In the Nate Silver's Books [The Signal and the Noice][12]
 
+![911 attack](https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWorld_Trade_Center_9-11_Attacks_Illustration_with_Vertical_Impact_Locations.svg&psig=AFQjCNEAsRzm3hqgypJDy-zcY5lLlfKMUQ&ust=1463712526158702)
+
 There is a vivid example of applying Bayes Theorem
 
 > Consider a somber example: the September 11 attacks. Most of us would have assigned almost no probability to terrorists crashing planes into buildings in Manhattan when we woke up that morning. But we recognized that a terror attack was an obvious possibility once the first plane hit the World Trade Center. And we had no doubt we were being attacked once the second tower was hit. Bayes's theorem can replicate this result.
@@ -294,6 +296,8 @@ A reader from Quora poses a questioin:
 
 > What does it mean when a girl smiles at you every time she sees you ?
 
+![Girls Smile](https://pixabay.com/static/uploads/photo/2016/03/01/23/01/girl-1231390_960_720.jpg)
+
 Another reader using Bayes’s Theorem replies:
 
 P(like|smile) = P(smile|like)*p(like)/p(smile)
@@ -330,6 +334,7 @@ ___
 
 **Example**:
 
+![ Rainy Day](https://pixabay.com/static/uploads/photo/2015/02/14/07/06/a-rainy-day-636089_960_720.jpg)
 Marie is getting married tomorrow, at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time. What is the probability that it will rain on the day of Marie's wedding?
 
 So we want to know:
@@ -344,6 +349,7 @@ ___
 
 [**Example:**][13]
 
+![blue eggs](https://pixabay.com/static/uploads/photo/2016/04/03/05/55/easter-1304066_960_720.jpg)
 Suppose that a barrel contains many small plastic eggs. Some eggs are painted red and some are painted blue. 40% of the eggs in the bin contain pearls, and 60% contain nothing. 30% of eggs containing pearls are painted blue, and 10% of eggs containing nothing are painted blue. What is the probability that a blue egg contains a pearl?
 
 P( Contain Pearl | Blue ) = P (Blue | Contain Pearl) * P (Contain Pearl)/P(Blue)

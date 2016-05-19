@@ -31,9 +31,6 @@ One vivid example can be found in the [Black Swan][3]by Nassim Taleb
 
 > Consider a turkey that is fed everyday. Every single feeding will firm up the bird’s belief that it is the general rule of life to be fed everyday by friendly members of the human race “looking out for its best interests,” as a politician would say. On the afternoon of the Wednesday before Thanksgiving, something unexpected will happen to the turkey. It will incur a revision of belief.
 
-From Turkey's propective, The Evidence of the believe( Human is a friend) is "humans feed us everyday".
-
-But the evidence "humans feed us everyday" could have many alternative explanations, thus a weak evidence.
 
 
 **Why is this important ?**
@@ -48,7 +45,8 @@ p (A|B) read: probability of A happens given B is true note, P(B) is the overal 
 
 Whats the relationship of A to B ?
 
-A is the your hypothesis/believe for now, and B is an evidence,or a test, which you have a math model of A's response.
+A is the your hypothesis/believed fact for now, and you knwo how likely A happens.
+B is an evidence approving or disapproving the fact,which you have a math model of A's response.
 
 What do you mean by math model ?
 
@@ -59,7 +57,8 @@ Positive: when Apply Test B to A, what's the % of B turn out true while A is tru
 False Positive: When Apply Test B to A, what's the % of B is true while A is not true
 
 
-Evidence/Test (B) is almost impossible to be 100 % accuate, the errors can be:
+Note. Evidence/Test (B) is almost impossible to be 100 % by definition:
+
 
 *   false positive: A is not true, but Test B say it is true.
 
@@ -69,13 +68,11 @@ Using the turkey example, the false positive is human is not turkey's friend, bu
 
 The false negative is human is turkey's friend, but they don't feed us.
 
-If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) given your hypothese.
+If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) supporting your hypothese.
 
 **The strengh of the evidence is depends on how many alternate explaination of evidence (B) could have. the fewer the alternate explaintion of evidence, the stronger the evidence.**
 
 Lets use the turkey example again:
-
-From a Turkey prospertive:
 
 Turkey's Believe/Hypothesis (A):
 
@@ -85,12 +82,19 @@ Evidence (B)
 
 > Huamn has fed us every day for 364 days !
 
+From a Turkey prospertive:
+
+From Turkey's propective, The Evidence of the believe( Human is a friend) is "humans feed us everyday".
+
+But the evidence "humans feed us everyday" could have many alternative explanations, thus a weak evidence.
+
 when we examine the Evidence (B)( "Human fed us every day" ), it could have the following alterative explaination
 
-*   Hypothesis A: Human being is our friend and feed us unconditionally and look after us
-*   Hypothesis B: Human being is feeding us for their own purpose, and probably want to eat our body.
+*   Alternate explaination A: Human feed us unconditionally because they are our friends.
+*   Alternate explaination B: Human being is feeding us for their own purpose, 
 
-Even though Human fed the turkeys every day for 364, the possibility of hypothesis B is never to be 0, and the evidence "Human fed us every day" can't distinguish between two Hypothesis. 
+The Evidence "Human fed us every day" can't distinguish between two Alternate Explaination.
+
 
 **How to use this mental Model**:
 
@@ -103,7 +107,7 @@ Even though Human fed the turkeys every day for 364, the possibility of hypothes
     *   Find out the base rate of A 
     *   Find out the possiblity of B is true given A is true
     *   Find out the overall possiblity of B is true
-        *   Brain Storm/List out any reasons you can think of to cause event B to happen
+        *   Brain Storm/List out any reasons you can think of to cause event B to happen, and the probability associate with it.
 
 
 *   Find out the following data:
@@ -704,25 +708,46 @@ She has a 41.2% Belongs to Labour Party
 
 [Example: Forensic AnalysisFrom Bayesian Statistics, Peter M. Lee](http://www.amazon.com/Bayesian-Statistics-Introduction-Peter-Lee/dp/1118332571/ref=sr_1_3?ie=UTF8&qid=1463538432&sr=8-3&keywords=Bayesian+Statistics+peter)
 
+![blood test](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/eu85w0il.png)
 
 >Suppose a crime has been committed. Blood is found at the scene for which there is no innocent explanation. It is of a type which is present in 1% of the population. The prosecutor may then state: 
 
-‘There is a 1% chance that the defendant would have the crime blood type if he were innocent. Thus, there is a 99% chance that he is guilty’ . 
+>‘There is a 1% chance that the defendant would have the crime blood type if he were innocent. Thus, there is a 99% chance that he is guilty’ . 
 
-Alternatively, the defender may state: 
+>Alternatively, the defender may state: 
 
-‘This crime occurred in a city of 800,000 people. This blood type would be found in approximately 8000 people. The evidence has provided a probability of l in 8000 that the defendant is guilty and thus has no relevance.’ 
+>‘This crime occurred in a city of 800,000 people. This blood type would be found in approximately 8000 people. The evidence has provided a probability of l in 8000 that the defendant is guilty and thus has no relevance.’ 
 
-The first of these is known as the prosecutor’s fallacy or the fallacy of the transposed conditional and, as pointed out above, in essence it consists in quoting the probability P(E ll ) instead of PU lE). The two are, however, equal if and only if the prior probability P(I ) happens to equal P(E), which will only rarely be the case. 
+Which one is correct ? Armed with Baysian thinking, you find out both argument is not correct.
 
-The second is the defender’s fallacy which consists in quoting P(G IE) without regard to P(G). In the case considered by Aitken, the prior odds in favour of guilt are 
+Lets Apply the Baysian Theorem here:
 
-P(G)/P(I) = 1/799 999, While the posterior odds are P(GlE)/P(I|E) :1/7 999. 
+Believe:
 
-Such a large change in the odds is, in Aitken’s words ‘surely of relevance’ . But, again In Aitken’s words, ‘Of course, it may not be enough to find the suspect guilty’. As a matter of fact, Bayesian statistical methods are increasingly used in a legal 
+The Suspect is Guity:
 
-context. Useful references are Balding and Donnelly (1995), Foreman, Smith and Evett (1997), Gastwirth (1988) and Fienberg (1989). 
+Evidence: 
 
+The Suspect has the same blood type of the crime scene
+
+Basic Data:
+
+Priors: 
+
+P(Guity) = 1/800000
+
+P(Equal Blood Type| Guity) = 1
+
+P(Equal Blood Type)= 8000/800000
+
+
+P(Guilty|Equal Blood Type) = P (Equal Blood Type| Guilty)* P(Guity)/P(Equal Blood Type)
+= 1 * 1/800000/(8000/800000)
+
+With the new evidence of the suspect has the same blood type of the crime scene, the Postier Probability of P(Guity) change from 1/800000 to 1/8000
+
+
+> Such a large change in the odds is, in Aitken’s words ‘surely of relevance’ . But, again In Aitken’s words, ‘Of course, it may not be enough to find the suspect guilty’. 
 
 
 ** Bonus 

@@ -622,6 +622,7 @@ P(S|L) = P(L|S)* P(S)/P(L) = 0.28% * 14.8% /( 0.0216% * 85.2 % + 0.28% * 14.8%) 
 
 [Example: Finding the Mole][27]
 
+![Spy](https://upload.wikimedia.org/wikipedia/commons/3/36/Spy.png)
 > So: you're the head of MI6. You're pretty sure there's a "mole" in your organization.
 > 
 > You've narrowed it down to five suspects: Alan,Bob, Chris,Dave, and Ed.

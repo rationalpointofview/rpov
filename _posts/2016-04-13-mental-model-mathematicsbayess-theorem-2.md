@@ -126,6 +126,7 @@ ___
 
 In an excellent [real life example by Allen Downey][7]
 
+![House fire?](https://upload.wikimedia.org/wikipedia/commons/9/96/ShadowRidgeRoadFire.JPG)
 > I had a chance to practice Bayesian inference in real life today: at 1pm my wife called to tell me that the carbon monoxide (CO) alarm at the house was going off. Immediately two hypotheses came to mind: (1) there is a dangerous amount of CO in my house, (2) it's a false alarm.
 > 
 > It's summer and all the windows are open in the house. The furnace is not running and we don't have a gas stove. And the detector is about 10 years old. This background information makes a false alarm more plausible, so I started with a low prior for (1). Since my wife was on her way out anyway, I suggested she disconnect the detector, turn on a fan, and leave.
@@ -182,6 +183,8 @@ ___
 **Examples**
 
 Concrete example from [5 August 2011 New York Times article by John Allen Paulos][10]:
+
+![3 gold coin](https://upload.wikimedia.org/wikipedia/commons/5/5a/NNC-US-1907-G$20-Saint_Gaudens_(Roman,_high_relief)_%E2%80%93_edge_detail.jpg)
 
 Assume that you’re presented with three coins, two of them fair and the other a counterfeit that always lands heads. If you randomly pick one of the three coins, and flip it 3 times, you observed the chosen coin has landed head 3 times in a row.
 

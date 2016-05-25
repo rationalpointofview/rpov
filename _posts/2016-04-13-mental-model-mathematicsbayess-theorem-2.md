@@ -47,7 +47,8 @@ p (A|B) read: probability of A happens given B is true note, P(B) is the overal 
 
 Whats the relationship of A to B ?
 
-A is the your hypothesis/believed fact for now, and you knwo how likely A happens.
+A is the your hypothesis/believes to be tested for now;
+
 B is an evidence approving or disapproving the fact,which you have a math model of A's response.
 
 What do you mean by math model ?
@@ -61,14 +62,6 @@ False Positive: When Apply Test B to A, what's the % of B is true while A is not
 
 Note. Evidence/Test (B) is almost impossible to be 100 % by definition:
 
-
-*   false positive: A is not true, but Test B say it is true.
-
-Using the turkey example, the false positive is human is not turkey's friend, but they still feed the turkey's
-
-*   false negative: A is true, but Test B say it is not true.
-
-The false negative is human is turkey's friend, but they don't feed us.
 
 If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) supporting your hypothese.
 
@@ -289,7 +282,7 @@ P(T|2P) = P(2P|T)*P(T)/P(2P)
 
 P(2P|T) = 100% P(T) = 38% /P(2C)=38%/(0.008%*0.008% + 38%)= 99.99%
 
-by the time the 2nd plane hits the twin tower, we can almost certain it is a Terro Attack.
+by the time the 2nd plane hits the twin tower, we can almost certain it is a Terrorist Attack.
 
 ___
 **Example**
@@ -310,21 +303,23 @@ P(smile|like) = Chance She Smiles at you given she likes you P(like) = Chances S
 
 Lets assume two extreme:
 
-P(smile) = 1, she smile at everyone
+P(smile) = 1, she smile at everyone, by definition, p(smile|like)=1 too.
+
 
 so
 
 P(like|smile) = 1*P(Like)/1 = P(like)
 
-Remember, the strengh of evidence is depends on how many alternative explanation it could have.
+So she smiling at **YOU** doesn't tell you much.
 
-so the information of she is smiling at you doesn't mean anything.
+Remember, **the strengh of evidence is depends on how many alternative explanation it could have**
+
 
 But...
 
 if She rarely smiles at someone, but smiles everytime she sees someone she likes, then
 
-P(smile) = 0%. P(smile|like) = 100% P(smile)=P(like)
+P(smile|not liked) = 0%. P(smile|like) = 100% P(smile)=P(like)
 
 P(like|smile) = = 1*P(smile)/(0 + P(smile|like))= 100%
 
@@ -337,13 +332,16 @@ ___
 **Example**:
 
 ![ Rainy Day](https://pixabay.com/static/uploads/photo/2015/02/14/07/06/a-rainy-day-636089_960_720.jpg)
+
+[**Example Rainy Day**](http://stattrek.com/probability/bayes-theorem.aspx)
+ 
 Marie is getting married tomorrow, at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time. What is the probability that it will rain on the day of Marie's wedding?
 
 So we want to know:
 
 P(Raining |Forcasted Rain) = P(Forcasted Rain|Raining)*P(Raining)/P(Forcasted Rain)
 
-= 0.9*(5/365)/(0.9*5/365+(360/365)*0.1)= 0.01232/(0.01232+0.08493)= 12.6%
+= 0.9*(5/365)/(0.9*5/365+(360/365)*0.1)= 0.01232/(0.01232+0.09863)= 11.09%
 
 Despite the weatherman's gloomy prediction, there is a good chance that Marie will not get rained on at her wedding.
 

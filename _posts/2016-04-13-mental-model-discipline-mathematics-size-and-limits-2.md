@@ -15,14 +15,16 @@ published: true
 **Discipline: Mathematics** 
 **Mental Model Name: Size and Limits**
 
-Is that any physical things in the things your try to predict ? if so, this model will help you predict how it will behave when scalling;
+Is that any physical things in the things your try to predict ? if so, this model will help you predict how it will behave when scaling;
 
 **How to use this mental Model**:
 
 Useful to: to predict how physical object property change when the size scale up or down.
 
-**Mental short cuts/Simulation:**
+![scaling up and down](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/ybo_pmqb.png)
 
+**Mental short cuts/Simulation:**
+       
 Assuming the object is uniform and make of same material,
 
 Weight = A * Volume, and Volume is 3D thing
@@ -39,24 +41,21 @@ A ,B C is some constant
 
 Calculation and formular is [here][1]:
 
-****Predictions****:
+**Predictions**:
 
 *   When Object made of the same material scale up in size( Become Larger):
     
-    The Rate of increase of Volume is the fastest ( becuase it is 3D)
+  - The Rate of increase of Volume(Hence the Weight) is the fastest ( becuase it is 3D)
     
-        - Weight/mass object will increase faster than cross section area, hence the object will become more fragile
+  - Weight/mass object will increase faster than cross section area(ie. strength), the object will become more fragile
         
-        - Weight/mass of the object will increase after than the total surface area 
-        
+       
 
 *   When Object made of the same material scale down in size( Become smaller):
     
-        - Weight/mass object will increase **slower** than cross section area, hence the object will become more stronger, reference to its own weight
+  - Weight/mass object will decrease faster than cross section area(strengh), hence the object will become stronger, reference to its own weight
         
-        - Weight/mass of the object will increase **slower** after than the total surface area 
-        - 
-        ![](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/ybo_pmqb.png)
+    
         
 
 

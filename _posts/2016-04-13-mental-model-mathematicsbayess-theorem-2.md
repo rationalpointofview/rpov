@@ -79,7 +79,7 @@ Turkey's Believe/Hypothesis (A):
 
 Evidence (B)
 
-> Huamn has fed us every day for 364 days !
+> Human has fed us every day for 364 days !
 
 From a Turkey prospertive:
 

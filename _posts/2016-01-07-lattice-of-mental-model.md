@@ -81,4 +81,20 @@ Straigh from Munger:
 
 >The need for this clearly correct six-element system, with its large demands in a narrow-scale field where stakes are high, is rooted in the deep structure of the human mind. Therefore, we must expect that the education we need for broad scale problem-solving will keep all these elements but with awesomely expanded coverage for each element. How could it be otherwise?
 
+## Current List of mental models ( Orders Matter )
+
+### Discipline Mathematics
+
+* [basic arithmetic](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
+* [compound interest](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
+* [elementary math of permutations and combinations](http://www.rationalpov.com/mental-model-mathematicscombinations-and-permutations-2/)
+* [basic probability, law of big number](http://www.rationalpov.com/mental-model-mathematics-probability-law-of-big-numbers-2/)
+* [basic probability, central limit theorem](http://www.rationalpov.com/mental-model-mathematics-central-limit-theorem-2/)
+* [basic probability, bayes theorem](http://www.rationalpov.com/mental-model-mathematicsbayess-theorem-2/)
+* [invert](http://www.rationalpov.com/mental-model-discipline-mathematics-invert-2/)
+
+### Discipline Economics
+
+* [oppotunity cost](http://www.rationalpov.com/mental-model-economics-oppotunity-cost/)
+* 
 

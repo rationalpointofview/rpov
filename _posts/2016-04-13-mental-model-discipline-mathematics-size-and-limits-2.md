@@ -55,11 +55,6 @@ Calculation and formular is [here][1]:
     
   - Weight/mass object will decrease faster than cross section area(strengh), hence the object will become stronger, reference to its own weight
         
-    
-        
-
-
-
 
 **Example**
 
@@ -67,9 +62,9 @@ How does weight, strength and surface area change when we change size?
 
 Peter Bevelin in his excellent book [Seeking Wisdom: From Darwin to Munger, 3rd Edition][2] gave a vivid example of this.
 
-Imaging If you grow twice as tall, your will be weighting about 8 times as before, and your bone's cross section only incresae 4 times, so the stress to your bone is 2 times higher, and assumeing the material consist of your bone dont change, hence you are 50 % more fragile.
+Imaging If you grow twice as tall, your will be weighting about 8 times as before, and your bone's cross section only increase 4 times, so the stress to your bone is 2 times higher, and assumeing the material consist of your bone dont change, hence you are 50 % more fragile.
 
-Ever Wonder Why the lagest animal in the sea is blue whale, which can reach 180 tons and the lagest land animal african elephant is only can reach about 7 tons ?
+Ever Wonder Why the largest animal in the sea is blue whale, which can reach 180 tons and the lagest land animal african elephant is only can reach about 7 tons ?
 
 Thats why.
 
@@ -112,7 +107,7 @@ but the Surface Area/Weight Ratio is increased by 1000 times, thus each flour pa
 
 thats why.
 
-Wonder what will burn in an increased oxygen contration enviroment ?
+Wonder what will burn in an increased oxygen concentration enviroment ?
 
 [![iron burn in oxygen](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/hceu163c.png)](https://youtu.be/TkE1uVjrY0w)
 

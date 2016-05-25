@@ -37,7 +37,7 @@ One vivid example can be found in the [Black Swan][3]by Nassim Taleb
 
 **Why is this important ?**
 
-Even the best of us is subject to the hardwiring of our lizard brains [Confirmation bias][4] and [Avalilability bias][5], and Baye's theorem is a weapon we can use to fight our lizard brain.
+Even the best of us is subject to the hardwiring of our lizard brain's [Confirmation bias][4],[Avalilability bias][5] and Base Rate Ignore Bias, and Baye's theorem is a weapon we can use to fight our lizard brain.
 
 Bayes' theorem gives the relationship between the probabilities of A and B, P(A) and P(B), and the conditional probabilities of A given B and B given A, P(A|B) and P(B|A). In its most common form, it is:
 
@@ -62,10 +62,14 @@ False Positive: When Apply Test B to A, what's the % of B is true while A is not
 
 Note. Evidence/Test (B) is almost impossible to be 100 % by definition:
 
-
 If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) supporting your hypothese.
 
 **The strengh of the evidence is depends on how many alternate explaination of evidence (B) could have. the fewer the alternate explaintion of evidence, the stronger the evidence.**
+
+**The lower the base rate of P(A) is happening, you need a very strong P(B) to confirm or disconfirm P(A)**
+
+
+
 
 Lets use the turkey example again:
 
@@ -334,7 +338,7 @@ ___
 ![ Rainy Day](https://pixabay.com/static/uploads/photo/2015/02/14/07/06/a-rainy-day-636089_960_720.jpg)
 
 [**Example Rainy Day**](http://stattrek.com/probability/bayes-theorem.aspx)
- 
+
 Marie is getting married tomorrow, at an outdoor ceremony in the desert. In recent years, it has rained only 5 days each year. Unfortunately, the weatherman has predicted rain for tomorrow. When it actually rains, the weatherman correctly forecasts rain 90% of the time. When it doesn't rain, he incorrectly forecasts rain 10% of the time. What is the probability that it will rain on the day of Marie's wedding?
 
 So we want to know:

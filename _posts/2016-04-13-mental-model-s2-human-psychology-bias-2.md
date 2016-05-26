@@ -346,6 +346,17 @@ an attempt to appear as if they do. Interesting, isn’t it? So think about your
 
 You’re the most expensive dog groomer in town? Show photos of the rich celebrities who bring in their pooches. Feature Mr. or Ms. Celeb stepping out of a limo with a drooling pooch. “Oh, yes...there are plenty of other groomers in town, but pshaw! I only trust the Karringtons with my Fluffy.” So snotty, but—BOOM!—instant ego appeal.
 
+Example:[CBS network, from Charlie Munger](https://old.ycombinator.com/munger.html)
+
+>Television was dominated by one network—CBS in its early days. And Paley was a god. But he didn't like to hear what he didn't like to hear. And people soon learned that. So they told Paley only what he liked to hear. Therefore, he was soon living in a little cocoon of unreality and everything else was corrupt—although it was a great business.
+
+>So the idiocy that crept into the system was carried along by this huge tide. It was a Mad Hatter's tea party the last ten years under Bill Paley.
+
+>And that is not the only example by any means. You can get severe misfunction in the high ranks of business. And of course, if you're investing, it can make a lot of difference. If you take all the acquisitions that CBS made under Paley, after the acquisition of the network itself, with all his advisors—his investment bankers, management consultants and so forth who were getting paid very handsomely—it was absolutely terrible.
+
+>For example, he gave something like 20% of CBS to the Dumont Company for a television set manufacturer which was destined to go broke. I think it lasted all of two or three years or something like that. So very soon after he'd issued all of that stock, Dumont was history. You get a lot of dysfunction in a big fat, powerful place where no one will bring unwelcome reality to the boss.
+
+
 * * *
 
 #### 11 simple, pain-avoiding psychological denial

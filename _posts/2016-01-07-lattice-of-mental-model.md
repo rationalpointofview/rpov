@@ -92,9 +92,31 @@ Straigh from Munger:
 * [basic probability, central limit theorem](http://www.rationalpov.com/mental-model-mathematics-central-limit-theorem-2/)
 * [basic probability, bayes theorem](http://www.rationalpov.com/mental-model-mathematicsbayess-theorem-2/)
 * [invert](http://www.rationalpov.com/mental-model-discipline-mathematics-invert-2/)
+* accounting
+
+### Discipline Engineering
+
+* backup system/redundancy
+* break points
+* critical mass
+* [Margin of Safety](https://www.farnamstreetblog.com/2013/12/margin-of-safety/)
+
+### Discipline Chemistry
+
+* Autocatalysis
+
+### Discipline Physics
+
+* Critical Mass
+
 
 ### Discipline Economics
 
 * [oppotunity cost](http://www.rationalpov.com/mental-model-economics-oppotunity-cost/)
-* 
+* advantage of scale 
+
+
+### second order Discipline
+
+* [human psychology bias](http://www.rationalpov.com/mental-model-s2-human-psychology-bias-2/)
 

@@ -37,6 +37,11 @@ But invert the questions, it becomes:
 
 It becomes a lot easier to anwser,just as Charlie Munger demostrated in his famous [1986 Hardvard school speech][1]
 
+**[Example, From Charlie Munger](http://www.hikingat45degrees.com/a-conversation-with-charlie-munger/)**
+
+>I gave problems to my children and once when I had all of the them together, I said, “Well there’s an activity in America. There’s a one-on-one tournament. And the national champion became the national champion on two separate occasions 65 years apart. Name the activity.” And seven of my children could not remotely do it. The eighths is a PhD physicist and he did it very quickly. And what he did was just turned it around. He says, can it be athletic? And he realized, no, no eighty-five year old was ever going to win an athletic thing with the neurological or other deteriorations that are so evident tonight on the stage. And so he says, could it be chess? Is he a chess player? And he realized that no eighty-five year old was ever going to be the US chess champion. He knows what a chess tournament is like. But that led him to checkers, a game that you could almost master with enough experience. And of course, that was the correct answer. It took him about 15 seconds. All kinds of problems like that that look so difficult, if you turn them around they are quickly solved. And so this process that I’ve gone through life doing, by identifying folly and trying to avoid it has worked wonderfully for me.
+
+
 **Example**
 
 Facebook IPOs now, Should you invest ?

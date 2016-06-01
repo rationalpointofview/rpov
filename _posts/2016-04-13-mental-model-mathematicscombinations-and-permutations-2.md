@@ -17,7 +17,7 @@ published: true
 > 
 > It's not that hard to learn. What is hard is to get so you use it routinely almost everyday of your life. The Fermat/Pascal system is dramatically consonant with the way that the world works. And it's fundamental truth. So you simply have to have the technique. --Charlie Munger
 
-Why Pascal and Fermat work this out ? They work this work for ... Gambling.
+Why Pascal and Fermat work this out ? They work this out winning money in Gambling, Of Course!
 
 ****How to use this mental Model****:
 
@@ -48,6 +48,8 @@ for scenario of Permutations choose from same group of choices:
 There are two types of Permutations;
 
 *   One Allows Repetition, (Like the Combination Lock on your suitcase)
+
+![Combination Lock](https://c2.staticflickr.com/4/3800/12351110484_1718e441ac_b.jpg)
 
 you got to pick 3 numbers from 0 - 9, and you can pick the same number.
 
@@ -87,7 +89,7 @@ the R balls could have a permutations of R! iteself, which we dont quite care an
 
 so Combinations without repetion = Permutations without repetitions / R!
 
-*   One Allows Repetion
+*   One Allows repetition
 
 Combinations allows repetition, actually it is the hardest to explain but we can flatten the problem and change it to linear
 
@@ -119,6 +121,7 @@ we have a formula for that
 
 5!/3!*2! = 10 Combinations.
 
+
 **Combination and Groups**
 
 In real life, often your choice will be partition in Groups.
@@ -141,11 +144,23 @@ The Solution, split this into two steps
     
     Why **Permutations** ? because these two group is different, so order do matter in step 2, so by using Permuation formular, you got 10*26= 260
 
-****How to use this mental Model****:
+**How to use this mental Model**:
 
-*   Use Basic Combinations & Permutations to Calculate the the avaiable choices/ probabilities.
+*  Identify if repetition allowed
+    * If repetition allowed, use N^r to calculate base permutation
+    * If repetition is not allowed, used N! to calculate base permutation
 
-*   Then can combine with other probability model to estimate the chance of desired outcome
+*  Identify whether need to adjust the number up or down, couple scenarios:
+
+    Identify is it is combination or permutations, if combination, scale the number down
+
+    * If combinations, reduce permuation to combination from step one by divide r! ( The permutation of r!)
+
+* If there is external multiple group, multiple the choices in daisy chain.
+
+
+
+
 
 **Example**:
 
@@ -226,6 +241,107 @@ Total: 512 ways to personalize a Wendy's hamburger
 [StackOverflow][4] has a permutation & combinations interview problem:
 
 > Imagine an urn filled with balls, two-thirds of which are of one color and one-third of which are of another. One individual has drawn 5 balls from the urn and found that 4 are red and 1 is white. Another individual has drawn 20 balls and found that 12 are red and 8 are white. Which of the two individuals should feel more confident that the urn contains two-thirds red balls and one-third white balls, rather than vice-versa? What odds should each individual give?
+> 
+
+**[Example](http://www.mathwarehouse.com/probability/combination.php)**
+
+> Over the weekend, your family is going on vacation, and your mom is letting you bring your favorite video game console as well as five of your games. How many ways can you choose the five games if you have 12 games in all?
+
+
+>12C5 = (12)!/(5!×(12-5)!)=(12)!/(5!×(7)!) 
+(12×11×10×9×8×7!) /(5!×7!) = 792
+
+**[Example](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)**
+
+> Example: How many ways are there to permute the letters of the word HAPPY?
+
+* Note there are two Ps, so it is sort of permutation/combination hybrid
+
+let follow the steps:
+
+1. Is repetition allowed ?
+
+No, so use N! formula, 5!=120
+
+2. reduce to combination.
+Since PP and PP is the same thing, so reduce to 
+
+120/2! = 60
+
+**[Example single deck or double deck](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)
+
+> n a card game with a single deck (no jokers), how many way to order the deck ? and how many for two decks shuffled together ?
+
+single deck
+
+> 1. Is repetition allowed ?
+
+No, so use N! formula, 52!=8.06582E+67
+
+2. combination? no. so 8.06582E+67 is the final anwser
+
+double deck
+
+1. is repetion allowed ?
+
+No. so use N1 formular, 104! =1.0299E+166
+
+2. Combination, reduce to combination
+
+there are two decks and there are 52 pair cards is identical.
+
+so questions is, how many permutations can 52 different pairs of card have ?
+
+permutation of a pairs of card:
+
+=2! = 2
+
+52 independent groups of cards permutation 
+
+= 2^52
+
+so total = 2.28684E+150
+
+
+
+**[EXample](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)
+
+> How many ways to order the letters of MISSISSIPPI?
+> 
+
+1. is repetition allowed ? No
+
+11! = 39916800
+
+2. reduce to combination
+
+there are 4S, 2P and 4 I
+
+the permutation of each will be 4!, 2!, 3!
+
+= 11!/(4!*2!*4!)= 
+
+**[Example. Too many gifts](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)
+
+>Your mother-in-law buys 1000 small gifts to give to relatives for Christmas, for reasons you don't understand. Each of the 1000 things is different, because she spends too much time shopping. There are 25 relatives to give gifts to. How many ways are there to distribute the gifts?
+Note: the question allows the possibility of one person getting 1000 things, and everyone else getting nothing. There's no fairness in this family
+
+for 1 gift:
+
+1. is repetion allowed ? No
+
+you can give the gift to any of the 25 relatives, so choices:
+
+= 25
+
+2. adjustments:
+
+there are 1000 gifts, so multiple the choices together:
+
+25^1000 = 8.7×101397
+
+> In the above scenario, how many ways can the gifts be distributed so each person gets 40 items?
+
 
  [1]: https://www.quora.com/What-is-the-practical-real-life-use-of-permutation-and-combination
  [2]: https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/jf-2if5l.png

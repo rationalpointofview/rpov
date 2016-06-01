@@ -15,19 +15,20 @@ published: true
 
 Introductions
 
-![Sigmoid variation of product concentration in autocatalytic reactions](https://en.wikipedia.org/wiki/File:Sigmoid_curve_for_an_autocatalytical_reaction.jpg)
+![Sigmoid variation of product concentration in autocatalytic reactions](https://upload.wikimedia.org/wikipedia/commons/5/55/Sigmoid_curve_for_an_autocatalytical_reaction.jpg)
 
 
 A single chemical reaction is said to have undergone autocatalysis, or be autocatalytic, if the reaction product itself is the catalyst for that reaction.
 
 ![AutoCatalytic Formular](https://upload.wikimedia.org/math/f/2/1/f21663a5fc9d1dc7e51337b52223f48c.png)
 
-The Signature of autocatalytics reaction is positive feedback loop, the reaction will go faster and faster and follow power law. 
+The Signature of autocatalytics reaction is positive feedback loop, the reaction will go faster and faster and follows power law. 
 
-In economics, it is usually called *buble*
+In economics, it is usually called **bubble**
 
 
-****How to use this mental Model****:
+
+**How to use this mental Model**:
 
 **Conditions:**
 
@@ -37,4 +38,13 @@ In economics, it is usually called *buble*
 **Examples**
 
 According to the theory of reflexivity advanced by George Soros, price changes are driven by a positive feedback process whereby investors' expectations are influenced by price movements so their behaviour acts to reinforce movement in that direction until it becomes unsustainable, whereupon the feedback drives prices in the opposite direction.
+
+
+**Examples**
+
+Disney Movie & VCR
+
+**Examples**
+
+Airconditioning
 

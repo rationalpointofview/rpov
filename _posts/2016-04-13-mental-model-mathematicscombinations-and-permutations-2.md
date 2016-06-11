@@ -268,9 +268,9 @@ Since PP and PP is the same thing, so reduce to
 
 120/2! = 60
 
-**[Example single deck or double deck](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)
+**[Example single deck or double deck](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)**
 
-> n a card game with a single deck (no jokers), how many way to order the deck ? and how many for two decks shuffled together ?
+> in a card game with a single deck (no jokers), how many way to order the deck ? and how many for two decks shuffled together ?
 
 single deck
 
@@ -296,7 +296,7 @@ permutation of a pairs of card:
 
 =2! = 2
 
-52 independent groups of cards permutation 
+52 independent groups of cards permutation, it is a daisy chain, need to multiple the possible permutations together; 
 
 = 2^52
 

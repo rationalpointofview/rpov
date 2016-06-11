@@ -17,11 +17,7 @@ published: true
 > 
 > It's not that hard to learn. What is hard is to get so you use it routinely almost everyday of your life. The Fermat/Pascal system is dramatically consonant with the way that the world works. And it's fundamental truth. So you simply have to have the technique. --Charlie Munger
 
-Why Pascal and Fermat work this out ? They work this out winning money in Gambling, Of Course!
-
-****How to use this mental Model****:
-
-can use this to calcualor the avaliable choices in your head
+Why Pascal and Fermat work this out ? They work this out for winning money (Gambling), Of Course!
 
 **Conditions:**
 
@@ -30,6 +26,25 @@ discrete number
 **Predictions:**
 
 avaliable choice from combination/permutations of factors
+
+**How to use this mental Model:
+
+can use this to calcualor the avaliable choices in your head
+
+*  Identify if repetition allowed
+
+    * If repetition allowed, use N^r to calculate base permutation
+    * If repetition is not allowed, used N! to calculate base permutation
+
+* Revise the number up or down, if needed. 
+
+couple scenarios:
+
+    * If results is combination, scale the number down by divide the base permutation by r!
+
+    
+* If there is multiple group combination, multiple the base permuations.
+
 
 **What is Combinations and Permutations**:
 
@@ -145,18 +160,6 @@ The Solution, split this into two steps
     Why **Permutations** ? because these two group is different, so order do matter in step 2, so by using Permuation formular, you got 10*26= 260
 
 **How to use this mental Model**:
-
-*  Identify if repetition allowed
-    * If repetition allowed, use N^r to calculate base permutation
-    * If repetition is not allowed, used N! to calculate base permutation
-
-*  Identify whether need to adjust the number up or down, couple scenarios:
-
-    Identify is it is combination or permutations, if combination, scale the number down
-
-    * If combinations, reduce permuation to combination from step one by divide r! ( The permutation of r!)
-
-* If there is external multiple group, multiple the choices in daisy chain.
 
 
 
@@ -304,7 +307,7 @@ so total = 2.28684E+150
 
 
 
-**[EXample](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)
+**[Example](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)**
 
 > How many ways to order the letters of MISSISSIPPI?
 > 
@@ -317,9 +320,9 @@ so total = 2.28684E+150
 
 there are 4S, 2P and 4 I
 
-the permutation of each will be 4!, 2!, 3!
+the permutation of each will be 4!, 2!, 4!
 
-= 11!/(4!*2!*4!)= 
+= 11!/(4!*2!*4!)
 
 **[Example. Too many gifts](https://www.cs.sfu.ca/~ggbaker/zju/math/perm-comb-more.html)
 
@@ -328,15 +331,19 @@ Note: the question allows the possibility of one person getting 1000 things, and
 
 for 1 gift:
 
-1. is repetion allowed ? No
+you can give the gift to any of the 25 relatives, so choices:
+
+= 25
+
+for 2 gift:
 
 you can give the gift to any of the 25 relatives, so choices:
 
 = 25
 
-2. adjustments:
+so you can transform the question into this form:
 
-there are 1000 gifts, so multiple the choices together:
+you got to pick 25 relative to give gift too, and pick 1000 times. repetition allowed( since there is no fairness in the family)
 
 25^1000 = 8.7×101397
 

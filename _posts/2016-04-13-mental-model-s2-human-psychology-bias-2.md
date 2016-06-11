@@ -79,7 +79,17 @@ By Erin Arvedlund
 
 What common denominator was there between all the people who suspected Medoff had problems but looked the other way? Shared greed is the natural first answer. Police investigating a mine always ask, "Who benefits from the crime?" Makin, Noel, Piedrahita, Masoke, Schulman, and others all shared a common intere,st. They all stood to lose a lot if they looked too closely and found something about Medoff that was mis convienent.
 
-> Incentive tendency
+[Example: Federal Express, from Charlie Munger](https://old.ycombinator.com/munger.html)
+
+>From all business, my favorite case on incentives is Federal Express. The heart and soul of their system—which creates the integrity of the product—is having all their airplanes come to one place in the middle of the night and shift all the packages from plane to plane. If there are delays, the whole operation can't deliver a product full of integrity to Federal Express customers.
+
+>And it was always screwed up. They could never get it done on time. They tried everything—moral suasion, threats, you name it. And nothing worked.
+
+The solution ?
+
+>Finally, somebody got the idea to pay all these people not so much an hour, but so much a shift—and when it's all done, they can all go home. Well, their problems cleared up overnight.
+
+So getting the incentives right is a very, very important lesson. It was not obvious to Federal Express what the solution was. But maybe now, it will hereafter more often be obvious to you.
 
 * * *
 
@@ -490,6 +500,11 @@ When the vocal critic is a former believer, hostility is often boosted both by:
 
 *   a concept of betrayal that triggers additianl deprival superraeaction
 *   featrs that conflicting views will have extra persuasive power when they come from a former colleague
+
+** Example New Coke**
+
+>But it was an eighty-five-year-old woman who convinced me we had to do something more than stay the course. She had called the company in tears from a retirement home in Covina, California. I happened to be visiting the call center and took the call. “You’ve taken away my Coke,” she sobbed. “When was the last time you had a Coke?” I asked. “Oh, I don’t know. About twenty, twenty-five years ago.” “Then why are you so upset?” I asked. “Young man, you are playing around with my youth and you should stop it right now. Don’t you have any idea what Coke means to me?” It became crystal clear that we were not dealing with a taste issue or any real marketing issue. All the experts and all their data had been misleading. This was a deep psychological issue. A brand is not defined by what you or I think it is. A brand is defined by what is embedded in the mind of each consumer. Because Coca-Cola is consumed by so many individuals in so many cultures, it is defined differently by every person.
+
 
 * * *
 

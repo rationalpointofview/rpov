@@ -27,7 +27,7 @@ discrete number
 
 avaliable choice from combination/permutations of factors
 
-**How to use this mental Model:
+**How to use this mental Model:**
 
 can use this to calcualor the avaliable choices in your head
 
@@ -40,7 +40,7 @@ can use this to calcualor the avaliable choices in your head
 
 couple scenarios:
 
-    * If results is combination, scale the number down by divide the base permutation by r!
+* If results is combination, scale the number down by divide the base permutation by r!
 
     
 * If there is multiple group combination, multiple the base permuations.

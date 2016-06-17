@@ -298,8 +298,8 @@ p'=0.54 , ie 54% prefer Obama
 
 Group σ(X)= (0.54*(1-0.54)/1000)^0.5 = 0.0157
 
-p'+ σ = 0.54+2*0.0157=0.5714
-p'- σ = 0.054-2*0.0157 = 0.5086
+p'+ σ = 0.54+2\*0.0157=0.5714
+p'- σ = 0.054-2\*0.0157 = 0.5086
 
 p'+2sd = 0.54+2*0\.0157=0.5714 p'-2sd = 0.054-2*0\.0157 = 0.5086
 
@@ -485,33 +485,9 @@ using 1-normdist(0.5381,0.5,0.01014198,true)= 1-0.9999139= 0.008%
 
 so the probability of hypothesis of homefield advantage not exist is 0.008%
 
-**Bonus: Confidence Interval & CLT:
+**Bonus: Confidence Interval & CLT:**
 
 Confidence Interval is a range, usualy is Sample Mean +- 1.96 standard deviation (95% Interval)
-
-> [Problem 1](http://stattrek.com/estimation/confidence-interval.aspx)
-
-Suppose we want to estimate the average weight of an adult male in Dekalb County, Georgia. We draw a random sample of 1,000 men from a population of 1,000,000 men and weigh them. We find that the average man in our sample weighs 180 pounds, and the standard deviation of the sample is 30 pounds. What is the 95% confidence interval.
-
-(A) 180 + 1.86 
-(B) 180 + 3.0 
-(C) 180 + 5.88 
-(D) 180 + 30 
-(E) None of the above
-
-The correct answer ?
-
-First we need to compute standard deviation of the sample.
-
-Given the population SE= 30
-
-by CLT, the Sample SE average = 30/sqrt(1000)= 0.95
-
-so the confidence interval is:
-
-1.96*0.95= 1.862
-
-So A is the correct answer
 
 [Example Advertisement Campaign](https://www.youtube.com/watch?v=QRwPMzAL0iA&list=PLAKBwakacHbRRw278HMXpCsOOIIcLYGX5&index=4)
 
@@ -541,6 +517,13 @@ second banner:
 
 so the second banner has a probablilty of over 90% better converting than banner 1
 
+
+[Example real life bell shape curve](http://math.stackexchange.com/questions/38825/cool-examples-of-the-central-limit-theorem-in-action)
+
+>  by Matt E
+Find an old stone step or lintel in front of a doorway (one that is old enough that it has been worn down by generations of people walking over it). If you look at how it is worn down, the wearing down won't be uniform over the surface of the step: rather, it will be in a bell-curve. (People tend to walk through the middle of the doorway.)
+
+> If the door doesn't open all the way, the bell-curve won't be perfect; there will a bias towards the side away from the hinges.
 
 
 

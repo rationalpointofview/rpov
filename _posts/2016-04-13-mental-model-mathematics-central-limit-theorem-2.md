@@ -23,7 +23,7 @@ The central limit theorom:
 
 __The condition:__
 
-* if you draw a fix number of random samples __many times__ ( assuming this fix number n is big enough, we will talk about whats big enough later ) from a pool of numbers with known standard deviation & mean.
+* if you draw a fix number of random samples __many times__ ( assuming this fix number n is big enough, we will talk about whats big enough later ) from a pool of numbers with **known standard deviation & mean**.
  
     - The base pool distribution can be anything, step/normal, you name it, and it doesn't matter
 
@@ -65,7 +65,7 @@ For example, Human height is influenced by genes, enviromental effects, nutritio
 
 Because if you know the shape of the distribution and standard deviation of the distribution, you can compute a lot of things 
 
-Eg. you can reverse look up the probability of the data set
+Eg. you can reverse look up the probability of a given data point.
 
 
 **When it does'n apply ?**
@@ -79,7 +79,9 @@ It is often the lesser reliable ones in science.
 
  * The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. 
 
- * The central limit theorem fails when there is an infinite variance
+ Thats why polling results is often seems less reliable than the cited "99%" confidence level. Because human being is subject to social proof and ofen can't think independently.
+
+  * The central limit theorem fails when there is an infinite variance
 
  * The internal factor of is of this blackbox not complete independent, and some times has strong correctlation with each other, and there could be possibly has positive/negative feedback into then, which will create extreme outcomes.
 
@@ -516,6 +518,24 @@ second banner:
 3% +- 2.58*0.539% = 3% +- 1.39% = 1.61
 
 so the second banner has a probablilty of over 90% better converting than banner 1
+
+[Example A keyword search program ](http://www.utdallas.edu/~mbaron/3341/Practice6.pdf)
+
+> A keyword search program lists the files that contain a given keyword. If it runs
+through 200 files, and each file contains the keyword with probability 0.36, independently of
+other files, compute the probability that
+(a) more than 70 files
+(b) less than 70 files
+(c) exactly 70 files will be listed.
+
+p=0.36
+sd= sqtr(0.36*0.64/200)
+= 0.0339
+
+Normdist(0.35,0.36,0.0339,true)=0.384
+
+(a) 1-0.384 = 61.6%
+
 
 
 [Example real life bell shape curve](http://math.stackexchange.com/questions/38825/cool-examples-of-the-central-limit-theorem-in-action)

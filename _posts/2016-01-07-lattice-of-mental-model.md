@@ -103,7 +103,7 @@ Straigh from Munger:
 
 ### Discipline Chemistry
 
-* Autocatalysis
+* [Autocatalysis](http://www.rationalpov.com/mental-model-chemistry-autocatalysis/)
 
 ### Discipline Physics
 

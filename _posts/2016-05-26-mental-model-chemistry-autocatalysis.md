@@ -11,7 +11,7 @@ published: true
 ---
 **Mental Model Name:AutoCatalysis** 
 **Discipline:Chemistry** 
-
+**Attributed to Lattice:[compound interest](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
 
 Introductions
 
@@ -22,15 +22,18 @@ A single chemical reaction is said to have undergone autocatalysis, or be autoca
 
 ![AutoCatalytic Formular](https://upload.wikimedia.org/math/f/2/1/f21663a5fc9d1dc7e51337b52223f48c.png)
 
-The Signature of autocatalytics reaction is positive feedback loop, the reaction will go faster and faster and follows power law. 
+The Signature of autocatalytics reaction is positive feedback loop, the reaction will go faster and faster and follows power law, till a point A is exhausted. 
 
 In economics, it is usually called **bubble**
 
+In social media, it is called viral marketing
 
 
 **How to use this mental Model**:
 
 **Conditions:**
+
+
 
 **Predictions:**
 
@@ -40,11 +43,19 @@ In economics, it is usually called **bubble**
 According to the theory of reflexivity advanced by George Soros, price changes are driven by a positive feedback process whereby investors' expectations are influenced by price movements so their behaviour acts to reinforce movement in that direction until it becomes unsustainable, whereupon the feedback drives prices in the opposite direction.
 
 
-**Examples**
+**Examples Disney Movie**
 
-Disney Movie & VCR
+> Disney is an amazing example of autocatalysis … They had those movies in the can. They owned the copyright. And just as Coke could prosper when refrigeration came, when the videocassette was invented, Disney didn’t have to invent anything or do anything except take the thing out of the can and stick it on the cassette. - Charlie Munger
 
-**Examples**
+A: Humans( Parents with Kids )
+B: Disney Movie in Cassette
 
-Airconditioning
+The Catalyst is Disney Movie Cassette:
+
+When Parents with Kids(A) watches Disney Movie(B), it will make A to buy more Bs, and hence the expanding loop.
+
+
+In this example,
+
+**Examples Airconditioning**
 

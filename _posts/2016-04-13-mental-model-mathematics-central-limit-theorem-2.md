@@ -92,8 +92,12 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 
 *   Gather following data by statistics,combination/permutations or approximations, or proability theory
     
-    *   Gather/calculate Group true mean µ
-    *   Gather/calculate Group true standard deviation σ
+    *   Gather/compute the true mean µ
+    *   Gather/compute Group true standard deviation σ
+    *   get the sample size
+
+From the data point above, you can calculate the probability of a given sample data point.
+
 
 In real life, find out the base standard deviation is usually difficult.
 
@@ -535,6 +539,69 @@ sd= sqtr(0.36*0.64/200)
 Normdist(0.35,0.36,0.0339,true)=0.384
 
 (a) 1-0.384 = 61.6%
+
+[Example Roulette](https://www2.stat.duke.edu/courses/Spring05/sta101.2/lectures/STA101lecture13.pdf)
+
+> You are playing Red and Black in roulette. (A roulette wheel
+has 38 pockets; 18 are red, 18 are black, and 2 are green—the house takes
+all the money on green). You pick either red or black; if the ball lands in
+the color you pick, you win a dollar. Otherwise you lose a dollar.
+Suppose you make 100 plays. What is the chance that you lose $10 or
+more?
+
+The win rate p: 18/38 = 47.37%
+
+from Binomial CLT, the true mean = p = 0.4737
+
+the 100 sample sum true mean = 0.4737*100 = 47.37
+the 100 sample sum standard deviation = sqrt((1-0.4737)*0.4737*100)=4.99
+
+The triky part is in binomial clt, win rate is definited by:
+
+loss: 0
+win: 1
+
+but in roultte game:
+
+loss= -1
+win = 1
+
+so $1 bet transform to bilnomial clt is actually 0.5
+
+so betting $100 and lose $10 more is:
+
+average:
+
+betting 50
+lost more than 45
+
+so the final formular is:
+
+normdist(45,47.37,4.99,true)= 31.74%
+
+Using classic CLT to verify:
+
+for betting $1
+
+true mean = 2*0.4737 + (0)*(1-0.4737)=0.9474
+
+true standard deviation = sqrt(0.4737*(2-(0.9474))^2+0.5263*(0-(0.9474))^2)=0.99861
+
+for betting $1 100 times
+
+the group mean = 0.9474* 100 = 94.74
+
+the group standard deviation = sqrt(100)*0.99861 = 9.9861
+
+for loss more than $10
+
+=normdist(90,94.74,9.9861,true)=31.75%
+
+
+
+
+
+
 
 
 

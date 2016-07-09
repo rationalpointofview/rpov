@@ -15,6 +15,10 @@ published: true
 **Discipline:Engineering** 
 **Related Lattice:**
 
+upstream:
+[compound interest](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
+
+downstream:
 [AutoCatalyst](http://www.rationalpov.com/mental-model-chemistry-autocatalysis/) 
 
 Introductions
@@ -48,7 +52,7 @@ There are two types of Feedback system:
     [butterfly effect](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lorenz_attractor_yb.svg/400px-Lorenz_attractor_yb.svg.png)
 
     John Gribbin in [Deep Simplicity: Bringing Order to Chaos and Complexity] argues Chaos, could be just positive feedback + uncertain initial starting position
-     
+
 
 
 

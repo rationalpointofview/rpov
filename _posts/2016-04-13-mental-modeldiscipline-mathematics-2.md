@@ -56,6 +56,14 @@ it should be
 
 72 * 3/12 = 18 , 18 percent every month
 
+
+The signature of Compound Interest occuring is the famous hocky stick diagram:
+
+[world population](http://www.marketcalls.in/wp-content/uploads/2010/11/Wordl-Population.jpg)
+
+
+
+
 **Example:**
 
 We all well aware of the power of compounding, in money terms. But arguably, the most important asset to most people is not money or possessions, it is yourself.

@@ -37,7 +37,7 @@ There are two types of Feedback system:
 
     Positive Feedback is quite useless in engineering and we try to eliminate it by all means, mainly because it will make the system unstable and quite uncontrollable.
 
-    But in real life, arguable positive impact your life in a much bigger way than negative feedback:
+    But in real life, positive feedback loop impact your life in a much bigger way than negative feedback;
 
     Examples of Positive Feedback in daily life:
 
@@ -47,11 +47,17 @@ There are two types of Feedback system:
 
     George Soros in [The Alchemy of Finance](https://www.amazon.com/Alchemy-Finance-George-Soros/dp/0471445495/ref=sr_1_1?ie=UTF8&qid=1468051982&sr=8-1&keywords=soros+alchemy) mentions about theory reflexivity, once market is trapped in reflexivity, the market trend became certain.
 
-    The attribution of theory of reflexivity could be just positive feedback
+    The attribution of theory of reflexivity could be just positive feedback:
+
+    the output of rising stock price/currency prices feedback to the input, the general publics psychology, generate the desire to chase profit -> buy the uptrend-> rising stock price/currency prices. 
+
+    you got the idea.
 
     [butterfly effect](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lorenz_attractor_yb.svg/400px-Lorenz_attractor_yb.svg.png)
 
-    John Gribbin in [Deep Simplicity: Bringing Order to Chaos and Complexity] argues Chaos, could be just positive feedback + uncertain initial starting position
+    John Gribbin in [Deep Simplicity: Bringing Order to Chaos and Complexity] argues Chaos, could be just positive feedback + uncertain initial starting position;
+
+
 
 
 
@@ -60,8 +66,14 @@ There are two types of Feedback system:
 
     > We subtract the value of the output from the value of the input (our desired value), we get a value called the error signal. The error signal shows us how far off our output is from our desired input.
 
+Negative Feedback system will make the system output stable:
 
-****How to use this mental Model****:
+for example:
+
+cruise control works by measures your speed by looking at the speedometer, and then adjust the throttle to either accelerate or decelerate to bring the speed to the desired number. 
+
+
+**How to use this mental Model**:
 
 **Conditions:**
 

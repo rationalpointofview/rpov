@@ -48,5 +48,33 @@ Later is becomes Buffett indicator:
 
 source and attribtion:http://www.businessinsider.com/buffett-indicator-better-but-not-great-2015-10
 
+
+___
+
+[Example Noise Cancellation](http://people.math.gatech.edu/~ecroot/3215/central_limit_apps.pdf)
+
+> Suppose that a man is driving through the desert, and runs out of gas. He
+grabs his cellphone to make a call for help, dialing 911, but he is just at
+the edge of the broadcast range for his cellphone, and so his call to the 911
+dispatcher is somewhat noisy and garbled. Suppose that the 911 dispatcher
+has the ability to use several cellphone towers to clean up the signal. Suppose
+that there are about 100 towers near to the stranded driver, and suppose that
+the signals they each receive at a particular instant in time is given by:
+
+![example formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/f3cjc3ug.png)
+
+S is the true signal and Yi is the noise.
+
+From basic signal & information theory, we can assume the Yi noise is independaent and normally distributed, and has a mean 0 and standard deviation of σ.
+
+So the 911 dispatcher can do the noise cancellation by computing the average.  
+
+![average](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x51fqq9-.png)
+
+At any rate, if we assume that the Yi are all independent normal random variables, then we don’t even need the central limit theorem, because in that case we have that X − S is exactly N(0, σ2/100).
+
+By just summing the signal average from 100 towers, we can perform a noisse cancellation and increate the Signal to noise ration by 100 fold !
+
+
  [1]: http://archive.fortune.com/magazines/fortune/fortune_archive/2001/12/10/314691/index.htm
  [2]: http://static4.businessinsider.com/image/56336b28bd86ef18008c5f4f-907-659/screen%20shot%202015-10-30%20at%209.05.08%20am.png

@@ -96,6 +96,7 @@ Straigh from Munger:
 
 ### Discipline Engineering
 
+* [feedback system](http://www.rationalpov.com/mental-model-engineering-feedback-loops/)
 * backup system/redundancy
 * break points
 * critical mass

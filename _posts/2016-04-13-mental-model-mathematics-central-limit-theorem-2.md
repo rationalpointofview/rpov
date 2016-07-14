@@ -366,31 +366,6 @@ the sample group of 400 standard deviation:
 
 so the mean salary of the sample is 5σ' away, which is raise a big question mark, so the pollster's result could by a suspect.
 
-___
-
-[Example Noise Cancellation](http://people.math.gatech.edu/~ecroot/3215/central_limit_apps.pdf)
-
-> Suppose that a man is driving through the desert, and runs out of gas. He
-grabs his cellphone to make a call for help, dialing 911, but he is just at
-the edge of the broadcast range for his cellphone, and so his call to the 911
-dispatcher is somewhat noisy and garbled. Suppose that the 911 dispatcher
-has the ability to use several cellphone towers to clean up the signal. Suppose
-that there are about 100 towers near to the stranded driver, and suppose that
-the signals they each receive at a particular instant in time is given by:
-
-![example formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/f3cjc3ug.png)
-
-S is the true signal and Yi is the noise.
-
-From basic signal & information theory, we can assume the Yi noise is independaent and normally distributed, and has a mean 0 and standard deviation of σ.
-
-So the 911 dispatcher can do the noise cancellation by computing the average.  
-
-![average](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x51fqq9-.png)
-
-At any rate, if we assume that the Yi are all independent normal random variables, then we don’t even need the central limit theorem, because in that case we have that X − S is exactly N(0, σ2/100).
-
-By just summing the signal average from 100 towers, we can perform a noisse cancellation and increate the Signal to noise ration by 100 fold !
 
 ___
 
@@ -637,7 +612,7 @@ y-axis the the probability of getting this value, in real life terms, y-axis is 
 
 Further study 
 
-t-test
+[z-test,Z-test is any statistical test for which the distribution of the test statistic under the null hypothesis can be approximated by a normal distribution.](https://en.wikipedia.org/wiki/Z-test)
 
 [Beta distrubtion](https://en.wikipedia.org/wiki/Beta_distribution)
 [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution)

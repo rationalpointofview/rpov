@@ -25,7 +25,13 @@ published: true
 
 **Mental Model Name:  **
 **Discipline:  ** 
-**Lattice Rank : **
+**Related Lattice:
+
+* Upstream:
+
+* Downstream:
+
+
 
 Introductions
 

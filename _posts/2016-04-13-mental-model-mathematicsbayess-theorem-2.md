@@ -11,7 +11,15 @@ published: true
 ---
 **Mental Model Name:Bayes's Theorem** 
 **Discipline:Mathematics** 
-**Lattice Rank :6**
+**Related Lattice:**
+
+* Upstream:
+
+[Invert](http://www.rationalpov.com/mental-model-discipline-mathematics-invert-2/)
+
+* Downstream:
+
+
 
 Introductions
 
@@ -53,22 +61,25 @@ B is an evidence approving or disapproving the fact,which you have a math model 
 
 What do you mean by math model ?
 
-Basically two things:
+Basically when applying Bayes Theorem, you need to know how many plausible cause can lead to evidence B happening, and its percentage accordingly:
 
-Positive: when Apply Test B to A, what's the % of B turn out true while A is true
+__False Negative(Sensitive) : When B is not true, what is the chance of A is true.__
 
-False Positive: When Apply Test B to A, what's the % of B is true while A is not true
+__False Positive(Specific): When B is true, what is chance A is not true:__
 
-
-Note. Evidence/Test (B) is almost impossible to be 100 % by definition:
+We used the invert technique from up stream lattice, and inver the view from B's angle.
 
 If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) supporting your hypothese.
 
 **The strengh of the evidence is depends on how many alternate explaination of evidence (B) could have. the fewer the alternate explaintion of evidence, the stronger the evidence.**
 
+a good test shoulc be both sensitive and specific:
+
+> The Wikipedia entry on Sensitivity and Specificity [Wik] uses a nice example to illustrate the difference: think of a drug-sniffing dog as a screening test for illicit drugs. If the dog’s nose is highly sensitive to the smell of drugs, then it will detect all the hidden packets of drugs; if it is less sensitive, then it will fail to detect some of the packets. At the same time, the dog should react specifically to drugs, and not, say, jambalaya or doggie biscuits. If the dog is highly specific in its reactions, it will only react to drugs; if it is less specific, then it will react to the occasional care package of yummy home cooking from Mom.
+
+
+
 **The lower the base rate of P(A) is happening, you need a very strong P(B) to confirm or disconfirm P(A)**
-
-
 
 
 Lets use the turkey example again:
@@ -762,6 +773,12 @@ With the new evidence of the suspect has the same blood type of the crime scene,
 
 
 > Such a large change in the odds is, in Aitken’s words ‘surely of relevance’ . But, again In Aitken’s words, ‘Of course, it may not be enough to find the suspect guilty’. 
+
+
+[Example: HIV screening](http://www.win-vector.com/blog/2009/11/i-dont-think-that-means-what-you-think-it-means-statistics-to-english-translation-part-1-accuracy-measures/)
+
+> A more realistic example, inspired by a discussion of mandatory AIDS testing by Joshua Rosenau [Ros06], is the use of the ELISA screening test to detect HIV-infected blood donations. The ELISA test is designed to be very sensitive: it detects 99.7% of the cases of HIV-infection, which gives a false negative rate of 
+$ 3 \times 10^{-3}$ . On the other hand, it is not very specific: it has a 1.9% false positive rate1. If you assume that the incidence of HIV-positive individuals in the general population is about 448 out of every 100,000 people [Hig08], then a positive test result is correct only about 19% of the time: one case of true infection out of every five positives. This error rate may be appropriate for screening blood donations, since it is better to discard four perfectly good pints of blood, “just in case”, than to allow a pint of HIV-infected blood into the blood bank. But it is not appropriate to assume that all five of those poor blood donors are HIV-positive, without followup tests to increase the specificity of the screening procedure.
 
 
 ** Bonus 

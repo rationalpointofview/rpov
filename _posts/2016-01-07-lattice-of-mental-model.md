@@ -99,7 +99,6 @@ Straigh from Munger:
 * [feedback system](http://www.rationalpov.com/mental-model-engineering-feedback-loops/)
 * backup system/redundancy
 * break points
-* critical mass
 * [Margin of Safety](https://www.farnamstreetblog.com/2013/12/margin-of-safety/)
 
 ### Discipline Chemistry

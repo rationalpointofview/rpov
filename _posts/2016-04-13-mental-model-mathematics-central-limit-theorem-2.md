@@ -81,9 +81,9 @@ It is often the lesser reliable ones in science.
 
  Thats why polling results is often seems less reliable than the cited "99%" confidence level. Because human being is subject to social proof and ofen can't think independently.
 
-  * The central limit theorem fails when there is an infinite variance
+* The central limit theorem fails when there is an infinite variance
 
- * The internal factor of is of this blackbox not complete independent, and some times has strong correctlation with each other, and there could be possibly has positive/negative feedback into then, which will create extreme outcomes.
+* The internal factor of is of this blackbox not complete independent, and some times has strong correctlation with each other, and there could be possibly has positive/negative feedback into then, which will create extreme outcomes.
 
 An Excellent illustration is explained by [Danielle Fong](http://daniellefong.com/2008/01/28/outliers-why-the-central-limit-theorem-is-typically-off/)
 

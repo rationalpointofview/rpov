@@ -59,3 +59,11 @@ math equations:
 
 http://www.sciweavers.org/free-online-latex-equation-editor
 
+___
+
+From Richard Freeman
+
+Choose a Concept
+Teach it to a Toddler
+Identify Gaps and Go Back to The Source Material
+Review and Simplify

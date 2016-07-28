@@ -106,6 +106,9 @@ when we examine the Evidence (B)( "Human fed us every day" ), it could have the 
 The Evidence "Human fed us every day" can't distinguish between two Alternate Explaination.
 
 
+
+
+
 **How to use this mental Model**:
 
 *   Write down your current believe/Hypothesis A
@@ -774,14 +777,41 @@ With the new evidence of the suspect has the same blood type of the crime scene,
 
 > Such a large change in the odds is, in Aitken’s words ‘surely of relevance’ . But, again In Aitken’s words, ‘Of course, it may not be enough to find the suspect guilty’. 
 
+___
 
 [Example: HIV screening](http://www.win-vector.com/blog/2009/11/i-dont-think-that-means-what-you-think-it-means-statistics-to-english-translation-part-1-accuracy-measures/)
 
 > A more realistic example, inspired by a discussion of mandatory AIDS testing by Joshua Rosenau [Ros06], is the use of the ELISA screening test to detect HIV-infected blood donations. The ELISA test is designed to be very sensitive: it detects 99.7% of the cases of HIV-infection, which gives a false negative rate of 
-$ 3 \times 10^{-3}$ . On the other hand, it is not very specific: it has a 1.9% false positive rate1. If you assume that the incidence of HIV-positive individuals in the general population is about 448 out of every 100,000 people [Hig08], then a positive test result is correct only about 19% of the time: one case of true infection out of every five positives. This error rate may be appropriate for screening blood donations, since it is better to discard four perfectly good pints of blood, “just in case”, than to allow a pint of HIV-infected blood into the blood bank. But it is not appropriate to assume that all five of those poor blood donors are HIV-positive, without followup tests to increase the specificity of the screening procedure.
+0.003 . On the other hand, it is not very specific: it has a 1.9% false positive rate1. If you assume that the incidence of HIV-positive individuals in the general population is about 448 out of every 100,000 people [Hig08], then a positive test result is correct only about 19% of the time: one case of true infection out of every five positives. This error rate may be appropriate for screening blood donations, since it is better to discard four perfectly good pints of blood, “just in case”, than to allow a pint of HIV-infected blood into the blood bank. But it is not appropriate to assume that all five of those poor blood donors are HIV-positive, without followup tests to increase the specificity of the screening procedure.
+
+___
+
+[Example: Board Game hint](https://www.farnamstreetblog.com/2012/12/thomas-bayes-and-bayess-theorem/)
+
+> Let’s imagine that you and a friend have spent the afternoon playing your favorite board game, and now, at the end of the game, you are chatting about this and that. Something your friend says leads you to make a friendly wager: that with one roll of the die from the game, you will get a 6
+
+> Straight odds are one in six, a 16 percent probability. But then suppose your friend rolls the die, quickly covers it with her hand, and takes a peek. “I can tell you this much,” she says; “it’s an even number.”
+
+with this new information:
+
+P(6|E) = P(E|6) P(6)/P(E)= 1 * (1/6) /0.5 = 0.33
+
+> While you are considering whether to change your bet, your friend teasingly adds: “And it’s not a 4.” 
+
+with this new addition information:
+
+P(6| ~4) = P(~4|6) P(6)/P(~4|E) = 1*0.33/(2/3)
+= 0.5
 
 
-** Bonus 
+
+
+
+
+
+
+
+**Bonus** 
 
 [Bayesian Vesus Frequentist] (http://www.win-vector.com/blog/2013/05/bayesian-and-frequentist-approaches-ask-the-right-question/)
 
@@ -813,6 +843,7 @@ More Resources:
 
 [A visual Explaination of Bay's Themrom][30]
 
+[a lecture on baysian](https://vimeo.com/6823148)
 
 
 

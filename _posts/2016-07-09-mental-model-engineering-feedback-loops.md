@@ -43,7 +43,7 @@ There are two types of Feedback system:
 
     Economic: Housing Bubbles, or any kind of bubles:
 
-    [Case-Shiller Home Price Index](http://www1.realclearmarkets.com/images/wysiwyg_images/case1.JPG)
+    ![Case-Shiller Home Price Index](http://www1.realclearmarkets.com/images/wysiwyg_images/case1.JPG)
 
     George Soros in [The Alchemy of Finance](https://www.amazon.com/Alchemy-Finance-George-Soros/dp/0471445495/ref=sr_1_1?ie=UTF8&qid=1468051982&sr=8-1&keywords=soros+alchemy) mentions about theory reflexivity, once market is trapped in reflexivity, the market trend became certain.
 
@@ -53,13 +53,9 @@ There are two types of Feedback system:
 
     you got the idea.
 
-    [butterfly effect](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lorenz_attractor_yb.svg/400px-Lorenz_attractor_yb.svg.png)
+    ![butterfly effect](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lorenz_attractor_yb.svg/400px-Lorenz_attractor_yb.svg.png)
 
     John Gribbin in [Deep Simplicity: Bringing Order to Chaos and Complexity] argues Chaos, could be just positive feedback + uncertain initial starting position;
-
-
-
-
 
 
 * Negative Feedback:

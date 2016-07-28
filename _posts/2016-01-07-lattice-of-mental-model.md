@@ -81,6 +81,16 @@ Straigh from Munger:
 
 >The need for this clearly correct six-element system, with its large demands in a narrow-scale field where stakes are high, is rooted in the deep structure of the human mind. Therefore, we must expect that the education we need for broad scale problem-solving will keep all these elements but with awesomely expanded coverage for each element. How could it be otherwise?
 
+
+Also from Richard Freeman:
+
+
+* Choose a Concept
+* Teach it to a Toddler
+* Identify Gaps and Go Back to The Source Material
+* Review and Simplify
+
+
 ## Current List of mental models ( Orders Matter )
 
 ### Discipline Mathematics

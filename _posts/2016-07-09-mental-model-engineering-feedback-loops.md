@@ -31,19 +31,26 @@ There are two types of Feedback system:
 
 * Positive Feedback:
 
-    >Positive feedback has the property that signals tend to reinforce themselves, and grow larger through compound interest.
-
-    As an example of a positive feedback system, consider an audio amplification system with a speaker and a microphone. 
+    >Positive feedback has the property that signals tend to reinforce themselves, and grow larger through compound interest;
 
     Positive Feedback is quite useless in engineering and we try to eliminate it by all means, mainly because it will make the system unstable and quite uncontrollable.
 
     But in real life, positive feedback loop impact your life in a much bigger way than negative feedback, as by leveraging compound interest, it can create spectacular events.
 
+    As an example of a positive feedback system, consider an audio amplification system with a speaker and a microphone. 
+
     Examples of Positive Feedback in daily life:
 
-    Economic: Housing Bubbles, or any kind of bubles:
+    Economic: Housing Bubbles
+
 
     ![Case-Shiller Home Price Index](http://www1.realclearmarkets.com/images/wysiwyg_images/case1.JPG)
+
+
+    Bank Runs:
+
+    ![Bank runs](https://upload.wikimedia.org/wikipedia/commons/5/54/Bundesarchiv_Bild_102-12023%2C_Berlin%2C_Bankenkrach%2C_Andrang_bei_der_Sparkasse.jpg)
+
 
     George Soros in [The Alchemy of Finance](https://www.amazon.com/Alchemy-Finance-George-Soros/dp/0471445495/ref=sr_1_1?ie=UTF8&qid=1468051982&sr=8-1&keywords=soros+alchemy) mentions about theory reflexivity, once market is trapped in reflexivity, the market trend became certain. Certain means the output is predictable.
 
@@ -79,7 +86,7 @@ There are two types of Feedback system:
      > And the critical number of pedestrians, tested subsequently on the Millennium Bridge and derived independently by Strogatz and co-authors, is as low as 160. An estimated 80,000 people crossed the bridge on opening day, with as many as 2,000 on it at any one time.
      
 
-     
+
     
 * Negative Feedback:
 
@@ -94,6 +101,18 @@ cruise control works by measures your speed by looking at the speedometer, and t
 
 **How to use this mental Model**:
 
-**Conditions:**
+* Find out the system input and output.
+
+    * Beware if human is involved in the system, as human is suspectiable to [social prove](http://www.rationalpov.com/mental-model-s2-human-psychology-bias-2/), and it often creates positive feedback loop by itself.
+
+* Increase/decrease output by 10x, and try to analyse how it will influcence the input.
 
 **Predictions:**
+
+* Positive Feedbackloop
+    * the output will grow in compound interest.
+    * the output will decline sharply after the peak
+
+* Negative Feedbackloop
+    * the output will be stable.
+    

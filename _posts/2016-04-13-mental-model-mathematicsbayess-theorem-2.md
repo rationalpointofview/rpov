@@ -845,7 +845,7 @@ In Practice, Beta Distribution Function is used with Baysian Formular for Binomi
 
 The Major Difference is Beta Distribution could have input from memories( α/ß), or in Bayestist term, priors.
 
-![Beta Distribtion formular](https://wikimedia.org/api/rest_v1/media/math/render/svg/36783d6420752d49ce41b434457741100627c50a)
+![Beta Distribtion formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/6fnc5m-_.png)
 
 If there is no prior knowledge or memory, the prior input of α/ß will be 1/1
 

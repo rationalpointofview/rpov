@@ -795,7 +795,7 @@ ___
 
 > Let’s imagine that you and a friend have spent the afternoon playing your favorite board game, and now, at the end of the game, you are chatting about this and that. Something your friend says leads you to make a friendly wager: that with one roll of the die from the game, you will get a 6
 
-> Straight odds are one in six, a 16 percent probability. But then suppose your friend rolls the die, quickly covers it with her hand, and takes a peek. “I can tell you this much,” she says; “it’s an even number.”
+>Straight odds are one in six, a 16 percent probability. But then suppose your friend rolls the die, quickly covers it with her hand, and takes a peek. “I can tell you this much,” she says; “it’s an even number.”
 
 with this new information:
 
@@ -828,6 +828,67 @@ supports United with probability 1/10;
 A: He/She is born within 25 mibles of Manchester
 B: He/She is clearly a fan of Manchester 
 
+P(A|B)=P(B|A) \* P(A)/P(B) = 0.7 * 0.05/(19/20*1/10+1/20*7/10)= 0.035/(0.095+0.07)=0.035/0.13=26.9%
+
+
+
+
+___
+
+[Beta Distribution](http://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution)
+
+Normal Distrubtion is the heart of frequencist core(Central Limit Theorem), and we use normal distribution to inverse lookup the probability of a given x value.
+
+Beta Distribution is the Bayestist equavilant of Normal Distribution.
+
+In Practice, Beta Distribution Function is used with Baysian Formular for Binomial Events(1/0):
+
+The Major Difference is Beta Distribution could have input from memories( α/ß), or in Bayestist term, priors.
+
+![Beta Distribtion formular](https://wikimedia.org/api/rest_v1/media/math/render/svg/36783d6420752d49ce41b434457741100627c50a)
+
+If there is no prior knowledge or memory, the prior input of α/ß will be 1/1
+
+![uninformative prior](http://i.stack.imgur.com/vi1e6.png)
+
+you can also use this [oline Beta Distrubtion Calculator](http://keisan.casio.com/exec/system/1180573226) to plot it yourself
+
+the resulting diagram is a straight line, means the odds is even for all outcomes.
+
+what if we do have prior knowledge ?
+
+For example, we put a banner ad and want to estimate the conversion rate for user click through the banner.
+
+Conversion is a binomial event, and for the first few clicks, it will swing greatly between 100% and 0%, and thus make it a poor predictor for its actual performance.
+
+But we do know from experience the banner conversion rate is usually between 0.1% and 1%, and the average probably somewhere between 0.5%
+
+we can use 0.5% average to poll a beta distribution diagram and represents the probability distribution
+
+in this case, we can pick 
+
+α = 5
+ß = 95
+
+the number is arbitary but need to comply the following rules
+
+![formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/iiinzemk.png)= 5/(5+95) = 0.5
+
+![probability density function](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/i8-1ukc_.png)
+
+as you can see , the probability distribution is within 0.0% and 1%
+
+the general rule is the higher confidence of prior knowledge, the higher value of α and ß
+
+http://stats.stackexchange.com/questions/58564/help-me-understand-bayesian-prior-and-posterior-distributions
+
+
+> Anyone who follows baseball is familiar with batting averages- simply the number of times a player gets a base hit divided by the number of times he goes up at bat (so it's just a percentage between 0 and 1). .266 is in general considered an average batting average, while .300 is considered an excellent one.
+
+>Imagine we have a baseball player, and we want to predict what his season-long batting average will be. You might say we can just use his batting average so far- but this will be a very poor measure at the start of a season! If a player goes up to bat once and gets a single, his batting average is briefly 1.000, while if he strikes out or walks, his batting average is 0.000. It doesn't get much better if you go up to bat five or six times- you could get a lucky streak and get an average of 1.000, or an unlucky streak and get an average of 0, neither of which are a remotely good predictor of how you will bat that season.
+
+>Why is your batting average in the first few hits not a good predictor of your eventual batting average? When a player's first at-bat is a strikeout, why does no one predict that he'll never get a hit all season? Because we're going in with prior expectations. We know that in history, most batting averages over a season have hovered between something like .215 and .360, with some extremely rare exceptions on either side. We know that if a player gets a few strikeouts in a row at the start, that might indicate he'll end up a bit worse than average, but we know he probably won't deviate from that range.
+
 
 
 
@@ -835,12 +896,16 @@ B: He/She is clearly a fan of Manchester
 
 **Bonus** 
 
-[Bayesian Vesus Frequentist] (http://www.win-vector.com/blog/2013/05/bayesian-and-frequentist-approaches-ask-the-right-question/)
+[Bayesian Vesus Frequentist](http://www.win-vector.com/blog/2013/05/bayesian-and-frequentist-approaches-ask-the-right-question/)
 
-The difference between Bayesian vesus Fequentist is the question we are asking:
+The Core Attribution Theory of Baysian is Invert and Math, and the core Attribution Theory of Freqentist is Central Limit Theory, or more commonly, Binary CLT.
 
-> Frequentist: Worry about correctness and repeatability, not p-values
-> Bayesian: Focused on P value;
+The major difference of Baysian VS CLT is [Baysian could have memories of prior similar events](http://conversionxl.com/bayesian-frequentist-ab-testing/), but CLT doesn't.
+
+It also explained very well in this [stackexchange](http://stats.stackexchange.com/questions/58564/help-me-understand-bayesian-prior-and-posterior-distributions) thread
+> If the prior is uninformative, the posterior is very much determined by the data (the posterior is data-driven)
+If the prior is informative, the posterior is a mixture of the prior and the data
+
 
 Example:
 

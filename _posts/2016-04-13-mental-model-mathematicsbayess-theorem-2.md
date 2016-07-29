@@ -57,30 +57,32 @@ Whats the relationship of A to B ?
 
 A is the your hypothesis/believes to be tested for now;
 
-B is an evidence approving or disapproving the fact,which you have a math model of A's response.
+B is an evidence approving or disapproving the fact,which you have a math model of A and B.
 
 What do you mean by math model ?
 
-Basically when applying Bayes Theorem, you need to know how many plausible cause can lead to evidence B happening, and its percentage accordingly:
+Basically when applying Bayes Theorem, you need to know how many plausible cause can lead to B happening, and its percentage accordingly( Invert):
 
 __False Negative(Sensitive) : When B is not true, what is the chance of A is true.__
 
 __False Positive(Specific): When B is true, what is chance A is not true:__
 
-We used the invert technique from up stream lattice, and inver the view from B's angle.
+We used the invert technique from up stream lattice, and inver the view from B's angle( What could lead to B happening) .
 
 If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) supporting your hypothese.
 
 **The strengh of the evidence is depends on how many alternate explaination of evidence (B) could have. the fewer the alternate explaintion of evidence, the stronger the evidence.**
 
-a good test shoulc be both sensitive and specific:
+a good test should be both sensitive and specific:
+
+![Drug sniffing Dog](https://upload.wikimedia.org/wikipedia/commons/d/d1/Dre_entorpec.jpg)
 
 > The Wikipedia entry on Sensitivity and Specificity [Wik] uses a nice example to illustrate the difference: think of a drug-sniffing dog as a screening test for illicit drugs. If the dog’s nose is highly sensitive to the smell of drugs, then it will detect all the hidden packets of drugs; if it is less sensitive, then it will fail to detect some of the packets. At the same time, the dog should react specifically to drugs, and not, say, jambalaya or doggie biscuits. If the dog is highly specific in its reactions, it will only react to drugs; if it is less specific, then it will react to the occasional care package of yummy home cooking from Mom.
 
 
-
 **The lower the base rate of P(A) is happening, you need a very strong P(B) to confirm or disconfirm P(A)**
 
+Strong means both **specific** and **sensitive**;
 
 Lets use the turkey example again:
 
@@ -94,19 +96,17 @@ Evidence (B)
 
 From a Turkey prospertive:
 
-From Turkey's propective, The Evidence of the believe( Human is a friend) is "humans feed us everyday".
+From Turkey's propective, The Evidence is "humans feed us everyday".
 
 But the evidence "humans feed us everyday" could have many alternative explanations, thus a weak evidence.
 
 when we examine the Evidence (B)( "Human fed us every day" ), it could have the following alterative explaination
 
-*   Alternate explaination A: Human feed us unconditionally because they are our friends.
-*   Alternate explaination B: Human being is feeding us for their own purpose, 
+*   Alternate explaination A: Human feed us unconditionally because they are our friends, and do so selflessly.
+
+*   Alternate explaination B: Human being is feeding us because they want turkey's meat; 
 
 The Evidence "Human fed us every day" can't distinguish between two Alternate Explaination.
-
-
-
 
 
 **How to use this mental Model**:
@@ -115,19 +115,17 @@ The Evidence "Human fed us every day" can't distinguish between two Alternate Ex
 
 *   Write down your evidence B.
 
-*   Build The Math Model between A and B:
+*   Research/Find Out the Math Model between A and B:
 
     *   Find out the base rate of A 
-    *   Find out the possiblity of B is true given A is true
+            * as the lower the base rate of A, you need a stronger B 
+            
     *   Find out the overall possiblity of B is true
         *   Brain Storm/List out any reasons you can think of to cause event B to happen, and the probability associate with it.
+                * This usually it is the hardest part and you can also try using combination to list out the possible scenarios.
+                
 
 
-*   Find out the following data:
-
-False positive Rate of the test/evidence(B)
-
-False Negative Rate of the test/evidence(B)
 
 **Predictions:**
 
@@ -203,15 +201,22 @@ Assume that you’re presented with three coins, two of them fair and the other 
 
 Question: what is the probablity of you picked a counterfeit coin ?
 
-Before you flip the coin, the probability of the coin is counterfeit is 1 in 3
+
+What is your A ( Hypothesis )?
+
+A: The coin is counterfeit:
+
+The evidence B is flipping the coin 3 time and it come out as all heads;
+
+We want to know the probabilty of the coint is counterfei, P(C) (P(counterfeit)):
+
+The base rate of probability of the coin is counterfeit is 1 in 3
 
 P(counterfeit) = 0.33
 
-After the flip the coin 3 time (3H, The test), and we want to know the probabilty of the coint is counterfei, P(P):
-
 P(C|3H) = P(3H|C) * P(P) / P(3H)
 
-P(3H|C) = 1 P(P) = 0.33 P(3H)= P(3H|NC) + P(3H|NC) + P(3H|C) = 0.5*0\.5*0\.5*0\.33 + 0.5*0\.5*0\.5*0\.33 + 1*0.33 = 0.4125
+P(3H|C) = 1 P(P) = 0.33 P(3H)= P(3H|NC) + P(3H|NC) + P(3H|C) = 0.5\*0\.5\*0\.5\*0\.33 + 0.5\*0\.5\*0\.5\*0\.33 + 1\*0.33 = 0.4125
 
 P(C| 3H )= 1* 0.33/0.4125 = 0.33/0.4125 = 80%
 
@@ -804,7 +809,24 @@ P(6| ~4) = P(~4|6) P(6)/P(~4|E) = 1*0.33/(2/3)
 = 0.5
 
 
+[Example: Sports Fans](http://wwwf.imperial.ac.uk/~ayoung/m2s1/WorkedExamples1.pdf)
 
+> While watching a game of Champions League football in
+a cafe, you observe someone who is clearly supporting Manchester United in
+the game.
+What is the probability that they were actually born within 25 miles of
+Manchester ? Assume that:
+• the probability that a randomly selected person in a typical local bar
+environment is born within 25 miles of Manchester is 1/20
+and;
+• the chance that a person born within 25 miles of Manchester actually
+supports United is 7/10;
+• the probability that a person not born within 25 miles of Manchester
+supports United with probability 1/10;
+
+
+A: He/She is born within 25 mibles of Manchester
+B: He/She is clearly a fan of Manchester 
 
 
 

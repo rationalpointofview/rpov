@@ -213,6 +213,8 @@ and the break even mark is 0.5
 
 so the probablity of not losing = 1- normdist(0.5,0.45,0.0497,true) = 1-0.843 =15.7%
 
+***
+
 [Example: SUV Recall][13]
 
 The new Endeavor SUV has been recalled because 5% of the cars experience brake failure. The Tahoe dealership has sold 200 of these cars. What is the probability that fewer than 4% of the cars from Tahoe experience brake failure?
@@ -449,8 +451,9 @@ So the Expected sample average standard deviation = 1.337 /(68)^0.5=0.1617
 
 So the probability of the score higher than 3 is 20.2%
   
+***
 
-* [Example: Is homefield advantage effect true in baseball ?](https://www.lakeheadu.ca/sites/default/files/uploads/77/docs/Anderson_Project.pdf)
+[Example: Is homefield advantage effect true in baseball ?](https://www.lakeheadu.ca/sites/default/files/uploads/77/docs/Anderson_Project.pdf)
 
 >In the 2013 Major League Baseball season, there were 2431 games played, and of those games, 1308 of them were won at home. This indicates that approximately 53.81% of the games played were won at home. 
 
@@ -469,6 +472,9 @@ so the probability of hypothesis of homefield advantage not exist is 0.008%
 **Bonus: Confidence Interval & CLT:**
 
 Confidence Interval is a range, usualy is Sample Mean +- 1.96 standard deviation (95% Interval)
+
+***
+
 
 [Example Advertisement Campaign](https://www.youtube.com/watch?v=QRwPMzAL0iA&list=PLAKBwakacHbRRw278HMXpCsOOIIcLYGX5&index=4)
 
@@ -514,6 +520,8 @@ sd= sqtr(0.36*0.64/200)
 Normdist(0.35,0.36,0.0339,true)=0.384
 
 (a) 1-0.384 = 61.6%
+
+***
 
 [Example Roulette](https://www2.stat.duke.edu/courses/Spring05/sta101.2/lectures/STA101lecture13.pdf)
 
@@ -575,7 +583,7 @@ for loss more than $10
 
 
 
-
+***
 
 
 

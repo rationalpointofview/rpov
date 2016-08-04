@@ -906,6 +906,10 @@ as you can see , the probability distribution is within 0.0% and 1%
 
 the general rule is the higher confidence of prior knowledge, the higher value of α and ß
 
+[![ formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/sj4_us1h.png)](http://stats.stackexchange.com/questions/12232/calculating-the-parameters-of-a-beta-distribution-using-the-mean-and-variance)
+
+
+
 David Robinson also explained beta distribution very well in this [post](http://varianceexplained.org/statistics/beta_distribution_and_baseball/)
 
 
@@ -914,6 +918,18 @@ David Robinson also explained beta distribution very well in this [post](http://
 >Imagine we have a baseball player, and we want to predict what his season-long batting average will be. You might say we can just use his batting average so far- but this will be a very poor measure at the start of a season! If a player goes up to bat once and gets a single, his batting average is briefly 1.000, while if he strikes out or walks, his batting average is 0.000. It doesn't get much better if you go up to bat five or six times- you could get a lucky streak and get an average of 1.000, or an unlucky streak and get an average of 0, neither of which are a remotely good predictor of how you will bat that season.
 
 >Why is your batting average in the first few hits not a good predictor of your eventual batting average? When a player's first at-bat is a strikeout, why does no one predict that he'll never get a hit all season? Because we're going in with prior expectations. We know that in history, most batting averages over a season have hovered between something like .215 and .360, with some extremely rare exceptions on either side. We know that if a player gets a few strikeouts in a row at the start, that might indicate he'll end up a bit worse than average, but we know he probably won't deviate from that range.
+
+
+
+___
+
+[Example Quality Control](https://www.statlect.com/probability-distributions/beta-distribution)
+
+> A production plant produces items that have a probability  X of being defective. The plant manager does not know  X, but from past experience she expects this probability to be equal to  $4%$. Furthermore, she quantifies her uncertainty about  X by attaching a standard deviation of  $2%$ to her  $4%$ estimate. After consulting with an expert in statistics, the manager decides to use a Beta distribution to model her uncertainty about  X. How should she set the two parameters of the distribution in order to match her priors about the expected value and the standard deviation of  X?
+
+
+using this [alpha beta calculator](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=346900249)
+
 
 
 

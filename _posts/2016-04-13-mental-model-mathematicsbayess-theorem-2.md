@@ -843,9 +843,32 @@ Beta Distribution is the Bayestist equavilant of Normal Distribution.
 
 In Practice, Beta Distribution Function is used with Baysian Formular for Binomial Events(1/0):
 
-The Major Difference is Beta Distribution could have input from memories( α/ß), or in Bayestist term, priors.
+The Major Difference is Beta Distribution could have input from memories( α/ß), or in Bayestist term, [priors](https://en.wikipedia.org/wiki/Conjugate_prior#Example).
+
+
 
 ![Beta Distribtion formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/6fnc5m-_.png)
+
+what is α/ß ?
+
+in case of Binomial distribution:
+
+alpha -1 successes, beta -1 failures
+
+![alpha beta](https://wikimedia.org/api/rest_v1/media/math/render/svg/a92be91881b19c9c62c7036d87a9b9443aa84099)
+
+How to calculate alpha and beta from average and variance ?
+
+by solving the following [equation](
+http://stats.stackexchange.com/questions/47916/bayesian-batting-average-prior/47921#47921):
+
+
+
+
+
+
+Beta Density Function
+
 
 If there is no prior knowledge or memory, the prior input of α/ß will be 1/1
 
@@ -883,7 +906,7 @@ as you can see , the probability distribution is within 0.0% and 1%
 
 the general rule is the higher confidence of prior knowledge, the higher value of α and ß
 
-http://stats.stackexchange.com/questions/58564/help-me-understand-bayesian-prior-and-posterior-distributions
+David Robinson also explained beta distribution very well in this [post](http://varianceexplained.org/statistics/beta_distribution_and_baseball/)
 
 
 > Anyone who follows baseball is familiar with batting averages- simply the number of times a player gets a base hit divided by the number of times he goes up at bat (so it's just a percentage between 0 and 1). .266 is in general considered an average batting average, while .300 is considered an excellent one.

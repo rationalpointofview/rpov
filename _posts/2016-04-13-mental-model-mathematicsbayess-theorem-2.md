@@ -849,7 +849,10 @@ The Major Difference is Beta Distribution could have input from memories( α/ß)
 
 If there is no prior knowledge or memory, the prior input of α/ß will be 1/1
 
-![uninformative prior](http://i.stack.imgur.com/vi1e6.png)
+![uninformative prior](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/osb-e3su.png)
+
+The resulting probablity density diagram is a straight line.
+
 
 you can also use this [oline Beta Distrubtion Calculator](http://keisan.casio.com/exec/system/1180573226) to plot it yourself
 

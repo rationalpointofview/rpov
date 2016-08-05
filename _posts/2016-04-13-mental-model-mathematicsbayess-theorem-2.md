@@ -831,6 +831,20 @@ B: He/She is clearly a fan of Manchester
 P(A|B)=P(B|A) \* P(A)/P(B) = 0.7 * 0.05/(19/20*1/10+1/20*7/10)= 0.035/(0.095+0.07)=0.035/0.13=26.9%
 
 
+___
+
+[Example: Food Allergy](https://www.countbayesie.com/blog/2016/1/22/why-you-should-believe-your-friends-claims-about-food-allergies)
+
+
+> Food allergies are a big deal. Nearly everyone has had to accommodate someone with a food allergy. Sometimes it's switching from making your kid Peanut Butter and Jelly to Sunflower Butter and Jelly, making a gluten-free appetizer for a party, or cooking a separate meal for a guest. While most people try their best to be considerate, I think everyone without a food allergy, myself included, has wondered "but do they really have a food allergy?". Even the Boston Globe published an article, back in October, "Why food allergy fakers need to stop". The value of probability theory is that we can quantify our skepticism and make rational choices from this analysis. In this post we're going to answer the question "How Skeptical Should I be if my friend claims to have a Food Allergy"?
+
+The data:
+
+> The article gives the probability of a food allergy in children as being between 4%-8% and for adults 1%-2%. For our analysis, we'll assume the middle values, but keep in mind that we could be more conservative in our estimates. Now we can write these down as two probabilities:
+
+
+> The only other piece of data we need is the probability that someone will claim they have a food allergy. We'll use the variable CC for "claims they have an allergy" (or that their kids do). Luckily the article states that both adults and parents of children claim that either they or their children have a food allergy 30% of the time. For the probability that someone will claim they or their child has a food allergy we get:
+
 
 
 ___
@@ -839,26 +853,48 @@ ___
 
 Normal Distrubtion is the heart of frequencist core(Central Limit Theorem), and we use normal distribution to inverse lookup the probability of a given x value.
 
-Beta Distribution is the Bayestist equavilant of Normal Distribution.
+[Beta Distribution](https://www.countbayesie.com/blog/2015/4/4/parameter-estimation-the-pdf-cdf-and-quantile-function) is the Bayestist equavilant of Normal Distribution.
 
 what is beta distribution ?
+
+In plain words, beta distribution is the unknown distribution, probably x distribution would be a better name;
 
 
 >[The short version is that the Beta distribution can be understood as representing a distribution of probabilities- that is, it represents all the possible values of a probability when we don't know what that probability is. Here is my favorite intuitive explanation of this:
 In Practice, Beta Distribution Function is used with Baysian Formular for Binomial Events(1/0):](http://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution)
 
+Beta-binomial distribution is more widely used one in beta distribution. 
+
+it is a speical case of binomial distribution where the probability of successful trial is not fixed by random and follows beta distribution.
+
 
 The Major Difference is Beta Distribution could have input from memories( α/ß), or in Bayestist term, [priors](https://en.wikipedia.org/wiki/Conjugate_prior#Example).
 
 
+what is α/ß ?
+
+in case of Beta Binomial distribution:
+
+α = No. of successful trials,
+
+ß = No. of unsuccessful trials,
+
+Beta(\alpha_{\text{posterior}},\beta_{\text{posterior}}) = Beta(\alpha_{\text{likelihood}} + \alpha_{\text{prior}}, \beta_{\text{likelihood}} + \beta_{\text{prior}})Beta(α
+​posterior
+​​ ,β
+​posterior
+​​ )=Beta(α
+​likelihood
+​​ +α
+​prior
+​​ ,β
+​likelihood
+​​ +β
+​prior
+​​ )
 
 ![Beta Distribtion formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/6fnc5m-_.png)
 
-what is α/ß ?
-
-in case of Binomial distribution:
-
-alpha -1 successes, beta -1 failures
 
 ![alpha beta](https://wikimedia.org/api/rest_v1/media/math/render/svg/a92be91881b19c9c62c7036d87a9b9443aa84099)
 
@@ -979,6 +1015,7 @@ More Resources:
 
 [a lecture on baysian](https://vimeo.com/6823148)
 
+[count baesie](https://www.countbayesie.com/blog/2015/4/25/bayesian-ab-testing)
 
 
 

@@ -101,12 +101,11 @@ From the data point above, you can calculate the probability of a given sample d
 
 In real life, find out the base standard deviation is usually difficult.
 
-Fortunately, if your data is one or zero type, we can apply the special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf), and quickly caculate the standard deviation.
+Fortunately, if your data is one or zero type, it fits the [Bernoulli Distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) definition, and we can use know the standard deviation easily:
 
-What is a Binomial Distribtuion ? If there is only two possible outcome, win or loss, head or tail, a candidate get elected or not etc.
+Variance = ![variance](https://wikimedia.org/api/rest_v1/media/math/render/svg/7e589c8d7ab029b2bf46af46c93b2385f4709107)
 
-
-The Binomial(n, p) distribution is the distribution of Y , the number of heads in n tosses of a biased coin, when the probability of getting a head on a single toss is p. We begin by setting up a separate random variable for each toss.
+then we can apply the special case of [applying CLT when the base pool is Binomial distriubtion](https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf), and quickly caculate the standard deviation.
 
 if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then σ(x):
 

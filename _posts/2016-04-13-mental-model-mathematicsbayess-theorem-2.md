@@ -841,7 +841,12 @@ Normal Distrubtion is the heart of frequencist core(Central Limit Theorem), and 
 
 Beta Distribution is the Bayestist equavilant of Normal Distribution.
 
-In Practice, Beta Distribution Function is used with Baysian Formular for Binomial Events(1/0):
+what is beta distribution ?
+
+
+>[The short version is that the Beta distribution can be understood as representing a distribution of probabilities- that is, it represents all the possible values of a probability when we don't know what that probability is. Here is my favorite intuitive explanation of this:
+In Practice, Beta Distribution Function is used with Baysian Formular for Binomial Events(1/0):](http://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution)
+
 
 The Major Difference is Beta Distribution could have input from memories( α/ß), or in Bayestist term, [priors](https://en.wikipedia.org/wiki/Conjugate_prior#Example).
 
@@ -906,7 +911,7 @@ as you can see , the probability distribution is within 0.0% and 1%
 
 the general rule is the higher confidence of prior knowledge, the higher value of α and ß
 
-[![ formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/sj4_us1h.png)](http://stats.stackexchange.com/questions/12232/calculating-the-parameters-of-a-beta-distribution-using-the-mean-and-variance)
+[![ formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/sj4_us1h.png)](http://stats.stackexchange.com/questions/12232/calculating-the-parameters-of-a-beta-distribution-using-the-mean-and-variance     )
 
 
 

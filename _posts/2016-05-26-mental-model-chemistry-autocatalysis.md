@@ -11,7 +11,7 @@ published: true
 ---
 **Mental Model Name:AutoCatalysis** 
 **Discipline:Chemistry** 
-**Attributed to Lattice:[compound interest](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
+**Attributed to Lattice:[compound interest](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)**
 
 Introductions
 

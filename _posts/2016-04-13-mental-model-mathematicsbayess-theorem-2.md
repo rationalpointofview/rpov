@@ -506,6 +506,8 @@ The player picked a red ball; what is the probability that the secon urn, U2, wa
 
 P(U2|Red) = P(Red|U2)P(U2)/( P(RED|U1)+P(RED|U3)+P(RED|U2)+P(RED|U4)) = 1/4*1/4/(1/4*1/3+1/4*1/4+1/4*1/5+1/4*1/6)= 26.3%
 
+___
+
 **Example**
 
 [Defective Components][21]
@@ -515,6 +517,10 @@ Identical components are procured from three vendors for use in the next higher 
 What is the probability of a defective component is from vendor 1 ?
 
 P(1|D)=P(D|1)*P(1)/P(D) = 0.06*0\.45/(0.06*0\.45+0.03*0\.3+0.25*0.02)= 65%
+
+___
+
+Example
 
 [Enviromental Protection][21]
 
@@ -531,6 +537,8 @@ If we buy the new device:
 P('P|'F) = 0.99*0\.3/(0.99*0\.3+0.7*0.22) = 0.297/(0.297+0.154) = 65.8%
 
 So, probably we should not invest in the new device:
+
+___
 
 [Example: Interview][22]
 
@@ -550,7 +558,7 @@ So before the new evidence of the interviewee is smoking cigar, the base rate pr
 
 P(M)= 49.2
 
-And the Test/Evidence is this interviewee smoke cigar during interview:
+And the Test/Evidence is this interviewe smoke cigar during interview:
 
 We got our much needed statistic data from [CDC][24]
 
@@ -567,6 +575,8 @@ P(P) = 5% P(C|M) = 8.2% Lets plug all the data into Bayes themorem
 P(M|C) = P(C|M)*P(M)/P(P) = 8.2% * 49.2% /5% = 80.6%
 
 The probability of the interviewee is a male revised to 80.6%
+
+***
 
 [Example: Identical Twins][25]
 
@@ -646,6 +656,7 @@ lets plug all the numbers into Bayes Equation
 
 P(S|L) = P(L|S)* P(S)/P(L) = 0.28% * 14.8% /( 0.0216% * 85.2 % + 0.28% * 14.8%) = 0.04144%/(0.0184%+0.04144)=0.04144/0.0598 = 69.3%
 
+***
 
 [Example: Finding the Mole][27]
 
@@ -745,6 +756,8 @@ P(L|Y)=P(Y|L)* P(L)/P(Y)
 
 She has a 41.2% Belongs to Labour Party
 
+***
+
 [Example: Forensic AnalysisFrom Bayesian Statistics, Peter M. Lee](http://www.amazon.com/Bayesian-Statistics-Introduction-Peter-Lee/dp/1118332571/ref=sr_1_3?ie=UTF8&qid=1463538432&sr=8-3&keywords=Bayesian+Statistics+peter)
 
 ![blood test](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/eu85w0il.png)
@@ -814,6 +827,8 @@ with this new addition information:
 P(6| ~4) = P(~4|6) P(6)/P(~4|E) = 1*0.33/(2/3)
 = 0.5
 
+___
+
 
 [Example: Sports Fans](http://wwwf.imperial.ac.uk/~ayoung/m2s1/WorkedExamples1.pdf)
 
@@ -857,7 +872,8 @@ ___
 
 [Beta Distribution](http://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution)
 
-Normal Distrubtion is the heart of frequencist core(Central Limit Theorem), and we use normal distribution to inverse lookup the probability of a given x value.
+Normal Distribtion is the heart of frequencist core(Central Limit Theorem), And Normal Distribution Diagram is a probability density diagram, so once the mean and standard deviation is known, we can use inverse lookup the probability of a given x value.
+
 
 [Beta Distribution](https://www.countbayesie.com/blog/2015/4/4/parameter-estimation-the-pdf-cdf-and-quantile-function) is the Bayestist equavilant of Normal Distribution.
 
@@ -869,15 +885,12 @@ In plain words, beta distribution is the unknown distribution, probably x distri
 >[The short version is that the Beta distribution can be understood as representing a distribution of probabilities- that is, it represents all the possible values of a probability when we don't know what that probability is. Here is my favorite intuitive explanation of this:
 In Practice, Beta Distribution Function is used with Baysian Formular for Binomial Events(1/0):](http://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution)
 
-Beta-binomial distribution is more widely used one in beta distribution. 
+The more commonly used beta distribution is beta distribution with likelyhood of binomial distribution.
 
-it is a speical case of binomial distribution where the probability of successful trial is not fixed by random and follows beta distribution.
-
-
-The Major Difference is Beta Distribution could have input from memories( α/ß), or in Bayestist term, [priors](https://en.wikipedia.org/wiki/Conjugate_prior#Example).
+[![Beta distribution for binomial ](https://www.dropbox.com/s/dn7qj9g4s279c07/yd01vfj2.png?dl=0)](https://en.wikipedia.org/wiki/Conjugate_prior)
 
 
-what is α/ß ?
+what is α/ß ? α/ß is the parameter we used to model the probability density digram. 
 
 in case of Beta Binomial distribution:
 
@@ -885,43 +898,27 @@ in case of Beta Binomial distribution:
 
 ß = No. of unsuccessful trials,
 
-Beta(\alpha_{\text{posterior}},\beta_{\text{posterior}}) = Beta(\alpha_{\text{likelihood}} + \alpha_{\text{prior}}, \beta_{\text{likelihood}} + \beta_{\text{prior}})Beta(α
-​posterior
-​​ ,β
-​posterior
-​​ )=Beta(α
-​likelihood
-​​ +α
-​prior
-​​ ,β
-​likelihood
-​​ +β
-​prior
-​​ )
+If there is no prior knowledge or memory, the prior input of α/ß will be 1/1
+
+![uninformative prior](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/osb-e3su.png)
+
+The resulting probablity density diagram is a straight line.
+
+But if you have some prior information of success and failed trials, ie memories. then you can use it to model the probability density diagram. After that, you can use it to inverse look up a given x value, just as using the normal distribution diagram.
+
+
 
 ![Beta Distribtion formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/6fnc5m-_.png)
 
 
 ![alpha beta](https://wikimedia.org/api/rest_v1/media/math/render/svg/a92be91881b19c9c62c7036d87a9b9443aa84099)
 
-How to calculate alpha and beta from average and variance ?
-
-by solving the following [equation](
-http://stats.stackexchange.com/questions/47916/bayesian-batting-average-prior/47921#47921):
-
-
-
-
 
 
 Beta Density Function
 
 
-If there is no prior knowledge or memory, the prior input of α/ß will be 1/1
 
-![uninformative prior](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/osb-e3su.png)
-
-The resulting probablity density diagram is a straight line.
 
 
 you can also use this [oline Beta Distrubtion Calculator](http://keisan.casio.com/exec/system/1180573226) to plot it yourself

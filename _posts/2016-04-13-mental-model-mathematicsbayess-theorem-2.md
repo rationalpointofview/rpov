@@ -61,19 +61,20 @@ B is an evidence approving or disapproving the fact,which you have a math model 
 
 What do you mean by math model ?
 
-Basically when applying Bayes Theorem, you need to know how many plausible cause can lead to B happening, and its percentage accordingly( Invert):
+Basically when applying Bayes Theorem, you need to know how many plausible cause can lead to B happening, and its percentage of A accordingly( Invert):
+
+We used the invert technique from up stream lattice, and inver the view from B's angle( What could lead to B happening) .
 
 __False Negative(Sensitive) : When B is not true, what is the chance of A is true.__
 
 __False Positive(Specific): When B is true, what is chance A is not true:__
 
-We used the invert technique from up stream lattice, and inver the view from B's angle( What could lead to B happening) .
+a good test should be both **sensitive** and **specific**:
 
 If you want to access the strengh of the Belief/hypothesis (A), then you need to also access the strengh of the evidence(B) supporting your hypothese.
 
 **The strengh of the evidence is depends on how many alternate explaination of evidence (B) could have. the fewer the alternate explaintion of evidence, the stronger the evidence.**
 
-a good test should be both sensitive and specific:
 
 ![Drug sniffing Dog](https://upload.wikimedia.org/wikipedia/commons/d/d1/Dre_entorpec.jpg)
 
@@ -314,13 +315,18 @@ A reader from Quora poses a questioin:
 
 > What does it mean when a girl smiles at you every time she sees you ?
 
-![Girls Smile](https://pixabay.com/static/uploads/photo/2016/03/01/23/01/girl-1231390_960_720.jpg)
+![Girls Smile](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/93t5yvtj.png)
 
 Another reader using Bayes’s Theorem replies:
 
 P(like|smile) = P(smile|like)*p(like)/p(smile)
 
-so you need to gather the base rate data
+so you need to gather the base rate data;
+
+ie. 
+
+How likely A happens( she like someone)
+How strong an evidence of B (she smiles at you)
 
 P(smile|like) = Chance She Smiles at you given she likes you P(like) = Chances She likes you P(smile) = Chances she smile when seeing anyone
 
@@ -354,7 +360,7 @@ ___
 
 **Example**:
 
-![ Rainy Day](https://pixabay.com/static/uploads/photo/2015/02/14/07/06/a-rainy-day-636089_960_720.jpg)
+![ Rainy Day](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/9wtjfuf8.png)
 
 [**Example Rainy Day**](http://stattrek.com/probability/bayes-theorem.aspx)
 
@@ -372,7 +378,7 @@ ___
 
 [**Example:**][13]
 
-![blue eggs](https://pixabay.com/static/uploads/photo/2016/04/03/05/55/easter-1304066_960_720.jpg)
+![blue eggs](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/nmffwrdq.png)
 Suppose that a barrel contains many small plastic eggs. Some eggs are painted red and some are painted blue. 40% of the eggs in the bin contain pearls, and 60% contain nothing. 30% of eggs containing pearls are painted blue, and 10% of eggs containing nothing are painted blue. What is the probability that a blue egg contains a pearl?
 
 P( Contain Pearl | Blue ) = P (Blue | Contain Pearl) * P (Contain Pearl)/P(Blue)

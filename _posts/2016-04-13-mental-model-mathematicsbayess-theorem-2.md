@@ -85,6 +85,26 @@ If you want to access the strengh of the Belief/hypothesis (A), then you need to
 
 Strong means both **specific** and **sensitive**;
 
+[Will Kurt](www.countbayesie.com) give an excellent [illustration](https://www.countbayesie.com/blog/2016/3/16/bayesian-reasoning-in-the-twilight-zone) of this:
+
+> One of my absolute favorite episodes of the classic TV show The Twilight Zone is "The Nick of Time". In this episode, a young, newly married couple, Don (played by none other than William Shatner) and Pat are forced to spend time in a small town diner while they wait for car repairs. In the diner they come across a fortune telling machine, the "Mystic Seer," which accepts yes/no question and (for a penny) spits out a card with an answer. The episode quickly establishes that Don is very superstitious. He eagerly asks the Mystic Seer a series of question and soon begins to believe in the supernatural powers of this particular device. Pat remains continuously skeptical even as each assertions of the Seer comes true. Eventually, Pat comes around to believe in the powers of the seer, but unlike her husband finds the possibility that the seer is prophetic terrifying.
+
+![Mystic Seer](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/3jaqrhqq.png)
+
+Why is the difference ?
+
+It is because Pat and Don hold different believes of P(A)
+
+Don holds a relative high starting P(A) and thus only need a relative weak P(B) to convince her
+
+Pat holds a relative very low starting P(A) and need a very strong P(B) to convince him.
+
+We could even calculate the prior value of P(A)s of Don and PAT base on how many correct answer it takes to convince PAT and Don.
+
+
+
+
+
 Lets use the turkey example again:
 
 Turkey's Believe/Hypothesis (A):
@@ -887,7 +907,7 @@ In Practice, Beta Distribution Function is used with Baysian Formular for Binomi
 
 The more commonly used beta distribution is beta distribution with likelyhood of binomial distribution.
 
-[![Beta distribution for binomial ](https://www.dropbox.com/s/dn7qj9g4s279c07/yd01vfj2.png?dl=0)](https://en.wikipedia.org/wiki/Conjugate_prior)
+![Beta distribution for binomial](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x_1ohc4x.png)
 
 
 what is α/ß ? α/ß is the parameter we used to model the probability density digram. 
@@ -902,30 +922,19 @@ If there is no prior knowledge or memory, the prior input of α/ß will be 1/1
 
 ![uninformative prior](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/osb-e3su.png)
 
-The resulting probablity density diagram is a straight line.
+The resulting probablity density diagram is a straight line. ie no information., means the odds is even for all outcomes.
 
-But if you have some prior information of success and failed trials, ie memories. then you can use it to model the probability density diagram. After that, you can use it to inverse look up a given x value, just as using the normal distribution diagram.
+what if we do have prior knowledge ?
 
-
-
-![Beta Distribtion formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/6fnc5m-_.png)
-
-
-![alpha beta](https://wikimedia.org/api/rest_v1/media/math/render/svg/a92be91881b19c9c62c7036d87a9b9443aa84099)
-
+If you have some prior information of success and failed trials, ie memories. then you can use it to model the probability density diagram. After that, you can use it to inverse look up a given x value, just as using the normal distribution diagram.
 
 
 Beta Density Function
 
 
-
-
-
 you can also use this [oline Beta Distrubtion Calculator](http://keisan.casio.com/exec/system/1180573226) to plot it yourself
 
-the resulting diagram is a straight line, means the odds is even for all outcomes.
 
-what if we do have prior knowledge ?
 
 For example, we put a banner ad and want to estimate the conversion rate for user click through the banner.
 

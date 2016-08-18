@@ -95,17 +95,20 @@ Why is the difference ?
 
 It is because Pat and Don hold different believes of P(A)
 
-Don holds a relative high starting P(A) and thus only need a relative weak P(B) to convince her
+Pat holds a relative high starting P(A) and thus only need a relative weak P(B) to convince him.
 
-Pat holds a relative very low starting P(A) and need a very strong P(B) to convince him.
+Don holds a relative very low starting P(A) and need a very strong P(B) to convince her.
 
-We could even calculate the prior value of P(A)s of Don and PAT base on how many correct answer it takes to convince PAT and Don.
+Will Kurt even calculate the the P(A) of Don and Pat by using how many data it takes to convience them,
+
+for Pat, the inital believe is the seer has 1 in 3000 chance of supernatural power.
 
 
 
 
 
-Lets use the turkey example again:
+
+One more example about strong and specific evidence. lets use the turkey example again:
 
 Turkey's Believe/Hypothesis (A):
 
@@ -907,7 +910,7 @@ In Practice, Beta Distribution Function is used with Baysian Formular for Binomi
 
 The more commonly used beta distribution is beta distribution with likelyhood of binomial distribution.
 
-![Beta distribution for binomial](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x_1ohc4x.png)
+[![Beta distribution for binomial](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x_1ohc4x.png)](https://en.wikipedia.org/wiki/Conjugate_prior)
 
 
 what is α/ß ? α/ß is the parameter we used to model the probability density digram. 
@@ -959,8 +962,6 @@ as you can see , the probability distribution is within 0.0% and 1%
 
 the general rule is the higher confidence of prior knowledge, the higher value of α and ß
 
-[![ formular](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/sj4_us1h.png)](http://stats.stackexchange.com/questions/12232/calculating-the-parameters-of-a-beta-distribution-using-the-mean-and-variance     )
-
 
 
 David Robinson also explained beta distribution very well in this [post](http://varianceexplained.org/statistics/beta_distribution_and_baseball/)
@@ -983,9 +984,64 @@ ___
 
 using this [alpha beta calculator](https://docs.google.com/spreadsheets/d/10LqWsKJhCBxm_281Vt0d2yH8-WYg39OLwXkWY4eLTIg/edit#gid=346900249)
 
+___
+
+[Example Mystic Seer Fortune telling machine](https://www.countbayesie.com/blog/2016/3/16/bayesian-reasoning-in-the-twilight-zone)
+
+![One Question Per penny](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/dh4b2yze.png)
+
+Going to reuse the example from [Countbayesie.com[https://www.countbayesie.com/blog/2016/3/16/bayesian-reasoning-in-the-twilight-zone]
+>newly married couple, Don (played by none other than William Shatner) and Pat are forced to spend time in a small town diner while they wait for car repairs. In the diner they come across a fortune telling machine, the "Mystic Seer," which accepts yes/no question and (for a penny) spits out a card with an answer. The episode quickly establishes that Don is very superstitious. He eagerly asks the Mystic Seer a series of question and soon begins to believe in the supernatural powers of this particular device. Pat remains continuously skeptical even as each assertions of the Seer comes true. Eventually, Pat comes around to believe in the powers of the seer, but unlike her husband finds the possibility that the seer is prophetic terrifying.
+
+Lets assumpt for PAT, the initial believe for P(A):The Mystic Seer truly can predict the future. is 1/1000,000
+
+The Questions is, how many correct answer it takes to convince PAT 
+
+Lets put P(B) = P(xC), ie x Correct Answer
+
+P(A|B) = P(B|A)* P(A)/P(B)
+
+P(B|A) = 1
+P(A) =1/1000,1000
+P(B) = 1/1000,1000 + P(xC)
+    = 1/1000,1000 + (0.5)^x
+
+P(A|xC) = 1/1000,1000/(1/1000,1000 + (0.5)^x) > 0.5
+
+Quickly plugin in spreadsheet by trial, you can get when x =20, P(A| 20C) =0.5118
 
 
 
+___
+
+* [Use R to run A/B Testing](https://www.countbayesie.com/blog/2015/3/3/6-amazing-trick-with-monte-carlo-simulations)
+
+~~~
+runs <- 100000
+a.samples <- rbeta(runs,20,100)
+b.samples <- rbeta(runs,38,110)
+mc.p.value <- sum(a.samples > b.samples)/runs
+~~~
+
+* How to use R to plot beta distribution ?
+
+~~~
+curve(dbeta(x,2,10),col="green");
+curve(dbeta(x,2,8),col="red");
+
+~~~
+
+
+* How to use R to do A/B testing ? 
+
+~~~
+n.trials <- 100000
+prior.alpha <- 3
+prior.beta <- 7
+a.samples <- rbeta(n.trials,36+prior.alpha,114+prior.beta)
+b.samples <- rbeta(n.trials,50+prior.alpha,100+prior.beta)
+p.b_superior <- sum(b.samples > a.samples)/n.trials
+~~~
 
 
 

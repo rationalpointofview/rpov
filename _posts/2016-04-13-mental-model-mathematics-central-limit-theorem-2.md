@@ -87,6 +87,10 @@ It is often the lesser reliable ones in science.
 
 An Excellent illustration is explained by [Danielle Fong](http://daniellefong.com/2008/01/28/outliers-why-the-central-limit-theorem-is-typically-off/)
 
+* The Sample group needs to be large enough
+
+General Speaking, 30 is good, and 15 is a stretch minimum.
+
 
 **How to use this mental Model**:
 
@@ -98,10 +102,13 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 
 From the data point above, you can calculate the probability of a given sample data point.
 
+** Central Limit Theorem **Approximation** for Binomial Distribution
 
 In real life, find out the base standard deviation is usually difficult.
 
-Fortunately, if your data is one or zero type, it fits the [Bernoulli Distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) definition, and we can use know the standard deviation easily:
+Fortunately, if your data is one or zero type ( Thinking Polling Results), it fits the [Bernoulli Distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) definition, and we can use know the standard deviation easily:
+
+[CLT for binomial distribution](http://ocw.mit.edu/courses/sloan-school-of-management/15-063-communicating-with-data-summer-2003/lecture-notes/lecture10.pdf)
 
 Variance = ![variance](https://wikimedia.org/api/rest_v1/media/math/render/svg/7e589c8d7ab029b2bf46af46c93b2385f4709107)
 
@@ -538,19 +545,12 @@ from Binomial CLT, the true mean = p = 0.4737
 the 100 sample sum true mean = 0.4737*100 = 47.37
 the 100 sample sum standard deviation = sqrt((1-0.4737)*0.4737*100)=4.99
 
-The triky part is in binomial clt, win rate is definited by:
+The triky part is to find the target win rate for betting $100 and lose $10 more:
 
-loss: 0
-win: 1
 
-but in roultte game:
+the win rate p for betting $100 and lose $10 more is:
 
-loss= -1
-win = 1
-
-so $1 bet transform to bilnomial clt is actually 0.5
-
-so betting $100 and lose $10 more is:
+90/100*0.5=0.45 
 
 average:
 

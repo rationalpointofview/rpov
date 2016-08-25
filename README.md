@@ -23,9 +23,9 @@ layout: post
 published: true
 ---
 
-**Mental Model Name:  **
-**Discipline:  ** 
-**Related Lattice:
+**Mental Model Name:**
+**Discipline:** 
+**Related Lattice**:
 
 * Upstream:
 

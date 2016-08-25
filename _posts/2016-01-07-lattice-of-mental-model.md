@@ -108,7 +108,7 @@ Also from Richard Freeman:
 
 * [feedback system](http://www.rationalpov.com/mental-model-engineering-feedback-loops/)
 * backup system/redundancy
-* break points
+* [break points](http://www.rationalpov.com/mental-model-engineeringbreak-point/) 
 * [Margin of Safety](https://www.farnamstreetblog.com/2013/12/margin-of-safety/)
 
 ### Discipline Chemistry

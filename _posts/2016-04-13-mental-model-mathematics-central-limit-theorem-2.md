@@ -13,9 +13,10 @@ published: true
 ---
 **Mental Model Name:Central Limit Theorem** 
 **Discipline:Mathematics** 
-**Lattice Rank :8**
 
-**Related Lattice** Law of large numbers
+**Related Lattice:**
+
+Law of large numbers
 
 # Introductions
 
@@ -92,7 +93,7 @@ An Excellent illustration is explained by [Danielle Fong](http://daniellefong.co
 General Speaking, 30 is good, and 15 is a stretch minimum.
 
 
-**How to use this mental Model**:
+# How to use this mental Model:
 
 *   Gather following data by statistics,combination/permutations or approximations, or proability theory
     
@@ -102,7 +103,9 @@ General Speaking, 30 is good, and 15 is a stretch minimum.
 
 From the data point above, you can calculate the probability of a given sample data point.
 
-** Central Limit Theorem **Approximation** for Binomial Distribution
+the most difficult part of the process is ususally gathing the base rate true mean and standard deviation. Fortunately, we can quickly get the data point if the problem is yes/no type.
+
+## Central Limit Theorem **Approximation** for Binomial Distribution
 
 In real life, find out the base standard deviation is usually difficult.
 

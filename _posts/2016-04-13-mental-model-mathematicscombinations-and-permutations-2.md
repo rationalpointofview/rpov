@@ -11,7 +11,9 @@ permalink: >
   http://www.rationalpov.com/mental-model-mathematicscombinations-and-permutations-2/
 published: true
 ---
-**Mental Model Name:elementary math of permutations and combinations** **Discipline:Mathematics** **Lattice Rank:4**
+**Mental Model Name:elementary math of permutations and combinations** 
+**Discipline:Mathematics** 
+
 
 > Elementary math of permutations and combinations, It's very simple algebra. It was all worked out in the course of about one year between Pascal and Fermat. They worked it out casually in a series of letters.
 > 
@@ -31,12 +33,14 @@ avaliable choice from combination/permutations of factors
 
 can use this to calcualor the avaliable choices in your head
 
+* Always calculate Permutations First
+
 *  Identify if repetition allowed
 
     * If repetition allowed, use N^r to calculate base permutation
     * If repetition is not allowed, used N! to calculate base permutation
 
-* Revise the number up or down, if needed. 
+* If need combiniation results, revise the number up or down, if needed. 
 
 couple scenarios:
 

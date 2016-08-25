@@ -31,7 +31,35 @@ and that zero, is our concept of break points.
 
 > “Somebody once said that in looking for people to hire, you look for three qualities: integrity, intelligence, and energy. And if you don’t have the first, the other two will kill you. You think about it; it’s true. If you hire somebody without [integrity], you really want them to be dumb and lazy.” - Warrent Buffet 
 
-Integrity is the 0 and the break points here
+Integrity is the 0 of the equation here.
+
+
+the Upstream of this lattice is Basic Arithmetics:
+
+[Farnma Street](https://www.farnamstreetblog.com/2016/08/mental-model-multiplicative-systems/) argues there are two type of system:
+
+* Multiplicative System. the system is a multiple system, and each stage of the system process is a multiplication and thus the system output is govern by the weakest link, or the break points.
+
+System Ouput = Stage1 x Stage 2 x Stage 3 ...
+
+It is the Fragile System of Nassim Taleb descripted in his book [Anti Fragile](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
+
+Some Example he has given: 
+
+> Salaried employment: while it looks safe on the surface (predictable salary every month) it is subject to the catastrophic risk of losing one's job.
+
+> Debt-fueled economies: debt has no flexibility, so these economies can't stand even a slowdown without risking implosion (cf current situation)
+
+
+
+* Additive System. 
+
+System Output = Stage 1 + Stage 2 + Stage 3 ...
+
+The Nassim Tableb's term for Additive System is robust or even better, Anti Fragile.
+
+
+
 
 
 

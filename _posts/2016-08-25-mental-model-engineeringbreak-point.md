@@ -21,7 +21,7 @@ published: true
 
 > A fuse interrupts an excessive current so that further damage by overheating or fire is prevented - wikipedia.
 
-![fuse](https://en.wikipedia.org/wiki/Fuse_(electrical#/media/File:Tektronixoscilloscope442backfuse-ccbysawikipedia.jpg)
+![fuse](https://upload.wikimedia.org/wikipedia/commons/2/25/Fuse.jpg)
 
 
 > In software development, a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. It is also sometimes simply referred to as a pause. - wiki

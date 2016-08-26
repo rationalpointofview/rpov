@@ -19,7 +19,15 @@ published: true
 
 # Introductions
 
+> A fuse interrupts an excessive current so that further damage by overheating or fire is prevented - wikipedia.
+
+![fuse](https://en.wikipedia.org/wiki/Fuse_(electrical#/media/File:Tektronixoscilloscope442backfuse-ccbysawikipedia.jpg)
+
+
 > In software development, a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. It is also sometimes simply referred to as a pause. - wiki
+
+
+> “Somebody once said that in looking for people to hire, you look for three qualities: integrity, intelligence, and energy. And if you don’t have the first, the other two will kill you. You think about it; it’s true. If you hire somebody without [integrity], you really want them to be dumb and lazy.” - Warrent Buffet 
 
 [Farnam Street](https://www.farnamstreetblog.com/2016/08/mental-model-multiplicative-systems/) give a very good explaination of the nature of break point -- Multiplicative System.
 
@@ -28,10 +36,6 @@ published: true
 > Hopefully you didn’t have to whip out the old TI-84 to solve that one. It’s a zero.
 
 and that zero, is our concept of break points.
-
-> “Somebody once said that in looking for people to hire, you look for three qualities: integrity, intelligence, and energy. And if you don’t have the first, the other two will kill you. You think about it; it’s true. If you hire somebody without [integrity], you really want them to be dumb and lazy.” - Warrent Buffet 
-
-Integrity is the 0 of the equation here.
 
 
 the Upstream of this lattice is Basic Arithmetics:
@@ -56,26 +60,18 @@ Some Example he has given:
 
 System Output = Stage 1 + Stage 2 + Stage 3 ...
 
-The Nassim Tableb's term for Additive System is robust or even better, Anti Fragile.
-
-
-
-
-
-
-
-
-
-
-
-
-
+The Nassim Tableb's term for Additive System is robust or even better, **Anti Fragile**
 
 # How to use this mental Model:
 
 ## Conditions:
 
+The system is multiplicative system
+
 ## Predictions:
+
+The System output is govern by its breakpoint, thus simplies the system
+
 
 ## Examples:
 

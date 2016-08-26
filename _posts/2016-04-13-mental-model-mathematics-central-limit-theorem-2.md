@@ -107,9 +107,18 @@ the most difficult part of the process is ususally gathing the base rate true me
 
 ## Central Limit Theorem **Approximation** for Binomial Distribution
 
-In real life, find out the base standard deviation is usually difficult.
 
-Fortunately, if your data is one or zero type ( Thinking Polling Results), it fits the [Bernoulli Distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) definition, and we can use know the standard deviation easily:
+If the data is one or zero type ( Thinking Polling Results), it fits the [Bernoulli Distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) definition, we can use the following approximation:
+
+
+E(X) = np; VAR(X) = np(1-p);
+
+The approximation is good if n is large enough for the The approximation is good if n is large enough for the
+given p, i.e, must pass the following test: given p, i.e, must pass the following test:
+
+Must have : np ≥ 5 and n(1- p) ≥ 5
+
+
 
 [CLT for binomial distribution](http://ocw.mit.edu/courses/sloan-school-of-management/15-063-communicating-with-data-summer-2003/lecture-notes/lecture10.pdf)
 
@@ -582,9 +591,27 @@ for loss more than $10
 
 =normdist(90,94.74,9.9861,true)=31.75%
 
+___
 
+[Example Quality Check](http://ocw.mit.edu/courses/sloan-school-of-management/15-063-communicating-with-data-summer-2003/lecture-notes/lecture10.pdf)
 
+> Example: An electrical component is guaranteed by its
+suppliers to have 2% defective components. To check a
+shipment, you test a random sample of 500 components. If
+the supplier’s claim is true, what is the probability of finding 15
+or more defective components?
 
+p = 0.02
+
+sd = sqrt(0.02*0.98/500)= 0.006260990337
+
+15 more defect component in 500 component is equal to a rate of 0.03
+
+so the answer is 
+
+= 1 - normdist(0.03,0.02,0.00626099,false)
+
+= 5.5%
 ***
 
 

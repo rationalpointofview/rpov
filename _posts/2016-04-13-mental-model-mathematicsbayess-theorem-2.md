@@ -1014,21 +1014,71 @@ Quickly plugin in spreadsheet by trial, you can get when x =20, P(A| 20C) =0.511
 
 ___
 
-* [Use R to run A/B Testing](https://www.countbayesie.com/blog/2015/3/3/6-amazing-trick-with-monte-carlo-simulations)
+* [Use R to run Monte Carlo Simulation](https://www.countbayesie.com/blog/2015/3/3/6-amazing-trick-with-monte-carlo-simulations)
+
+[R](https://www.r-project.org/) is **the** tools for statistical computing
+
+A few Basic and useful function
+
+
+* dbeta gives the density function, and you can visualize by useing
+
+* C(0,1) sort of generic function and use it to descript anything
+* sample() function can draw samples mutitple times
+
+
+[Approximating the Binomial Distribution](https://www.countbayesie.com/blog/2015/3/3/6-amazing-trick-with-monte-carlo-simulations)
+
+runs<-10000
+
+Trial <- function()(
+sum(c(0,1),runs,replace=T) > 3
+) 
+
 
 ~~~
-runs <- 100000
-a.samples <- rbeta(runs,20,100)
-b.samples <- rbeta(runs,38,110)
+curve(dbeta(x,10,110),col="green",add=TRUE);
+~~~
+
+* rbeta generates random deviates,
+
+* 
+
+
+> https://github.com/WinVector/CampaignPlanner/blob/master/server.R
+
+posterior Jeffreys prior 0.5,0.5 smoothing
+
+ ptab$observedSuccessRate = (successes+0.5)/(actions+1) #  posterior Jeffreys prior 0.5,0.5 smoothing
+
+
+
+curve(dbeta(x,10,100), col="green",add=TRUE)
+curve(dbeta(x,15,100), col="red", add=TRUE)
+
+
+~~~
+runs <- 1000000
+a.samples <- rbeta(runs,10,100)
+b.samples <- rbeta(runs,15,100)
 mc.p.value <- sum(a.samples > b.samples)/runs
+mc.p.value
 ~~~
 
 * How to use R to plot beta distribution ?
 
 ~~~
-curve(dbeta(x,2,10),col="green");
-curve(dbeta(x,2,8),col="red");
+curve(dbeta(x,10,110),col="green",add=TRUE);
+curve(dbeta(x,15,115),col="red",add=TRUE);
 
+~~~
+
+
+~~~
+runs <- 10000000
+a.samples <- rbeta(runs,10,100)
+b.samples <- rbeta(runs,15,100)
+mc.p.value <- sum(a.samples > b.samples)/runs
 ~~~
 
 
@@ -1042,6 +1092,11 @@ a.samples <- rbeta(n.trials,36+prior.alpha,114+prior.beta)
 b.samples <- rbeta(n.trials,50+prior.alpha,100+prior.beta)
 p.b_superior <- sum(b.samples > a.samples)/n.trials
 ~~~
+
+
+More Course on R on montecarlo simulation
+
+https://www.udemy.com/r-programming-for-simulation-and-monte-carlo-methods/
 
 
 
@@ -1069,6 +1124,9 @@ Freqentist Docotor:
 Baesian Doctor:
 
 >“If I prescribe drugX to this patient, the one sitting in my examination room, will the patient’s blood pressure improve?” "
+
+
+____
 
 
 

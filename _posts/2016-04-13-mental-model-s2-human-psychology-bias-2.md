@@ -317,13 +317,21 @@ Example:
 
 **What to Predict:**
 
-Human will associate two things happens together
+Human will associate things happens together and fuse them, which lead to the [Halo effect, the term which introduce by Nassim Tableb in his book [The Black Swan](https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X/ref=sr_1_1?s=books&ie=UTF8&qid=1472777963&sr=1-1&keywords=The+Black+Swan)
 
-*   none will associated past success, liking/disliking with some random factor
+As Jon Elster points out in  [Explaining Social Behavior](https://www.amazon.com/dp/1107416418)
+
+> People are often assumed to have personality traits (introvert, timid, etc.) as well as virtues (honesty, courage, etc.) or vices (the seven deadly sins, etc.). In folk psychology, these features are assumed to be stable over time and across situations. Proverbs in all languages testify to this assumption. “Who tells one lie will tell a hundred.” “Who lies also steals.” “Who steals an egg will steal an ox.” “Who keeps faith in small matters, does so in large ones.” “Who is caught red-handed once will always be distrusted.” If folk psychology is right, predicting and explaining behavior should be easy.
+
+> A single action will reveal the underlying trait or disposition and allow us to predict behavior on an indefinite number of other occasions when the disposition could manifest itself. The procedure is not tautological, as it would be if we took cheating on an exam as evidence of dishonesty and then used the trait of dishonesty to explain the cheating. Instead, it amounts to using cheating on an exam as evidence for a trait (dishonesty) that will also cause the person to be unfaithful to a spouse. If one accepts the more extreme folk theory that all virtues go together, the cheating might also be used to predict cowardice in battle or excessive drinking. 
+
+
+*   people will associated past success, liking/disliking with some random factor
 
 *   Shot the messager effect
 
-*   Could be a counter for recripocity effect event
+*   Could be a counter for recripocity. If the recripocity reminds a bad event. 
+*   Often reinforce by doubt avoidence and consistency tendency ( combined known as confirmation error)
 
 **When to use it**
 

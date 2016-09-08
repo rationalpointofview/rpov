@@ -21,6 +21,9 @@ How should you use this mental Model ?
 
 The most useful tools in math is +-x/ : , but numbers doesn't make much sense alone, you need to make it move and scale to buidl a mental model.
 
+![math](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/4g2-vbhh.png)
+
+
 *   Identify critical path you try to analyse;
     
     * List Input/outputs
@@ -65,6 +68,6 @@ it should be
 
 The signature of Compound Interest occuring is the famous hocky stick diagram:
 
-[world population](http://www.marketcalls.in/wp-content/uploads/2010/11/Wordl-Population.jpg)
+![world population](http://www.marketcalls.in/wp-content/uploads/2010/11/Wordl-Population.jpg)
 
 

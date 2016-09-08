@@ -11,11 +11,22 @@ permalink: >
   http://www.rationalpov.com/mental-model-mathematics-probability-law-of-big-numbers-2/
 published: true
 ---
-**Mental Model Name: Law of big numbers** **Discipline: Mathematics** **Lattice Rank :5**
+**Mental Model Name:** 
+
+**Law of big numbers** 
+
+**Discipline: Mathematics** 
 
 Introductions
 
-****How to use this mental Model****:
+Law of large numbers, it has many synonyms, but probably you dont know it.
+
+* revert to the mean
+* widsom of crowds
+
+![law of large numbers](https://upload.wikimedia.org/wikipedia/commons/0/02/Law_of_large_numbers_%28blow_up%29.gif)
+
+**How to use this mental Model**:
 
 Useful to Predict how the mean will behave when you do a large number of trials of same thing/same experiment.
 
@@ -23,6 +34,7 @@ Useful to Predict how the mean will behave when you do a large number of trials 
 
 *   The result must be come out of same thing/same process
 *   The number of trial should be large. How large a number we should call it large ? A Common Pracitice in statistic is the magic number 30. Anything over 30 (times) is considered as large.
+*   The trial must be independent
 
 **Predictions:**
 

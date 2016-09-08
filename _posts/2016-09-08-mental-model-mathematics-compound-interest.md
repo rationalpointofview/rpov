@@ -15,7 +15,11 @@ published: true
 
 *   Upstream:
 
+    [Mental Model,Discipline Mathematics](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
+    
 *   Downstream:
+
+    [Mental Model, Engineering, Feedback loops](http://www.rationalpov.com/mental-model-engineering-feedback-loops/)
 
 Introductions
 

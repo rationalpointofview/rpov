@@ -15,7 +15,7 @@ published: true
 
 *   Upstream:Mathematics, basic arithmetic
 
-*   Downstream:
+*   Downstream: Engineering, Backup System
 
 # Introductions
 
@@ -37,6 +37,7 @@ published: true
 
 and that zero, is our concept of break points.
 
+Break Point can be understand as Weakest Link in the multicaptive system, it could be place in the system intentionally, such as fuse in electrial circuits, or shar pins in boat propellers.
 
 the Upstream of this lattice is Basic Arithmetics:
 
@@ -46,11 +47,13 @@ the Upstream of this lattice is Basic Arithmetics:
 
 System Ouput = Stage1 x Stage 2 x Stage 3 ...
 
-It is the Fragile System of Nassim Taleb descripted in his book [Anti Fragile](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
+Computuer software, series electrical circuit, human being, is examples of multiplicative system.
+
+Another name for multiplicative system is the Fragile System of Nassim Taleb descripted in his book [Anti Fragile](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
 
 Some Example he has given: 
 
-> Salaried employment: while it looks safe on the surface (predictable salary every month) it is subject to the catastrophic risk of losing one's job.
+> Salaried employment: while it looks safe on the surface (predictable salary every month) it is subject to the catastrophic risk of losing one's job. ie. the breakpoint is the boss, the boss changed his mind, your "job security is gone"
 
 > Debt-fueled economies: debt has no flexibility, so these economies can't stand even a slowdown without risking implosion (cf current situation)
 
@@ -62,11 +65,15 @@ System Output = Stage 1 + Stage 2 + Stage 3 ...
 
 The Nassim Tableb's term for Additive System is robust or even better, **Anti Fragile**
 
+Most Real Life System is a hybrid of two systems;
+
+
 # How to use this mental Model:
 
 ## Conditions:
 
-The system is multiplicative system
+Analyse the Systems critical path, is it muplicative system or additive system by nature ? 
+
 
 ## Predictions:
 

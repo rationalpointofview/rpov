@@ -15,15 +15,24 @@ The first mental model Charlie Mungers Mentions, is Mathematics, why mathematics
 
 How should you use this mental Model ?
 
-****How to use this mental Model****:
+**How to use this mental Model**:
 
 **Use basic arithmetic to clear your mind.**
 
-*   Identify the measurements of results you are trying to achieve;
+The most useful tools in math is +-x/ : , but numbers doesn't make much sense alone, you need to make it move and scale to buidl a mental model.
+
+*   Identify critical path you try to analyse;
+    
+    * List Input/outputs
     
     eg. for a business it is quite simple, cash flow and profit;
 
-*   laydown a spreadsheet, try to predict the scenarios 12 months later.
+*   laydown a spreadsheet, try to predict:
+   
+    * the scenarios 12 months later.
+    
+    * the input x 10 times, what happen to inputs and the system, will it break ? 
+    * the output x 10 times, what does it take for inputs, will it break ?
     
     For example;
     

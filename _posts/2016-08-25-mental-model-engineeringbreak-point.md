@@ -13,7 +13,7 @@ published: true
 **Discipline: Engineering** 
 **Related Lattice**:
 
-*   Upstream:Mathematics, basic arithmetic
+*   Upstream: [Mathematics, basic arithmetic](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
 
 *   Downstream: Engineering, Backup System
 

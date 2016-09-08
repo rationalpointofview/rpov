@@ -27,33 +27,57 @@ How hard is that you increase your value to others by studying/creating good hab
 
 If you can do that every single day, how long will it take for your to double your income ?
 
+> "I constantly see people rise in life who are not the smartest, sometimes not even the most diligent, but they are learning machines. They go to bed every night a little wiser than they were when they got up and boy does that help, particularly when you have a long run ahead of you." - Charlie Munger USC Law Commencement Speech, May 2007
+
+
 Just as [James Altucher](http://www.jamesaltucher.com/) stated in his [one percent rule][2]
 
 > Improve a little each day. It compounds. When 1% compounds every day, it doubles every 72 days, not every 100 days. Compounding tiny excellence is what creates big excellence.
 
-To me, thats the essense of the compound interest.
+To me, thats the essense of the compound interest, compound yourself.
+
 
 **How to use this mental Model**:
 
-The most important thing for compound interest, is to identify the base. ie What do you want to compound ? is that even compoundable ? compounds needs time and lot of energy and effort, make sure the the thing you try to compound is not build on sand.
+Identify your compounding base. 
 
-![sand castle](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/rdax53s3.png)
+* What do you want to compound ? 
 
- 
+* Is that compoundable ? 
 
+
+    Compounding usually take time and effort, make sure your are not try to compound a sand castle
+
+    ![sand castle](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/rdax53s3.png)
+
+* When does it compound ? by time or turn ?
+
+
+    Thats the secret of all the business. business compounds not with time, but when a transaction happens. 
+
+    [High frequency trading](https://en.wikipedia.org/wiki/High-frequency_trading) is a very good example of that. 
+
+    ![ cents](https://en.wikipedia.org/wiki/High-frequency_trading#/media/File:Assorted_United_States_coins.jpg)
+
+    HFTs earn only a tiny profits per trade, but with a lot of trades per day, the profit quickly compounds.
 
 
 
 
 **Conditions:**
 
+A base that can be compound.
+
 **Predictions:**
 
+You can use law of 72 to calculate how fast it can grown. 
+
+The signature of Compound Interest occuring is the famous hocky stick diagram:
+
+![world population](http://www.marketcalls.in/wp-content/uploads/2010/11/Wordl-Population.jpg)
 
 
 
-
-use Rule of 72, you will quickly find out, just 72 days!
 
 **Example**
 
@@ -68,9 +92,6 @@ Why do Stock market out perform bonds ?
 That finding ignited an unprecedented bull market. Galvanized by Smith's insight, investors piled into stocks, anticipating a double dip: their higher initial yield over bonds, and growth to boot. For the American public, this new understanding was like the discovery of fire.
 
 
-The signature of Compound Interest occuring is the famous hocky stick diagram:
-
-![world population](http://www.marketcalls.in/wp-content/uploads/2010/11/Wordl-Population.jpg)
 
 
  [1]: https://en.wikipedia.org/wiki/Rule_of_72

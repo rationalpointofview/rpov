@@ -19,18 +19,31 @@ published: true
 
 Introductions
 
-
 > “Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it.” Albert Einstein
 
-We all well aware of the power of compounding, in money terms. But arguably, the most important asset to most people is not money or possessions, it is yourself.
+We all well aware of the power of compounding, in money terms. But arguably, the most important asset to most people is not your car, not your house, not even your bank accout. it is you.
 
 How hard is that you increase your value to others by studying/creating good habits/acquire new skill by merely just 1% ?
 
 If you can do that every single day, how long will it take for your to double your income ?
 
-Just as James Altucher stated in his [one percent rule][2]
+Just as [James Altucher](http://www.jamesaltucher.com/) stated in his [one percent rule][2]
 
-****How to use this mental Model****:
+> Improve a little each day. It compounds. When 1% compounds every day, it doubles every 72 days, not every 100 days. Compounding tiny excellence is what creates big excellence.
+
+To me, thats the essense of the compound interest.
+
+**How to use this mental Model**:
+
+The most important thing for compound interest, is to identify the base. ie What do you want to compound ? is that even compoundable ? compounds needs time and lot of energy and effort, make sure the the thing you try to compound is not build on sand.
+
+![sand castle](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/rdax53s3.png)
+
+ 
+
+
+
+
 
 **Conditions:**
 
@@ -53,6 +66,12 @@ Why do Stock market out perform bonds ?
 > It was that simple. It wasn't even news. People certainly knew that companies were not paying out 100% of their earnings. But investors hadn't thought through the implications of the point. Here, though, was this guy Smith saying, "Why do stocks typically outperform bonds? A major reason is that businesses retain earnings, with these going on to generate still more earnings--and dividends, too."
 
 That finding ignited an unprecedented bull market. Galvanized by Smith's insight, investors piled into stocks, anticipating a double dip: their higher initial yield over bonds, and growth to boot. For the American public, this new understanding was like the discovery of fire.
+
+
+The signature of Compound Interest occuring is the famous hocky stick diagram:
+
+![world population](http://www.marketcalls.in/wp-content/uploads/2010/11/Wordl-Population.jpg)
+
 
  [1]: https://en.wikipedia.org/wiki/Rule_of_72
  [2]: http://www.jamesaltucher.com/2015/08/habits-one-percent/

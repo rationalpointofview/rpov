@@ -17,11 +17,12 @@ How should you use this mental Model ?
 
 **How to use this mental Model**:
 
-**Use basic arithmetic to clear your mind.**
 
 The most useful tools in math is +-x/ : , but numbers doesn't make much sense alone, you need to make it move and scale to buidl a mental model.
 
 ![math](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/4g2-vbhh.png)
+
+Use basic math and [spreadsheet](https://www.google.com/sheets/about/) to build a math model:
 
 
 *   Identify critical path you try to analyse;
@@ -30,7 +31,7 @@ The most useful tools in math is +-x/ : , but numbers doesn't make much sense al
     
     eg. for a business it is quite simple, cash flow and profit;
 
-*   laydown a spreadsheet, try to predict:
+*   laydown a [spreadsheet](, try to predict:
    
     * the scenarios 12 months later.
     
@@ -66,8 +67,5 @@ it should be
 72 * 3/12 = 18 , 18 percent every month
 
 
-The signature of Compound Interest occuring is the famous hocky stick diagram:
-
-![world population](http://www.marketcalls.in/wp-content/uploads/2010/11/Wordl-Population.jpg)
 
 

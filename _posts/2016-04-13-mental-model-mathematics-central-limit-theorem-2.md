@@ -14,9 +14,15 @@ published: true
 **Mental Model Name:Central Limit Theorem** 
 **Discipline:Mathematics** 
 
-**Related Lattice:**
+**Up Stream Lattice :**
 
 Law of large numbers
+
+**Down Stream Lattice :**
+
+80/20 Rule
+principle of locality
+
 
 # Introductions
 

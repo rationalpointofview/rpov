@@ -16,11 +16,17 @@ You can think of mental models is a simulator in your head on how a specific thi
 
 Why is it important ?
 
-One word: __Predictions__
+Twos words: __Predictions__ and __Simplify__
 
 It give you the ultimate power. Knowing and predicting the future. 
 
 It also give you a framework of assimilating fragmented informations, which is a must in this digital age.
+
+It also cut off the bloat and expose whats the essential.
+
+Think before newton discover newton law, you want to know how to predict how hurt are you when a apple hits your head.
+
+
 
 
 # What are Lattice Work of mental models ?

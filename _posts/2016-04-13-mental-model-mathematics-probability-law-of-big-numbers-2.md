@@ -11,20 +11,33 @@ permalink: >
   http://www.rationalpov.com/mental-model-mathematics-probability-law-of-big-numbers-2/
 published: true
 ---
-**Mental Model Name:** 
+#Mental Model: Law of big numbers** 
 
-**Law of big numbers** 
+## Discipline: Mathematics 
 
-**Discipline: Mathematics** 
-
-**Up Stream Lattice**
+### Up Stream Lattice**
 None
 
-**Down Stream Lattice**
-Wisdom of the Crowds
+### Down Stream Lattice
+
+#### Wisdom of the Crowd
+
+In his [book wisdom of the crowds](https://www.amazon.com/Wisdom-Crowds-James-Surowiecki/dp/0385721706), james highlighted four elements required to form a wise crowd:
+
+Criteria  |  Description
+---|---
+Diversity of opinion  |  Each person should have private information even if it's just an eccentric interpretation of the known facts.
+Independence  |  People's opinions aren't determined by the opinions of those around them.
+Decentralization |   People are able to specialize and draw on local knowledge.
+Aggregation | Some mechanism exists for turning private judgments into a collective decision.
+
+#### Revert to the mean
+
+### Peer Lattice:
 
 
-Introductions
+
+## Introductions
 
 Law of large numbers, it has many synonyms, but probably you dont know it.
 
@@ -47,9 +60,6 @@ Useful to Predict how the mean will behave when you do a large number of trials 
 
 The average of the large number should close to the true mean of the group.
 
-## Wisdom of the crowds
-
-in his book wisdom of the crowds, james high ligh four conditions that could generate wisdom of the crowds.
 
 
 

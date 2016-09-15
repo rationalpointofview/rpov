@@ -26,13 +26,13 @@ Twos words: __Predictions__ and __Simplicity__
 
 * It gives you a framework of __assimilating__ fragmented informations, which is a must in this digital age.
 
-* It also cut off the bloat and expose whats essential, thus simplified the thinking.
+* It also __cut off the bloat__ and expose whats essential, thus simplified the thinking.
 
 **Example**:
 
 What is the most famous and impactful mental model in human history? 
 
-It could well be Newton's three laws of motion. 
+It could well be [Newton's three laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion). 
 
 ![newton](https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg)
 
@@ -46,9 +46,9 @@ But after you knows the Newtons law:
 
 * you can predict how fast the apple falls, and how much is the impacting force on your head
 
-* the other guy report he got hit by a pearl while sitting under an pearl tree, you can attribute this to newtons law too
+* the other guy reports he got hit by a pearl while sitting under an pearl tree, you can attribute this to newtons law too.
 
-* it cut away the irrelevent information, you will know the only thing matters is the mass of the apple and how high it is. The color,size of the apple and thousand other variables doesn't matter, you can safely cut it off.
+* it cut away the irrelevent information, you know the only thing matters is the mass of the apple and how high it is. The color,size of the apple and thousand other variables doesn't matter, you can safely cut it off.
 
 
 
@@ -90,10 +90,12 @@ The good thing is, Charlie Munger mentions there are only roughtly 100 mental mo
 
 There are already couple of very good blogs talks about various mental models, and couple of good books also. But I find it difficult to use these mental models, for two reasons:
 
-* Not enough examples. Human learn best when saw an example. Me too
+* Not enough examples. Human learn best by example.
 * Don't have a trigger. Standalone mental model is useless. You need a trigger( as input) so you can apply the mental models.
+* No Attribution, Mental Model should by connected to form a lattice.
 
-The best and probably the fastest way to learn something is to teach it, I figured I could learn mental model faster by try to teaching it, and hope you can find some bits useful along the way.
+The best way to learn something is to teach it, I figured I could learn mental model faster by try to teaching it, and hope you can find some bits useful along the way.
+
 
 ## How to maintain and use these mental models ?
 
@@ -115,7 +117,6 @@ Straigh from Munger:
 
 
 Also from Richard Freeman:
-
 
 * Choose a Concept
 * Teach it to a Toddler

@@ -23,24 +23,28 @@ layout: post
 published: true
 ---
 
-**Mental Model Name:**
-**Discipline:** 
-**Related Lattice**:
+# Mental Model: Law of big numbers
 
-* Upstream:
+## Discipline: Mathematics 
 
-* Downstream:
+### Up Stream Lattice**
+None
 
+### Down Stream Lattice
+Wisdom of the Crowds
 
-
+### Peer Lattice:
 Introductions
 
-**__How to use this mental Model__**:
+## How to use this mental Model:
 
 
-**Conditions:**
+### Conditions:
 
-**Predictions:**
+### Predictions:
+
+## Examples:
+
 
 
 ___

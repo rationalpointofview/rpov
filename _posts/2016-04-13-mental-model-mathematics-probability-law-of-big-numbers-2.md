@@ -24,7 +24,7 @@ Law of large numbers, it has many synonyms, but probably you dont know it.
 
 ![law of large numbers](https://upload.wikimedia.org/wikipedia/commons/0/02/Law_of_large_numbers_%28blow_up%29.gif)
 
-#### How to use this mental Model**:
+#### How to use this mental Model:
 
 Useful to Predict how the mean will behave when you do a large number of trials of same thing/same experiment.
 
@@ -40,7 +40,7 @@ Useful to Predict how the mean will behave when you do a large number of trials 
 The average of the large number should close to the true mean of the group.
 
 
-
+___
 
 ### Up Stream Lattice
 None

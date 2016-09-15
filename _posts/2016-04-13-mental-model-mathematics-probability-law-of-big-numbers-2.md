@@ -92,14 +92,23 @@ So the 911 dispatcher can do the noise cancellation by computing the average.
 
 ___
 
-The first condition from critiera for wise crowd to work:
+The first and third critiera for wise crowd to work:
 > Each person should have private information even if it's just an eccentric interpretation of the known facts.
+
+> Decentralization |   People are able to specialize and draw on local knowledge.
 
 We could think of each person is the signal received by different cell towers, and his/her opinion can be split into two parts:
 
 sign and noise.
 
+The above two critiera is mainly required each person participated in wisdom of crowds is independ source signal, just like the cell towers.
+
+
 By the law of large numbers, the signal will add up and noice will cancel each other, thus the crowd opinion is actually the sum of the crowds intelligence.
+
+When the trial is no longer independent( ie the result of one trila affected the outcome of another trial), law of large number will fail, so as wisdom of crowds.
+
+This illustrated why wisdom of crowds often faileds in stock market etc, because for extreme market movement the individual traders is no longer independent and influcence greatly by the market outcome itself, thus break the condition for law of large number.
 
 
 

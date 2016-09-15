@@ -66,6 +66,8 @@ By using the following example we can better illustrates how widsom of the crowd
 ___
 [Example Noise Cancellation](http://people.math.gatech.edu/~ecroot/3215/central_limit_apps.pdf)
 
+![noise cancellation](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Active_Noise_Reduction.svg/2000px-Active_Noise_Reduction.svg.png)
+
 > Suppose that a man is driving through the desert, and runs out of gas. He
 grabs his cellphone to make a call for help, dialing 911, but he is just at
 the edge of the broadcast range for his cellphone, and so his call to the 911

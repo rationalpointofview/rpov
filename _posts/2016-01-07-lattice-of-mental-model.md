@@ -12,19 +12,45 @@ published: true
 
 # What are mental models, and why it is important ?
 
+![mental model](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/3l_e7kvf.png)
+
+Photos by [Rosenfeld Media](https://www.flickr.com/photos/rosenfeldmedia/2141071329/in/photolist-4eRjGU-9vR4hi-4hQ1jW-vSWTgw-4eMopn-4eRmPj-8S5nfv-4eMork-obad7D-nrzjH-69bkE3-9hLGic-9vU5J9-4eMos2-7wTr3X-oCWty9-4eRkPh-82BVKm-4gcxUV-G8Hawg-4eMn3z-4hPHYo-4eRmFj-4eMmCc-FdfKqu-FZxvmG-aER2EZ-4eMnZa-88fhph-4eMo7a-FdrrDp-4eRkbJ-3o89ER-G2RhNM-wMDsWY-4eRkih-4eMSnx-4eMJjZ-F8ymR-4g87qm-4eMnX4-4eMmwp-4uVYGd-8wNc9Y-aEUS87-4eRkkq-h3DfMW-h3CRca-FdgHsQ-aEUSmL/)
+
 You can think of mental models is a simulator in your head on how a specific thing works.
 
 Why is it important ?
 
-Twos words: __Predictions__ and __Simplify__
+Twos words: __Predictions__ and __Simplicity__
 
-It give you the ultimate power. Knowing and predicting the future. 
+* It gives you the ultimate power. Knowing and predicting the __future__. 
 
-It also give you a framework of assimilating fragmented informations, which is a must in this digital age.
+* It gives you a framework of __assimilating__ fragmented informations, which is a must in this digital age.
 
-It also cut off the bloat and expose whats the essential.
+* It also cut off the bloat and expose whats essential, thus simplified the thinking.
 
-Think before newton discover newton law, you want to know how to predict how hurt are you when a apple hits your head.
+**Example**:
+
+What is the most famous and impactful mental model in human history? 
+
+It could well be Newton's three laws of motion. 
+
+![newton](https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg)
+
+[Newton This a copy of a painting by Sir Godfrey Kneller(1689). This copy was painted by Barrington Bramley](https://commons.wikimedia.org/w/index.php?curid=37337)
+
+Lets say your head is often hit by apples while sitting under an apple tree:
+
+before you know the newton's three laws of motion, a smart reader like you will develop a feeling your pain is sort of propotional to the size of the apple.
+
+But after you knows the Newtons law:
+
+* you can predict how fast the apple falls, and how much is the impacting force on your head
+
+* the other guy report he got hit by a pearl while sitting under an pearl tree, you can attribute this to newtons law too
+
+* it cut away the irrelevent information, you will know the only thing matters is the mass of the apple and how high it is. The color,size of the apple and thousand other variables doesn't matter, you can safely cut it off.
+
+
 
 
 

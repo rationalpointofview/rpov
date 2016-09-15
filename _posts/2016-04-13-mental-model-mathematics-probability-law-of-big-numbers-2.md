@@ -17,6 +17,13 @@ published: true
 
 **Discipline: Mathematics** 
 
+**Up Stream Lattice**
+None
+
+**Down Stream Lattice**
+Wisdom of the Crowds
+
+
 Introductions
 
 Law of large numbers, it has many synonyms, but probably you dont know it.
@@ -40,6 +47,14 @@ Useful to Predict how the mean will behave when you do a large number of trials 
 
 The average of the large number should close to the true mean of the group.
 
+## Wisdom of the crowds
+
+in his book wisdom of the crowds, james high ligh four conditions that could generate wisdom of the crowds.
+
+
+
+
+___
 Examples:
 
 The whole term life insurance industry is based on law of large number, so the larger the subscriber to a policy, the mean life expectacy of the subscripber will be approaching to the group mean, and better the predictability.

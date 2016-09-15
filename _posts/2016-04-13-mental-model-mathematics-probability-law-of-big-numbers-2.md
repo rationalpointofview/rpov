@@ -82,6 +82,12 @@ S is the true signal and Yi is the noise.
 
 From basic signal & information theory, we can assume the Yi noise is independaent and normally distributed, and has a mean 0 and standard deviation of σ.
 
+![average](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x51fqq9-.png)
+
+At any rate, if we assume that the Yi are all independent normal random variables, then we don’t even need the central limit theorem, because in that case we have that X − S is exactly N(0, σ2/100).
+
+By just summing the signal average from 100 towers, we can perform a noisse cancellation and increate the Signal to noise ration by 100 fold !
+
 So the 911 dispatcher can do the noise cancellation by computing the average.  
 
 ___
@@ -97,16 +103,9 @@ By the law of large numbers, the signal will add up and noice will cancel each o
 
 
 
-![average](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x51fqq9-.png)
-
-At any rate, if we assume that the Yi are all independent normal random variables, then we don’t even need the central limit theorem, because in that case we have that X − S is exactly N(0, σ2/100).
-
-By just summing the signal average from 100 towers, we can perform a noisse cancellation and increate the Signal to noise ration by 100 fold !
-
 
 #### Revert to the mean
 
-### Peer Lattice:
 
 
 

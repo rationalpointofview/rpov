@@ -114,17 +114,15 @@ the most difficult part of the process is ususally gathing the base rate true me
 ## Central Limit Theorem **Approximation** for Binomial Distribution
 
 
-If the data is one or zero type ( Thinking Polling Results), it fits the [Bernoulli Distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) definition, we can use the following approximation:
-
+If the data has only two outcomes, 1 or 0, true or false, head or tail, it fits the [Bernoulli Distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) definition, we can use the following approximation:
 
 E(X) = np; VAR(X) = np(1-p);
 
-The approximation is good if n is large enough for the The approximation is good if n is large enough for the
-given p, i.e, must pass the following test: given p, i.e, must pass the following test:
+The approximation is good if n is large enough for given p.
+
+i.e, must pass the following test: given p, i.e, must pass the following test:
 
 Must have : np ≥ 5 and n(1- p) ≥ 5
-
-
 
 [CLT for binomial distribution](http://ocw.mit.edu/courses/sloan-school-of-management/15-063-communicating-with-data-summer-2003/lecture-notes/lecture10.pdf)
 
@@ -134,6 +132,8 @@ then we can apply the special case of [applying CLT when the base pool is Binomi
 
 if we assign value of head = 1, and value of tail = 0, and the probability of getting a head is p, then σ(x):
 
+check for CLT binomial conditions. n and p should be large enough for np≥5 and n(1−p)≥5
+
 ![formular for binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/jnid2wrn.png)
 
 p is also our group mean:
@@ -141,7 +141,6 @@ p is also our group mean:
 ![CLT of binomial distribution](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/l5xsvj_7.png)
 
 
-The rule of thumb is that nn should be large enough for np≥5np≥5 and n(1−p)≥5n(1−p)≥5
 
 * Compute the sample group mean/sum mean and standard deviation from CLT
 
@@ -159,20 +158,55 @@ The rule of thumb is that nn should be large enough for np≥5np≥5 and n(1−p
 *   Use Normdist function of google spreadsheet to find out the probability, if needed.
 
 
-**Check the assumptions**
 
+### Predictions:
 
-Three conditions: 
-    + the outcome of this event is finite ( dice, gamble, digital event), but more than 1 possibilities ( 2 is okay ) think throw a dice - the outcome of sample event is mutually exclusive 
-    + the outcome of sample event is independent - sample size of sample group >30 
-    + the result is the **sum** of all samples ( could be spatial or temporal ) from that group.
-
-**Predictions:**
-
-*   The mean of the samples
-*   The probability of the mean of the samples higher or lower than a speicified number
+*   The probability of the true mean of the samples higher or lower than a speicified number
 
 * * *
+
+[Example: Coin Toss](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/Chapter9.pdf)
+
+> Example 9.2 A coin is tossed 100 times. Estimate the probability that the number of heads lies between 40 and 60 (the word “between” in mathematics means inclusive of the endpoints)
+
+the true mean for coin toss is 0.5
+
+and check for binomail clt condition
+
+100*0.5 >=5, so it holds
+
+sd = sqrt(0.5*(1-0.5)/100) = 0.05
+
+number of heads lies between 40 and 60
+
+=normdist(0.6,0.5,0.05,true)-normdist(0.4,0.5,0.05,true)  
+= 95.4%
+
+
+___
+
+[Example: Freshmen admittance](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/Chapter9.pdf)
+
+> Example 9.3 Dartmouth College would like to have 1050 freshmen. This college
+cannot accommodate more than 1060. Assume that each applicant accepts with
+probability .6 and that the acceptances can be modeled by Bernoulli trials. If the college accepts 1700, what is the probability that it will have too many acceptances?
+
+Test: np & n(1-p) >= 5, binomial clt holds
+
+mean = 1700*0.6 = 
+sd = sqrt(0.6(1-0.6)/1700)=0.01188
+
+for admited application =1050, p = 1050/1700=0.6176
+
+=1- normdist(0.6176,0.6,0.1188,true) = 44.1%
+
+
+
+
+
+___
+
+
 
 [Example: Sampling distribution of serum cholesterol][11]
 

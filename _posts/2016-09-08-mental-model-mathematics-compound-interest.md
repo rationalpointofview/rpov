@@ -61,7 +61,7 @@ Identify your compounding base.
 
     [High frequency trading](https://en.wikipedia.org/wiki/High-frequency_trading) is a very good example of that. 
 
-    ![ cents](https://en.wikipedia.org/wiki/High-frequency_trading#/media/File:Assorted_United_States_coins.jpg)
+    ![ cents](https://upload.wikimedia.org/wikipedia/commons/5/5e/Assorted_United_States_coins.jpg)
 
     HFTs earn only a tiny profits per trade, but with a lot of trades per day, the profit quickly compounds.
 

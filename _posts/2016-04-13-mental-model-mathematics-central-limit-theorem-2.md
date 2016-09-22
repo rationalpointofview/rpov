@@ -11,20 +11,14 @@ permalink: >
   http://www.rationalpov.com/mental-model-mathematics-central-limit-theorem-2/
 published: true
 ---
-**Mental Model Name:Central Limit Theorem** 
-**Discipline:Mathematics** 
 
-**Up Stream Lattice :**
-
-Law of large numbers
-
-**Down Stream Lattice :**
-
-80/20 Rule
-principle of locality
 
 
 # Introductions
+
+## Mental Model Name:Central Limit Theorem 
+## Discipline:Mathematics 
+
 
 The central limit theorom:
 
@@ -47,10 +41,26 @@ The sum of these sample values from each draw will form a bell curve
 If you want to use the average;
 
 sample group mean average = µ
-
 sample standard deviation = σ/sqrt(n)
 
+## Up Stream Lattice :
 
+Law of large numbers
+
+## Down Stream Lattice :
+
+* 80/20 Rule
+* principle of locality
+
+### Diffusion of innovations
+
+> Diffusion of innovations is a theory that seeks to explain how, why, and at what rate new ideas and technology spread. Everett Rogers, a professor of communication studies, popularized the theory in his book Diffusion of Innovations; the book was first published in 1962, and is now in its fifth edition (2003).[1] Rogers argues that diffusion is the process by which an innovation is communicated over time among the participants in a social system. The origins of the diffusion of innovations theory are varied and span multiple disciplines.
+
+> Rogers proposes that four main elements influence the spread of a new idea: the innovation itself, communication channels, time, and a social system. This process relies heavily on human capital. The innovation must be widely adopted in order to self-sustain. Within the rate of adoption, there is a point at which an innovation reaches critical mass.
+
+> The categories of adopters are innovators, early adopters, early majority, late majority, and laggards.[2] Diffusion manifests itself in different ways and is highly subject to the type of adopters and innovation-decision process. The criterion for the adopter categorization is innovativeness, defined as the degree to which an individual adopts a new idea.
+
+![diffusion of ideas](https://upload.wikimedia.org/wikipedia/commons/1/11/Diffusion_of_ideas.svg)
 
 **Why this is important?**
 

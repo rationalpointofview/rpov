@@ -103,6 +103,8 @@ cruise control works by measures your speed by looking at the speedometer, and t
 
 * Find out the system input and output.
 
+* Find out how output could affects input;
+
     * Beware if human is involved in the system, as human is suspectiable to [social prove](http://www.rationalpov.com/mental-model-s2-human-psychology-bias-2/), and it often creates positive feedback loop by itself.
 
 * Increase/decrease output by 10x, and try to analyse how it will influcence the input.

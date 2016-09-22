@@ -196,9 +196,11 @@ Test: np & n(1-p) >= 5, binomial clt holds
 mean = 1700*0.6 = 
 sd = sqrt(0.6(1-0.6)/1700)=0.01188
 
-for admited application =1050, p = 1050/1700=0.6176
+for admited application =1050, p = 1060/1700=0.6235
 
-=1- normdist(0.6176,0.6,0.1188,true) = 44.1%
+
+=1-normdist(0.6235,0.6,0.01188,true) = 2.39%
+
 
 
 

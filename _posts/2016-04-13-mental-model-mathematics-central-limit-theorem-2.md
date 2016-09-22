@@ -52,15 +52,9 @@ Law of large numbers
 * 80/20 Rule
 * principle of locality
 
-### Diffusion of innovations
 
-> Diffusion of innovations is a theory that seeks to explain how, why, and at what rate new ideas and technology spread. Everett Rogers, a professor of communication studies, popularized the theory in his book Diffusion of Innovations; the book was first published in 1962, and is now in its fifth edition (2003).[1] Rogers argues that diffusion is the process by which an innovation is communicated over time among the participants in a social system. The origins of the diffusion of innovations theory are varied and span multiple disciplines.
 
-> Rogers proposes that four main elements influence the spread of a new idea: the innovation itself, communication channels, time, and a social system. This process relies heavily on human capital. The innovation must be widely adopted in order to self-sustain. Within the rate of adoption, there is a point at which an innovation reaches critical mass.
-
-> The categories of adopters are innovators, early adopters, early majority, late majority, and laggards.[2] Diffusion manifests itself in different ways and is highly subject to the type of adopters and innovation-decision process. The criterion for the adopter categorization is innovativeness, defined as the degree to which an individual adopts a new idea.
-
-![diffusion of ideas](https://upload.wikimedia.org/wikipedia/commons/1/11/Diffusion_of_ideas.svg)
+if you think of innovations is a 
 
 **Why this is important?**
 
@@ -70,13 +64,34 @@ One Example will be The Famous Bell Curve;
 
 Have you wonder why normal distribution( The bell shape curve) is so widely seen and important ? 
 
+Thats because a lot of things can be think of a additive black box, which consist of many internal parts; 
 
-Thats because a lot of things can be think of a black box, which consist of  many internal parts, and the output of the system could think of a sum of all the internal valuable, these values usually has range, so the output the system is a bell curve,
+The output of the system could think of a sum of a fix number of internal valuables, these valuable usually has range(finite), and the output of the system is a sum of the internal parts, hence we could apply CLT and expect to get a output of a bell curve.
 
-You see it every where, for example, ![human height](http://i.kinja-img.com/gawker-media/image/upload/s--z9tyvHx3--/c_scale,fl_progressive,q_80,w_800/17iprmfy286axjpg.jpg).
+this works for [additive system](http://www.rationalpov.com/mental-model-engineeringbreak-point/), but doesn't work for [multipicative system](http://www.rationalpov.com/mental-model-engineeringbreak-point/), because for multipicative system, the output is not a sumation of its parts.
 
+
+Example. [Diffusion of innovations](https://en.wikipedia.org/wiki/Diffusion_of_innovations)
+
+> Diffusion of innovations is a theory that seeks to explain how, why, and at what rate new ideas and technology spread. Everett Rogers, a professor of communication studies, popularized the theory in his book Diffusion of Innovations; the book was first published in 1962, and is now in its fifth edition (2003).[1] Rogers argues that diffusion is the process by which an innovation is communicated over time among the participants in a social system. The origins of the diffusion of innovations theory are varied and span multiple disciplines.
+
+> Rogers proposes that four main elements influence the spread of a new idea: the innovation itself, communication channels, time, and a social system. This process relies heavily on human capital. The innovation must be widely adopted in order to self-sustain. Within the rate of adoption, there is a point at which an innovation reaches critical mass.
+
+> The categories of adopters are innovators, early adopters, early majority, late majority, and laggards.[2] Diffusion manifests itself in different ways and is highly subject to the type of adopters and innovation-decision process. The criterion for the adopter categorization is innovativeness, defined as the degree to which an individual adopts a new idea.
+
+![diffusion of ideas](https://upload.wikimedia.org/wikipedia/commons/1/11/Diffusion_of_ideas.svg)
+
+**The famous S-Curve** 
+
+Each innovation is a additive system consist of many internal valuables, and each customer( adopters ) is a sampling of this additive system. thus we could apply CLT and expect a bell curve.
+
+
+
+Example:
 
 For example, Human height is influenced by genes, enviromental effects, nutritions etc. The final result(Height) can be think of as sumation of all the influencing factors of a complex system. so by the prediction of central limit theory, it is a bell curve .
+
+![human height](http://i.kinja-img.com/gawker-media/image/upload/s--z9tyvHx3--/c_scale,fl_progressive,q_80,w_800/17iprmfy286axjpg.jpg).
 
 **Why this is useful?**
 

@@ -54,8 +54,6 @@ Law of large numbers
 
 
 
-if you think of innovations is a 
-
 **Why this is important?**
 
 CLT is in the heart of modern statistics, and you probably saw it but don't know it is CLT.
@@ -109,11 +107,15 @@ One of the drawback of CLT is , it is statistics, and statistics..
 
 It is often the lesser reliable ones in science. 
 
- * The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and independently. 
+ * The Central Limit Theorem only applies to the estimated means of a population parameter when sampled randomly and **independently**. 
 
- Thats why polling results is often seems less reliable than the cited "99%" confidence level. Because human being is subject to social proof and ofen can't think independently.
+ independent and random is the keyword. human beings is subject to social prove and often influence by decision of others( not even the real decision, just the perceived decision of others) in real life, thus often break the independent requirement.
+
+ Thats why polling results is often seems less reliable than the cited "99%" confidence level. 
 
 * The central limit theorem fails when there is an infinite variance
+
+* Tje central limit theorem fails when the output is not a summation of its parts. ie not a additive system, but a multiplicative one.
 
 * The internal factor of is of this blackbox not complete independent, and some times has strong correctlation with each other, and there could be possibly has positive/negative feedback into then, which will create extreme outcomes.
 

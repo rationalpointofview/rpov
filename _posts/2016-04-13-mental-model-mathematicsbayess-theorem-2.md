@@ -1010,7 +1010,16 @@ P(A|xC) = 1/1000,1000/(1/1000,1000 + (0.5)^x) > 0.5
 
 Quickly plugin in spreadsheet by trial, you can get when x =20, P(A| 20C) =0.5118
 
+___
 
+[Example 3 Dice](https://www.amazon.com/Bayes-Theorem-Examples-Intuitive-Guide-ebook/dp/B01AZXQY1K/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1474595628&sr=1-1&keywords=bayes+theorem+examples)
+
+> Suppose that your friend has 3 dice. One has 4 sides, one has 6 sides, and one has 8 sides. He draws one die at random, rolls it one time without showing you, and reports the result as having rolled a 2. How would you calculate the probability that the die was the 4 sided die ?
+
+P (4S|2) = P(2|4S)P(4S)/P(2) = 1/4*1/3/(1/3*(1/4+1/6+1/8)= 0.4621
+
+
+https://docs.google.com/spreadsheets/d/1-HbGESzGuTqCO-yx2yuf3WsmNIdlmOdBHPYxjqBi0to/edit#gid=0
 
 ___
 

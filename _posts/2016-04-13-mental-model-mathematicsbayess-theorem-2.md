@@ -1019,7 +1019,81 @@ ___
 P (4S|2) = P(2|4S)P(4S)/P(2) = 1/4*1/3/(1/3*(1/4+1/6+1/8)= 0.4621
 
 
+
+[Example 6 dice](https://www.amazon.com/Bayes-Theorem-Examples-Intuitive-Guide-ebook/dp/B01AZXQY1K/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1474595628&sr=1-1&keywords=bayes+theorem+examples)
+
+> For this problem, we will stick with trying to predict the probabilities of dice drawn at random. This time we are going have 6 possible dice, one with 4 sides, one with 6 sides, one with 8 sides, one with 10 sides, one with 12 sides and one with 20 sides. We are going to roll the die 15 times and calculate what the probability for each die that it was the one that was drawn.
+
+supposely for the first roll, your friend told you he rolled a 4; what is the probability the dice is a 4, 6, 8, 10,12,20 dice ?
+
+P(X sided | 4) = p(4| X sided )* P(X sided) /P(4)
+
+the probability of being a 4 sided dice
+
+P(4S|4) = p(4| 4s) p(4s)/p(4) = 1/4 * 1/6 /(1/6(1/4 + 1/6 + 1/8 + 1/10 + 1/12 + 1/20)) = 1/4/ 0.775 = 0.3225
+
+probability of being a 6 sided dice
+
+P(6S|6) = P(4| 6S) p(6S)/P(4) = 1/6 * 1/6/1/6/(1/4 + 1/6 + 1/8 + 1/10 + 1/12 + 1/20)
+= 1/6/(0.775) = 0.215
+
+we can make a table out of it
+
+
+Roll | Rolled Number|  4 Side Dice | 6 Side Dice | 8 Side Dice | 10 Side Dice | 12 Side Dice | 20 Side Dice
+---| --- | --- | --- | --- | --- | --- |----
+0 | NA | 1/6 | 1/6 | 1/6 | 1/6 | 1/6 | 1/6
+1 |4| 0.323 | 0.215 | 0.161 | 0.129 | 0.108 | 0.065
+
+Say on the second roll, we rolled a 3:
+
+the probability of being a 4 sided dice, noted the p(4s) is no longer 1/6, but updated to 0.3225 after the first roll.
+
+P(4S|4) = p(4| 4s) p(4s)/p(4) = 1/4 * 0.3235/(0.323 * 1/4 + 0.215 * 1/6 + 0.161 * 1/8 + 0.129 * 1/10 + 0.108 * 1/12 + 0.065 * 1/20)
+
+=  1/4 * 0.3235/0.1617 = 0.5
+
+.
+.
+
+Roll | Rolled Number|  4 Side Dice | 6 Side Dice | 8 Side Dice | 10 Side Dice | 12 Side Dice | 20 Side Dice
+---| --- | --- | --- | --- | --- | --- |----
+0 | NA | 1/6 | 1/6 | 1/6 | 1/6 | 1/6 | 1/6
+1 |4| 0.323 | 0.215 | 0.161 | 0.129 | 0.108 | 0.065
+2 |3| 0.5 | 0.22 | 0.12 | 0.08 | 0.06| 0.02
+
+so after 15 rolls, 
+
+the probability of the dice is 
+
+Roll | Rolled Number|  4 Side Dice | 6 Side Dice | 8 Side Dice | 10 Side Dice | 12 Side Dice | 20 Side Dice
+---| --- | --- | --- | --- | --- | --- |----
+15 | 2 | 0 | 0 | 0.96 | 0.03 | 0 | 0
+
 https://docs.google.com/spreadsheets/d/1-HbGESzGuTqCO-yx2yuf3WsmNIdlmOdBHPYxjqBi0to/edit#gid=0
+
+
+___
+
+[Example: Fair Coin](https://www.amazon.com/Bayes-Theorem-Examples-Intuitive-Guide-ebook/dp/B01AZXQY1K/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1474595628&sr=1-1&keywords=bayes+theorem+examples)
+
+> You have a coin that you suspect is not a fair coin. You flip the coin 100 times to determine if it is fair. After 100 flips, what is the probability that the coin comes up heads each of these percentages, 0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%. ?
+
+say the first flip is a head
+
+and we want to calcuale the coin being head of 40% chance:
+
+P( 40% H | H) = P(H| 40%H) * P(40%H)/P(H)
+
+= 40% * 1/11/1/11(0 + 0.1 +0.2 + 0.3 + 0.4 + 0.5 + 0.6 + 0.7 + 0.8 + 0.9 +1) = 0.4 /5.5 = 0.0727
+
+say the first flip is tail
+
+and we want to calcuale the coin being head of 40% chance:
+
+P( 40% H | tail ) = P(tail| 40%H) * P(40%H)/P(tail)
+
+
 
 ___
 

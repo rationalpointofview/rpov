@@ -77,9 +77,22 @@ The author of Black Swan and antifragile , NASSIM TALEB  argues;
 
 ### Conditions:
 
+  * The primary system is a complex & multiplicative system
+  * The backup system need to be independent of the primary path
+
+
 ### Predictions:
 
+  * when applied correctly, backup system will increase system reliability in expense of added cost and complexity.
+
+
 ### Examples:
+
+[Fly by wire system](https://en.wikipedia.org/wiki/Fly-by-wire)
+
+![fly by wire planes](https://upload.wikimedia.org/wikipedia/commons/a/a8/Avro_Arrow_rollout.jpg)
+
+
 
 
 

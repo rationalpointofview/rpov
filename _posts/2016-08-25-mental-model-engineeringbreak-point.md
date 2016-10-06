@@ -52,6 +52,18 @@ Example: [Liebig's law of the minimum](https://en.wikipedia.org/wiki/Liebig%27s_
 ![bucket law](https://upload.wikimedia.org/wikipedia/commons/1/1c/Minimum-Tonne.svg)
 
 
+Chain is **multiplicative** system. One Chain breaks, the whole chain breaks.
+
+![Chain](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/8xo3305x.png)
+
+
+A Wire rope is an **additive** system. even some of the wire break, it will still hold.
+
+
+![wire rope](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/li_m5qwm.png)
+
+
+
 
 the Upstream of this lattice is Basic Arithmetics:
 
@@ -102,3 +114,12 @@ The System output is govern by its breakpoint, thus simplies the system
 ___
 * [ExampleL Pilot light](https://www.reddit.com/r/engineering/comments/4c2te0/what_is_a_breakpoint/)
 > I took a course on materials and a speaker came to talk about his line of work consisting of analyzing failures. He spoke of a manufacturing plant of a certain flammable gas and they have pilot lights all around the plant, so if a gas leak gets large enough one of the pilot lights will ignite the gas cloud and explode. The pilot lights aren't there for IF a gas leak happens,it's there for WHEN it does. The fail safe is a pilot light, without it the gas cloud would get so dense and large that it would be catastrophic otherwise.
+
+
+* [Example Internet]
+
+The architecture of Internet is a great example of additive system.
+
+The []![Internet Map](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/-j9r11kl.png)](http://internet-map.net/)
+
+There is no single point of failure exist.

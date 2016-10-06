@@ -120,6 +120,6 @@ ___
 
 The architecture of Internet is a great example of additive system.
 
-The ![Internet Map](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/-j9r11kl.png)](http://internet-map.net/)
+[![Internet Map](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/-j9r11kl.png)](http://internet-map.net/)
 
 There is no single point of failure exist.

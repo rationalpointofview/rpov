@@ -13,7 +13,7 @@ published: true
 
 ## Discipline: Engineering
 
-### Up Stream Lattice**
+### Up Stream Lattice
 
 *   [Break Points][1]
 

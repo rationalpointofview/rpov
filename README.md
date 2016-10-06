@@ -1,5 +1,5 @@
 # rpov
-Rationalpov 
+Rationalpov
 
 
 
@@ -15,7 +15,7 @@ Rationalpov
 
 * do a git pull, you will see the file name got change to yyyy-mm-dd-title.md
 
-# The post header should be 
+# The post header should be
 
 ---
 post_title: 'Mental Model, Mathematics'
@@ -25,9 +25,9 @@ published: true
 
 # Mental Model: Law of big numbers
 
-## Discipline: Mathematics 
+## Discipline: Mathematics
 
-### Up Stream Lattice**
+### Up Stream Lattice
 None
 
 ### Down Stream Lattice

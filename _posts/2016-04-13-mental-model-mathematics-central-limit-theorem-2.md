@@ -684,6 +684,32 @@ so the answer is
 ***
 
 
+___
+
+[Example Restaurant Tips](http://homepages.math.uic.edu/~bpower6/stat101/Sampling%20Distributions.pdf)
+
+> A waitress earns varying tips with a mean of $10.90 and sd of $5.60. Assume on the weekend she gets 60 tips.
+
+What is the probability she earns $750 or more?
+
+sample sd = 5.6/sqrt(60) = 0.72
+
+required sample mean = 750/60 = 12.5
+
+probability = 1- normdist(12.5,10.9,0.72,true) = 1.3%
+
+
+___
+
+[Example restaurant manager](http://faculty.lasierra.edu/~jvanderw/classes/m251a07/m251r3a07ans.pdf)
+
+> The Roman Arches is an Italian restaurant. The manager wants to estimate the average amount a customer spends on lunch Monday through Friday. A random sample of 115 customers’ lunch tabs gave a mean of ¯x = $9.74 with a standard deviation s = $2.93.
+> 
+>  Find a 95% confidence interval for the average amount spent on lunch by all customers
+
+population sd = 2.93 * sqrt(115) 
+
+range = 9.74 +- 1.96 * (31.42)
 
 
 [Example real life bell shape curve](http://math.stackexchange.com/questions/38825/cool-examples-of-the-central-limit-theorem-in-action)

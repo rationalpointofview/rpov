@@ -1093,6 +1093,49 @@ and we want to calcuale the coin being head of 40% chance:
 
 P( 40% H | tail ) = P(tail| 40%H) * P(40%H)/P(tail)
 
+[Example: German Tank Problem](https://www.amazon.com/Bayes-Theorem-Examples-Intuitive-Guide-ebook/dp/B01AZXQY1K/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1474595628&sr=1-1&keywords=bayes+theorem+examples)
+
+
+>In this problem you are trying to estimate how many tanks have been produced, based off of the serial numbers of captured tanks. Bayes theorem was used in World War 2 by the Allies to do exactly that, and ended up with results that were substantially lower for total number of tanks produced than conventional intelligence estimates (i.e. spies) were reporting. After the war, records indicated that the statistical estimates using Bayes Theorem were also substantially more correct.
+
+
+
+>You are analyzing serial numbers pulled off of wrecked or captured tanks. Use those numbers to estimate how many tanks have been produced. You know this about the tank serial numbers They start at 1 They are sequential without gaps You have found these serial numbers, 30, 70, 140, 125.
+
+you split your guess in number of 20 increment, 20, 40 ... 1000
+
+
+for first captured tank, you found a serial number of 17 
+
+say the probability of total number is 100: 
+
+P( 100 | s30) = P(s30 | 100) * P(100)/P(s30)
+
+= 1/100 * 1/50/1/50/(1/20+1/40+...1/1000) = 1/100/0.225 = 0.0444
+
+[Example: Drug Test, Take 2](https://www.amazon.com/Bayes-Theorem-Examples-Intuitive-Guide-ebook/dp/B01AZXQY1K/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1474595628&sr=1-1&keywords=bayes+theorem+examples)
+
+> You are testing for a certain drug. You know that .5% of the population uses this drug. You have a test that will a produce 99% true positive results for users, and 98% true negative results for non-users. You randomly test 2 person from the population and get a positive result. 
+> 
+> then you ask the two person to take the same test again, and come out with 1 positive and 1 negative, What is the probability that they are actually a user of the drug ?
+
+On the First Test:
+
+P (D|P) = P(P|D)* P(D)/P(P) = 0.99 * 0.005/(0.99*0.005 + 0.02 * 0.995) = 19.9 %
+
+after the second test, for the postive guy.
+
+P (D|P) = P(P|D)* P(D)/P(P), but we update the P(D) to 19.9 %
+
+= 0.99 * 0.199 /(0.99 * 0.199 + 0.02 * 0.801) = 92.4 %
+
+after the second test, for the negative guy.
+
+P (D|N) = P(D|N)* P(D)/P(N), we update the P(D) to 19.9 %
+
+= 0.01 * 0.199 /(0.01 * 0.199 + 0.98*0.801) = 0.25% , so the guy is non drug user is 99.75%
+
+
 
 
 ___

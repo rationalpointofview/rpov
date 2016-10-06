@@ -158,6 +158,8 @@ leap of faith in religious
 
 #### 5 inconsistency-avoidance tendency
 
+it is also called confirmation bias.
+
 **What to Predict:**
 
 Huamn tendency toward change: reluctant to change
@@ -166,7 +168,8 @@ Huamn tendency toward change: reluctant to change
 
 *   To prevent bad habit forming
 
-*   Before making **Important** deciscions
+*   Before making **Important** deciscions, look for disconfirming bias purposely
+
 
 **How to Use it:**
 

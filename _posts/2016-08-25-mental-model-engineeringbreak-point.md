@@ -9,15 +9,15 @@ permalink: >
   http://www.rationalpov.com/mental-model-engineeringbreak-point/
 published: true
 ---
-# Mental Model Name: Break Point 
+# Mental Model Name: Break Point
 
-## Discipline: Engineering 
+## Discipline: Engineering
 ## Related Lattice:
 
 ## Upstream: [Mathematics, basic arithmetic](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
 
-## Downstream: 
-   
+## Downstream:
+
 Engineering, Backup System
 [Liebig's law of the minimum](https://en.wikipedia.org/wiki/Liebig%27s_law_of_the_minimum)
 
@@ -31,7 +31,7 @@ Engineering, Backup System
 > In software development, a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. It is also sometimes simply referred to as a pause. - wiki
 
 
-> “Somebody once said that in looking for people to hire, you look for three qualities: integrity, intelligence, and energy. And if you don’t have the first, the other two will kill you. You think about it; it’s true. If you hire somebody without [integrity], you really want them to be dumb and lazy.” - Warrent Buffet 
+> “Somebody once said that in looking for people to hire, you look for three qualities: integrity, intelligence, and energy. And if you don’t have the first, the other two will kill you. You think about it; it’s true. If you hire somebody without [integrity], you really want them to be dumb and lazy.” - Warrent Buffet
 
 [Farnam Street](https://www.farnamstreetblog.com/2016/08/mental-model-multiplicative-systems/) give a very good explaination of the nature of break point -- Multiplicative System.
 
@@ -65,13 +65,13 @@ Computuer software, series electrical circuit, human being, is examples of multi
 
 Another name for multiplicative system is the Fragile System of Nassim Taleb descripted in his book [Anti Fragile](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
 
-Some Example he has given: 
+Some Example he has given:
 
 > Salaried employment: while it looks safe on the surface (predictable salary every month) it is subject to the catastrophic risk of losing one's job. ie. the breakpoint is the boss, the boss changed his mind, your "job security is gone"
 
 > Debt-fueled economies: debt has no flexibility, so these economies can't stand even a slowdown without risking implosion (cf current situation)
 
-* Additive System. 
+* Additive System.
 
 System Output = Stage 1 + Stage 2 + Stage 3 ...
 
@@ -87,7 +87,9 @@ Most Real Life System is a hybrid of two systems;
 
 ## Conditions:
 
-Analyse the Systems critical path, is it muplicative system or additive system by nature ? 
+Analyze the Systems critical path, is it multiplicative system or additive system by nature ?
+
+if the system is a multiplicative one, enlarge the input by 10x or 100x and try to find out where it will break. thats the break point.
 
 
 ## Predictions:
@@ -100,4 +102,3 @@ The System output is govern by its breakpoint, thus simplies the system
 ___
 * [ExampleL Pilot light](https://www.reddit.com/r/engineering/comments/4c2te0/what_is_a_breakpoint/)
 > I took a course on materials and a speaker came to talk about his line of work consisting of analyzing failures. He spoke of a manufacturing plant of a certain flammable gas and they have pilot lights all around the plant, so if a gas leak gets large enough one of the pilot lights will ignite the gas cloud and explode. The pilot lights aren't there for IF a gas leak happens,it's there for WHEN it does. The fail safe is a pilot light, without it the gas cloud would get so dense and large that it would be catastrophic otherwise.
-

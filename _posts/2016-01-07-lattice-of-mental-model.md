@@ -22,7 +22,7 @@ Why is it important ?
 
 Twos words: __Predictions__ and __Simplicity__
 
-* It gives you the ultimate power. Knowing and predicting the __future__. 
+* It gives you the ultimate power. Knowing and predicting the __future__.
 
 * It gives you a framework of __assimilating__ fragmented informations, which is a must in this digital age.
 
@@ -30,9 +30,9 @@ Twos words: __Predictions__ and __Simplicity__
 
 **Example**:
 
-What is the most famous and impactful mental model in human history? 
+What is the most famous and impactful mental model in human history?
 
-It could well be [Newton's three laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion). 
+It could well be [Newton's three laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion).
 
 ![newton](https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg)
 
@@ -44,11 +44,11 @@ before you know the newton's three laws of motion, a smart reader like you will 
 
 But after you knows the Newtons law:
 
-* you can predict how fast the apple falls, and how much is the impacting force on your head
+* you can **predict** how fast the apple falls, and how much is the impacting force on your head
 
-* the other guy reports he got hit by a pearl while sitting under an pearl tree, you can attribute this to newtons law too.
+* the other guy reports he got hit by a pearl while sitting under an pearl tree, you can **attribute**  this to newtons law too.
 
-* it cut away the irrelevent information, you know the only thing matters is the mass of the apple and how high it is. The color,size of the apple and thousand other variables doesn't matter, you can safely cut it off.
+* it **cut** away the irrelevant information, you know the only thing matters is the mass of the apple and how high it is. The color,size of the apple and thousand other variables doesn't matter, you can safely cut it off.
 
 
 
@@ -68,25 +68,25 @@ How did Charlie Munger built his lattice work of mental models ?
 In the book Damn Right!: Behind the Scenes with Berkshire Hathaway Billionaire Charlie Munger, Munger talks about the fundamentals of organizing etho:
 
 >* you must both rank and use disciplines in order of fundamentalness
->* you must, like it or not, master to tested fluency and routinely use the truly essential parts of all four constituents of the fundamental four-discipline combination, whith particulartly intense attension given to disciplines more fundamental than your own, focus one first and test it to fluency:
->* you may never practice either crossdisciplinary absorption without attribution or departure from a "principle of economy" that forbids explanining in any other way anything readily explainable from more dundamental material in your own or any other discipline.
+>* you must, like it or not, master to tested fluency and routinely use the truly essential parts of all four constituents of the fundamental four-discipline combination, whith particularly intense attension given to disciplines more fundamental than your own, focus one first and test it to fluency:
+>* you may never practice either crossdisciplinary absorption without attribution or departure from a "principle of economy" that forbids explanining in any other way anything readily explainable from more fundamental material in your own or any other discipline.
 >* But when the step four  approach doesn't produce much new and useful insight, you should hypothesize, and test to establishement, new principle ordinarily by using methods similar to those that created successful old principles, But you may not use any new principle, inconsistent with an old one, unless you can now prove that the old principle is not true.
 
 And Three other principles on how to use the mental models:
 
 >* the first rule is that you can't really know anything if you just remember isolated facts and try and bang 'em back. If the facts don't hang together on a latticework of theory, you don't have them in a usable form.
 >* you must able to convolute these models in your head!
->* you must use attribution to array your experience, both vicarious and direct, on the allticework of of models .
+>* you must use attribution to array your experience, both vicarious and direct, on the lattice work of of models .
 
 In Layman's term, If you want to build and use a lattice work of mental models, you need to do the following:
 
 * Collect and create A checklist of mental models, and how could you use it
 * Memorize the list( by using Anki or other flash card tools)
-* Pratice using the mental lattice by using examples and simuations(with predefinited answer), and connect your daily experience (both direct or indirect) to your lattice.
+* Practice using the mental lattice by using examples and simulations (with predefinited answer), and connect your daily experience (both direct or indirect) to your lattice.
 
 It definitely not easy , but it seems doable and I will try to follow this methodology to replicate what Charli Munger had done.
 
-The good thing is, Charlie Munger mentions there are only roughtly 100 mental models in his lattice work of mental models,  and he mentioned some of them already. 
+The good thing is, Charlie Munger mentions there are only roughtly 100 mental models in his lattice work of mental models,  and he mentioned some of them already.
 
 There are already couple of very good blogs talks about various mental models, and couple of good books also. But I find it difficult to use these mental models, for two reasons:
 
@@ -141,7 +141,7 @@ Also from Richard Freeman:
 
 * [feedback system](http://www.rationalpov.com/mental-model-engineering-feedback-loops/)
 * backup system/redundancy
-* [break points](http://www.rationalpov.com/mental-model-engineeringbreak-point/) 
+* [break points](http://www.rationalpov.com/mental-model-engineeringbreak-point/)
 * [Margin of Safety](https://www.farnamstreetblog.com/2013/12/margin-of-safety/)
 
 ### Discipline Chemistry
@@ -156,10 +156,9 @@ Also from Richard Freeman:
 ### Discipline Economics
 
 * [oppotunity cost](http://www.rationalpov.com/mental-model-economics-oppotunity-cost/)
-* advantage of scale 
+* advantage of scale
 
 
 ### second order Discipline
 
 * [human psychology bias](http://www.rationalpov.com/mental-model-s2-human-psychology-bias-2/)
-

@@ -25,7 +25,7 @@ Introductions
 
 > "When my information changes, I alter my conclusions. What do you do, sir?" - John Maynard Keynes
 
-The essense of Bayes's Theorem is, the evidence could have many alternative explanations, and your plausible belief is just one of them.
+The essence of Bayes's Theorem is, the evidence could have many alternative explanations, and your plausible belief is just one of them.
 
 When you think about it, it means all your belief can be never 100% confirmed, it is merely a plausibility, and this plausibility( probability to be true ) is depends on the evidence.
 
@@ -51,7 +51,12 @@ Bayes' theorem gives the relationship between the probabilities of A and B, P(A)
 
 ![Bayes Theorem][6]
 
-p (A|B) read: probability of A happens given B is true note, P(B) is the overal probability of event B happens
+p (A|B) read: probability of A happens given B is true note, P(B) is the overall probability of event B happens
+
+or in another form:
+
+P(A|B) = AND(P(A), P(B)) / P(B)
+
 
 Whats the relationship of A to B ?
 
@@ -525,13 +530,44 @@ Example [Nickel or Quarters](https://www.amazon.com/Bayes-Theorem-Examples-Under
 ~~~
 P(F-N) = 5/8
 
-P(S-C|F-N) = 3/7
+P(S-Q|F-N) = 3/7
 
-P(S-C) = 3/8 * 2/7 + 5/8* 3/7 = 21/56
+P(S-Q) = 3/8 * 2/7 + 5/8* 3/7 = 21/56
 
-P (F-N| S-C) = P( S-C| F-N)* P(F-N)/P( S-C) = 15/21 = 0.714
+P (F-N| S-Q) = P( S-Q| F-N)* P(F-N)/P( S-Q) = 15/21 = 0.714
 
 ~~~
+
+Example [Nickel or Quarter. New Information](https://www.amazon.com/Bayes-Theorem-Examples-Understanding-Applications-ebook/dp/B01HYHT00W/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1475803337&sr=1-2)
+
+> We have a bag with 5 nickels and 3 quarters, as in the previous chapters. We pull out 2 coins without replacement and learn from that if the second coin drawn is a quarter, there is a 71.43% chance that the first coin is a nickel. Now we pull a third coin from the bag. Say it is a quarter. What is the probability the first coin is a nickel, given this new information, in addition to our information above ?
+
+
+P( S-Q & T-Q) = 3/8 * 2/7 * 1/6 + 5/8* 3/7 * 2/6 = (6+30)/336 = 10.71%
+
+P(S-Q & T-Q | F-N ) = 3/7 * 2/6
+
+P ( F-N) = 5/8
+
+P (F-N | S-Q & T-Q) = P(S-Q & T-Q | F-N ) * P ( F-N) / P (S-Q & T-Q)) = 30/336 / (36/336)
+
+= 0.8333
+
+
+Example [Nickel or Quarter, the third Draws]](https://www.amazon.com/Bayes-Theorem-Examples-Understanding-Applications-ebook/dp/B01HYHT00W/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1475803337&sr=1-2)
+
+> You pull another coin from your bag. If it is a quarter, what is the probability the first coin is a nickel, given all our information? What if the new coin draw is a nickel?
+
+
+
+
+
+P( F-N & S-Q & T-Q & F-Q) = 5/8* 3/7 * 2/6 * 1/5
+
+P ( S-Q & T-Q & F-Q) = 5/8* 3/7 * 2/6 * 1/5
+
+
+P (F-N | S-Q & T-Q & F-Q) = P(S-Q & T-Q & F-Q | F-N ) * P ( F-N) / P (S-Q & T-Q & F-Q)) = 100%
 
 
 ___

@@ -43,7 +43,8 @@ and that zero, is our concept of break points.
 
 Break Point can be understand as Weakest Link in the multicaptive system, it could be place in the system intentionally, such as fuse in electrial circuits, or shar pins in boat propellers.
 
-Example: [Liebig's law of the minimum](https://en.wikipedia.org/wiki/Liebig%27s_law_of_the_minimum)
+Example: [Liebig's law of the minimum](https://en.wikipedia.org/wiki/Liebig%27s_law_of_the_minimum) Or Barrel with shortest Plank theory
+
 
 > This concept was originally applied to plant or crop growth, where it was found that increasing the amount of plentiful nutrients did not increase plant growth. Only by increasing the amount of the limiting nutrient (the one most scarce in relation to "need") was the growth of a plant or crop improved. This principle can be summed up in the aphorism, "The availability of the most abundant nutrient in the soil is only as good as the availability of the least abundant nutrient in the soil." Or, to put it more plainly, "A chain is only as strong as its weakest link."
 
@@ -71,9 +72,9 @@ the Upstream of this lattice is Basic Arithmetics:
 
 * Multiplicative System. the system is a multiple system, and each stage of the system process is a multiplication and thus the system output is govern by the weakest link, or the break points.
 
-System Ouput = Stage1 x Stage 2 x Stage 3 ...
+System output = Stage1 x Stage 2 x Stage 3 ...
 
-Computuer software, series electrical circuit, human being, is examples of multiplicative system.
+Computer software, series electrical circuit, human being, is examples of multiplicative system.
 
 Another name for multiplicative system is the Fragile System of Nassim Taleb descripted in his book [Anti Fragile](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
 
@@ -106,7 +107,7 @@ if the system is a multiplicative one, enlarge the input by 10x or 100x and try 
 
 ## Predictions:
 
-The System output is govern by its breakpoint, thus simplies the system
+The System output is govern by its breakpoint, thus simplifies the system.
 
 
 ## Examples:

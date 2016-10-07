@@ -28,6 +28,12 @@ published: true
 [backup system/redundancy](http://www.rationalpov.com/mental-model-engineering-backup-system/)
 
 
+# Introductions:
+
+> You don’t try to buy something for $80 million that you think is worth $83,400,000. - David Dodd
+
+
+
 ## How to use this mental Model:
 
 ### Conditions:

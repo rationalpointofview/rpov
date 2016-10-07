@@ -9,8 +9,8 @@ permalink: >
   http://www.rationalpov.com/mental-model-mathematicsbayess-theorem-2/
 published: true
 ---
-**Mental Model Name:Bayes's Theorem** 
-**Discipline:Mathematics** 
+**Mental Model Name:Bayes's Theorem**
+**Discipline:Mathematics**
 **Related Lattice:**
 
 * Upstream:
@@ -128,7 +128,7 @@ when we examine the Evidence (B)( "Human fed us every day" ), it could have the 
 
 *   Alternate explaination A: Human feed us unconditionally because they are our friends, and do so selflessly.
 
-*   Alternate explaination B: Human being is feeding us because they want turkey's meat; 
+*   Alternate explaination B: Human being is feeding us because they want turkey's meat;
 
 The Evidence "Human fed us every day" can't distinguish between two Alternate Explaination.
 
@@ -141,13 +141,13 @@ The Evidence "Human fed us every day" can't distinguish between two Alternate Ex
 
 *   Research/Find Out the Math Model between A and B:
 
-    *   Find out the base rate of A 
-            * as the lower the base rate of A, you need a stronger B 
-            
+    *   Find out the base rate of A
+            * as the lower the base rate of A, you need a stronger B
+
     *   Find out the overall possiblity of B is true
         *   Brain Storm/List out any reasons you can think of to cause event B to happen, and the probability associate with it.
                 * This usually it is the hardest part and you can also try using combination to list out the possible scenarios.
-                
+
 
 
 
@@ -163,9 +163,9 @@ In an excellent [real life example by Allen Downey][7]
 
 ![House fire?](https://upload.wikimedia.org/wikipedia/commons/9/96/ShadowRidgeRoadFire.JPG)
 > I had a chance to practice Bayesian inference in real life today: at 1pm my wife called to tell me that the carbon monoxide (CO) alarm at the house was going off. Immediately two hypotheses came to mind: (1) there is a dangerous amount of CO in my house, (2) it's a false alarm.
-> 
+>
 > It's summer and all the windows are open in the house. The furnace is not running and we don't have a gas stove. And the detector is about 10 years old. This background information makes a false alarm more plausible, so I started with a low prior for (1). Since my wife was on her way out anyway, I suggested she disconnect the detector, turn on a fan, and leave.
-> 
+>
 > After we hung up, I searched for information on CO detectors and false alarms. Apparently, the rate of false alarms is low, at least in once sense: CO detectors are very specific, that is, unlikely to go off because of anything other than CO. Of course the other possibility is that the detector is broken. On balance, this information made me less confident of a false alarm.
 
 So write down your current believe/hypothesis you want to confirm/disconfirm:
@@ -175,11 +175,11 @@ So write down your current believe/hypothesis you want to confirm/disconfirm:
 The we estimate the chance of house on fire
 
 > The FEMA U.S. Fire Administration keeps stats on fires
-> 
+>
 > In 2010 there were 362,100 residential fires in the USA. In total the fires caused $6.65 billion in damages.
-> 
+>
 > According to the Census there are 131 million housing units in the US and 114 million households.
-> 
+>
 > As far as frequency you could figure that 0.317% of households experienced a fire in 2010. Or we could say that 0.276% of housing units had a fire in the year.
 
 Lets be safe and just put the base rate of house catching fire on 2.7%, which is 10 times higher than national average.
@@ -282,7 +282,7 @@ There is a vivid example of applying Bayes Theorem
 How do we simulated the induction process using Bayes Theorem ?
 
 
-P(T)= P(Terrorist Attack) 
+P(T)= P(Terrorist Attack)
 
 P(P)= P(Planes crashing into Manhattan Building)
 
@@ -346,7 +346,7 @@ P(like|smile) = P(smile|like)*p(like)/p(smile)
 
 so you need to gather the base rate data;
 
-ie. 
+ie.
 
 How likely A happens( she like someone)
 How strong an evidence of B (she smiles at you)
@@ -458,21 +458,21 @@ ___
 But but applying the rules of Bayes Themrom, you have no fear:
 
 *   Brain Storm/List out any reasons/causes you can think of to event B to happen
-    
+
     so you ask your docter , what could cause spots all over your face. ?
-    
+
     The doc replies.
-    
-    *   you have smallpox. 
+
+    *   you have smallpox.
     *   you have chicken pox.
 
 *   Find out/Estimate the probability base rate of A is happening
-    
+
     *   small pox, about 0.111 percent (or 0.0011) population has this
     *   chickenpox, which by estimation is about 10 times as likely, about 10% of the population has this
-    
+
     Also your doc is kind enough to tell you
-    
+
     *   90 percent of people with smallpox have these spots
     *   80 percent of people with chickenpox have these spots
 
@@ -495,7 +495,7 @@ The Phrase "Fork Handles" and "Four Candles " are acoustically almost identical.
 Put you into the Bayeisan shop owner's shoes:
 
 *   Brain Storm/List out any reasons you can think of to event B(you hear "fork handles") to happen
-    
+
     *   The Customer wants four candles
     *   The Customer Wants fork handles
 
@@ -505,17 +505,34 @@ We assign abitary probablity of
 
        P(Data | Four Candles ) = 0.6
        P(Data | Fork Handles ) = 0.7
-    
+
 
 And from the Bayesian Shop Owner pass experience,
 
-    * he was asked about Fork Handles only 10 times 
+    * he was asked about Fork Handles only 10 times
     * he was asked about candles 90 times
-    
+
 
 so P(Four Candles| Data ) = P(Data | Four Candles ) * P(Four Candles) / P(Data)
 
 = 0.6 * 0.9 /(0.6 *0.9 + 0.7 *0.1) = 88%
+
+Example [Nickel or Quarters](https://www.amazon.com/Bayes-Theorem-Examples-Understanding-Applications-ebook/dp/B01HYHT00W/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1475803337&sr=1-2)
+
+
+> 5 nickels and 3 quarters are put in a bag. Two coins are drawn, one after the other, without being replaced. If the second coin drawn is a quarter, what is the probability that the first coin drawn is a nickel?
+
+~~~
+P(F-N) = 5/8
+
+P(S-C|F-N) = 3/7
+
+P(S-C) = 3/8 * 2/7 + 5/8* 3/7 = 21/56
+
+P (F-N| S-C) = P( S-C| F-N)* P(F-N)/P( S-C) = 15/21 = 0.714
+
+~~~
+
 
 ___
 
@@ -586,11 +603,11 @@ And the Test/Evidence is this interviewe smoke cigar during interview:
 We got our much needed statistic data from [CDC][24]
 
 > Current Cigar Use
-> 
+>
 > Adults:
-> 
+>
 > Percentage of U.S. adults who were current cigar smokers† in 2013:9
-> 
+>
 > 5\.0% of all adults 8.2% of adult males 2.0% of adult females 7.5% of African American adults 6.7% of American Indian/Alaska Native adults 2.1% of Asian American adults 4.0% of Hispanic adults 5.0% of White adults
 
 P(P) = 5% P(C|M) = 8.2% Lets plug all the data into Bayes themorem
@@ -604,7 +621,7 @@ The probability of the interviewee is a male revised to 80.6%
 [Example: Identical Twins][25]
 
 > Elvis Presley had a twin brother who died at birth. What is the probability that Elvis was an identical twin?
-> 
+>
 > To answer this one, you need some background information: According to the Wikipedia article on twins: ``Twins are estimated to be approximately 1.9% of the world population, with monozygotic twins making up 0.2% of the total---and 8% of all twins.''
 
 So what is the hypothesis we are trying to find out the probability ?
@@ -654,9 +671,9 @@ so the base rate for women diagnosed with lung cancer is:
 Also from CDC, we can find the estimation of Adults whom is a smoker:
 
 > By Gender
-> 
+>
 > Men are more likely to be current cigarette smokers than women.
-> 
+>
 > Nearly 19 of every 100 adult men (18.8%) Nearly 15 of every 100 adult women (14.8%)
 
 Lets plugin in the equations:
@@ -669,8 +686,8 @@ Fortunately, high school math come into rescue.
 
 lets put P(L|NS) = x ie. the Probability of Women non-smoker got lung cancer:
 
-0.852x + 13(0.148)x = 0.06 % 
-2.776x = 0.06% 
+0.852x + 13(0.148)x = 0.06 %
+2.776x = 0.06%
 x = 0.0216%
 
 and P(L|S) = 13x = 0.28%
@@ -685,11 +702,11 @@ P(S|L) = P(L|S)* P(S)/P(L) = 0.28% * 14.8% /( 0.0216% * 85.2 % + 0.28% * 14.8%) 
 
 ![Spy](https://upload.wikimedia.org/wikipedia/commons/3/36/Spy.png)
 > So: you're the head of MI6. You're pretty sure there's a "mole" in your organization.
-> 
+>
 > You've narrowed it down to five suspects: Alan,Bob, Chris,Dave, and Ed.
-> 
+>
 > You know from previous experience with interrogations that there are five behaviours to be expected in any given session: normal behaviour, nervousness, anger at the accusation, making a mistake in one's story, and a desperate exhausted confession
-> 
+>
 > you know from experience that moles and loyal operatives will exhibit the five behaviours at different rates.
 
 Behavious of loyal Operatives:
@@ -769,7 +786,7 @@ The Math behind is somewhat complicated, but you can use this calculator to quic
 [Example: A Political Example, From Bayesian Statistics, Peter M. Lee](http://www.amazon.com/Bayesian-Statistics-Introduction-Peter-Lee/dp/1118332571/ref=sr_1_3?ie=UTF8&qid=1463538432&sr=8-3&keywords=Bayesian+Statistics+peter)
 
 
->The following example is a simplified version of the situation just before the time of the British national referendum as to whether the United Kingdom should remain part of the European Economic Community which was held in 1975. Suppose that at that date, which was shortly after an election which the Labour Party had won, the proportion of the electorate supporting Labour (L) stood at 52%, while the proportion supporting the Conservatives (C) stood at 48% (it being assumed for simplicity that support for all other parties was negligible, although this was far from being the case). There were many opinion polls taken at the time, so we can take it as known that 55% of Labour supporters and 85% of Conservative voters intended to vote ‘Yes’ (Y) and the remainder intended to vote ‘N o’ (N). Suppose that knowing all this you met someone at the time who said that she intended to vote ‘Yes’, and you were interested in knowing which political party she supported. If this information were all you had available, you could reason as follows: 
+>The following example is a simplified version of the situation just before the time of the British national referendum as to whether the United Kingdom should remain part of the European Economic Community which was held in 1975. Suppose that at that date, which was shortly after an election which the Labour Party had won, the proportion of the electorate supporting Labour (L) stood at 52%, while the proportion supporting the Conservatives (C) stood at 48% (it being assumed for simplicity that support for all other parties was negligible, although this was far from being the case). There were many opinion polls taken at the time, so we can take it as known that 55% of Labour supporters and 85% of Conservative voters intended to vote ‘Yes’ (Y) and the remainder intended to vote ‘N o’ (N). Suppose that knowing all this you met someone at the time who said that she intended to vote ‘Yes’, and you were interested in knowing which political party she supported. If this information were all you had available, you could reason as follows:
 
 P(L|Y)=P(Y|L)* P(L)/P(Y)
 
@@ -785,13 +802,13 @@ She has a 41.2% Belongs to Labour Party
 
 ![blood test](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/eu85w0il.png)
 
->Suppose a crime has been committed. Blood is found at the scene for which there is no innocent explanation. It is of a type which is present in 1% of the population. The prosecutor may then state: 
+>Suppose a crime has been committed. Blood is found at the scene for which there is no innocent explanation. It is of a type which is present in 1% of the population. The prosecutor may then state:
 
->‘There is a 1% chance that the defendant would have the crime blood type if he were innocent. Thus, there is a 99% chance that he is guilty’ . 
+>‘There is a 1% chance that the defendant would have the crime blood type if he were innocent. Thus, there is a 99% chance that he is guilty’ .
 
->Alternatively, the defender may state: 
+>Alternatively, the defender may state:
 
->‘This crime occurred in a city of 800,000 people. This blood type would be found in approximately 8000 people. The evidence has provided a probability of l in 8000 that the defendant is guilty and thus has no relevance.’ 
+>‘This crime occurred in a city of 800,000 people. This blood type would be found in approximately 8000 people. The evidence has provided a probability of l in 8000 that the defendant is guilty and thus has no relevance.’
 
 Which one is correct ? Armed with Baysian thinking, you find out both argument is not correct.
 
@@ -801,13 +818,13 @@ Believe:
 
 The Suspect is Guity:
 
-Evidence: 
+Evidence:
 
 The Suspect has the same blood type of the crime scene
 
 Basic Data:
 
-Priors: 
+Priors:
 
 P(Guity) = 1/800000
 
@@ -822,13 +839,13 @@ P(Guilty|Equal Blood Type) = P (Equal Blood Type| Guilty)* P(Guity)/P(Equal Bloo
 With the new evidence of the suspect has the same blood type of the crime scene, the Postier Probability of P(Guity) change from 1/800000 to 1/8000
 
 
-> Such a large change in the odds is, in Aitken’s words ‘surely of relevance’ . But, again In Aitken’s words, ‘Of course, it may not be enough to find the suspect guilty’. 
+> Such a large change in the odds is, in Aitken’s words ‘surely of relevance’ . But, again In Aitken’s words, ‘Of course, it may not be enough to find the suspect guilty’.
 
 ___
 
 [Example: HIV screening](http://www.win-vector.com/blog/2009/11/i-dont-think-that-means-what-you-think-it-means-statistics-to-english-translation-part-1-accuracy-measures/)
 
-> A more realistic example, inspired by a discussion of mandatory AIDS testing by Joshua Rosenau [Ros06], is the use of the ELISA screening test to detect HIV-infected blood donations. The ELISA test is designed to be very sensitive: it detects 99.7% of the cases of HIV-infection, which gives a false negative rate of 
+> A more realistic example, inspired by a discussion of mandatory AIDS testing by Joshua Rosenau [Ros06], is the use of the ELISA screening test to detect HIV-infected blood donations. The ELISA test is designed to be very sensitive: it detects 99.7% of the cases of HIV-infection, which gives a false negative rate of
 0.003 . On the other hand, it is not very specific: it has a 1.9% false positive rate1. If you assume that the incidence of HIV-positive individuals in the general population is about 448 out of every 100,000 people [Hig08], then a positive test result is correct only about 19% of the time: one case of true infection out of every five positives. This error rate may be appropriate for screening blood donations, since it is better to discard four perfectly good pints of blood, “just in case”, than to allow a pint of HIV-infected blood into the blood bank. But it is not appropriate to assume that all five of those poor blood donors are HIV-positive, without followup tests to increase the specificity of the screening procedure.
 
 ___
@@ -843,7 +860,7 @@ with this new information:
 
 P(6|E) = P(E|6) P(6)/P(E)= 1 * (1/6) /0.5 = 0.33
 
-> While you are considering whether to change your bet, your friend teasingly adds: “And it’s not a 4.” 
+> While you are considering whether to change your bet, your friend teasingly adds: “And it’s not a 4.”
 
 with this new addition information:
 
@@ -870,7 +887,7 @@ supports United with probability 1/10;
 
 
 A: He/She is born within 25 mibles of Manchester
-B: He/She is clearly a fan of Manchester 
+B: He/She is clearly a fan of Manchester
 
 P(A|B)=P(B|A) \* P(A)/P(B) = 0.7 * 0.05/(19/20*1/10+1/20*7/10)= 0.035/(0.095+0.07)=0.035/0.13=26.9%
 
@@ -913,7 +930,7 @@ The more commonly used beta distribution is beta distribution with likelyhood of
 [![Beta distribution for binomial](https://dl.dropboxusercontent.com/spa/8a95omz6xkznrmw/x_1ohc4x.png)](https://en.wikipedia.org/wiki/Conjugate_prior)
 
 
-what is α/ß ? α/ß is the parameter we used to model the probability density digram. 
+what is α/ß ? α/ß is the parameter we used to model the probability density digram.
 
 in case of Beta Binomial distribution:
 
@@ -947,7 +964,7 @@ But we do know from experience the banner conversion rate is usually between 0.1
 
 we can use 0.5% average to poll a beta distribution diagram and represents the probability distribution
 
-in this case, we can pick 
+in this case, we can pick
 
 α = 5
 ß = 95
@@ -995,7 +1012,7 @@ Going to reuse the example from [Countbayesie.com[https://www.countbayesie.com/b
 
 Lets assumpt for PAT, the initial believe for P(A):The Mystic Seer truly can predict the future. is 1/1000,000
 
-The Questions is, how many correct answer it takes to convince PAT 
+The Questions is, how many correct answer it takes to convince PAT
 
 Lets put P(B) = P(xC), ie x Correct Answer
 
@@ -1062,9 +1079,9 @@ Roll | Rolled Number|  4 Side Dice | 6 Side Dice | 8 Side Dice | 10 Side Dice | 
 1 |4| 0.323 | 0.215 | 0.161 | 0.129 | 0.108 | 0.065
 2 |3| 0.5 | 0.22 | 0.12 | 0.08 | 0.06| 0.02
 
-so after 15 rolls, 
+so after 15 rolls,
 
-the probability of the dice is 
+the probability of the dice is
 
 Roll | Rolled Number|  4 Side Dice | 6 Side Dice | 8 Side Dice | 10 Side Dice | 12 Side Dice | 20 Side Dice
 ---| --- | --- | --- | --- | --- | --- |----
@@ -1105,9 +1122,9 @@ P( 40% H | tail ) = P(tail| 40%H) * P(40%H)/P(tail)
 you split your guess in number of 20 increment, 20, 40 ... 1000
 
 
-for first captured tank, you found a serial number of 17 
+for first captured tank, you found a serial number of 17
 
-say the probability of total number is 100: 
+say the probability of total number is 100:
 
 P( 100 | s30) = P(s30 | 100) * P(100)/P(s30)
 
@@ -1115,8 +1132,8 @@ P( 100 | s30) = P(s30 | 100) * P(100)/P(s30)
 
 [Example: Drug Test, Take 2](https://www.amazon.com/Bayes-Theorem-Examples-Intuitive-Guide-ebook/dp/B01AZXQY1K/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1474595628&sr=1-1&keywords=bayes+theorem+examples)
 
-> You are testing for a certain drug. You know that .5% of the population uses this drug. You have a test that will a produce 99% true positive results for users, and 98% true negative results for non-users. You randomly test 2 person from the population and get a positive result. 
-> 
+> You are testing for a certain drug. You know that .5% of the population uses this drug. You have a test that will a produce 99% true positive results for users, and 98% true negative results for non-users. You randomly test 2 person from the population and get a positive result.
+>
 > then you ask the two person to take the same test again, and come out with 1 positive and 1 negative, What is the probability that they are actually a user of the drug ?
 
 On the First Test:
@@ -1159,7 +1176,7 @@ runs<-10000
 
 Trial <- function()(
 sum(c(0,1),runs,replace=T) > 3
-) 
+)
 
 
 ~~~
@@ -1168,7 +1185,7 @@ curve(dbeta(x,10,110),col="green",add=TRUE);
 
 * rbeta generates random deviates,
 
-* 
+*
 
 
 > https://github.com/WinVector/CampaignPlanner/blob/master/server.R
@@ -1208,7 +1225,7 @@ mc.p.value <- sum(a.samples > b.samples)/runs
 ~~~
 
 
-* How to use R to do A/B testing ? 
+* How to use R to do A/B testing ?
 
 ~~~
 n.trials <- 100000
@@ -1226,7 +1243,7 @@ https://www.udemy.com/r-programming-for-simulation-and-monte-carlo-methods/
 
 
 
-**Bonus** 
+**Bonus**
 
 [Bayesian Vesus Frequentist](http://www.win-vector.com/blog/2013/05/bayesian-and-frequentist-approaches-ask-the-right-question/)
 
@@ -1245,7 +1262,7 @@ You went to see the doctor about your high blood pressure problem:
 
 Freqentist Docotor:
 
->“If I prescribe drugX to all my hypertensive patients, will their blood pressure improve, on average?” 
+>“If I prescribe drugX to all my hypertensive patients, will their blood pressure improve, on average?”
 
 Baesian Doctor:
 

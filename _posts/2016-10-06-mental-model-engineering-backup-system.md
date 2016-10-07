@@ -106,4 +106,4 @@ The author of Black Swan and antifragile , NASSIM TALEB  argues;
 
 
  [1]: http://www.rationalpov.com/mental-model-engineeringbreak-point/
- [2]: https://www.farnamstreetblog.com/2013/12/margin-of-safety/
+ [2]: http://www.rationalpov.com/mental-model-engineering-margin-of-safety/

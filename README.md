@@ -23,18 +23,18 @@ layout: post
 published: true
 ---
 
-# Mental Model: Law of big numbers
+# Mental Model:
 
-## Discipline: Mathematics
+## Discipline:
 
 ### Up Stream Lattice
-None
+
 
 ### Down Stream Lattice
-Wisdom of the Crowds
 
 ### Peer Lattice:
-Introductions
+
+# Introductions
 
 ## How to use this mental Model:
 

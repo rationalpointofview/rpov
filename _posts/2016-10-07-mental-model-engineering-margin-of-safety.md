@@ -11,21 +11,22 @@ permalink: >
   http://www.rationalpov.com/mental-model-engineering-margin-of-safety/
 published: true
 ---
-# Mental Model: Law of big numbers
+# Mental Model: Margin of Safety
 
-## Discipline: Mathematics
+## Discipline: Engineering
 
 ### Up Stream Lattice
 
-None
+[basic arithmetic](http://www.rationalpov.com/mental-modeldiscipline-mathematics-2/)
+[break points](http://www.rationalpov.com/mental-model-engineeringbreak-point/)
 
 ### Down Stream Lattice
 
-Wisdom of the Crowds
 
 ### Peer Lattice:
 
-Introductions
+[backup system/redundancy](http://www.rationalpov.com/mental-model-engineering-backup-system/)
+
 
 ## How to use this mental Model:
 
